@@ -1,0 +1,20 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "timezone": "Europe/London",
+    "schedule": [
+        "before 8am"
+    ],
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "matchCurrentVersion": "!/^0/",
+            "automerge": true
+        }
+    ]
+}
