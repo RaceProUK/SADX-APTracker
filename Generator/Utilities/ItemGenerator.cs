@@ -1,18 +1,12 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static class ItemGenerator
 {
-    private static readonly JsonSerializerOptions Options = new()
-    {
-        PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
-        WriteIndented = true,
-        IndentSize = 4
-    };
-
     private const int CharactersStart = 543800000;
     private const int UpgradesStart = 543800010;
     private const int FillerStart = 543800070;
@@ -43,7 +37,9 @@ internal static class ItemGenerator
                       let code = string.Join(string.Empty, parts)
                       select $"    [{entry.Key}] = \"{code}\",";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["ItemMap = {", .. entries, "}"]),
-            "itemMap.lua", "scripts", "archipelago");
+                                   "itemMap.lua",
+                                   "scripts",
+                                   "archipelago");
     }
 
     private static async Task GenerateCharactersJson(FrozenDictionary<int, string> idToName)
@@ -53,8 +49,12 @@ internal static class ItemGenerator
                          let parts = entry.Value.Split(' ')
                          let img = parts[1]
                          let code = string.Join(string.Empty, parts)
-                         select new ToggleItem(entry.Value, $"images/characters/{img}.png", code);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(characters, Options), "characters.json", "items");
+                         select new ToggleItem(entry.Value,
+                                               $"images/characters/{img}.png",
+                                               code);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(characters, Constants.JsonOptions),
+                                   "characters.json",
+                                   "items");
     }
 
     private static async Task GenerateUpgradesJson(FrozenDictionary<int, string> idToName)
@@ -63,8 +63,12 @@ internal static class ItemGenerator
                        where entry.Key >= UpgradesStart && entry.Key < FillerStart
                        let parts = entry.Value.Split(' ')
                        let code = string.Join(string.Empty, parts)
-                       select new ToggleItem(entry.Value, $"images/upgrades/{code}.png", code);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Options), "upgrades.json", "items");
+                       select new ToggleItem(entry.Value,
+                                             $"images/upgrades/{code}.png",
+                                             code);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
+                                   "upgrades.json",
+                                   "items");
     }
 
     private static async Task GenerateKeysJson(FrozenDictionary<int, string> idToName)
@@ -78,9 +82,13 @@ internal static class ItemGenerator
                     where entry.Key >= Keys2Start && entry.Key < RangeEnd
                     let parts = entry.Value.Split(' ')
                     let code = string.Join(string.Empty, parts)
-                    select new ToggleItem(entry.Value, $"images/keys/{code}.png", code);
+                    select new ToggleItem(entry.Value,
+                                          $"images/keys/{code}.png",
+                                          code);
         var keys = keys1.Union(keys2);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(keys, Options), "keys.json", "items");
+        await FileWriter.WriteFile(JsonSerializer.Serialize(keys, Constants.JsonOptions),
+                                   "keys.json",
+                                   "items");
     }
 
     private static async Task GenerateEmeraldsJson(FrozenDictionary<int, string> idToName)
@@ -90,8 +98,12 @@ internal static class ItemGenerator
                        let parts = entry.Value.Split(' ')
                        let img = parts[0]
                        let code = string.Join(string.Empty, parts)
-                       select new ToggleItem(entry.Value, $"images/emeralds/{img}.png", code);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(emeralds, Options), "emeralds.json", "items");
+                       select new ToggleItem(entry.Value,
+                                             $"images/emeralds/{img}.png",
+                                             code);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(emeralds, Constants.JsonOptions),
+                                   "emeralds.json",
+                                   "items");
     }
 
     private static async Task GenerateCollectiblesJson(FrozenDictionary<int, string> idToName)
@@ -99,9 +111,14 @@ internal static class ItemGenerator
         var collectibles = from entry in idToName
                            where entry.Key >= CollectiblesStart && entry.Key < GoalsStart
                            let parts = entry.Value.Split(' ')
-                           let code = string.Join(string.Empty, parts)
-                           select new CollectibleItem(entry.Value, $"images/collectibles/{code}.png", code, 130);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(collectibles, Options), "collectibles.json", "items");
+                           let code = string.Join(string.Empty, parts).Pluralize()
+                           select new CollectibleItem(entry.Value.Pluralize(),
+                                                      $"images/collectibles/{code}.png",
+                                                      code,
+                                                      130);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(collectibles, Constants.JsonOptions),
+                                   "collectibles.json",
+                                   "items");
     }
 
     private static async Task GenerateGoalsJson(FrozenDictionary<int, string> idToName)
@@ -110,7 +127,11 @@ internal static class ItemGenerator
                     where entry.Key >= GoalsStart && entry.Key < EmeraldsStart
                     let parts = entry.Value.Split(' ')
                     let code = string.Join(string.Empty, parts)
-                    select new ToggleItem(entry.Value, $"images/goals/{code}.png", code);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(goals, Options), "goals.json", "items");
+                    select new ToggleItem(entry.Value,
+                                          $"images/goals/{code}.png",
+                                          code);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(goals, Constants.JsonOptions),
+                                   "goals.json",
+                                   "items");
     }
 }

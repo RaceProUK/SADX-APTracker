@@ -5,11 +5,6 @@ namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static class DataPackageLoader
 {
-    private static readonly JsonSerializerOptions Options = new()
-    {
-        PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower
-    };
-
     internal static async Task<DataPackage?> LoadDataPackage()
     {
         var appdataLocal = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
@@ -21,9 +16,8 @@ internal static class DataPackageLoader
             > 1 => ChooseFile(files),
             _ => throw new FileNotFoundException("Cannot find datapackage")
         };
-
         using var dpFile = File.OpenRead(dpFilePath);
-        return await JsonSerializer.DeserializeAsync<DataPackage>(dpFile, Options);
+        return await JsonSerializer.DeserializeAsync<DataPackage>(dpFile, Constants.JsonOptions);
     }
 
     private static string ChooseFile(string[] files)
