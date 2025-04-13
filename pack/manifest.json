@@ -1,0 +1,19 @@
+{
+    "name": "Sonic Adventure DX Tracker",
+    "game_name": "Sonic Adventure DX",
+    "author": "RaceProUK",
+    "package_uid": "sadx_rando_raceprouk",
+    "package_version": "0.1.0",
+    "platform": "PC",
+    "variants": {
+        "ap": {
+            "display_name": "Archipelago Auto Tracking",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.25.4",
+    "target_poptracker_version": "0.25.4",
+    "versions_url": "https://raw.githubusercontent.com/RaceProUK/SADX-APTracker/main/versions.json"
+}
