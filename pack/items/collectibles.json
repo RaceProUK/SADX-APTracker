@@ -1,0 +1,11 @@
+[
+    {
+        "max_quantity": 130,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "name": "Emblems",
+        "type": "consumable",
+        "image": "images/collectibles/Emblems.png",
+        "codes": "Emblems"
+    }
+]

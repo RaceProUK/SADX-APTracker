@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Train",
+        "type": "toggle",
+        "image": "images/keys/Train.png",
+        "codes": "Train"
+    },
+    {
+        "name": "Boat",
+        "type": "toggle",
+        "image": "images/keys/Boat.png",
+        "codes": "Boat"
+    },
+    {
+        "name": "Raft",
+        "type": "toggle",
+        "image": "images/keys/Raft.png",
+        "codes": "Raft"
+    },
+    {
+        "name": "Hotel Keys",
+        "type": "toggle",
+        "image": "images/keys/HotelKeys.png",
+        "codes": "HotelKeys"
+    },
+    {
+        "name": "Casino District Keys",
+        "type": "toggle",
+        "image": "images/keys/CasinoDistrictKeys.png",
+        "codes": "CasinoDistrictKeys"
+    },
+    {
+        "name": "Twinkle Park Ticket",
+        "type": "toggle",
+        "image": "images/keys/TwinkleParkTicket.png",
+        "codes": "TwinkleParkTicket"
+    },
+    {
+        "name": "Employee Card",
+        "type": "toggle",
+        "image": "images/keys/EmployeeCard.png",
+        "codes": "EmployeeCard"
+    },
+    {
+        "name": "Ice Stone",
+        "type": "toggle",
+        "image": "images/keys/IceStone.png",
+        "codes": "IceStone"
+    },
+    {
+        "name": "Dynamite",
+        "type": "toggle",
+        "image": "images/keys/Dynamite.png",
+        "codes": "Dynamite"
+    },
+    {
+        "name": "Jungle Cart",
+        "type": "toggle",
+        "image": "images/keys/JungleCart.png",
+        "codes": "JungleCart"
+    },
+    {
+        "name": "Wind Stone",
+        "type": "toggle",
+        "image": "images/keys/WindStone.png",
+        "codes": "WindStone"
+    },
+    {
+        "name": "Station Keys",
+        "type": "toggle",
+        "image": "images/keys/StationKeys.png",
+        "codes": "StationKeys"
+    }
+]
