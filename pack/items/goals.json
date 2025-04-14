@@ -2,7 +2,7 @@
     {
         "name": "Chaos' Peace",
         "type": "toggle",
-        "image": "images/goals/Chaos'Peace.png",
+        "img": "images/goals/Chaos'Peace.png",
         "codes": "Chaos'Peace"
     }
 ]

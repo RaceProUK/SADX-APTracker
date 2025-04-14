@@ -5,7 +5,7 @@
         "overlay_font_size": 16,
         "name": "Emblems",
         "type": "consumable",
-        "image": "images/collectibles/Emblems.png",
+        "img": "images/collectibles/Emblems.png",
         "codes": "Emblems"
     }
 ]

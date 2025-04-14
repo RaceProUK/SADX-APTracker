@@ -1,0 +1,22 @@
+--Tracker:AddLocations("locations/.json")
+
+--Tracker:AddMaps("maps/.json")
+
+Tracker:AddItems("items/characters.json")
+Tracker:AddItems("items/collectibles.json")
+Tracker:AddItems("items/emeralds.json")
+Tracker:AddItems("items/goals.json")
+Tracker:AddItems("items/keys.json")
+Tracker:AddItems("items/upgrades.json")
+Tracker:AddItems("items/settings.json")
+
+Tracker:AddLayouts("layouts/progression.json")
+Tracker:AddLayouts("layouts/characters.json")
+Tracker:AddLayouts("layouts/keys.json")
+Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/layout.json")
+Tracker:AddLayouts("layouts/tracker.json")
+
+--if PopVersion and PopVersion >= "0.18.0" then
+--    ScriptHost:LoadScript("scripts/archipelago.lua")
+--end

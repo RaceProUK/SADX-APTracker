@@ -1,0 +1,55 @@
+{
+    "item_tracker": {
+        "type": "container",
+        "background": "#212121",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "dock",
+                    "background": "#6f6f7f",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Progression",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "progression"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Characters",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "characters"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Keys",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "keys"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "content": {
+                                "type": "layout",
+                                "key": "settings"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

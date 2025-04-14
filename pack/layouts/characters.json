@@ -1,0 +1,43 @@
+{
+    "characters": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4,4",
+        "item_size": 32,
+        "rows": [
+            [
+                "PlayableSonic",
+                "LightShoes",
+                "CrystalRing",
+                "AncientLight"
+            ],
+            [
+                "PlayableTails",
+                "JetAnklet",
+                "RhythmBadge",
+                "",
+                "PlayableKnuckles",
+                "ShovelClaw",
+                "FightingGloves"
+            ],
+            [
+                "PlayableAmy",
+                "WarriorFeather",
+                "LongHammer",
+                "",
+                "PlayableGamma",
+                "JetBooster",
+                "LaserBlaster"
+            ],
+            [
+                "PlayableBig",
+                "LifeBelt",
+                "PowerRod",
+                "Lure1",
+                "Lure2",
+                "Lure3",
+                "Lure4"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "settings": {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "4,4",
+        "item_size": 32,
+        "rows": []
+    }
+}
