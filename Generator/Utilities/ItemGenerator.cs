@@ -1,4 +1,5 @@
 ﻿using System.Collections.Frozen;
+using System.IO;
 using System.Text.Json;
 using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
@@ -18,9 +19,9 @@ internal static class ItemGenerator
     private const int Keys2Start = 543800120;
     private const int RangeEnd = 543800122;
 
-    internal static async Task Generate(Dictionary<string, int> nameToId)
+    internal static async Task Generate(Dictionary<string, int> dict)
     {
-        var idToName = nameToId.ToFrozenDictionary(_ => _.Value, _ => _.Key);
+        var idToName = dict.ToFrozenDictionary(_ => _.Value, _ => _.Key);
         await GenerateItemMapLua(idToName);
         await GenerateCharactersJson(idToName);
         await GenerateUpgradesJson(idToName);
@@ -30,11 +31,10 @@ internal static class ItemGenerator
         await GenerateGoalsJson(idToName);
     }
 
-    private static async Task GenerateItemMapLua(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateItemMapLua(FrozenDictionary<int, string> dict)
     {
-        var entries = from entry in idToName
-                      let parts = entry.Value.Split(' ')
-                      let code = string.Join(string.Empty, parts)
+        var entries = from entry in dict
+                      let code = MakeCode(entry.Value)
                       select $"    [{entry.Key}] = \"{code}\",";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["ItemMap = {", .. entries, "}"]),
                                    "itemMap.lua",
@@ -42,9 +42,9 @@ internal static class ItemGenerator
                                    "archipelago");
     }
 
-    private static async Task GenerateCharactersJson(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateCharactersJson(FrozenDictionary<int, string> dict)
     {
-        var characters = from entry in idToName
+        var characters = from entry in dict
                          where entry.Key >= CharactersStart && entry.Key < UpgradesStart
                          let parts = entry.Value.Split(' ')
                          let img = parts[1]
@@ -57,12 +57,11 @@ internal static class ItemGenerator
                                    "items");
     }
 
-    private static async Task GenerateUpgradesJson(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateUpgradesJson(FrozenDictionary<int, string> dict)
     {
-        var upgrades = from entry in idToName
+        var upgrades = from entry in dict
                        where entry.Key >= UpgradesStart && entry.Key < FillerStart
-                       let parts = entry.Value.Split(' ')
-                       let code = string.Join(string.Empty, parts)
+                       let code = MakeCode(entry.Value)
                        select new ToggleItem(entry.Value,
                                              $"images/upgrades/{code}.png",
                                              code);
@@ -71,17 +70,15 @@ internal static class ItemGenerator
                                    "items");
     }
 
-    private static async Task GenerateKeysJson(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateKeysJson(FrozenDictionary<int, string> dict)
     {
-        var keys1 = from entry in idToName
+        var keys1 = from entry in dict
                     where entry.Key >= Keys1Start && entry.Key < CollectiblesStart
-                    let parts = entry.Value.Split(' ')
-                    let code = string.Join(string.Empty, parts)
+                    let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value, $"images/keys/{code}.png", code);
-        var keys2 = from entry in idToName
+        var keys2 = from entry in dict
                     where entry.Key >= Keys2Start && entry.Key < RangeEnd
-                    let parts = entry.Value.Split(' ')
-                    let code = string.Join(string.Empty, parts)
+                    let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value,
                                           $"images/keys/{code}.png",
                                           code);
@@ -91,9 +88,9 @@ internal static class ItemGenerator
                                    "items");
     }
 
-    private static async Task GenerateEmeraldsJson(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateEmeraldsJson(FrozenDictionary<int, string> dict)
     {
-        var emeralds = from entry in idToName
+        var emeralds = from entry in dict
                        where entry.Key >= EmeraldsStart && entry.Key < TrapsStart
                        let parts = entry.Value.Split(' ')
                        let img = parts[0]
@@ -106,12 +103,11 @@ internal static class ItemGenerator
                                    "items");
     }
 
-    private static async Task GenerateCollectiblesJson(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateCollectiblesJson(FrozenDictionary<int, string> dict)
     {
-        var collectibles = from entry in idToName
+        var collectibles = from entry in dict
                            where entry.Key >= CollectiblesStart && entry.Key < GoalsStart
-                           let parts = entry.Value.Split(' ')
-                           let code = string.Join(string.Empty, parts).Pluralize()
+                           let code = MakeCode(entry.Value).Pluralize()
                            select new CollectibleItem(entry.Value.Pluralize(),
                                                       $"images/collectibles/{code}.png",
                                                       code,
@@ -121,12 +117,11 @@ internal static class ItemGenerator
                                    "items");
     }
 
-    private static async Task GenerateGoalsJson(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateGoalsJson(FrozenDictionary<int, string> dict)
     {
-        var goals = from entry in idToName
+        var goals = from entry in dict
                     where entry.Key >= GoalsStart && entry.Key < EmeraldsStart
-                    let parts = entry.Value.Split(' ')
-                    let code = string.Join(string.Empty, parts)
+                    let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value,
                                           $"images/goals/{code}.png",
                                           code);
@@ -134,4 +129,6 @@ internal static class ItemGenerator
                                    "goals.json",
                                    "items");
     }
+
+    private static string MakeCode(string name) => string.Join(string.Empty, name.Split(' '));
 }
