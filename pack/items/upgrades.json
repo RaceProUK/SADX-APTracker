@@ -1,104 +1,104 @@
 [
     {
+        "img": "images/upgrades/LightShoes.png",
         "name": "Light Shoes",
         "type": "toggle",
-        "img": "images/upgrades/LightShoes.png",
         "codes": "LightShoes"
     },
     {
+        "img": "images/upgrades/CrystalRing.png",
         "name": "Crystal Ring",
         "type": "toggle",
-        "img": "images/upgrades/CrystalRing.png",
         "codes": "CrystalRing"
     },
     {
+        "img": "images/upgrades/AncientLight.png",
         "name": "Ancient Light",
         "type": "toggle",
-        "img": "images/upgrades/AncientLight.png",
         "codes": "AncientLight"
     },
     {
+        "img": "images/upgrades/JetAnklet.png",
         "name": "Jet Anklet",
         "type": "toggle",
-        "img": "images/upgrades/JetAnklet.png",
         "codes": "JetAnklet"
     },
     {
+        "img": "images/upgrades/RhythmBadge.png",
         "name": "Rhythm Badge",
         "type": "toggle",
-        "img": "images/upgrades/RhythmBadge.png",
         "codes": "RhythmBadge"
     },
     {
+        "img": "images/upgrades/ShovelClaw.png",
         "name": "Shovel Claw",
         "type": "toggle",
-        "img": "images/upgrades/ShovelClaw.png",
         "codes": "ShovelClaw"
     },
     {
+        "img": "images/upgrades/FightingGloves.png",
         "name": "Fighting Gloves",
         "type": "toggle",
-        "img": "images/upgrades/FightingGloves.png",
         "codes": "FightingGloves"
     },
     {
+        "img": "images/upgrades/WarriorFeather.png",
         "name": "Warrior Feather",
         "type": "toggle",
-        "img": "images/upgrades/WarriorFeather.png",
         "codes": "WarriorFeather"
     },
     {
+        "img": "images/upgrades/LongHammer.png",
         "name": "Long Hammer",
         "type": "toggle",
-        "img": "images/upgrades/LongHammer.png",
         "codes": "LongHammer"
     },
     {
+        "img": "images/upgrades/JetBooster.png",
         "name": "Jet Booster",
         "type": "toggle",
-        "img": "images/upgrades/JetBooster.png",
         "codes": "JetBooster"
     },
     {
+        "img": "images/upgrades/LaserBlaster.png",
         "name": "Laser Blaster",
         "type": "toggle",
-        "img": "images/upgrades/LaserBlaster.png",
         "codes": "LaserBlaster"
     },
     {
+        "img": "images/upgrades/LifeBelt.png",
         "name": "Life Belt",
         "type": "toggle",
-        "img": "images/upgrades/LifeBelt.png",
         "codes": "LifeBelt"
     },
     {
+        "img": "images/upgrades/PowerRod.png",
         "name": "Power Rod",
         "type": "toggle",
-        "img": "images/upgrades/PowerRod.png",
         "codes": "PowerRod"
     },
     {
+        "img": "images/upgrades/Lure1.png",
         "name": "Lure 1",
         "type": "toggle",
-        "img": "images/upgrades/Lure1.png",
         "codes": "Lure1"
     },
     {
+        "img": "images/upgrades/Lure2.png",
         "name": "Lure 2",
         "type": "toggle",
-        "img": "images/upgrades/Lure2.png",
         "codes": "Lure2"
     },
     {
+        "img": "images/upgrades/Lure3.png",
         "name": "Lure 3",
         "type": "toggle",
-        "img": "images/upgrades/Lure3.png",
         "codes": "Lure3"
     },
     {
+        "img": "images/upgrades/Lure4.png",
         "name": "Lure 4",
         "type": "toggle",
-        "img": "images/upgrades/Lure4.png",
         "codes": "Lure4"
     }
 ]

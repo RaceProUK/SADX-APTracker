@@ -1,74 +1,74 @@
 [
     {
+        "img": "images/keys/Train.png",
         "name": "Train",
         "type": "toggle",
-        "img": "images/keys/Train.png",
         "codes": "Train"
     },
     {
+        "img": "images/keys/Boat.png",
         "name": "Boat",
         "type": "toggle",
-        "img": "images/keys/Boat.png",
         "codes": "Boat"
     },
     {
+        "img": "images/keys/Raft.png",
         "name": "Raft",
         "type": "toggle",
-        "img": "images/keys/Raft.png",
         "codes": "Raft"
     },
     {
+        "img": "images/keys/HotelKeys.png",
         "name": "Hotel Keys",
         "type": "toggle",
-        "img": "images/keys/HotelKeys.png",
         "codes": "HotelKeys"
     },
     {
+        "img": "images/keys/CasinoDistrictKeys.png",
         "name": "Casino District Keys",
         "type": "toggle",
-        "img": "images/keys/CasinoDistrictKeys.png",
         "codes": "CasinoDistrictKeys"
     },
     {
+        "img": "images/keys/TwinkleParkTicket.png",
         "name": "Twinkle Park Ticket",
         "type": "toggle",
-        "img": "images/keys/TwinkleParkTicket.png",
         "codes": "TwinkleParkTicket"
     },
     {
+        "img": "images/keys/EmployeeCard.png",
         "name": "Employee Card",
         "type": "toggle",
-        "img": "images/keys/EmployeeCard.png",
         "codes": "EmployeeCard"
     },
     {
+        "img": "images/keys/IceStone.png",
         "name": "Ice Stone",
         "type": "toggle",
-        "img": "images/keys/IceStone.png",
         "codes": "IceStone"
     },
     {
+        "img": "images/keys/Dynamite.png",
         "name": "Dynamite",
         "type": "toggle",
-        "img": "images/keys/Dynamite.png",
         "codes": "Dynamite"
     },
     {
+        "img": "images/keys/JungleCart.png",
         "name": "Jungle Cart",
         "type": "toggle",
-        "img": "images/keys/JungleCart.png",
         "codes": "JungleCart"
     },
     {
+        "img": "images/keys/WindStone.png",
         "name": "Wind Stone",
         "type": "toggle",
-        "img": "images/keys/WindStone.png",
         "codes": "WindStone"
     },
     {
+        "img": "images/keys/StationKeys.png",
         "name": "Station Keys",
         "type": "toggle",
-        "img": "images/keys/StationKeys.png",
         "codes": "StationKeys"
     }
 ]

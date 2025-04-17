@@ -1,44 +1,44 @@
 [
     {
+        "img": "images/emeralds/White.png",
         "name": "White Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/White.png",
         "codes": "WhiteChaosEmerald"
     },
     {
+        "img": "images/emeralds/Red.png",
         "name": "Red Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/Red.png",
         "codes": "RedChaosEmerald"
     },
     {
+        "img": "images/emeralds/Cyan.png",
         "name": "Cyan Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/Cyan.png",
         "codes": "CyanChaosEmerald"
     },
     {
+        "img": "images/emeralds/Purple.png",
         "name": "Purple Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/Purple.png",
         "codes": "PurpleChaosEmerald"
     },
     {
+        "img": "images/emeralds/Green.png",
         "name": "Green Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/Green.png",
         "codes": "GreenChaosEmerald"
     },
     {
+        "img": "images/emeralds/Yellow.png",
         "name": "Yellow Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/Yellow.png",
         "codes": "YellowChaosEmerald"
     },
     {
+        "img": "images/emeralds/Blue.png",
         "name": "Blue Chaos Emerald",
         "type": "toggle",
-        "img": "images/emeralds/Blue.png",
         "codes": "BlueChaosEmerald"
     }
 ]

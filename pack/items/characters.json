@@ -1,38 +1,38 @@
 [
     {
+        "img": "images/characters/Sonic.png",
         "name": "Playable Sonic",
         "type": "toggle",
-        "img": "images/characters/Sonic.png",
         "codes": "PlayableSonic"
     },
     {
+        "img": "images/characters/Tails.png",
         "name": "Playable Tails",
         "type": "toggle",
-        "img": "images/characters/Tails.png",
         "codes": "PlayableTails"
     },
     {
+        "img": "images/characters/Knuckles.png",
         "name": "Playable Knuckles",
         "type": "toggle",
-        "img": "images/characters/Knuckles.png",
         "codes": "PlayableKnuckles"
     },
     {
+        "img": "images/characters/Amy.png",
         "name": "Playable Amy",
         "type": "toggle",
-        "img": "images/characters/Amy.png",
         "codes": "PlayableAmy"
     },
     {
+        "img": "images/characters/Gamma.png",
         "name": "Playable Gamma",
         "type": "toggle",
-        "img": "images/characters/Gamma.png",
         "codes": "PlayableGamma"
     },
     {
+        "img": "images/characters/Big.png",
         "name": "Playable Big",
         "type": "toggle",
-        "img": "images/characters/Big.png",
         "codes": "PlayableBig"
     }
 ]
