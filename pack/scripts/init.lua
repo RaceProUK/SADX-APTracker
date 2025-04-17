@@ -1,6 +1,4 @@
---Tracker:AddLocations("locations/.json")
-
---Tracker:AddMaps("maps/.json")
+Tracker:AddLocations("locations/missions.json")
 
 Tracker:AddItems("items/characters.json")
 Tracker:AddItems("items/collectibles.json")
@@ -9,6 +7,8 @@ Tracker:AddItems("items/goals.json")
 Tracker:AddItems("items/keys.json")
 Tracker:AddItems("items/upgrades.json")
 Tracker:AddItems("items/settings.json")
+
+Tracker:AddMaps("layouts/maps.json")
 
 Tracker:AddLayouts("layouts/progression.json")
 Tracker:AddLayouts("layouts/characters.json")

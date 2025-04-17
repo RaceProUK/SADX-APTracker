@@ -1,0 +1,14 @@
+[
+    {
+        "name": "levels",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/maps/Levels.png"
+    },
+    {
+        "name": "missions",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/maps/Missions.png"
+    }
+]

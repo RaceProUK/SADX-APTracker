@@ -48,6 +48,29 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Levels",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "levels"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Missions",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "missions"
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         }

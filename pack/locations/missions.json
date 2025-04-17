@@ -1,0 +1,1082 @@
+[
+    {
+        "name": "Mission 1 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 38,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Bring the man who is standing in front of the burger shop!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 2 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 94,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get the balloon in the skies of Mystic Ruins!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 3 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 150,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Collect 100 rings, and go to Sonic's billboard by the pool!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 4 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 206,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Weeds are growing all over my place! I must get rid of them!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 5 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 262,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I lost my balloon! It's way up there now!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 6 (Amy)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 318,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "He is going to drown! Help the man in the water!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 7 (Gamma)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 374,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Lonely Metal Sonic needs a friend. Look carefully.",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 8 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 430,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "The Medallion fell under there! No illegal parking please!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 9 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 486,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get the balloon floating behind the waterfall of the emerald sea.",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 10 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 542,
+                "y": 30,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "What is that sparkling in the water?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 11 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 38,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Destroy the windmill and proceed. Find the balloon in orbit!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 12 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 94,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Who is Chao a good friend with? And what is hidden underneath it?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 13 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 150,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I can't take a shower like this! Do something!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 14 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 206,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I am the keeper of this hotel! Catch me if you can!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 15 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 262,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "My medallions got swept away by the tornado! Somebody help me get them back!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 16 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 318,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get the flags from the floating islands!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 17 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 374,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Aim and shoot all the medallions with a Sonic Ball.",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 18 (Amy)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 430,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "During night, at the amusement park, place your jumps on the top of one of the tables.",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 19 (Amy)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 486,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "What is that behind the mirror?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 20 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 542,
+                "y": 74,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get all the medallions within the time limit! It's really slippery, so be careful!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 21 (Gamma)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 38,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Protect the Sonic Doll from the Spinners around it!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 22 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 94,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Find the flag hidden in the secret passage under the emerald ocean!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 23 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 150,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Go around the wooden horse and collect 10 balloons!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 24 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 206,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "'I hate this dark and filthy place!' Can you find it?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 25 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 262,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "What is hidden under the lion's right hand?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 26 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 318,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "What is that on top of the ship's mast that the pirates are protecting?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 27 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 374,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Collect 100 rings and head to the heliport!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 28 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 430,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "During the morning traffic, use the fountain to get to the balloon.",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 29 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 486,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I am the keeper of this canal! Catch me if you can!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 30 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 542,
+                "y": 118,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "A fugitive has escaped from the jail of burning hell! Find the fugitive!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 31 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 38,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get the balloon as you float in the air along with the trash!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 32 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 94,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Can you get the balloon that is hidden under the bridge?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 33 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 150,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Shoot yourself out of the cannon and get the balloon!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 34 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 206,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Can you get the balloon that is hidden on the ship's bridge?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 35 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 262,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I am the keeper of this icy lake! Catch me if you can!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 36 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 318,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Fighter aircraft are flying everywhere. Somebody get me out of here!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 37 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 374,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Fly over the jungle and get all the balloons!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 38 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 430,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "A message from an ancient people: In the direction where the burning arrow is pointing you will see...",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 39 (Gamma)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 486,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Treasure hunt at the beach! Find all the medallions under the time limit!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 40 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 542,
+                "y": 162,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "What is hidden in the area that the giant snake is staring at?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 41 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 38,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Look real carefully just as you fall from the waterfall!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 42 (Gamma)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 94,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I can't get into the bathroom. How could I've let something like this happened to me?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 43 (Amy)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 150,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Fortress of steel. High jump on three narrow paths. Be careful not to fall.",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 44 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 206,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "I am the keeper of this ship! Catch me if you can!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 45 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 262,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Go to a place where the rings are laid in the shape of Sonic's face!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 46 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 318,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "A secret base that's full of mechanical traps. Pay attention, and you might see...",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 47 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 374,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get ten balloons on the field under the time limit!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 48 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 430,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Can you get the medallion that the giant Sonic is staring at?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 49 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 486,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Scorch through the track, and get all the flags!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 50 (Amy)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 542,
+                "y": 206,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Select a road that splits into 5 paths before time runs out!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 51 (Gamma)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 38,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gunman of the Windy Valley. Destroy all Spinners under a time limit!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 52 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 94,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Get 3 flags in the jungle under a time limit!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 53 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 150,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pass the line of rings with 3 Super High Jumps on the ski slopes!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 54 (Tails)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 206,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Slide downhill in a blizzard and get all the flags!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 55 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 262,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Run down the building to get all the balloons!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 56 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 318,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Relentless eruptions occur in the flaming canyon. What could be hidden in the area she's staring at?",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 57 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 374,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Peak of the volcanic mountain! Watch out for the lava!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 58 (Sonic)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 430,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "The big rock will start rolling after you! Try and get all the flags!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 59 (Knuckles)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 486,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Watch out for the barrels, and find the hidden flag inside the container!",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Mission 60 (Big)",
+        "map_locations": [
+            {
+                "map": "missions",
+                "x": 542,
+                "y": 250,
+                "size": 16,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Something is hidden inside the dinosaurs mouth. Can you find it?",
+                "item_count": 1
+            }
+        ]
+    }
+]
