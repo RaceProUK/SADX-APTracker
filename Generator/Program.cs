@@ -14,7 +14,7 @@ else
     Console.WriteLine();
 
     Console.WriteLine($"Generating locations…");
-    //TODO: Implement location generation
+    await LocationGenerator.Generate(dataPackage.LocationNameToId);
     Console.WriteLine("Locations generated");
 
     Console.WriteLine("Generating items…");
