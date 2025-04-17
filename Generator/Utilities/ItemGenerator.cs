@@ -1,5 +1,4 @@
 ﻿using System.Collections.Frozen;
-using System.IO;
 using System.Text.Json;
 using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
@@ -29,7 +28,12 @@ internal static class ItemGenerator
         await GenerateEmeraldsJson(idToName);
         await GenerateCollectiblesJson(idToName);
         await GenerateGoalsJson(idToName);
+        await GenerateSettingsJson();
     }
+
+    private static string GetWord(string name, int index) => name.Split(' ')[index];
+
+    private static string MakeCode(string name) => string.Join(string.Empty, name.Split(' '));
 
     private static async Task GenerateItemMapLua(FrozenDictionary<int, string> dict)
     {
@@ -46,12 +50,9 @@ internal static class ItemGenerator
     {
         var characters = from entry in dict
                          where entry.Key >= CharactersStart && entry.Key < UpgradesStart
-                         let parts = entry.Value.Split(' ')
-                         let img = parts[1]
-                         let code = string.Join(string.Empty, parts)
-                         select new ToggleItem(entry.Value,
-                                               $"images/characters/{img}.png",
-                                               code);
+                         let img = GetWord(entry.Value, 1)
+                         let code = MakeCode(entry.Value)
+                         select new ToggleItem(entry.Value, code, $"images/characters/{img}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(characters, Constants.JsonOptions),
                                    "characters.json",
                                    "items");
@@ -62,9 +63,7 @@ internal static class ItemGenerator
         var upgrades = from entry in dict
                        where entry.Key >= UpgradesStart && entry.Key < FillerStart
                        let code = MakeCode(entry.Value)
-                       select new ToggleItem(entry.Value,
-                                             $"images/upgrades/{code}.png",
-                                             code);
+                       select new ToggleItem(entry.Value, code, $"images/upgrades/{code}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
                                    "upgrades.json",
                                    "items");
@@ -75,13 +74,11 @@ internal static class ItemGenerator
         var keys1 = from entry in dict
                     where entry.Key >= Keys1Start && entry.Key < CollectiblesStart
                     let code = MakeCode(entry.Value)
-                    select new ToggleItem(entry.Value, $"images/keys/{code}.png", code);
+                    select new ToggleItem(entry.Value, code, $"images/keys/{code}.png");
         var keys2 = from entry in dict
                     where entry.Key >= Keys2Start && entry.Key < RangeEnd
                     let code = MakeCode(entry.Value)
-                    select new ToggleItem(entry.Value,
-                                          $"images/keys/{code}.png",
-                                          code);
+                    select new ToggleItem(entry.Value, code, $"images/keys/{code}.png");
         var keys = keys1.Union(keys2);
         await FileWriter.WriteFile(JsonSerializer.Serialize(keys, Constants.JsonOptions),
                                    "keys.json",
@@ -92,12 +89,9 @@ internal static class ItemGenerator
     {
         var emeralds = from entry in dict
                        where entry.Key >= EmeraldsStart && entry.Key < TrapsStart
-                       let parts = entry.Value.Split(' ')
-                       let img = parts[0]
-                       let code = string.Join(string.Empty, parts)
-                       select new ToggleItem(entry.Value,
-                                             $"images/emeralds/{img}.png",
-                                             code);
+                       let img = GetWord(entry.Value, 0)
+                       let code = MakeCode(entry.Value)
+                       select new ToggleItem(entry.Value, code, $"images/emeralds/{img}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(emeralds, Constants.JsonOptions),
                                    "emeralds.json",
                                    "items");
@@ -109,8 +103,8 @@ internal static class ItemGenerator
                            where entry.Key >= CollectiblesStart && entry.Key < GoalsStart
                            let code = MakeCode(entry.Value).Pluralize()
                            select new CollectibleItem(entry.Value.Pluralize(),
-                                                      $"images/collectibles/{code}.png",
                                                       code,
+                                                      $"images/collectibles/{code}.png",
                                                       130);
         await FileWriter.WriteFile(JsonSerializer.Serialize(collectibles, Constants.JsonOptions),
                                    "collectibles.json",
@@ -122,13 +116,34 @@ internal static class ItemGenerator
         var goals = from entry in dict
                     where entry.Key >= GoalsStart && entry.Key < EmeraldsStart
                     let code = MakeCode(entry.Value)
-                    select new ToggleItem(entry.Value,
-                                          $"images/goals/{code}.png",
-                                          code);
+                    select new ToggleItem(entry.Value, code, $"images/goals/{code}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(goals, Constants.JsonOptions),
                                    "goals.json",
                                    "items");
     }
 
-    private static string MakeCode(string name) => string.Join(string.Empty, name.Split(' '));
+    private static async Task GenerateSettingsJson()
+    {
+        static string MakeImgPath(string img) => $"images/settings/{img}.png";
+
+        var settings = new List<Item>
+        {
+            new ProgressiveItem("Logic Level", "LogicLevel", true, false, 0,
+            [
+                new ProgressiveItemStage("Normal Logic", "NormalLogic", MakeImgPath("NormalLogic")),
+                new ProgressiveItemStage("Hard Logic", "HardLogic", MakeImgPath("HardLogic")),
+                new ProgressiveItemStage("Expert DC Logic", "ExpertLogicDC", MakeImgPath("ExpertLogicDC")),
+                new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("ExpertLogicDX"))
+            ]),
+            new CollectibleItem("Emblems Required", "EmblemsRequired", MakeImgPath("Emblems"), 130),
+            new CollectibleItem("Level Goals Required", "LevelsRequired", MakeImgPath("Levels"), 128),
+            new ToggleItem("Chaos Emeralds Required", "EmeraldsRequired", MakeImgPath("Emeralds")),
+            new CollectibleItem("Bosses Required", "BossesRequired", MakeImgPath("Bosses"), 18),
+            new CollectibleItem("Missions Required", "MissionsRequired", MakeImgPath("Missions"), 60),
+            new ToggleItem("Chao Races Required", "ChaoRacesRequired", MakeImgPath("ChaoRaces")),
+        };
+        await FileWriter.WriteFile(JsonSerializer.Serialize(settings, Constants.JsonOptions),
+                                   "settings.json",
+                                   "items");
+    }
 }
