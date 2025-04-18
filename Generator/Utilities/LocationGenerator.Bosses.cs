@@ -28,7 +28,7 @@ internal static partial class LocationGenerator
                        select new Section(TrimBossName(entry.Value));
         var stationSquare = new Location("Bosses",
                                          [new MapLocation("levels", 1768, 640, LevelsIconSize, BorderThickness)],
-                                         ssBosses);
+                                         [.. ssBosses, new Section("Perfect Chaos")]);
         var mysticRuins = new Location("Bosses",
                                        [new MapLocation("levels", 1768, 900, LevelsIconSize, BorderThickness)],
                                        mrBosses);

@@ -41,7 +41,7 @@ internal static partial class LocationGenerator
     private static async Task GenerateChaoRaces(FrozenDictionary<int, string> dict)
     {
         var chaoRaces = new Location("Chao Races",
-                                     [new MapLocation("levels", 0, 0, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation("levels", 1912, 640, LevelsIconSize, BorderThickness)],
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
                                      select new Section(entry.Value));
