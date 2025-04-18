@@ -1,3 +1,5 @@
+Tracker:AddLocations("locations/subgames.json")
+Tracker:AddLocations("locations/emblems.json")
 Tracker:AddLocations("locations/missions.json")
 
 Tracker:AddItems("items/characters.json")

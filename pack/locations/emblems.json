@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Field Emblems",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1792,
+                "y": 640,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Station Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Burger Shop Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "City Hall Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Casino Emblem",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Field Emblems",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1792,
+                "y": 900,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Tails' Workshop Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Shrine Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Jungle Path Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Tree Stump Emblem",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Field Emblems",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1792,
+                "y": 1160,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pool Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Spinning Platform Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Hidden Bed Emblem",
+                "item_count": 1
+            },
+            {
+                "name": "Main Platform Emblem",
+                "item_count": 1
+            }
+        ]
+    }
+]
