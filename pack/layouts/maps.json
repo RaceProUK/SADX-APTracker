@@ -6,6 +6,18 @@
         "img": "images/maps/Levels.png"
     },
     {
+        "name": "enemies",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/maps/Enemysanity.png"
+    },
+    {
+        "name": "capsules",
+        "location_size": 20,
+        "location_border_thickness": 3,
+        "img": "images/maps/Capsulesanity.png"
+    },
+    {
         "name": "missions",
         "location_size": 20,
         "location_border_thickness": 3,

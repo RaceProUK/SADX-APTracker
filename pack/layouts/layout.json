@@ -62,6 +62,24 @@
                             }
                         },
                         {
+                            "title": "Enemysanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "enemies"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Capsulesanity",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "capsules"
+                                ]
+                            }
+                        },
+                        {
                             "title": "Missions",
                             "content": {
                                 "type": "map",

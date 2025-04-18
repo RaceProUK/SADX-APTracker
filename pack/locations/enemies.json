@@ -1,0 +1,3262 @@
+[
+    {
+        "name": "Emerald Coast (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Sweep)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Sweep)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Rhinotank)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Ice Cap (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Ice Ball)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Ice Ball)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Ice Ball)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Ice Ball)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Ice Ball)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Sweep)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Sweep)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Sweep)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 35 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 36 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 37 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 38 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 39 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 40 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 41 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 42 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 43 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 44 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 45 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 46 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 47 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 48 (Cop Speeder)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 35 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 36 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 37 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 38 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 39 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 40 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 41 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 42 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 43 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 44 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 45 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 46 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 47 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 48 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 49 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 50 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 51 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 52 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 53 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 54 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 55 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 56 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 57 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 58 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 59 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 60 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 61 (Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 35 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 36 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 37 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 38 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 39 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 40 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 41 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 42 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 43 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 44 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 45 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 46 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 47 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 48 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 49 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 50 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 51 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 52 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 53 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 54 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 55 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 56 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 57 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 58 (Electro Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Lost World (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 1088,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Leon)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Sonic)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 58,
+                "y": 1216,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 35 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 36 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 37 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 38 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 39 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 40 (Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Tails)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Rhinotank)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Tails)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Tails)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spiky Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Tails)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Cop Speeder)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Knuckles)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Cop Speeder)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spiky Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Cop Speeder)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Knuckles)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Electro Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Knuckles)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Lost World (Knuckles)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 1088,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Gola)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Leon)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Knuckles)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 570,
+                "y": 1216,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Electro Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Electro Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Amy)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Buyon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Buyon)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Amy)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Amy)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Gamma)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Egg Keeper)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Emerald Coast (Gamma)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Gamma)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Rhinotank)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Boa Boa)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Rhinotank)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Gamma)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 35 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 36 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 37 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 38 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 39 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 40 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 41 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 42 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 43 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 44 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 45 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 46 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 47 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 48 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 49 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 50 (Spinner)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 51 (Spinner)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Gamma)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1082,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 06 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 07 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 08 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 09 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 10 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 11 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 12 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 13 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 14 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 15 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 16 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 17 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 18 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 19 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 20 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 21 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 22 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 23 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 24 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 25 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 26 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 27 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 28 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 29 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 30 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 31 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 32 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 33 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 34 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 35 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 36 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 37 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 38 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 39 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 40 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 41 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 42 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 43 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 44 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 45 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 46 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 47 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 48 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 49 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 50 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 51 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 52 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 53 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 54 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 55 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 56 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 57 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 58 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 59 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 60 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 61 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 62 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 63 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 64 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 65 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 66 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 67 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 68 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 69 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 70 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 71 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 72 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 73 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 74 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 75 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 76 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 77 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 78 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 79 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 80 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 81 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 82 (Leon)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 83 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 84 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 85 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 86 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 87 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 88 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 89 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 90 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 91 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 92 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 93 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 94 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 95 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 96 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 97 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 98 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 99 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 100 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 101 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 102 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 103 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 104 (Egg Keeper)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 105 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 106 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 107 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 108 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 109 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 110 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 111 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 112 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 113 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 114 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 115 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 116 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 117 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Big)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1594,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Emerald Coast (Big)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1594,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Big)",
+        "map_locations": [
+            {
+                "map": "enemies",
+                "x": 1594,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Enemy 01 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 02 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 03 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 04 (Kiki)",
+                "item_count": 1
+            },
+            {
+                "name": "Enemy 05 (Kiki)",
+                "item_count": 1
+            }
+        ]
+    }
+]

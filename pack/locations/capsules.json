@@ -1,0 +1,3204 @@
+[
+    {
+        "name": "Emerald Coast (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 38 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 39 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 40 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 41 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 42 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 43 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 44 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 45 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 46 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 47 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 48 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 49 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 50 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 51 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 52 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Ice Cap (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 38 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 39 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 40 (Five Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 38 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 39 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 40 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 41 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 42 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 43 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Shield)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 38 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 39 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 40 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 41 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 42 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 43 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 44 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 45 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 46 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 47 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 48 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 49 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 50 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 51 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 52 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 53 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 54 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 55 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 56 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 57 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 58 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 59 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 60 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 61 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 62 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 63 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 64 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 65 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 66 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Lost World (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 1088,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Sonic)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 58,
+                "y": 1216,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 38 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 39 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 40 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 41 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 42 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 43 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 44 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 45 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 46 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 47 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 48 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 49 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 50 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 51 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 52 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 53 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 54 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 55 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 56 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 57 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 58 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 59 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 60 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 61 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Tails)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Tails)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 38 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 39 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 40 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 41 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 42 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Tails)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Tails)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Speed Up)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Knuckles)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Knuckles)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Five Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Knuckles)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Lost World (Knuckles)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 1088,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Bomb)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Knuckles)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 570,
+                "y": 1216,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Shield)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Amy)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Amy)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 34 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 35 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 36 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 37 (Shield)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Amy)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Gamma)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Emerald Coast (Gamma)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Gamma)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Gamma)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Gamma)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1082,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 13 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 14 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 15 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 16 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 17 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 18 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 19 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 20 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 21 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 22 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 23 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 24 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 25 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 26 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 27 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 28 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 29 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 30 (Magnetic Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 31 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 32 (Bomb)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 33 (Shield)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Big)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1594,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Random Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Ice Cap (Big)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1594,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Invincibility)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 11 (Five Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 12 (Five Rings)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Emerald Coast (Big)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1594,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Extra Life)",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Big)",
+        "map_locations": [
+            {
+                "map": "capsules",
+                "x": 1594,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Capsule 01 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 02 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 03 (Shield)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 04 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 05 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 06 (Random Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 07 (Extra Life)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 08 (Speed Up)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 09 (Ten Rings)",
+                "item_count": 1
+            },
+            {
+                "name": "Capsule 10 (Ten Rings)",
+                "item_count": 1
+            }
+        ]
+    }
+]

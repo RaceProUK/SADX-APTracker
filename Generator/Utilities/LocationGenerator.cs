@@ -28,6 +28,8 @@ internal static partial class LocationGenerator
         await GenerateFieldEmblems(idToName);
         await GenerateChaoEggs(idToName);
         await GenerateChaoRaces(idToName);
+        await GenerateEnemies(idToName);
+        await GenerateCapsules(idToName);
         await GenerateMissions(idToName);
     }
 
