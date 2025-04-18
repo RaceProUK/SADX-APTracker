@@ -34,16 +34,16 @@ internal static partial class LocationGenerator
                          let mission = MissionParser().Match(entry.Value).Value
                          select new Section(mission);
         var skyChase1 = new Location("Sky Chase Act 1",
-                                     [new MapLocation("levels", 1464, 1056, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation("levels", 1082, 1056, LevelsIconSize, BorderThickness)],
                                      sc1Missions);
         var skyChase2 = new Location("Sky Chase Act 2",
-                                     [new MapLocation("levels", 1464, 1120, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation("levels", 1082, 1120, LevelsIconSize, BorderThickness)],
                                      sc2Missions);
         var sandHill = new Location("Sand Hill",
-                                    [new MapLocation("levels", 1464, 1184, LevelsIconSize, BorderThickness)],
+                                    [new MapLocation("levels", 1082, 1184, LevelsIconSize, BorderThickness)],
                                     shMissions);
         var twinkleCircuit = new Location("Twinkle Circuit",
-                                          [new MapLocation("levels", 1464, 1248, LevelsIconSize, BorderThickness)],
+                                          [new MapLocation("levels", 1082, 1248, LevelsIconSize, BorderThickness)],
                                           tcMissions);
         var subGames = new[] { skyChase1, skyChase2, sandHill, twinkleCircuit };
         await FileWriter.WriteFile(JsonSerializer.Serialize(subGames, Constants.JsonOptions),
