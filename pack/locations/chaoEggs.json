@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Chao Egg",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1864,
+                "y": 640,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gold Chao Egg",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Chao Egg",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1864,
+                "y": 900,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Silver Chao Egg",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Chao Egg",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1864,
+                "y": 1160,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Black Chao Egg",
+                "item_count": 1
+            }
+        ]
+    }
+]

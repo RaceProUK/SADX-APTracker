@@ -4,7 +4,7 @@
         "map_locations": [
             {
                 "map": "levels",
-                "x": 1792,
+                "x": 1768,
                 "y": 640,
                 "size": 32,
                 "border_thickness": 1
@@ -30,7 +30,7 @@
         "map_locations": [
             {
                 "map": "levels",
-                "x": 1792,
+                "x": 1768,
                 "y": 900,
                 "size": 32,
                 "border_thickness": 1
@@ -76,7 +76,7 @@
         "map_locations": [
             {
                 "map": "levels",
-                "x": 1792,
+                "x": 1768,
                 "y": 1160,
                 "size": 32,
                 "border_thickness": 1

@@ -52,6 +52,7 @@ internal static partial class LocationGenerator
         await GenerateUpgrades(idToName);
         await GenerateBosses(idToName);
         await GenerateFieldEmblems(idToName);
+        await GenerateChaoEggs(idToName);
         await GenerateMissions(idToName);
     }
 
@@ -121,16 +122,16 @@ internal static partial class LocationGenerator
                          where icUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
         var stationSquare = new Location("Upgrades",
-                                         [new MapLocation("levels", 1744, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
                                          ssUpgrades);
         var mysticRuins = new Location("Upgrades",
-                                         [new MapLocation("levels", 1744, 900, LevelsIconSize, BorderThickness)],
-                                         mrUpgrades);
+                                       [new MapLocation("levels", 1722, 900, LevelsIconSize, BorderThickness)],
+                                       mrUpgrades);
         var eggCarrier = new Location("Upgrades",
-                                      [new MapLocation("levels", 1744, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation("levels", 1722, 1160, LevelsIconSize, BorderThickness)],
                                       ecUpgrades);
         var iceCap = new Location("Upgrades",
-                                  [new MapLocation("levels", 1962, 196, LevelsIconSize, BorderThickness)],
+                                  [new MapLocation("levels", 1936, 196, LevelsIconSize, BorderThickness)],
                                   icUpgrades);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
@@ -152,13 +153,13 @@ internal static partial class LocationGenerator
                        where entry.Key >= EggCarrierBossesStart && entry.Key < EggCarrierBossesEnd
                        select new Section(TrimBossName(entry.Value));
         var stationSquare = new Location("Bosses",
-                                         [new MapLocation("levels", 1792, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation("levels", 1768, 640, LevelsIconSize, BorderThickness)],
                                          ssBosses);
         var mysticRuins = new Location("Bosses",
-                                       [new MapLocation("levels", 1792, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation("levels", 1768, 900, LevelsIconSize, BorderThickness)],
                                        mrBosses);
         var eggCarrier = new Location("Bosses",
-                                      [new MapLocation("levels", 1792, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation("levels", 1768, 1160, LevelsIconSize, BorderThickness)],
                                       ecBosses);
         var bosses = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(bosses, Constants.JsonOptions),
@@ -178,17 +179,43 @@ internal static partial class LocationGenerator
                         where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
                         select new Section(entry.Value);
         var stationSquare = new Location("Field Emblems",
-                                         [new MapLocation("levels", 1840, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation("levels", 1816, 640, LevelsIconSize, BorderThickness)],
                                          ssEmblems);
         var mysticRuins = new Location("Field Emblems",
-                                       [new MapLocation("levels", 1840, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation("levels", 1816, 900, LevelsIconSize, BorderThickness)],
                                        mrEmblems);
         var eggCarrier = new Location("Field Emblems",
-                                      [new MapLocation("levels", 1840, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation("levels", 1816, 1160, LevelsIconSize, BorderThickness)],
                                       ecEmblems);
         var emblems = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(emblems, Constants.JsonOptions),
                                    "emblems.json",
+                                   "locations");
+    }
+
+    private static async Task GenerateChaoEggs(FrozenDictionary<int, string> idToName)
+    {
+        var ssUpgrades = from entry in idToName
+                         where entry.Key == 543800900
+                         select new Section(entry.Value);
+        var mrUpgrades = from entry in idToName
+                         where entry.Key == 543800901
+                         select new Section(entry.Value);
+        var ecUpgrades = from entry in idToName
+                         where entry.Key == 543800902
+                         select new Section(entry.Value);
+        var stationSquare = new Location("Chao Egg",
+                                         [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
+                                         ssUpgrades);
+        var mysticRuins = new Location("Chao Egg",
+                                       [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
+                                       mrUpgrades);
+        var eggCarrier = new Location("Chao Egg",
+                                      [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
+                                      ecUpgrades);
+        var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
+        await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),
+                                   "chaoEggs.json",
                                    "locations");
     }
 
