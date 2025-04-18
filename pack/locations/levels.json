@@ -1,0 +1,834 @@
+[
+    {
+        "name": "Emerald Coast (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Ice Cap (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Lost World (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 1088,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Sonic)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 58,
+                "y": 1216,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Tails)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Tails)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Ice Cap (Tails)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Tails)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Tails)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Speed Highway (Knuckles)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Casinopolis (Knuckles)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Knuckles)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Lost World (Knuckles)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 1088,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Sky Deck (Knuckles)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 570,
+                "y": 1216,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Amy)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Amy)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Amy)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Final Egg (Gamma)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Emerald Coast (Gamma)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 576,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Windy Valley (Gamma)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 704,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Red Mountain (Gamma)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 832,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Gamma)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 960,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Twinkle Park (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1594,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Ice Cap (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1594,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Emerald Coast (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1594,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Hot Shelter (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1594,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission A",
+                "item_count": 1
+            },
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission C",
+                "item_count": 1
+            }
+        ]
+    }
+]

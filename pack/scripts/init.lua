@@ -1,6 +1,7 @@
 Tracker:AddLocations("locations/bosses.json")
 Tracker:AddLocations("locations/chaoEggs.json")
 Tracker:AddLocations("locations/emblems.json")
+Tracker:AddLocations("locations/levels.json")
 Tracker:AddLocations("locations/missions.json")
 Tracker:AddLocations("locations/subgames.json")
 Tracker:AddLocations("locations/upgrades.json")

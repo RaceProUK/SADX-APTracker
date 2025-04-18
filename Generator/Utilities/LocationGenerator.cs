@@ -1,5 +1,4 @@
 ﻿using System.Collections.Frozen;
-using System.Reflection;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
@@ -48,6 +47,7 @@ internal static partial class LocationGenerator
     {
         var idToName = dict.ToFrozenDictionary(_ => _.Value, _ => _.Key);
         await GenerateLocationMapLua(idToName);
+        await GenerateLevels(idToName);
         await GenerateSubGames(idToName);
         await GenerateUpgrades(idToName);
         await GenerateBosses(idToName);
@@ -67,21 +67,21 @@ internal static partial class LocationGenerator
                                    "archipelago");
     }
 
-    private static async Task GenerateSubGames(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateSubGames(FrozenDictionary<int, string> dict)
     {
-        var sc1Missions = from entry in idToName
+        var sc1Missions = from entry in dict
                           where entry.Key >= SkyChaseAct1Start && entry.Key < SkyChaseAct1End
                           let mission = MissionParser().Match(entry.Value).Value
                           select new Section(mission);
-        var sc2Missions = from entry in idToName
+        var sc2Missions = from entry in dict
                           where entry.Key >= SkyChaseAct2Start && entry.Key < SkyChaseAct2End
                           let mission = MissionParser().Match(entry.Value).Value
                           select new Section(mission);
-        var shMissions = from entry in idToName
+        var shMissions = from entry in dict
                          where entry.Key >= SandHillStart && entry.Key < SandHillEnd
                          let mission = MissionParser().Match(entry.Value).Value
                          select new Section(mission);
-        var tcMissions = from entry in idToName
+        var tcMissions = from entry in dict
                          where entry.Key >= TwinkleCircuitStart && entry.Key < TwinkleCircuitEnd
                          let mission = MissionParser().Match(entry.Value).Value
                          select new Section(mission);
@@ -103,22 +103,22 @@ internal static partial class LocationGenerator
                                    "locations");
     }
 
-    private static async Task GenerateUpgrades(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateUpgrades(FrozenDictionary<int, string> dict)
     {
         var ssUpgradeIds = new[] { 543800100, 543800101, 543800200, 543800602 };
         var mrUpgradeIds = new[] { 543800102, 543800201, 543800300, 543800301, 543800600, 543800601, 543800603 };
         var ecUpgradeIds = new[] { 543800400, 543800401, 543800500, 543800501, 543800605 };
         var icUpgradeIds = new[] { 543800604 };
-        var ssUpgrades = from entry in idToName
+        var ssUpgrades = from entry in dict
                          where ssUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
-        var mrUpgrades = from entry in idToName
+        var mrUpgrades = from entry in dict
                          where mrUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
-        var ecUpgrades = from entry in idToName
+        var ecUpgrades = from entry in dict
                          where ecUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
-        var icUpgrades = from entry in idToName
+        var icUpgrades = from entry in dict
                          where icUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
         var stationSquare = new Location("Upgrades",
@@ -139,17 +139,17 @@ internal static partial class LocationGenerator
                                    "locations");
     }
 
-    private static async Task GenerateBosses(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateBosses(FrozenDictionary<int, string> dict)
     {
         static string TrimBossName(string name) => name.Replace(" Boss Fight", string.Empty);
 
-        var ssBosses = from entry in idToName
+        var ssBosses = from entry in dict
                        where entry.Key >= StationSquareBossesStart && entry.Key < StationSquareBossesEnd
                        select new Section(TrimBossName(entry.Value));
-        var mrBosses = from entry in idToName
+        var mrBosses = from entry in dict
                        where entry.Key >= MysticRuinsBossesStart && entry.Key < MysticRuinsBossesEnd
                        select new Section(TrimBossName(entry.Value));
-        var ecBosses = from entry in idToName
+        var ecBosses = from entry in dict
                        where entry.Key >= EggCarrierBossesStart && entry.Key < EggCarrierBossesEnd
                        select new Section(TrimBossName(entry.Value));
         var stationSquare = new Location("Bosses",
@@ -167,15 +167,15 @@ internal static partial class LocationGenerator
                                    "locations");
     }
 
-    private static async Task GenerateFieldEmblems(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateFieldEmblems(FrozenDictionary<int, string> dict)
     {
-        var ssEmblems = from entry in idToName
+        var ssEmblems = from entry in dict
                         where entry.Key >= StationSquareEmblemsStart && entry.Key < StationSquareEmblemsEnd
                         select new Section(entry.Value);
-        var mrEmblems = from entry in idToName
+        var mrEmblems = from entry in dict
                         where entry.Key >= MysticRuinsEmblemsStart && entry.Key < MysticRuinsEmblemsEnd
                         select new Section(entry.Value);
-        var ecEmblems = from entry in idToName
+        var ecEmblems = from entry in dict
                         where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
                         select new Section(entry.Value);
         var stationSquare = new Location("Field Emblems",
@@ -193,15 +193,15 @@ internal static partial class LocationGenerator
                                    "locations");
     }
 
-    private static async Task GenerateChaoEggs(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateChaoEggs(FrozenDictionary<int, string> dict)
     {
-        var ssUpgrades = from entry in idToName
+        var ssUpgrades = from entry in dict
                          where entry.Key == 543800900
                          select new Section(entry.Value);
-        var mrUpgrades = from entry in idToName
+        var mrUpgrades = from entry in dict
                          where entry.Key == 543800901
                          select new Section(entry.Value);
-        var ecUpgrades = from entry in idToName
+        var ecUpgrades = from entry in dict
                          where entry.Key == 543800902
                          select new Section(entry.Value);
         var stationSquare = new Location("Chao Egg",
@@ -219,12 +219,12 @@ internal static partial class LocationGenerator
                                    "locations");
     }
 
-    private static async Task GenerateMissions(FrozenDictionary<int, string> idToName)
+    private static async Task GenerateMissions(FrozenDictionary<int, string> dict)
     {
         static int CalculateX(int number) => 56 * ((number - 1) % 10) + 38;
         static int CalculateY(int number) => 44 * ((number - 1) / 10) + 30;
 
-        var missions = from entry in idToName
+        var missions = from entry in dict
                        where entry.Key >= MissionsStart && entry.Key < MissionsEnd
                        let number = int.Parse(NumberParser().Match(entry.Value).Value)
                        let x = CalculateX(number)
