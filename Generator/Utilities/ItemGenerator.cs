@@ -5,7 +5,7 @@ using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 
-internal static class ItemGenerator
+internal static partial class ItemGenerator
 {
     private const int CharactersStart = 543800000;
     private const int UpgradesStart = 543800010;
@@ -18,7 +18,7 @@ internal static class ItemGenerator
     private const int Keys2Start = 543800120;
     private const int RangeEnd = 543800122;
 
-    internal static async Task Generate(Dictionary<string, int> dict)
+    internal static async Task Generate(IDictionary<string, int> dict)
     {
         var idToName = dict.ToFrozenDictionary(_ => _.Value, _ => _.Key);
         await GenerateItemMapLua(idToName);
@@ -119,31 +119,6 @@ internal static class ItemGenerator
                     select new ToggleItem(entry.Value, code, $"images/goals/{code}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(goals, Constants.JsonOptions),
                                    "goals.json",
-                                   "items");
-    }
-
-    private static async Task GenerateSettingsJson()
-    {
-        static string MakeImgPath(string img) => $"images/settings/{img}.png";
-
-        var settings = new List<Item>
-        {
-            new ProgressiveItem("Logic Level", "LogicLevel", true, false, 0,
-            [
-                new ProgressiveItemStage("Normal Logic", "NormalLogic", MakeImgPath("NormalLogic")),
-                new ProgressiveItemStage("Hard Logic", "HardLogic", MakeImgPath("HardLogic")),
-                new ProgressiveItemStage("Expert DC Logic", "ExpertLogicDC", MakeImgPath("ExpertLogicDC")),
-                new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("ExpertLogicDX"))
-            ]),
-            new CollectibleItem("Emblems Required", "EmblemsRequired", MakeImgPath("Emblems"), 130),
-            new CollectibleItem("Level Goals Required", "LevelsRequired", MakeImgPath("Levels"), 128),
-            new ToggleItem("Chaos Emeralds Required", "EmeraldsRequired", MakeImgPath("Emeralds")),
-            new CollectibleItem("Bosses Required", "BossesRequired", MakeImgPath("Bosses"), 18),
-            new CollectibleItem("Missions Required", "MissionsRequired", MakeImgPath("Missions"), 60),
-            new ToggleItem("Chao Races Required", "ChaoRacesRequired", MakeImgPath("ChaoRaces")),
-        };
-        await FileWriter.WriteFile(JsonSerializer.Serialize(settings, Constants.JsonOptions),
-                                   "settings.json",
                                    "items");
     }
 }

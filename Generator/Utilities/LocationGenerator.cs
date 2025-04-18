@@ -17,7 +17,7 @@ internal static partial class LocationGenerator
     [GeneratedRegex("(Mission [SABC])")]
     private static partial Regex MissionParser();
 
-    internal static async Task Generate(Dictionary<string, int> dict)
+    internal static async Task Generate(IDictionary<string, int> dict)
     {
         var idToName = dict.ToFrozenDictionary(_ => _.Value, _ => _.Key);
         await GenerateLocationMapLua(idToName);

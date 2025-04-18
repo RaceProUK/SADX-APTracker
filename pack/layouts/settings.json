@@ -13,6 +13,33 @@
                 "BossesRequired",
                 "MissionsRequired",
                 "ChaoRacesRequired"
+            ],
+            [
+                "SecretChaoEggs",
+                "SonicPlayable",
+                "TailsPlayable",
+                "KnucklesPlayable",
+                "AmyPlayable",
+                "GammaPlayable",
+                "BigPlayable"
+            ],
+            [
+                "Enemysanity",
+                "SonicEnemysanity",
+                "TailsEnemysanity",
+                "KnucklesEnemysanity",
+                "AmyEnemysanity",
+                "GammaEnemysanity",
+                "BigEnemysanity"
+            ],
+            [
+                "Capsulesanity",
+                "SonicCapsulesanity",
+                "TailsCapsulesanity",
+                "KnucklesCapsulesanity",
+                "AmyCapsulesanity",
+                "GammaCapsulesanity",
+                "BigCapsulesanity"
             ]
         ]
     }

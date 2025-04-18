@@ -76,5 +76,131 @@
         "name": "Chao Races Required",
         "type": "toggle",
         "codes": "ChaoRacesRequired"
+    },
+    {
+        "img": "images/settings/SecretChaoEggs.png",
+        "name": "Secret Chao Eggs",
+        "type": "toggle",
+        "codes": "SecretChaoEggs"
+    },
+    {
+        "img": "images/settings/SonicPlayable.png",
+        "name": "Sonic Playable",
+        "type": "toggle",
+        "codes": "SonicPlayable"
+    },
+    {
+        "img": "images/settings/TailsPlayable.png",
+        "name": "Tails Playable",
+        "type": "toggle",
+        "codes": "TailsPlayable"
+    },
+    {
+        "img": "images/settings/KnucklesPlayable.png",
+        "name": "Knuckles Playable",
+        "type": "toggle",
+        "codes": "KnucklesPlayable"
+    },
+    {
+        "img": "images/settings/AmyPlayable.png",
+        "name": "Amy Playable",
+        "type": "toggle",
+        "codes": "AmyPlayable"
+    },
+    {
+        "img": "images/settings/GammaPlayable.png",
+        "name": "Gamma Playable",
+        "type": "toggle",
+        "codes": "GammaPlayable"
+    },
+    {
+        "img": "images/settings/BigPlayable.png",
+        "name": "Big Playable",
+        "type": "toggle",
+        "codes": "BigPlayable"
+    },
+    {
+        "img": "images/settings/Enemysanity.png",
+        "name": "Enemysanity",
+        "type": "toggle",
+        "codes": "Enemysanity"
+    },
+    {
+        "img": "images/settings/SonicEnemysanity.png",
+        "name": "Sonic's Enemysanity",
+        "type": "toggle",
+        "codes": "SonicEnemysanity"
+    },
+    {
+        "img": "images/settings/TailsEnemysanity.png",
+        "name": "Tails's Enemysanity",
+        "type": "toggle",
+        "codes": "TailsEnemysanity"
+    },
+    {
+        "img": "images/settings/KnucklesEnemysanity.png",
+        "name": "Knuckles's Enemysanity",
+        "type": "toggle",
+        "codes": "KnucklesEnemysanity"
+    },
+    {
+        "img": "images/settings/AmyEnemysanity.png",
+        "name": "Amy's Enemysanity",
+        "type": "toggle",
+        "codes": "AmyEnemysanity"
+    },
+    {
+        "img": "images/settings/GammaEnemysanity.png",
+        "name": "Gamma's Enemysanity",
+        "type": "toggle",
+        "codes": "GammaEnemysanity"
+    },
+    {
+        "img": "images/settings/BigEnemysanity.png",
+        "name": "Big's Enemysanity",
+        "type": "toggle",
+        "codes": "BigEnemysanity"
+    },
+    {
+        "img": "images/settings/Capsulesanity.png",
+        "name": "Capsulesanity",
+        "type": "toggle",
+        "codes": "Capsulesanity"
+    },
+    {
+        "img": "images/settings/SonicCapsulesanity.png",
+        "name": "Sonic's Capsulesanity",
+        "type": "toggle",
+        "codes": "SonicCapsulesanity"
+    },
+    {
+        "img": "images/settings/TailsCapsulesanity.png",
+        "name": "Tails's Capsulesanity",
+        "type": "toggle",
+        "codes": "TailsCapsulesanity"
+    },
+    {
+        "img": "images/settings/KnucklesCapsulesanity.png",
+        "name": "Knuckles's Capsulesanity",
+        "type": "toggle",
+        "codes": "KnucklesCapsulesanity"
+    },
+    {
+        "img": "images/settings/AmyCapsulesanity.png",
+        "name": "Amy's Capsulesanity",
+        "type": "toggle",
+        "codes": "AmyCapsulesanity"
+    },
+    {
+        "img": "images/settings/GammaCapsulesanity.png",
+        "name": "Gamma's Capsulesanity",
+        "type": "toggle",
+        "codes": "GammaCapsulesanity"
+    },
+    {
+        "img": "images/settings/BigCapsulesanity.png",
+        "name": "Big's Capsulesanity",
+        "type": "toggle",
+        "codes": "BigCapsulesanity"
     }
 ]
