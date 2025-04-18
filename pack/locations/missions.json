@@ -15,6 +15,9 @@
                 "name": "Bring the man who is standing in front of the burger shop!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -33,6 +36,9 @@
                 "name": "Get the balloon in the skies of Mystic Ruins!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -51,6 +57,9 @@
                 "name": "Collect 100 rings, and go to Sonic's billboard by the pool!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -69,6 +78,9 @@
                 "name": "Weeds are growing all over my place! I must get rid of them!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -87,6 +99,9 @@
                 "name": "I lost my balloon! It's way up there now!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -105,6 +120,9 @@
                 "name": "He is going to drown! Help the man in the water!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,AmyPlayable"
         ]
     },
     {
@@ -123,6 +141,9 @@
                 "name": "Lonely Metal Sonic needs a friend. Look carefully.",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,GammaPlayable"
         ]
     },
     {
@@ -141,6 +162,9 @@
                 "name": "The Medallion fell under there! No illegal parking please!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -159,6 +183,9 @@
                 "name": "Get the balloon floating behind the waterfall of the emerald sea.",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -177,6 +204,9 @@
                 "name": "What is that sparkling in the water?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -195,6 +225,9 @@
                 "name": "Destroy the windmill and proceed. Find the balloon in orbit!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -213,6 +246,9 @@
                 "name": "Who is Chao a good friend with? And what is hidden underneath it?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -231,6 +267,9 @@
                 "name": "I can't take a shower like this! Do something!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -249,6 +288,9 @@
                 "name": "I am the keeper of this hotel! Catch me if you can!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -267,6 +309,9 @@
                 "name": "My medallions got swept away by the tornado! Somebody help me get them back!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -285,6 +330,9 @@
                 "name": "Get the flags from the floating islands!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -303,6 +351,9 @@
                 "name": "Aim and shoot all the medallions with a Sonic Ball.",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -321,6 +372,9 @@
                 "name": "During night, at the amusement park, place your jumps on the top of one of the tables.",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,AmyPlayable"
         ]
     },
     {
@@ -339,6 +393,9 @@
                 "name": "What is that behind the mirror?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,AmyPlayable"
         ]
     },
     {
@@ -357,6 +414,9 @@
                 "name": "Get all the medallions within the time limit! It's really slippery, so be careful!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -375,6 +435,9 @@
                 "name": "Protect the Sonic Doll from the Spinners around it!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,GammaPlayable"
         ]
     },
     {
@@ -393,6 +456,9 @@
                 "name": "Find the flag hidden in the secret passage under the emerald ocean!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -411,6 +477,9 @@
                 "name": "Go around the wooden horse and collect 10 balloons!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -429,6 +498,9 @@
                 "name": "'I hate this dark and filthy place!' Can you find it?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -447,6 +519,9 @@
                 "name": "What is hidden under the lion's right hand?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -465,6 +540,9 @@
                 "name": "What is that on top of the ship's mast that the pirates are protecting?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -483,6 +561,9 @@
                 "name": "Collect 100 rings and head to the heliport!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -501,6 +582,9 @@
                 "name": "During the morning traffic, use the fountain to get to the balloon.",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -519,6 +603,9 @@
                 "name": "I am the keeper of this canal! Catch me if you can!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -537,6 +624,9 @@
                 "name": "A fugitive has escaped from the jail of burning hell! Find the fugitive!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -555,6 +645,9 @@
                 "name": "Get the balloon as you float in the air along with the trash!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -573,6 +666,9 @@
                 "name": "Can you get the balloon that is hidden under the bridge?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -591,6 +687,9 @@
                 "name": "Shoot yourself out of the cannon and get the balloon!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -609,6 +708,9 @@
                 "name": "Can you get the balloon that is hidden on the ship's bridge?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -627,6 +729,9 @@
                 "name": "I am the keeper of this icy lake! Catch me if you can!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -645,6 +750,9 @@
                 "name": "Fighter aircraft are flying everywhere. Somebody get me out of here!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -663,6 +771,9 @@
                 "name": "Fly over the jungle and get all the balloons!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -681,6 +792,9 @@
                 "name": "A message from an ancient people: In the direction where the burning arrow is pointing you will see...",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -699,6 +813,9 @@
                 "name": "Treasure hunt at the beach! Find all the medallions under the time limit!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,GammaPlayable"
         ]
     },
     {
@@ -717,6 +834,9 @@
                 "name": "What is hidden in the area that the giant snake is staring at?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -735,6 +855,9 @@
                 "name": "Look real carefully just as you fall from the waterfall!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -753,6 +876,9 @@
                 "name": "I can't get into the bathroom. How could I've let something like this happened to me?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,GammaPlayable"
         ]
     },
     {
@@ -771,6 +897,9 @@
                 "name": "Fortress of steel. High jump on three narrow paths. Be careful not to fall.",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,AmyPlayable"
         ]
     },
     {
@@ -789,6 +918,9 @@
                 "name": "I am the keeper of this ship! Catch me if you can!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -807,6 +939,9 @@
                 "name": "Go to a place where the rings are laid in the shape of Sonic's face!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -825,6 +960,9 @@
                 "name": "A secret base that's full of mechanical traps. Pay attention, and you might see...",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -843,6 +981,9 @@
                 "name": "Get ten balloons on the field under the time limit!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -861,6 +1002,9 @@
                 "name": "Can you get the medallion that the giant Sonic is staring at?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -879,6 +1023,9 @@
                 "name": "Scorch through the track, and get all the flags!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -897,6 +1044,9 @@
                 "name": "Select a road that splits into 5 paths before time runs out!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,AmyPlayable"
         ]
     },
     {
@@ -915,6 +1065,9 @@
                 "name": "Gunman of the Windy Valley. Destroy all Spinners under a time limit!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,GammaPlayable"
         ]
     },
     {
@@ -933,6 +1086,9 @@
                 "name": "Get 3 flags in the jungle under a time limit!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     },
     {
@@ -951,6 +1107,9 @@
                 "name": "Pass the line of rings with 3 Super High Jumps on the ski slopes!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -969,6 +1128,9 @@
                 "name": "Slide downhill in a blizzard and get all the flags!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,TailsPlayable"
         ]
     },
     {
@@ -987,6 +1149,9 @@
                 "name": "Run down the building to get all the balloons!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -1005,6 +1170,9 @@
                 "name": "Relentless eruptions occur in the flaming canyon. What could be hidden in the area she's staring at?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -1023,6 +1191,9 @@
                 "name": "Peak of the volcanic mountain! Watch out for the lava!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -1041,6 +1212,9 @@
                 "name": "The big rock will start rolling after you! Try and get all the flags!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,SonicPlayable"
         ]
     },
     {
@@ -1059,6 +1233,9 @@
                 "name": "Watch out for the barrels, and find the hidden flag inside the container!",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,KnucklesPlayable"
         ]
     },
     {
@@ -1077,6 +1254,9 @@
                 "name": "Something is hidden inside the dinosaurs mouth. Can you find it?",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "MissionsRequired,BigPlayable"
         ]
     }
 ]
