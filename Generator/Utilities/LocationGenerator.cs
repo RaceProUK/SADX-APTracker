@@ -17,12 +17,19 @@ internal static partial class LocationGenerator
     private const int SkyChaseAct2Start = 543800035;
     private const int SkyChaseAct2End = 543800037;
 
+    private const int StationSquareBossesStart = 543800700;
+    private const int StationSquareBossesEnd = 543800730;
+    private const int MysticRuinsBossesStart = 543800730;
+    private const int MysticRuinsBossesEnd = 543800760;
+    private const int EggCarrierBossesStart = 543800760;
+    private const int EggCarrierBossesEnd = 543800800;
+
     private const int StationSquareEmblemsStart = 543800010;
     private const int StationSquareEmblemsEnd = 543800014;
     private const int MysticRuinsEmblemsStart = 543800020;
     private const int MysticRuinsEmblemsEnd = 543800024;
-    private const int EggCarrierStart = 543800030;
-    private const int EggCarrierEnd = 543800034;
+    private const int EggCarrierEmblemsStart = 543800030;
+    private const int EggCarrierEmblemsEnd = 543800034;
 
     private const int MissionsStart = 543800800;
     private const int MissionsEnd = 543800900;
@@ -42,6 +49,8 @@ internal static partial class LocationGenerator
         var idToName = dict.ToFrozenDictionary(_ => _.Value, _ => _.Key);
         await GenerateLocationMapLua(idToName);
         await GenerateSubGames(idToName);
+        await GenerateUpgrades(idToName);
+        await GenerateBosses(idToName);
         await GenerateFieldEmblems(idToName);
         await GenerateMissions(idToName);
     }
@@ -93,6 +102,70 @@ internal static partial class LocationGenerator
                                    "locations");
     }
 
+    private static async Task GenerateUpgrades(FrozenDictionary<int, string> idToName)
+    {
+        var ssUpgradeIds = new[] { 543800100, 543800101, 543800200, 543800602 };
+        var mrUpgradeIds = new[] { 543800102, 543800201, 543800300, 543800301, 543800600, 543800601, 543800603 };
+        var ecUpgradeIds = new[] { 543800400, 543800401, 543800500, 543800501, 543800605 };
+        var icUpgradeIds = new[] { 543800604 };
+        var ssUpgrades = from entry in idToName
+                         where ssUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var mrUpgrades = from entry in idToName
+                         where mrUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var ecUpgrades = from entry in idToName
+                         where ecUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var icUpgrades = from entry in idToName
+                         where icUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var stationSquare = new Location("Upgrades",
+                                         [new MapLocation("levels", 1744, 640, LevelsIconSize, BorderThickness)],
+                                         ssUpgrades);
+        var mysticRuins = new Location("Upgrades",
+                                         [new MapLocation("levels", 1744, 900, LevelsIconSize, BorderThickness)],
+                                         mrUpgrades);
+        var eggCarrier = new Location("Upgrades",
+                                      [new MapLocation("levels", 1744, 1160, LevelsIconSize, BorderThickness)],
+                                      ecUpgrades);
+        var iceCap = new Location("Upgrades",
+                                  [new MapLocation("levels", 1962, 196, LevelsIconSize, BorderThickness)],
+                                  icUpgrades);
+        var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
+        await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
+                                   "upgrades.json",
+                                   "locations");
+    }
+
+    private static async Task GenerateBosses(FrozenDictionary<int, string> idToName)
+    {
+        static string TrimBossName(string name) => name.Replace(" Boss Fight", string.Empty);
+
+        var ssBosses = from entry in idToName
+                       where entry.Key >= StationSquareBossesStart && entry.Key < StationSquareBossesEnd
+                       select new Section(TrimBossName(entry.Value));
+        var mrBosses = from entry in idToName
+                       where entry.Key >= MysticRuinsBossesStart && entry.Key < MysticRuinsBossesEnd
+                       select new Section(TrimBossName(entry.Value));
+        var ecBosses = from entry in idToName
+                       where entry.Key >= EggCarrierBossesStart && entry.Key < EggCarrierBossesEnd
+                       select new Section(TrimBossName(entry.Value));
+        var stationSquare = new Location("Bosses",
+                                         [new MapLocation("levels", 1792, 640, LevelsIconSize, BorderThickness)],
+                                         ssBosses);
+        var mysticRuins = new Location("Bosses",
+                                       [new MapLocation("levels", 1792, 900, LevelsIconSize, BorderThickness)],
+                                       mrBosses);
+        var eggCarrier = new Location("Bosses",
+                                      [new MapLocation("levels", 1792, 1160, LevelsIconSize, BorderThickness)],
+                                      ecBosses);
+        var bosses = new[] { stationSquare, mysticRuins, eggCarrier };
+        await FileWriter.WriteFile(JsonSerializer.Serialize(bosses, Constants.JsonOptions),
+                                   "bosses.json",
+                                   "locations");
+    }
+
     private static async Task GenerateFieldEmblems(FrozenDictionary<int, string> idToName)
     {
         var ssEmblems = from entry in idToName
@@ -102,16 +175,16 @@ internal static partial class LocationGenerator
                         where entry.Key >= MysticRuinsEmblemsStart && entry.Key < MysticRuinsEmblemsEnd
                         select new Section(entry.Value);
         var ecEmblems = from entry in idToName
-                        where entry.Key >= EggCarrierStart && entry.Key < EggCarrierEnd
+                        where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
                         select new Section(entry.Value);
         var stationSquare = new Location("Field Emblems",
-                                         [new MapLocation("levels", 1792, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation("levels", 1840, 640, LevelsIconSize, BorderThickness)],
                                          ssEmblems);
         var mysticRuins = new Location("Field Emblems",
-                                         [new MapLocation("levels", 1792, 900, LevelsIconSize, BorderThickness)],
-                                         mrEmblems);
+                                       [new MapLocation("levels", 1840, 900, LevelsIconSize, BorderThickness)],
+                                       mrEmblems);
         var eggCarrier = new Location("Field Emblems",
-                                      [new MapLocation("levels", 1792, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation("levels", 1840, 1160, LevelsIconSize, BorderThickness)],
                                       ecEmblems);
         var emblems = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(emblems, Constants.JsonOptions),

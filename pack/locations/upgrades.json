@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Upgrades",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1744,
+                "y": 640,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Light Shoes Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Crystal Ring Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Jet Anklet Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Lure 1 Upgrade Point",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Upgrades",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1744,
+                "y": 900,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Ancient Light Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Rhythm Badge Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Shovel Claw Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Fighting Gloves Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Life Belt Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Power Rod Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Lure 2 Upgrade Point",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Upgrades",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1744,
+                "y": 1160,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Warrior Feather Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Long Hammer Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Jet Booster Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Laser Blaster Upgrade Point",
+                "item_count": 1
+            },
+            {
+                "name": "Lure 4 Upgrade Point",
+                "item_count": 1
+            }
+        ]
+    },
+    {
+        "name": "Upgrades",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1962,
+                "y": 196,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Lure 3 Upgrade Point",
+                "item_count": 1
+            }
+        ]
+    }
+]

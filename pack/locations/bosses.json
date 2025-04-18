@@ -1,10 +1,10 @@
 [
     {
-        "name": "Field Emblems",
+        "name": "Bosses",
         "map_locations": [
             {
                 "map": "levels",
-                "x": 1840,
+                "x": 1792,
                 "y": 640,
                 "size": 32,
                 "border_thickness": 1
@@ -12,29 +12,25 @@
         ],
         "sections": [
             {
-                "name": "Station Emblem",
+                "name": "Chaos 0 (Sonic)",
                 "item_count": 1
             },
             {
-                "name": "Burger Shop Emblem",
+                "name": "Chaos 2 (Knuckles)",
                 "item_count": 1
             },
             {
-                "name": "City Hall Emblem",
-                "item_count": 1
-            },
-            {
-                "name": "Casino Emblem",
+                "name": "Egg Walker (Tails)",
                 "item_count": 1
             }
         ]
     },
     {
-        "name": "Field Emblems",
+        "name": "Bosses",
         "map_locations": [
             {
                 "map": "levels",
-                "x": 1840,
+                "x": 1792,
                 "y": 900,
                 "size": 32,
                 "border_thickness": 1
@@ -42,29 +38,45 @@
         ],
         "sections": [
             {
-                "name": "Tails' Workshop Emblem",
+                "name": "Egg Hornet (Sonic)",
                 "item_count": 1
             },
             {
-                "name": "Shrine Emblem",
+                "name": "Egg Hornet (Tails)",
                 "item_count": 1
             },
             {
-                "name": "Jungle Path Emblem",
+                "name": "Egg Hornet",
                 "item_count": 1
             },
             {
-                "name": "Tree Stump Emblem",
+                "name": "Chaos 4 (Sonic)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4 (Tails)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4 (Knuckles)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4",
+                "item_count": 1
+            },
+            {
+                "name": "Egg Viper (Sonic)",
                 "item_count": 1
             }
         ]
     },
     {
-        "name": "Field Emblems",
+        "name": "Bosses",
         "map_locations": [
             {
                 "map": "levels",
-                "x": 1840,
+                "x": 1792,
                 "y": 1160,
                 "size": 32,
                 "border_thickness": 1
@@ -72,19 +84,31 @@
         ],
         "sections": [
             {
-                "name": "Pool Emblem",
+                "name": "E-101 Beta (Gamma)",
                 "item_count": 1
             },
             {
-                "name": "Spinning Platform Emblem",
+                "name": "Chaos 6 (Sonic)",
                 "item_count": 1
             },
             {
-                "name": "Hidden Bed Emblem",
+                "name": "Chaos 6 (Knuckles)",
                 "item_count": 1
             },
             {
-                "name": "Main Platform Emblem",
+                "name": "Chaos 6 (Big)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 6",
+                "item_count": 1
+            },
+            {
+                "name": "E-101 mkII (Gamma)",
+                "item_count": 1
+            },
+            {
+                "name": "E-100 Zero (Amy)",
                 "item_count": 1
             }
         ]
