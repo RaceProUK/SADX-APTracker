@@ -1,6 +1,6 @@
 [
     {
-        "name": "Emerald Coast (Sonic)",
+        "name": "Enemysanity - Emerald Coast (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -86,7 +86,7 @@
         ]
     },
     {
-        "name": "Windy Valley (Sonic)",
+        "name": "Enemysanity - Windy Valley (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -140,7 +140,7 @@
         ]
     },
     {
-        "name": "Casinopolis (Sonic)",
+        "name": "Enemysanity - Casinopolis (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -194,7 +194,7 @@
         ]
     },
     {
-        "name": "Ice Cap (Sonic)",
+        "name": "Enemysanity - Ice Cap (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -232,7 +232,7 @@
         ]
     },
     {
-        "name": "Twinkle Park (Sonic)",
+        "name": "Enemysanity - Twinkle Park (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -382,7 +382,7 @@
         ]
     },
     {
-        "name": "Speed Highway (Sonic)",
+        "name": "Enemysanity - Speed Highway (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -588,7 +588,7 @@
         ]
     },
     {
-        "name": "Red Mountain (Sonic)",
+        "name": "Enemysanity - Red Mountain (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -846,7 +846,7 @@
         ]
     },
     {
-        "name": "Sky Deck (Sonic)",
+        "name": "Enemysanity - Sky Deck (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1092,7 +1092,7 @@
         ]
     },
     {
-        "name": "Lost World (Sonic)",
+        "name": "Enemysanity - Lost World (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1198,7 +1198,7 @@
         ]
     },
     {
-        "name": "Final Egg (Sonic)",
+        "name": "Enemysanity - Final Egg (Sonic)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1372,7 +1372,7 @@
         ]
     },
     {
-        "name": "Windy Valley (Tails)",
+        "name": "Enemysanity - Windy Valley (Tails)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1398,7 +1398,7 @@
         ]
     },
     {
-        "name": "Casinopolis (Tails)",
+        "name": "Enemysanity - Casinopolis (Tails)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1424,7 +1424,7 @@
         ]
     },
     {
-        "name": "Sky Deck (Tails)",
+        "name": "Enemysanity - Sky Deck (Tails)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1474,7 +1474,7 @@
         ]
     },
     {
-        "name": "Speed Highway (Tails)",
+        "name": "Enemysanity - Speed Highway (Tails)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1612,7 +1612,7 @@
         ]
     },
     {
-        "name": "Speed Highway (Knuckles)",
+        "name": "Enemysanity - Speed Highway (Knuckles)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1690,7 +1690,7 @@
         ]
     },
     {
-        "name": "Casinopolis (Knuckles)",
+        "name": "Enemysanity - Casinopolis (Knuckles)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1768,7 +1768,7 @@
         ]
     },
     {
-        "name": "Red Mountain (Knuckles)",
+        "name": "Enemysanity - Red Mountain (Knuckles)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1870,7 +1870,7 @@
         ]
     },
     {
-        "name": "Lost World (Knuckles)",
+        "name": "Enemysanity - Lost World (Knuckles)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -1924,7 +1924,7 @@
         ]
     },
     {
-        "name": "Sky Deck (Knuckles)",
+        "name": "Enemysanity - Sky Deck (Knuckles)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2002,7 +2002,7 @@
         ]
     },
     {
-        "name": "Twinkle Park (Amy)",
+        "name": "Enemysanity - Twinkle Park (Amy)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2080,7 +2080,7 @@
         ]
     },
     {
-        "name": "Hot Shelter (Amy)",
+        "name": "Enemysanity - Hot Shelter (Amy)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2218,7 +2218,7 @@
         ]
     },
     {
-        "name": "Final Egg (Amy)",
+        "name": "Enemysanity - Final Egg (Amy)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2260,7 +2260,7 @@
         ]
     },
     {
-        "name": "Final Egg (Gamma)",
+        "name": "Enemysanity - Final Egg (Gamma)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2282,7 +2282,7 @@
         ]
     },
     {
-        "name": "Emerald Coast (Gamma)",
+        "name": "Enemysanity - Emerald Coast (Gamma)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2412,7 +2412,7 @@
         ]
     },
     {
-        "name": "Windy Valley (Gamma)",
+        "name": "Enemysanity - Windy Valley (Gamma)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2470,7 +2470,7 @@
         ]
     },
     {
-        "name": "Red Mountain (Gamma)",
+        "name": "Enemysanity - Red Mountain (Gamma)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -2688,7 +2688,7 @@
         ]
     },
     {
-        "name": "Hot Shelter (Gamma)",
+        "name": "Enemysanity - Hot Shelter (Gamma)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -3170,7 +3170,7 @@
         ]
     },
     {
-        "name": "Twinkle Park (Big)",
+        "name": "Enemysanity - Twinkle Park (Big)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -3200,7 +3200,7 @@
         ]
     },
     {
-        "name": "Emerald Coast (Big)",
+        "name": "Enemysanity - Emerald Coast (Big)",
         "map_locations": [
             {
                 "map": "enemies",
@@ -3226,7 +3226,7 @@
         ]
     },
     {
-        "name": "Hot Shelter (Big)",
+        "name": "Enemysanity - Hot Shelter (Big)",
         "map_locations": [
             {
                 "map": "enemies",

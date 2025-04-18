@@ -23,13 +23,13 @@ internal static partial class LocationGenerator
         var ecUpgrades = from entry in dict
                          where entry.Key == BlackEgg
                          select new Section(entry.Value);
-        var stationSquare = new Location("Chao Egg",
+        var stationSquare = new Location("Station Square Chao Egg",
                                          [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
                                          ssUpgrades);
-        var mysticRuins = new Location("Chao Egg",
+        var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
                                        mrUpgrades);
-        var eggCarrier = new Location("Chao Egg",
+        var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
                                       ecUpgrades);
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Chao Egg",
+        "name": "Station Square Chao Egg",
         "map_locations": [
             {
                 "map": "levels",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "name": "Chao Egg",
+        "name": "Mystic Ruins Chao Egg",
         "map_locations": [
             {
                 "map": "levels",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "name": "Chao Egg",
+        "name": "Egg Carrier Chao Egg",
         "map_locations": [
             {
                 "map": "levels",

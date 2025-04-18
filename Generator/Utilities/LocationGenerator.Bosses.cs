@@ -26,13 +26,13 @@ internal static partial class LocationGenerator
         var ecBosses = from entry in dict
                        where entry.Key >= EggCarrierBossesStart && entry.Key < EggCarrierBossesEnd
                        select new Section(TrimBossName(entry.Value));
-        var stationSquare = new Location("Bosses",
+        var stationSquare = new Location("Siation Square Bosses",
                                          [new MapLocation("levels", 1768, 640, LevelsIconSize, BorderThickness)],
                                          [.. ssBosses, new Section("Perfect Chaos")]);
-        var mysticRuins = new Location("Bosses",
+        var mysticRuins = new Location("Mystic Ruins Bosses",
                                        [new MapLocation("levels", 1768, 900, LevelsIconSize, BorderThickness)],
                                        mrBosses);
-        var eggCarrier = new Location("Bosses",
+        var eggCarrier = new Location("Egg Carrier Bosses",
                                       [new MapLocation("levels", 1768, 1160, LevelsIconSize, BorderThickness)],
                                       ecBosses);
         var bosses = new[] { stationSquare, mysticRuins, eggCarrier };

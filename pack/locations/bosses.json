@@ -1,6 +1,6 @@
 [
     {
-        "name": "Bosses",
+        "name": "Siation Square Bosses",
         "map_locations": [
             {
                 "map": "levels",
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "name": "Bosses",
+        "name": "Mystic Ruins Bosses",
         "map_locations": [
             {
                 "map": "levels",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "name": "Bosses",
+        "name": "Egg Carrier Bosses",
         "map_locations": [
             {
                 "map": "levels",

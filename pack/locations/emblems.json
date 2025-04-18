@@ -1,6 +1,6 @@
 [
     {
-        "name": "Field Emblems",
+        "name": "Station Square Field Emblems",
         "map_locations": [
             {
                 "map": "levels",
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "name": "Field Emblems",
+        "name": "Mystic Ruins Field Emblems",
         "map_locations": [
             {
                 "map": "levels",
@@ -60,7 +60,7 @@
         ]
     },
     {
-        "name": "Field Emblems",
+        "name": "Egg Carrier Field Emblems",
         "map_locations": [
             {
                 "map": "levels",

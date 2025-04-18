@@ -42,16 +42,16 @@ internal static partial class LocationGenerator
         var icUpgrades = from entry in dict
                          where icUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
-        var stationSquare = new Location("Upgrades",
+        var stationSquare = new Location("Station Square Upgrades",
                                          [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
                                          ssUpgrades);
-        var mysticRuins = new Location("Upgrades",
+        var mysticRuins = new Location("Mystic Ruins Upgrades",
                                        [new MapLocation("levels", 1722, 900, LevelsIconSize, BorderThickness)],
                                        mrUpgrades);
-        var eggCarrier = new Location("Upgrades",
+        var eggCarrier = new Location("Egg Carrier Upgrades",
                                       [new MapLocation("levels", 1722, 1160, LevelsIconSize, BorderThickness)],
                                       ecUpgrades);
-        var iceCap = new Location("Upgrades",
+        var iceCap = new Location("Ice Cap Upgrade",
                                   [new MapLocation("levels", 1936, 192, LevelsIconSize, BorderThickness)],
                                   icUpgrades);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };

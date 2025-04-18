@@ -38,7 +38,7 @@ internal static partial class LocationGenerator
             var capsules = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in capsules
                    let y = y0 + 128 * level.Multipler
-                   select new Location(level.Location.Key,
+                   select new Location($"Capsulesanity - {level.Location.Key}",
                                        [new MapLocation("capsules", x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location select new Section(section));
         }

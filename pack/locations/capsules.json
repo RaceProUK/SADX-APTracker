@@ -1,6 +1,6 @@
 [
     {
-        "name": "Emerald Coast (Sonic)",
+        "name": "Capsulesanity - Emerald Coast (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -94,7 +94,7 @@
         ]
     },
     {
-        "name": "Windy Valley (Sonic)",
+        "name": "Capsulesanity - Windy Valley (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "name": "Casinopolis (Sonic)",
+        "name": "Capsulesanity - Casinopolis (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -398,7 +398,7 @@
         ]
     },
     {
-        "name": "Ice Cap (Sonic)",
+        "name": "Capsulesanity - Ice Cap (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -448,7 +448,7 @@
         ]
     },
     {
-        "name": "Twinkle Park (Sonic)",
+        "name": "Capsulesanity - Twinkle Park (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -622,7 +622,7 @@
         ]
     },
     {
-        "name": "Speed Highway (Sonic)",
+        "name": "Capsulesanity - Speed Highway (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -808,7 +808,7 @@
         ]
     },
     {
-        "name": "Red Mountain (Sonic)",
+        "name": "Capsulesanity - Red Mountain (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -938,7 +938,7 @@
         ]
     },
     {
-        "name": "Sky Deck (Sonic)",
+        "name": "Capsulesanity - Sky Deck (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -1216,7 +1216,7 @@
         ]
     },
     {
-        "name": "Lost World (Sonic)",
+        "name": "Capsulesanity - Lost World (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -1322,7 +1322,7 @@
         ]
     },
     {
-        "name": "Final Egg (Sonic)",
+        "name": "Capsulesanity - Final Egg (Sonic)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -1580,7 +1580,7 @@
         ]
     },
     {
-        "name": "Windy Valley (Tails)",
+        "name": "Capsulesanity - Windy Valley (Tails)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -1634,7 +1634,7 @@
         ]
     },
     {
-        "name": "Casinopolis (Tails)",
+        "name": "Capsulesanity - Casinopolis (Tails)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -1816,7 +1816,7 @@
         ]
     },
     {
-        "name": "Sky Deck (Tails)",
+        "name": "Capsulesanity - Sky Deck (Tails)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -1974,7 +1974,7 @@
         ]
     },
     {
-        "name": "Speed Highway (Tails)",
+        "name": "Capsulesanity - Speed Highway (Tails)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2080,7 +2080,7 @@
         ]
     },
     {
-        "name": "Speed Highway (Knuckles)",
+        "name": "Capsulesanity - Speed Highway (Knuckles)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2126,7 +2126,7 @@
         ]
     },
     {
-        "name": "Casinopolis (Knuckles)",
+        "name": "Capsulesanity - Casinopolis (Knuckles)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2204,7 +2204,7 @@
         ]
     },
     {
-        "name": "Red Mountain (Knuckles)",
+        "name": "Capsulesanity - Red Mountain (Knuckles)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2310,7 +2310,7 @@
         ]
     },
     {
-        "name": "Lost World (Knuckles)",
+        "name": "Capsulesanity - Lost World (Knuckles)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2352,7 +2352,7 @@
         ]
     },
     {
-        "name": "Sky Deck (Knuckles)",
+        "name": "Capsulesanity - Sky Deck (Knuckles)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2414,7 +2414,7 @@
         ]
     },
     {
-        "name": "Twinkle Park (Amy)",
+        "name": "Capsulesanity - Twinkle Park (Amy)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2464,7 +2464,7 @@
         ]
     },
     {
-        "name": "Hot Shelter (Amy)",
+        "name": "Capsulesanity - Hot Shelter (Amy)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2626,7 +2626,7 @@
         ]
     },
     {
-        "name": "Final Egg (Amy)",
+        "name": "Capsulesanity - Final Egg (Amy)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2668,7 +2668,7 @@
         ]
     },
     {
-        "name": "Final Egg (Gamma)",
+        "name": "Capsulesanity - Final Egg (Gamma)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2722,7 +2722,7 @@
         ]
     },
     {
-        "name": "Emerald Coast (Gamma)",
+        "name": "Capsulesanity - Emerald Coast (Gamma)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2788,7 +2788,7 @@
         ]
     },
     {
-        "name": "Windy Valley (Gamma)",
+        "name": "Capsulesanity - Windy Valley (Gamma)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2842,7 +2842,7 @@
         ]
     },
     {
-        "name": "Red Mountain (Gamma)",
+        "name": "Capsulesanity - Red Mountain (Gamma)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -2896,7 +2896,7 @@
         ]
     },
     {
-        "name": "Hot Shelter (Gamma)",
+        "name": "Capsulesanity - Hot Shelter (Gamma)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -3042,7 +3042,7 @@
         ]
     },
     {
-        "name": "Twinkle Park (Big)",
+        "name": "Capsulesanity - Twinkle Park (Big)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -3064,7 +3064,7 @@
         ]
     },
     {
-        "name": "Ice Cap (Big)",
+        "name": "Capsulesanity - Ice Cap (Big)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -3126,7 +3126,7 @@
         ]
     },
     {
-        "name": "Emerald Coast (Big)",
+        "name": "Capsulesanity - Emerald Coast (Big)",
         "map_locations": [
             {
                 "map": "capsules",
@@ -3148,7 +3148,7 @@
         ]
     },
     {
-        "name": "Hot Shelter (Big)",
+        "name": "Capsulesanity - Hot Shelter (Big)",
         "map_locations": [
             {
                 "map": "capsules",

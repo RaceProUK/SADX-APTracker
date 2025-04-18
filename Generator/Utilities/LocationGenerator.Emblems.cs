@@ -24,13 +24,13 @@ internal static partial class LocationGenerator
         var ecEmblems = from entry in dict
                         where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
                         select new Section(entry.Value);
-        var stationSquare = new Location("Field Emblems",
+        var stationSquare = new Location("Station Square Field Emblems",
                                          [new MapLocation("levels", 1816, 640, LevelsIconSize, BorderThickness)],
                                          ssEmblems);
-        var mysticRuins = new Location("Field Emblems",
+        var mysticRuins = new Location("Mystic Ruins Field Emblems",
                                        [new MapLocation("levels", 1816, 900, LevelsIconSize, BorderThickness)],
                                        mrEmblems);
-        var eggCarrier = new Location("Field Emblems",
+        var eggCarrier = new Location("Egg Carrier Field Emblems",
                                       [new MapLocation("levels", 1816, 1160, LevelsIconSize, BorderThickness)],
                                       ecEmblems);
         var emblems = new[] { stationSquare, mysticRuins, eggCarrier };
