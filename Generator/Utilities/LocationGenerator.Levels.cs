@@ -33,9 +33,11 @@ internal static partial class LocationGenerator
             var levels = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in levels
                    let y = y0 + 128 * level.Multipler
+                   let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location(level.Location.Key,
                                        [new MapLocation("levels", x, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section));
+                                       from section in level.Location select new Section(section),
+                                       VisibilityRules: [$"{character}Playable"]);
         }
 
         var sonicLevels = GetLevels(dict, SonicLevelsStart, SonicLevelsEnd, 58, 64);

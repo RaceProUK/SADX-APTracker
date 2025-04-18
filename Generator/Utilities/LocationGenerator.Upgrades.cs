@@ -26,22 +26,36 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateUpgrades(FrozenDictionary<int, string> dict)
     {
+        static string GetUpgradeCharacter(int number) => number switch
+        {
+            LightShoes or CrystalRing or AncientLight => "Sonic",
+            JetAnklet or RhythmBadge => "Tails",
+            ShovelClaw or FightingGloves => "Knuckles",
+            WarriorFeather or LongHammer => "Amy",
+            JetBooster or LaserBlaster => "Gamma",
+            _ => "Big"
+        };
+
         var ssUpgradeIds = new[] { LightShoes, CrystalRing, JetAnklet, Lure1 };
         var mrUpgradeIds = new[] { AncientLight, RhythmBadge, ShovelClaw, FightingGloves, LifeBelt, PowerRod, Lure2 };
         var ecUpgradeIds = new[] { WarriorFeather, LongHammer, JetBooster, LaserBlaster, Lure4 };
         var icUpgradeIds = new[] { Lure3 };
         var ssUpgrades = from entry in dict
                          where ssUpgradeIds.Contains(entry.Key)
-                         select new Section(entry.Value);
+                         select new Section(entry.Value,
+                                            VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var mrUpgrades = from entry in dict
                          where mrUpgradeIds.Contains(entry.Key)
-                         select new Section(entry.Value);
+                         select new Section(entry.Value,
+                                            VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var ecUpgrades = from entry in dict
                          where ecUpgradeIds.Contains(entry.Key)
-                         select new Section(entry.Value);
+                         select new Section(entry.Value,
+                                            VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var icUpgrades = from entry in dict
                          where icUpgradeIds.Contains(entry.Key)
-                         select new Section(entry.Value);
+                         select new Section(entry.Value,
+                                            VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var stationSquare = new Location("Station Square Upgrades",
                                          [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
                                          ssUpgrades);

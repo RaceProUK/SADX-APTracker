@@ -13,19 +13,31 @@
         "sections": [
             {
                 "name": "Light Shoes Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicPlayable"
+                ]
             },
             {
                 "name": "Crystal Ring Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicPlayable"
+                ]
             },
             {
                 "name": "Jet Anklet Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsPlayable"
+                ]
             },
             {
                 "name": "Lure 1 Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigPlayable"
+                ]
             }
         ]
     },
@@ -43,31 +55,52 @@
         "sections": [
             {
                 "name": "Ancient Light Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicPlayable"
+                ]
             },
             {
                 "name": "Rhythm Badge Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsPlayable"
+                ]
             },
             {
                 "name": "Shovel Claw Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesPlayable"
+                ]
             },
             {
                 "name": "Fighting Gloves Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesPlayable"
+                ]
             },
             {
                 "name": "Life Belt Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigPlayable"
+                ]
             },
             {
                 "name": "Power Rod Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigPlayable"
+                ]
             },
             {
                 "name": "Lure 2 Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigPlayable"
+                ]
             }
         ]
     },
@@ -85,23 +118,38 @@
         "sections": [
             {
                 "name": "Warrior Feather Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyPlayable"
+                ]
             },
             {
                 "name": "Long Hammer Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyPlayable"
+                ]
             },
             {
                 "name": "Jet Booster Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaPlayable"
+                ]
             },
             {
                 "name": "Laser Blaster Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaPlayable"
+                ]
             },
             {
                 "name": "Lure 4 Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigPlayable"
+                ]
             }
         ]
     },
@@ -119,7 +167,10 @@
         "sections": [
             {
                 "name": "Lure 3 Upgrade Point",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigPlayable"
+                ]
             }
         ]
     }

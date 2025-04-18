@@ -23,6 +23,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -49,6 +52,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -75,6 +81,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -101,6 +110,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -127,6 +139,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -153,6 +168,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -179,6 +197,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -205,6 +226,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -231,6 +255,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -257,6 +284,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SonicPlayable"
         ]
     },
     {
@@ -283,6 +313,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "TailsPlayable"
         ]
     },
     {
@@ -309,6 +342,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "TailsPlayable"
         ]
     },
     {
@@ -335,6 +371,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "TailsPlayable"
         ]
     },
     {
@@ -361,6 +400,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "TailsPlayable"
         ]
     },
     {
@@ -387,6 +429,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "TailsPlayable"
         ]
     },
     {
@@ -413,6 +458,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "KnucklesPlayable"
         ]
     },
     {
@@ -439,6 +487,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "KnucklesPlayable"
         ]
     },
     {
@@ -465,6 +516,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "KnucklesPlayable"
         ]
     },
     {
@@ -491,6 +545,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "KnucklesPlayable"
         ]
     },
     {
@@ -517,6 +574,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "KnucklesPlayable"
         ]
     },
     {
@@ -543,6 +603,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "AmyPlayable"
         ]
     },
     {
@@ -569,6 +632,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "AmyPlayable"
         ]
     },
     {
@@ -595,6 +661,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "AmyPlayable"
         ]
     },
     {
@@ -621,6 +690,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "GammaPlayable"
         ]
     },
     {
@@ -647,6 +719,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "GammaPlayable"
         ]
     },
     {
@@ -673,6 +748,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "GammaPlayable"
         ]
     },
     {
@@ -699,6 +777,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "GammaPlayable"
         ]
     },
     {
@@ -725,6 +806,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "GammaPlayable"
         ]
     },
     {
@@ -751,6 +835,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "BigPlayable"
         ]
     },
     {
@@ -777,6 +864,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "BigPlayable"
         ]
     },
     {
@@ -803,6 +893,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "BigPlayable"
         ]
     },
     {
@@ -829,6 +922,9 @@
                 "name": "Mission C",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "BigPlayable"
         ]
     }
 ]

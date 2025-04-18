@@ -35,13 +35,16 @@ internal static partial class LocationGenerator
                          select new Section(mission);
         var skyChase1 = new Location("Sky Chase Act 1",
                                      [new MapLocation("levels", 1082, 1056, LevelsIconSize, BorderThickness)],
-                                     sc1Missions);
+                                     sc1Missions,
+                                     VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var skyChase2 = new Location("Sky Chase Act 2",
                                      [new MapLocation("levels", 1082, 1120, LevelsIconSize, BorderThickness)],
-                                     sc2Missions);
+                                     sc2Missions,
+                                     VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var sandHill = new Location("Sand Hill",
                                     [new MapLocation("levels", 1082, 1184, LevelsIconSize, BorderThickness)],
-                                    shMissions);
+                                    shMissions,
+                                    VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var twinkleCircuit = new Location("Twinkle Circuit",
                                           [new MapLocation("levels", 1082, 1248, LevelsIconSize, BorderThickness)],
                                           tcMissions);
