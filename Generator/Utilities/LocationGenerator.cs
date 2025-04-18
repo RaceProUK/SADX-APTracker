@@ -131,7 +131,7 @@ internal static partial class LocationGenerator
                                       [new MapLocation("levels", 1722, 1160, LevelsIconSize, BorderThickness)],
                                       ecUpgrades);
         var iceCap = new Location("Upgrades",
-                                  [new MapLocation("levels", 1936, 196, LevelsIconSize, BorderThickness)],
+                                  [new MapLocation("levels", 1936, 192, LevelsIconSize, BorderThickness)],
                                   icUpgrades);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
