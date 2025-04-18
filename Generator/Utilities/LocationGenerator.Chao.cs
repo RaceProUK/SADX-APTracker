@@ -25,13 +25,16 @@ internal static partial class LocationGenerator
                          select new Section(entry.Value);
         var stationSquare = new Location("Station Square Chao Egg",
                                          [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
-                                         ssUpgrades);
+                                         ssUpgrades,
+                                         VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
-                                       mrUpgrades);
+                                       mrUpgrades,
+                                       VisibilityRules: ["SecretChaoEggs"]);
         var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
-                                      ecUpgrades);
+                                      ecUpgrades,
+                                      VisibilityRules: ["SecretChaoEggs"]);
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),
                                    "chaoEggs.json",
@@ -44,7 +47,8 @@ internal static partial class LocationGenerator
                                      [new MapLocation("levels", 1912, 640, LevelsIconSize, BorderThickness)],
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
-                                     select new Section(entry.Value));
+                                     select new Section(entry.Value),
+                                     VisibilityRules: ["ChaoRacesRequired"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(new[] { chaoRaces }, Constants.JsonOptions),
                                    "chaoRaces.json",
                                    "locations");

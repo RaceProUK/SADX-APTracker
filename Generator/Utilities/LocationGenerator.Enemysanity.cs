@@ -39,9 +39,11 @@ internal static partial class LocationGenerator
             var enemies = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in enemies
                    let y = y0 + 128 * level.Multipler
+                   let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location($"Enemysanity - {level.Location.Key}",
                                        [new MapLocation("enemies", x, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section));
+                                       from section in level.Location select new Section(section),
+                                       VisibilityRules: [$"{character}Playable,Enemysanity,{character}Enemysanity"]);
         }
 
         var sonicEnemies = GetEnemies(dict, SonicEnemiesStart, SonicEnemiesEnd, 58, 64);

@@ -15,6 +15,9 @@
                 "name": "Gold Chao Egg",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs"
         ]
     },
     {
@@ -33,6 +36,9 @@
                 "name": "Silver Chao Egg",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs"
         ]
     },
     {
@@ -51,6 +57,9 @@
                 "name": "Black Chao Egg",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs"
         ]
     }
 ]

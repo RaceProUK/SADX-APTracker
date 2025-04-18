@@ -77,6 +77,7 @@ internal static class Constants
     internal static readonly JsonSerializerOptions JsonOptions = new()
     {
         Converters = { new ItemConverter() },
+        DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
         Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
         PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
         WriteIndented = true,

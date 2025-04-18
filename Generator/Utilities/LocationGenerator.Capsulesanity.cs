@@ -38,9 +38,11 @@ internal static partial class LocationGenerator
             var capsules = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in capsules
                    let y = y0 + 128 * level.Multipler
+                   let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location($"Capsulesanity - {level.Location.Key}",
                                        [new MapLocation("capsules", x, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section));
+                                       from section in level.Location select new Section(section),
+                                       VisibilityRules: [$"{character}Playable,Capsulesanity,{character}Capsulesanity"]);
         }
 
         var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, 58, 64);
