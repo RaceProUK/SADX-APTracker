@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Chao Races",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 0,
+                "y": 0,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Pearl Course",
+                "item_count": 1
+            },
+            {
+                "name": "Amethyst Course",
+                "item_count": 1
+            },
+            {
+                "name": "Sapphire Course",
+                "item_count": 1
+            },
+            {
+                "name": "Ruby Course",
+                "item_count": 1
+            },
+            {
+                "name": "Emerald Course",
+                "item_count": 1
+            }
+        ]
+    }
+]

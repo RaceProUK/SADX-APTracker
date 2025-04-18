@@ -1,0 +1,62 @@
+﻿using System.Collections.Frozen;
+using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models.PopTracker;
+
+namespace RPS.SADX.PopTracker.Generator.Utilities;
+
+internal static partial class LocationGenerator
+{
+    private const int LightShoes = 543800100;
+    private const int CrystalRing = 543800101;
+    private const int AncientLight = 543800102;
+    private const int JetAnklet = 543800200;
+    private const int RhythmBadge = 543800201;
+    private const int ShovelClaw = 543800300;
+    private const int FightingGloves = 543800301;
+    private const int WarriorFeather = 543800400;
+    private const int LongHammer = 543800401;
+    private const int JetBooster = 543800500;
+    private const int LaserBlaster = 543800501;
+    private const int LifeBelt = 543800600;
+    private const int PowerRod = 543800601;
+    private const int Lure1 = 543800602;
+    private const int Lure2 = 543800603;
+    private const int Lure3 = 543800604;
+    private const int Lure4 = 543800605;
+
+    private static async Task GenerateUpgrades(FrozenDictionary<int, string> dict)
+    {
+        var ssUpgradeIds = new[] { LightShoes, CrystalRing, JetAnklet, Lure1 };
+        var mrUpgradeIds = new[] { AncientLight, RhythmBadge, ShovelClaw, FightingGloves, LifeBelt, PowerRod, Lure2 };
+        var ecUpgradeIds = new[] { WarriorFeather, LongHammer, JetBooster, LaserBlaster, Lure4 };
+        var icUpgradeIds = new[] { Lure3 };
+        var ssUpgrades = from entry in dict
+                         where ssUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var mrUpgrades = from entry in dict
+                         where mrUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var ecUpgrades = from entry in dict
+                         where ecUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var icUpgrades = from entry in dict
+                         where icUpgradeIds.Contains(entry.Key)
+                         select new Section(entry.Value);
+        var stationSquare = new Location("Upgrades",
+                                         [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
+                                         ssUpgrades);
+        var mysticRuins = new Location("Upgrades",
+                                       [new MapLocation("levels", 1722, 900, LevelsIconSize, BorderThickness)],
+                                       mrUpgrades);
+        var eggCarrier = new Location("Upgrades",
+                                      [new MapLocation("levels", 1722, 1160, LevelsIconSize, BorderThickness)],
+                                      ecUpgrades);
+        var iceCap = new Location("Upgrades",
+                                  [new MapLocation("levels", 1936, 192, LevelsIconSize, BorderThickness)],
+                                  icUpgrades);
+        var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
+        await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
+                                   "upgrades.json",
+                                   "locations");
+    }
+}
