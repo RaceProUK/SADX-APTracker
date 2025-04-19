@@ -16,7 +16,7 @@ internal static partial class ItemGenerator
     private const int EmeraldsStart = 543800092;
     private const int TrapsStart = 543800100;
     private const int Keys2Start = 543800120;
-    private const int RangeEnd = 543800122;
+    private const int Keys2End = 543800125;
 
     internal static async Task Generate(IDictionary<string, int> dict)
     {
@@ -76,7 +76,7 @@ internal static partial class ItemGenerator
                     let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value, code, $"images/keys/{code}.png");
         var keys2 = from entry in dict
-                    where entry.Key >= Keys2Start && entry.Key < RangeEnd
+                    where entry.Key >= Keys2Start && entry.Key < Keys2End
                     let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value, code, $"images/keys/{code}.png");
         var keys = keys1.Union(keys2);

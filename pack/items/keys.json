@@ -18,16 +18,16 @@
         "codes": "Raft"
     },
     {
-        "img": "images/keys/HotelKeys.png",
-        "name": "Hotel Keys",
+        "img": "images/keys/HotelFrontKey.png",
+        "name": "Hotel Front Key",
         "type": "toggle",
-        "codes": "HotelKeys"
+        "codes": "HotelFrontKey"
     },
     {
-        "img": "images/keys/CasinoDistrictKeys.png",
-        "name": "Casino District Keys",
+        "img": "images/keys/HotelBackKey.png",
+        "name": "Hotel Back Key",
         "type": "toggle",
-        "codes": "CasinoDistrictKeys"
+        "codes": "HotelBackKey"
     },
     {
         "img": "images/keys/TwinkleParkTicket.png",
@@ -66,9 +66,27 @@
         "codes": "WindStone"
     },
     {
-        "img": "images/keys/StationKeys.png",
-        "name": "Station Keys",
+        "img": "images/keys/StationFrontKey.png",
+        "name": "Station Front Key",
         "type": "toggle",
-        "codes": "StationKeys"
+        "codes": "StationFrontKey"
+    },
+    {
+        "img": "images/keys/StationBackKey.png",
+        "name": "Station Back Key",
+        "type": "toggle",
+        "codes": "StationBackKey"
+    },
+    {
+        "img": "images/keys/Egglift.png",
+        "name": "Egglift",
+        "type": "toggle",
+        "codes": "Egglift"
+    },
+    {
+        "img": "images/keys/Monorail.png",
+        "name": "Monorail",
+        "type": "toggle",
+        "codes": "Monorail"
     }
 ]

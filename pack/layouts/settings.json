@@ -15,9 +15,9 @@
                 "ChaoRacesRequired"
             ],
             [
-                "",
-                "FieldEmblemChecks",
                 "SecretChaoEggs",
+                "FieldEmblemChecks",
+                "UnifyTwinkleCircuit",
                 "UnifyEggHornet",
                 "UnifyChaos4",
                 "UnifyChaos6",

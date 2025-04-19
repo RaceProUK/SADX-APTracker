@@ -90,12 +90,53 @@
         ],
         "sections": [
             {
-                "name": "Mission B",
-                "item_count": 1
+                "name": "Set a Record",
+                "item_count": 1,
+                "visibility_rules": [
+                    "UnifyTwinkleCircuit"
+                ]
             },
             {
-                "name": "Mission A",
-                "item_count": 1
+                "name": "Set a Record as Sonic",
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyTwinkleCircuit,SonicPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Tails",
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyTwinkleCircuit,TailsPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Knuckles",
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyTwinkleCircuit,KnucklesPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Amy",
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyTwinkleCircuit,AmyPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Big",
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyTwinkleCircuit,BigPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Gamma",
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyTwinkleCircuit,GammaPlayable"
+                ]
             }
         ]
     }

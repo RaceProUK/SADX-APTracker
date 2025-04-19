@@ -27,9 +27,10 @@ internal static partial class ItemGenerator
 
             new ToggleItem("Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("SecretChaoEggs")),
             new ToggleItem("Include Field Emblem Checks", "FieldEmblemChecks", MakeImgPath("FieldEmblemChecks")),
-            new ToggleItem("UnifyEggHornet", "UnifyEggHornet", MakeImgPath("UnifyEggHornet")),
-            new ToggleItem("UnifyChaos4", "UnifyChaos4", MakeImgPath("UnifyChaos4")),
-            new ToggleItem("UnifyChaos6", "UnifyChaos6", MakeImgPath("UnifyChaos6")),
+            new ToggleItem("Unify Twinkle Circuit", "UnifyTwinkleCircuit", MakeImgPath("UnifyTwinkleCircuit")),
+            new ToggleItem("Unify Egg Hornet", "UnifyEggHornet", MakeImgPath("UnifyEggHornet")),
+            new ToggleItem("Unify Chaos 4", "UnifyChaos4", MakeImgPath("UnifyChaos4")),
+            new ToggleItem("Unify Chaos 6", "UnifyChaos6", MakeImgPath("UnifyChaos6")),
             new CollectibleItem("Levels Required for Chao Races", "ChaoRacesAccessLevels", MakeImgPath("ChaoRacesAccessLevels"), 128),
 
             new ToggleItem("Sonic Playable", "SonicPlayable", MakeImgPath("SonicPlayable")),

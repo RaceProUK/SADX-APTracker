@@ -17,8 +17,8 @@ internal static partial class LocationGenerator
     [GeneratedRegex("(\\d+)")]
     private static partial Regex NumberParser();
 
-    [GeneratedRegex("(Mission [SABC])")]
-    private static partial Regex MissionParser();
+    [GeneratedRegex("Sub-Level - ([A-Za-z ]+)")]
+    private static partial Regex SublevelParser();
 
     internal static async Task Generate(IDictionary<string, int> dict)
     {

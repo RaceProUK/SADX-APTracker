@@ -8,15 +8,20 @@
             [
                 "TwinkleParkTicket",
                 "EmployeeCard",
-                "StationKeys",
-                "HotelKeys",
-                "CasinoDistrictKeys"
+                "HotelFrontKey",
+                "HotelBackKey",
+                "StationFrontKey",
+                "StationBackKey"
             ],
             [
                 "WindStone",
                 "IceStone",
                 "Dynamite",
                 "JungleCart"
+            ],
+            [
+                "Egglift",
+                "Monorail"
             ],
             [
                 "Train",

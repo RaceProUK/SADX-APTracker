@@ -14,8 +14,9 @@
             [
                 "PlayableTails",
                 "JetAnklet",
-                "RhythmBadge",
-                "",
+                "RhythmBadge"
+            ],
+            [
                 "PlayableKnuckles",
                 "ShovelClaw",
                 "FightingGloves"
@@ -23,8 +24,9 @@
             [
                 "PlayableAmy",
                 "WarriorFeather",
-                "LongHammer",
-                "",
+                "LongHammer"
+            ],
+            [
                 "PlayableGamma",
                 "JetBooster",
                 "LaserBlaster"
@@ -32,7 +34,10 @@
             [
                 "PlayableBig",
                 "LifeBelt",
-                "PowerRod",
+                "PowerRod"
+            ],
+            [
+                "",
                 "Lure1",
                 "Lure2",
                 "Lure3",

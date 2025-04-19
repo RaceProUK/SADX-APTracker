@@ -90,20 +90,26 @@
         "codes": "FieldEmblemChecks"
     },
     {
+        "img": "images/settings/UnifyTwinkleCircuit.png",
+        "name": "Unify Twinkle Circuit",
+        "type": "toggle",
+        "codes": "UnifyTwinkleCircuit"
+    },
+    {
         "img": "images/settings/UnifyEggHornet.png",
-        "name": "UnifyEggHornet",
+        "name": "Unify Egg Hornet",
         "type": "toggle",
         "codes": "UnifyEggHornet"
     },
     {
         "img": "images/settings/UnifyChaos4.png",
-        "name": "UnifyChaos4",
+        "name": "Unify Chaos 4",
         "type": "toggle",
         "codes": "UnifyChaos4"
     },
     {
         "img": "images/settings/UnifyChaos6.png",
-        "name": "UnifyChaos6",
+        "name": "Unify Chaos 6",
         "type": "toggle",
         "codes": "UnifyChaos6"
     },

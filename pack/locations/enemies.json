@@ -233,10 +233,6 @@
             {
                 "name": "Enemy 05 (Ice Ball)",
                 "item_count": 1
-            },
-            {
-                "name": "Enemy 06 (Ice Ball)",
-                "item_count": 1
             }
         ],
         "visibility_rules": [

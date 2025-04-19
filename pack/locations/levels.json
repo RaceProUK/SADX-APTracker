@@ -22,6 +22,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -50,6 +54,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -80,6 +88,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -108,6 +120,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -138,6 +154,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -166,6 +186,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -196,6 +220,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -224,6 +252,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -254,6 +286,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -282,6 +318,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -312,6 +352,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -340,6 +384,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -370,6 +418,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -398,6 +450,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -428,6 +484,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -456,6 +516,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -486,6 +550,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -514,6 +582,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -544,6 +616,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -572,6 +648,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -602,6 +682,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -630,6 +714,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -660,6 +748,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -688,6 +780,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -718,6 +814,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -746,6 +846,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -776,6 +880,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -804,6 +912,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -834,6 +946,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -862,6 +978,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
@@ -892,6 +1012,10 @@
             {
                 "name": "Mission C",
                 "item_count": 1
+            },
+            {
+                "name": "Mission S",
+                "item_count": 1
             }
         ],
         "visibility_rules": [
@@ -920,6 +1044,10 @@
             },
             {
                 "name": "Mission C",
+                "item_count": 1
+            },
+            {
+                "name": "Mission S",
                 "item_count": 1
             }
         ],
