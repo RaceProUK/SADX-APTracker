@@ -13,15 +13,24 @@
         "sections": [
             {
                 "name": "Chaos 0 (Sonic)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicPlayable"
+                ]
             },
             {
                 "name": "Chaos 2 (Knuckles)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesPlayable"
+                ]
             },
             {
                 "name": "Egg Walker (Tails)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsPlayable"
+                ]
             },
             {
                 "name": "Perfect Chaos",
@@ -43,35 +52,62 @@
         "sections": [
             {
                 "name": "Egg Hornet (Sonic)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyEggHornet,SonicPlayable"
+                ]
             },
             {
                 "name": "Egg Hornet (Tails)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyEggHornet,TailsPlayable"
+                ]
             },
             {
                 "name": "Egg Hornet",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "UnifyEggHornet,SonicPlayable",
+                    "UnifyEggHornet,TailsPlayable"
+                ]
             },
             {
                 "name": "Chaos 4 (Sonic)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyChaos4,SonicPlayable"
+                ]
             },
             {
                 "name": "Chaos 4 (Tails)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyChaos4,TailsPlayable"
+                ]
             },
             {
                 "name": "Chaos 4 (Knuckles)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyChaos4,KnucklesPlayable"
+                ]
             },
             {
                 "name": "Chaos 4",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "UnifyChaos4,SonicPlayable",
+                    "UnifyChaos4,TailsPlayable",
+                    "UnifyChaos4,KnucklesPlayable"
+                ]
             },
             {
                 "name": "Egg Viper (Sonic)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicPlayable"
+                ]
             }
         ]
     },
@@ -89,31 +125,54 @@
         "sections": [
             {
                 "name": "E-101 Beta (Gamma)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaPlayable"
+                ]
             },
             {
                 "name": "Chaos 6 (Sonic)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyChaos6,SonicPlayable"
+                ]
             },
             {
                 "name": "Chaos 6 (Knuckles)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyChaos6,KnucklesPlayable"
+                ]
             },
             {
                 "name": "Chaos 6 (Big)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "$InvertItem|UnifyChaos6,BigPlayable"
+                ]
             },
             {
                 "name": "Chaos 6",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "UnifyChaos6,SonicPlayable",
+                    "UnifyChaos6,KnucklesPlayable",
+                    "UnifyChaos6,BigPlayable"
+                ]
             },
             {
                 "name": "E-101 mkII (Gamma)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaPlayable"
+                ]
             },
             {
                 "name": "E-100 Zero (Amy)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyPlayable"
+                ]
             }
         ]
     }

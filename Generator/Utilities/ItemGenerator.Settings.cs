@@ -19,13 +19,19 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("ExpertLogicDX"))
             ]),
             new CollectibleItem("Emblems Required", "EmblemsRequired", MakeImgPath("Emblems"), 130),
-            new CollectibleItem("Level Goals Required", "LevelsRequired", MakeImgPath("Levels"), 128),
+            new CollectibleItem("Levels Required", "LevelsRequired", MakeImgPath("Levels"), 128),
             new ToggleItem("Chaos Emeralds Required", "EmeraldsRequired", MakeImgPath("Emeralds")),
             new CollectibleItem("Bosses Required", "BossesRequired", MakeImgPath("Bosses"), 18),
             new CollectibleItem("Missions Required", "MissionsRequired", MakeImgPath("Missions"), 60),
             new ToggleItem("Chao Races Required", "ChaoRacesRequired", MakeImgPath("ChaoRaces")),
 
             new ToggleItem("Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("SecretChaoEggs")),
+            new ToggleItem("Include Field Emblem Checks", "FieldEmblemChecks", MakeImgPath("FieldEmblemChecks")),
+            new ToggleItem("UnifyEggHornet", "UnifyEggHornet", MakeImgPath("UnifyEggHornet")),
+            new ToggleItem("UnifyChaos4", "UnifyChaos4", MakeImgPath("UnifyChaos4")),
+            new ToggleItem("UnifyChaos6", "UnifyChaos6", MakeImgPath("UnifyChaos6")),
+            new CollectibleItem("Levels Required for Chao Races", "ChaoRacesAccessLevels", MakeImgPath("ChaoRacesAccessLevels"), 128),
+
             new ToggleItem("Sonic Playable", "SonicPlayable", MakeImgPath("SonicPlayable")),
             new ToggleItem("Tails Playable", "TailsPlayable", MakeImgPath("TailsPlayable")),
             new ToggleItem("Knuckles Playable", "KnucklesPlayable", MakeImgPath("KnucklesPlayable")),

@@ -43,7 +43,7 @@
         "initial_quantity": 0,
         "overlay_font_size": 16,
         "img": "images/settings/Levels.png",
-        "name": "Level Goals Required",
+        "name": "Levels Required",
         "type": "consumable",
         "codes": "LevelsRequired"
     },
@@ -82,6 +82,39 @@
         "name": "Secret Chao Eggs",
         "type": "toggle",
         "codes": "SecretChaoEggs"
+    },
+    {
+        "img": "images/settings/FieldEmblemChecks.png",
+        "name": "Include Field Emblem Checks",
+        "type": "toggle",
+        "codes": "FieldEmblemChecks"
+    },
+    {
+        "img": "images/settings/UnifyEggHornet.png",
+        "name": "UnifyEggHornet",
+        "type": "toggle",
+        "codes": "UnifyEggHornet"
+    },
+    {
+        "img": "images/settings/UnifyChaos4.png",
+        "name": "UnifyChaos4",
+        "type": "toggle",
+        "codes": "UnifyChaos4"
+    },
+    {
+        "img": "images/settings/UnifyChaos6.png",
+        "name": "UnifyChaos6",
+        "type": "toggle",
+        "codes": "UnifyChaos6"
+    },
+    {
+        "max_quantity": 128,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/settings/ChaoRacesAccessLevels.png",
+        "name": "Levels Required for Chao Races",
+        "type": "consumable",
+        "codes": "ChaoRacesAccessLevels"
     },
     {
         "img": "images/settings/SonicPlayable.png",

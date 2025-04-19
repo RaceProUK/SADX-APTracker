@@ -26,6 +26,7 @@ Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/layout.json")
 Tracker:AddLayouts("layouts/tracker.json")
 
+ScriptHost:LoadScript("scripts/logic.lua")
 --if PopVersion and PopVersion >= "0.18.0" then
 --    ScriptHost:LoadScript("scripts/archipelago.lua")
 --end

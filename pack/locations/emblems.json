@@ -27,6 +27,9 @@
                 "name": "Casino Emblem",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "FieldEmblemChecks"
         ]
     },
     {
@@ -57,6 +60,9 @@
                 "name": "Tree Stump Emblem",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "FieldEmblemChecks"
         ]
     },
     {
@@ -87,6 +93,9 @@
                 "name": "Main Platform Emblem",
                 "item_count": 1
             }
+        ],
+        "visibility_rules": [
+            "FieldEmblemChecks"
         ]
     }
 ]

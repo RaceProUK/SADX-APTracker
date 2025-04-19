@@ -15,7 +15,16 @@
                 "ChaoRacesRequired"
             ],
             [
+                "",
+                "FieldEmblemChecks",
                 "SecretChaoEggs",
+                "UnifyEggHornet",
+                "UnifyChaos4",
+                "UnifyChaos6",
+                "ChaoRacesAccessLevels"
+            ],
+            [
+                "",
                 "SonicPlayable",
                 "TailsPlayable",
                 "KnucklesPlayable",
