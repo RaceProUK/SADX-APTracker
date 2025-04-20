@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -18,6 +19,14 @@ internal static partial class LocationGenerator
     private const int GammaLevelsEnd = 543806000;
     private const int BigLevelsStart = 543806000;
     private const int BigLevelsEnd = 543807000;
+
+    private static IEnumerable<LuaLocation> GenerateLevelsLua(FrozenDictionary<int, string> dict)
+        => from entry in dict
+           where entry.Key >= SonicLevelsStart && entry.Key < BigLevelsEnd
+           let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
+           let name = parts[0]
+           let section = parts[1]
+           select new LuaLocation(entry.Key, name, section);
 
     private static async Task GenerateLevels(FrozenDictionary<int, string> dict)
     {

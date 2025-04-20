@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -18,6 +19,14 @@ internal static partial class LocationGenerator
     private const int GammaEnemiesEnd = 543860000;
     private const int BigEnemiesStart = 543860000;
     private const int BigEnemiesEnd = 543870000;
+
+    private static IEnumerable<LuaLocation> GenerateEnemiesLua(FrozenDictionary<int, string> dict)
+        => from entry in dict
+           where entry.Key >= SonicEnemiesStart && entry.Key < BigEnemiesEnd && entry.Key % 1000 < 500
+           let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
+           let name = parts[0]
+           let section = parts[1]
+           select new LuaLocation(entry.Key, $"Enemysanity - {name}", section);
 
     private static async Task GenerateEnemies(FrozenDictionary<int, string> dict)
     {

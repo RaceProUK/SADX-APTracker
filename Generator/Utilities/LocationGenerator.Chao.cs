@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -12,28 +13,31 @@ internal static partial class LocationGenerator
     private const int RacesStart = 543800905;
     private const int RacesEnd = 543800910;
 
+    private static IEnumerable<LuaLocation> GenerateChaoEggsLua(FrozenDictionary<int, string> dict)
+    {
+        yield return new LuaLocation(GoldEgg, "Station Square Chao Egg", dict[GoldEgg]);
+        yield return new LuaLocation(SilverEgg, "Mystic Ruins Chao Egg", dict[SilverEgg]);
+        yield return new LuaLocation(BlackEgg, "Egg Carrier Chao Egg", dict[BlackEgg]);
+    }
+
+    private static IEnumerable<LuaLocation> GenerateChaoRacesLua(FrozenDictionary<int, string> dict)
+        => from entry in dict
+           where entry.Key >= RacesStart && entry.Key < RacesEnd
+           select new LuaLocation(entry.Key, "Chao Races", entry.Value);
+
     private static async Task GenerateChaoEggs(FrozenDictionary<int, string> dict)
     {
-        var ssUpgrades = from entry in dict
-                         where entry.Key == GoldEgg
-                         select new Section(entry.Value);
-        var mrUpgrades = from entry in dict
-                         where entry.Key == SilverEgg
-                         select new Section(entry.Value);
-        var ecUpgrades = from entry in dict
-                         where entry.Key == BlackEgg
-                         select new Section(entry.Value);
         var stationSquare = new Location("Station Square Chao Egg",
                                          [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
-                                         ssUpgrades,
+                                         [(new Section(dict[GoldEgg]))],
                                          VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
-                                       mrUpgrades,
+                                       [(new Section(dict[SilverEgg]))],
                                        VisibilityRules: ["SecretChaoEggs"]);
         var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
-                                      ecUpgrades,
+                                      [(new Section(dict[BlackEgg]))],
                                       VisibilityRules: ["SecretChaoEggs"]);
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),

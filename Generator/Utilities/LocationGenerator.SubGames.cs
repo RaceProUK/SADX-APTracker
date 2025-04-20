@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -16,6 +17,30 @@ internal static partial class LocationGenerator
     private const int SkyChaseAct2End = 543800037;
     private const int TwinkleCircuitMultipleStart = 543800040;
     private const int TwinkleCircuitMultipleEnd = 543800046;
+
+    private static IEnumerable<LuaLocation> GenerateSubGamesLua(FrozenDictionary<int, string> dict)
+    {
+        var skyChase1 = from entry in dict
+                        where entry.Key >= SkyChaseAct1Start && entry.Key < SkyChaseAct1End
+                        let mission = SublevelParser().Match(entry.Value).Groups[1].Value
+                        select new LuaLocation(entry.Key, "Sky Chase Act 1", mission);
+        var skyChase2 = from entry in dict
+                        where entry.Key >= SkyChaseAct2Start && entry.Key < SkyChaseAct2End
+                        let mission = SublevelParser().Match(entry.Value).Groups[1].Value
+                        select new LuaLocation(entry.Key, "Sky Chase Act 2", mission);
+        var sandHill = from entry in dict
+                       where entry.Key >= SandHillStart && entry.Key < SandHillEnd
+                       let mission = SublevelParser().Match(entry.Value).Groups[1].Value
+                       select new LuaLocation(entry.Key, "Sand Hill", mission);
+        var twinkleCircuit1 = from entry in dict
+                              where entry.Key >= TwinkleCircuitStart && entry.Key < TwinkleCircuitEnd
+                              select new LuaLocation(entry.Key, "Twinkle Circuit", "Set a Record");
+        var twinkleCircuit2 = from entry in dict
+                              where entry.Key >= TwinkleCircuitMultipleStart && entry.Key < TwinkleCircuitMultipleEnd
+                              let character = SublevelParser().Match(entry.Value).Groups[1].Value
+                              select new LuaLocation(entry.Key, "Twinkle Circuit", $"Set a Record as {character}");
+        return skyChase1.Union(skyChase2).Union(sandHill).Union(twinkleCircuit1).Union(twinkleCircuit2);
+    }
 
     private static async Task GenerateSubGames(FrozenDictionary<int, string> dict)
     {

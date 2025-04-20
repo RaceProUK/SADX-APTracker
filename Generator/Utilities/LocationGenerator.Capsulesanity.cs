@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -20,6 +21,14 @@ internal static partial class LocationGenerator
     private const int BigCapsulesEnd = 543870000;
     private const int PinballCapsulesStart = 543812548;
     private const int PinballCapsulesEnd = 543812553;
+
+    private static IEnumerable<LuaLocation> GenerateCapsulesLua(FrozenDictionary<int, string> dict)
+        => from entry in dict
+           where entry.Key >= SonicCapsulesStart && entry.Key < BigCapsulesEnd && entry.Key % 1000 >= 500
+           let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
+           let name = parts[0]
+           let section = parts[1]
+           select new LuaLocation(entry.Key, $"Capsulesanity - {name}", section);
 
     private static async Task GenerateCapsules(FrozenDictionary<int, string> dict)
     {

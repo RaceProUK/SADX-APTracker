@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -8,6 +9,12 @@ internal static partial class LocationGenerator
 {
     private const int MissionsStart = 543800800;
     private const int MissionsEnd = 543800900;
+
+    private static IEnumerable<LuaLocation> GenerateMissionsLua(FrozenDictionary<int, string> dict)
+        => from entry in dict
+           where entry.Key >= MissionsStart && entry.Key < MissionsEnd
+           let number = int.Parse(NumberParser().Match(entry.Value).Value)
+           select new LuaLocation(entry.Key, entry.Value, Constants.MissionBriefs[number]);
 
     private static async Task GenerateMissions(FrozenDictionary<int, string> dict)
     {

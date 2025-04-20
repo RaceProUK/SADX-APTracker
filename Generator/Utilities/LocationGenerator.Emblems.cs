@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -12,6 +13,20 @@ internal static partial class LocationGenerator
     private const int MysticRuinsEmblemsEnd = 543800024;
     private const int EggCarrierEmblemsStart = 543800030;
     private const int EggCarrierEmblemsEnd = 543800034;
+
+    private static IEnumerable<LuaLocation> GenerateFieldEmblemsLua(FrozenDictionary<int, string> dict)
+    {
+        var ssEmblems = from entry in dict
+                       where entry.Key >= StationSquareEmblemsStart && entry.Key < StationSquareEmblemsEnd
+                       select new LuaLocation(entry.Key, "Station Square Field Emblems", entry.Value);
+        var mrEmblems = from entry in dict
+                       where entry.Key >= MysticRuinsEmblemsStart && entry.Key < MysticRuinsEmblemsEnd
+                       select new LuaLocation(entry.Key, "Mystic Ruins Field Emblems", entry.Value);
+        var ecEmblems = from entry in dict
+                       where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
+                       select new LuaLocation(entry.Key, "Egg Carrier Field Emblems", entry.Value);
+        return ssEmblems.Union(mrEmblems).Union(ecEmblems);
+    }
 
     private static async Task GenerateFieldEmblems(FrozenDictionary<int, string> dict)
     {

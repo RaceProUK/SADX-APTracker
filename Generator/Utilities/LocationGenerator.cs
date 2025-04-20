@@ -1,7 +1,5 @@
 ﻿using System.Collections.Frozen;
-using System.Text.Json;
 using System.Text.RegularExpressions;
-using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 
@@ -42,9 +40,30 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateLocationMapLua(FrozenDictionary<int, string> dict)
     {
-        var entries = from entry in dict
-                      orderby entry.Key
-                      select $"    [{entry.Key}] = \"{entry.Value}\",";
+        var levels = GenerateLevelsLua(dict);
+        var subGames = GenerateSubGamesLua(dict);
+        var upgrades = GenerateUpgradesLua(dict);
+        var bosses = GenerateBossesLua(dict);
+        var fieldEmblems = GenerateFieldEmblemsLua(dict);
+        var chaoEggs = GenerateChaoEggsLua(dict);
+        var chaoRaces = GenerateChaoRacesLua(dict);
+        var enemies = GenerateEnemiesLua(dict);
+        var capsules = GenerateCapsulesLua(dict);
+        var fish = GenerateFishLua(dict);
+        var missions = GenerateMissionsLua(dict);
+        var locations = levels.Union(subGames)
+                              .Union(upgrades)
+                              .Union(bosses)
+                              .Union(fieldEmblems)
+                              .Union(chaoEggs)
+                              .Union(chaoRaces)
+                              .Union(enemies)
+                              .Union(capsules)
+                              .Union(fish)
+                              .Union(missions);
+        var entries = from location in locations
+                      orderby location.Id
+                      select $"    [{location.Id}] = {{ \"{location.Area}\", \"{location.Section}\" }},";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["LocationMap = {", .. entries, "}"]),
                                    "locationMap.lua",
                                    "scripts",
