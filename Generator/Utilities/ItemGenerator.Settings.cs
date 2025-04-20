@@ -13,10 +13,10 @@ internal static partial class ItemGenerator
         {
             new ProgressiveItem("Logic Level", "LogicLevel", true, false, 0,
             [
-                new ProgressiveItemStage("Normal Logic", "NormalLogic", MakeImgPath("NormalLogic")),
-                new ProgressiveItemStage("Hard Logic", "HardLogic", MakeImgPath("HardLogic")),
-                new ProgressiveItemStage("Expert DC Logic", "ExpertLogicDC", MakeImgPath("ExpertLogicDC")),
-                new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("ExpertLogicDX"))
+                new ProgressiveItemStage("Normal Logic", "NormalLogic", MakeImgPath("NormalLogic"), false),
+                new ProgressiveItemStage("Hard Logic", "HardLogic", MakeImgPath("HardLogic"), false),
+                new ProgressiveItemStage("Expert DC Logic", "ExpertLogicDC", MakeImgPath("ExpertLogicDC"), false),
+                new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("ExpertLogicDX"), false)
             ]),
             new CollectibleItem("Emblems Required", "EmblemsRequired", MakeImgPath("Emblems"), 130),
             new CollectibleItem("Levels Required", "LevelsRequired", MakeImgPath("Levels"), 128),
@@ -25,13 +25,28 @@ internal static partial class ItemGenerator
             new CollectibleItem("Missions Required", "MissionsRequired", MakeImgPath("Missions"), 60),
             new ToggleItem("Chao Races Required", "ChaoRacesRequired", MakeImgPath("ChaoRaces")),
 
-            new ToggleItem("Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("SecretChaoEggs")),
             new ToggleItem("Include Field Emblem Checks", "FieldEmblemChecks", MakeImgPath("FieldEmblemChecks")),
-            new ToggleItem("Unify Twinkle Circuit", "UnifyTwinkleCircuit", MakeImgPath("UnifyTwinkleCircuit")),
+            new ToggleItem("Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("SecretChaoEggs")),
             new ToggleItem("Unify Egg Hornet", "UnifyEggHornet", MakeImgPath("UnifyEggHornet")),
             new ToggleItem("Unify Chaos 4", "UnifyChaos4", MakeImgPath("UnifyChaos4")),
             new ToggleItem("Unify Chaos 6", "UnifyChaos6", MakeImgPath("UnifyChaos6")),
             new CollectibleItem("Levels Required for Chao Races", "ChaoRacesAccessLevels", MakeImgPath("ChaoRacesAccessLevels"), 128),
+
+            new ProgressiveItem("Sky Chase Checks", "SkyChaseChecks", true, true, 0,
+            [
+                new ProgressiveItemStage("Sky Chase - Normal Mission Only", "EnableSkyChase", MakeImgPath("SkyChaseB")),
+                new ProgressiveItemStage("Sky Chase - Both Missions", "EnableSkyChaseHard", MakeImgPath("SkyChaseA"))
+            ]),
+            new ProgressiveItem("Sand Hill Checks", "SandHillChecks", true, true, 0,
+            [
+                new ProgressiveItemStage("Sand Hill - Normal Mission Only", "EnableSandHill", MakeImgPath("SandHillB")),
+                new ProgressiveItemStage("Sand Hill - Both Missions", "EnableSandHillHard", MakeImgPath("SandHillA"))
+            ]),
+            new ProgressiveItem("Twinkle Circuit Checks", "TwinkleCircuitChecks", true, true, 0,
+            [
+                new ProgressiveItemStage("Twinkle Circuit - Single Check", "EnableTwinkleCircuit", MakeImgPath("TwinkleCircuit"), false),
+                new ProgressiveItemStage("Twinkle Circuit - Character Checks", "EnableTwinkleCircuitMultiple", MakeImgPath("TwinkleCircuitMultiple"), false)
+            ]),
 
             new ToggleItem("Sonic Playable", "SonicPlayable", MakeImgPath("SonicPlayable")),
             new ToggleItem("Tails Playable", "TailsPlayable", MakeImgPath("TailsPlayable")),

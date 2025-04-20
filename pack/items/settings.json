@@ -7,22 +7,26 @@
             {
                 "name": "Normal Logic",
                 "codes": "NormalLogic",
-                "img": "images/settings/NormalLogic.png"
+                "img": "images/settings/NormalLogic.png",
+                "inherit_codes": false
             },
             {
                 "name": "Hard Logic",
                 "codes": "HardLogic",
-                "img": "images/settings/HardLogic.png"
+                "img": "images/settings/HardLogic.png",
+                "inherit_codes": false
             },
             {
                 "name": "Expert DC Logic",
                 "codes": "ExpertLogicDC",
-                "img": "images/settings/ExpertLogicDC.png"
+                "img": "images/settings/ExpertLogicDC.png",
+                "inherit_codes": false
             },
             {
                 "name": "Expert DX Logic",
                 "codes": "ExpertLogicDX",
-                "img": "images/settings/ExpertLogicDX.png"
+                "img": "images/settings/ExpertLogicDX.png",
+                "inherit_codes": false
             }
         ],
         "name": "Logic Level",
@@ -78,22 +82,16 @@
         "codes": "ChaoRacesRequired"
     },
     {
-        "img": "images/settings/SecretChaoEggs.png",
-        "name": "Secret Chao Eggs",
-        "type": "toggle",
-        "codes": "SecretChaoEggs"
-    },
-    {
         "img": "images/settings/FieldEmblemChecks.png",
         "name": "Include Field Emblem Checks",
         "type": "toggle",
         "codes": "FieldEmblemChecks"
     },
     {
-        "img": "images/settings/UnifyTwinkleCircuit.png",
-        "name": "Unify Twinkle Circuit",
+        "img": "images/settings/SecretChaoEggs.png",
+        "name": "Secret Chao Eggs",
         "type": "toggle",
-        "codes": "UnifyTwinkleCircuit"
+        "codes": "SecretChaoEggs"
     },
     {
         "img": "images/settings/UnifyEggHornet.png",
@@ -121,6 +119,72 @@
         "name": "Levels Required for Chao Races",
         "type": "consumable",
         "codes": "ChaoRacesAccessLevels"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sky Chase - Normal Mission Only",
+                "codes": "EnableSkyChase",
+                "img": "images/settings/SkyChaseB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sky Chase - Both Missions",
+                "codes": "EnableSkyChaseHard",
+                "img": "images/settings/SkyChaseA.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sky Chase Checks",
+        "type": "progressive",
+        "codes": "SkyChaseChecks"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sand Hill - Normal Mission Only",
+                "codes": "EnableSandHill",
+                "img": "images/settings/SandHillB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sand Hill - Both Missions",
+                "codes": "EnableSandHillHard",
+                "img": "images/settings/SandHillA.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sand Hill Checks",
+        "type": "progressive",
+        "codes": "SandHillChecks"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Twinkle Circuit - Single Check",
+                "codes": "EnableTwinkleCircuit",
+                "img": "images/settings/TwinkleCircuit.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Twinkle Circuit - Character Checks",
+                "codes": "EnableTwinkleCircuitMultiple",
+                "img": "images/settings/TwinkleCircuitMultiple.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Twinkle Circuit Checks",
+        "type": "progressive",
+        "codes": "TwinkleCircuitChecks"
     },
     {
         "img": "images/settings/SonicPlayable.png",
@@ -166,22 +230,26 @@
             {
                 "name": "Sonic's C Missions",
                 "codes": "SonicMissionC",
-                "img": "images/settings/SonicMissionC.png"
+                "img": "images/settings/SonicMissionC.png",
+                "inherit_codes": true
             },
             {
                 "name": "Sonic's B Missions",
                 "codes": "SonicMissionB",
-                "img": "images/settings/SonicMissionB.png"
+                "img": "images/settings/SonicMissionB.png",
+                "inherit_codes": true
             },
             {
                 "name": "Sonic's A Missions",
                 "codes": "SonicMissionA",
-                "img": "images/settings/SonicMissionA.png"
+                "img": "images/settings/SonicMissionA.png",
+                "inherit_codes": true
             },
             {
                 "name": "Sonic's S Missions",
                 "codes": "SonicMissionS",
-                "img": "images/settings/SonicMissionS.png"
+                "img": "images/settings/SonicMissionS.png",
+                "inherit_codes": true
             }
         ],
         "name": "Sonic Missions",
@@ -196,22 +264,26 @@
             {
                 "name": "Tails' C Missions",
                 "codes": "TailsMissionC",
-                "img": "images/settings/TailsMissionC.png"
+                "img": "images/settings/TailsMissionC.png",
+                "inherit_codes": true
             },
             {
                 "name": "Tails' B Missions",
                 "codes": "TailsMissionB",
-                "img": "images/settings/TailsMissionB.png"
+                "img": "images/settings/TailsMissionB.png",
+                "inherit_codes": true
             },
             {
                 "name": "Tails' A Missions",
                 "codes": "TailsMissionA",
-                "img": "images/settings/TailsMissionA.png"
+                "img": "images/settings/TailsMissionA.png",
+                "inherit_codes": true
             },
             {
                 "name": "Tails' S Missions",
                 "codes": "TailsMissionS",
-                "img": "images/settings/TailsMissionS.png"
+                "img": "images/settings/TailsMissionS.png",
+                "inherit_codes": true
             }
         ],
         "name": "Tails Missions",
@@ -226,22 +298,26 @@
             {
                 "name": "Knuckles' C Missions",
                 "codes": "KnucklesMissionC",
-                "img": "images/settings/KnucklesMissionC.png"
+                "img": "images/settings/KnucklesMissionC.png",
+                "inherit_codes": true
             },
             {
                 "name": "Knuckles' B Missions",
                 "codes": "KnucklesMissionB",
-                "img": "images/settings/KnucklesMissionB.png"
+                "img": "images/settings/KnucklesMissionB.png",
+                "inherit_codes": true
             },
             {
                 "name": "Knuckles' A Missions",
                 "codes": "KnucklesMissionA",
-                "img": "images/settings/KnucklesMissionA.png"
+                "img": "images/settings/KnucklesMissionA.png",
+                "inherit_codes": true
             },
             {
                 "name": "Knuckles' S Missions",
                 "codes": "KnucklesMissionS",
-                "img": "images/settings/KnucklesMissionS.png"
+                "img": "images/settings/KnucklesMissionS.png",
+                "inherit_codes": true
             }
         ],
         "name": "Knuckles Missions",
@@ -256,22 +332,26 @@
             {
                 "name": "Amy's C Missions",
                 "codes": "AmyMissionC",
-                "img": "images/settings/AmyMissionC.png"
+                "img": "images/settings/AmyMissionC.png",
+                "inherit_codes": true
             },
             {
                 "name": "Amy's B Missions",
                 "codes": "AmyMissionB",
-                "img": "images/settings/AmyMissionB.png"
+                "img": "images/settings/AmyMissionB.png",
+                "inherit_codes": true
             },
             {
                 "name": "Amy's A Missions",
                 "codes": "AmyMissionA",
-                "img": "images/settings/AmyMissionA.png"
+                "img": "images/settings/AmyMissionA.png",
+                "inherit_codes": true
             },
             {
                 "name": "Amy's S Missions",
                 "codes": "AmyMissionS",
-                "img": "images/settings/AmyMissionS.png"
+                "img": "images/settings/AmyMissionS.png",
+                "inherit_codes": true
             }
         ],
         "name": "Amy Missions",
@@ -286,22 +366,26 @@
             {
                 "name": "Gamma's C Missions",
                 "codes": "GammaMissionC",
-                "img": "images/settings/GammaMissionC.png"
+                "img": "images/settings/GammaMissionC.png",
+                "inherit_codes": true
             },
             {
                 "name": "Gamma's B Missions",
                 "codes": "GammaMissionB",
-                "img": "images/settings/GammaMissionB.png"
+                "img": "images/settings/GammaMissionB.png",
+                "inherit_codes": true
             },
             {
                 "name": "Gamma's A Missions",
                 "codes": "GammaMissionA",
-                "img": "images/settings/GammaMissionA.png"
+                "img": "images/settings/GammaMissionA.png",
+                "inherit_codes": true
             },
             {
                 "name": "Gamma's S Missions",
                 "codes": "GammaMissionS",
-                "img": "images/settings/GammaMissionS.png"
+                "img": "images/settings/GammaMissionS.png",
+                "inherit_codes": true
             }
         ],
         "name": "Gamma Missions",
@@ -316,22 +400,26 @@
             {
                 "name": "Big's C Missions",
                 "codes": "BigMissionC",
-                "img": "images/settings/BigMissionC.png"
+                "img": "images/settings/BigMissionC.png",
+                "inherit_codes": true
             },
             {
                 "name": "Big's B Missions",
                 "codes": "BigMissionB",
-                "img": "images/settings/BigMissionB.png"
+                "img": "images/settings/BigMissionB.png",
+                "inherit_codes": true
             },
             {
                 "name": "Big's A Missions",
                 "codes": "BigMissionA",
-                "img": "images/settings/BigMissionA.png"
+                "img": "images/settings/BigMissionA.png",
+                "inherit_codes": true
             },
             {
                 "name": "Big's S Missions",
                 "codes": "BigMissionS",
-                "img": "images/settings/BigMissionS.png"
+                "img": "images/settings/BigMissionS.png",
+                "inherit_codes": true
             }
         ],
         "name": "Big Missions",

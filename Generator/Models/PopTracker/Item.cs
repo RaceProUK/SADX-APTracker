@@ -31,4 +31,4 @@ internal record ProgressiveItem(string Name,
                                 IEnumerable<ProgressiveItemStage> Stages)
     : Item(Name, "progressive", Codes);
 
-internal record ProgressiveItemStage(string Name, string Codes, string Img);
+internal record ProgressiveItemStage(string Name, string Codes, string Img, bool InheritCodes = true);

@@ -15,16 +15,16 @@
                 "ChaoRacesRequired"
             ],
             [
-                "SecretChaoEggs",
+                "SkyChaseChecks",
                 "FieldEmblemChecks",
-                "UnifyTwinkleCircuit",
+                "SecretChaoEggs",
                 "UnifyEggHornet",
                 "UnifyChaos4",
                 "UnifyChaos6",
                 "ChaoRacesAccessLevels"
             ],
             [
-                "",
+                "SandHillChecks",
                 "SonicPlayable",
                 "TailsPlayable",
                 "KnucklesPlayable",
@@ -33,7 +33,7 @@
                 "BigPlayable"
             ],
             [
-                "",
+                "TwinkleCircuitChecks",
                 "SonicMissions",
                 "TailsMissions",
                 "KnucklesMissions",

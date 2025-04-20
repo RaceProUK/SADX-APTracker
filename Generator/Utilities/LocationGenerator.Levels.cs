@@ -21,14 +21,7 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateLevels(FrozenDictionary<int, string> dict)
     {
-        static IEnumerable<string>? GetMissionVisibility(string character, string section) => section[^1] switch
-        {
-            'S' => [$"{character}MissionS"],
-            'A' => [$"{character}MissionS", $"{character}MissionA"],
-            'B' => [$"{character}MissionS", $"{character}MissionA", $"{character}MissionB"],
-            'C' => [$"{character}MissionS", $"{character}MissionA", $"{character}MissionB", $"{character}MissionC"],
-            _ => default
-        };
+        static IEnumerable<string>? GetMissionVisibility(string character, string section) => [$"{character}Mission{section[^1]}"];
         static IEnumerable<Location> GetLevels(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict

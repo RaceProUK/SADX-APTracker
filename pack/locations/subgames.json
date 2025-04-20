@@ -13,11 +13,17 @@
         "sections": [
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChase"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChaseHard"
+                ]
             }
         ],
         "visibility_rules": [
@@ -39,11 +45,17 @@
         "sections": [
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChase"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChaseHard"
+                ]
             }
         ],
         "visibility_rules": [
@@ -65,11 +77,17 @@
         "sections": [
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSandHill"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSandHillHard"
+                ]
             }
         ],
         "visibility_rules": [
@@ -93,49 +111,49 @@
                 "name": "Set a Record",
                 "item_count": 1,
                 "visibility_rules": [
-                    "UnifyTwinkleCircuit"
+                    "EnableTwinkleCircuit"
                 ]
             },
             {
                 "name": "Set a Record as Sonic",
                 "item_count": 1,
                 "visibility_rules": [
-                    "$InvertItem|UnifyTwinkleCircuit,SonicPlayable"
+                    "EnableTwinkleCircuitMultiple,SonicPlayable"
                 ]
             },
             {
                 "name": "Set a Record as Tails",
                 "item_count": 1,
                 "visibility_rules": [
-                    "$InvertItem|UnifyTwinkleCircuit,TailsPlayable"
+                    "EnableTwinkleCircuitMultiple,TailsPlayable"
                 ]
             },
             {
                 "name": "Set a Record as Knuckles",
                 "item_count": 1,
                 "visibility_rules": [
-                    "$InvertItem|UnifyTwinkleCircuit,KnucklesPlayable"
+                    "EnableTwinkleCircuitMultiple,KnucklesPlayable"
                 ]
             },
             {
                 "name": "Set a Record as Amy",
                 "item_count": 1,
                 "visibility_rules": [
-                    "$InvertItem|UnifyTwinkleCircuit,AmyPlayable"
+                    "EnableTwinkleCircuitMultiple,AmyPlayable"
                 ]
             },
             {
                 "name": "Set a Record as Big",
                 "item_count": 1,
                 "visibility_rules": [
-                    "$InvertItem|UnifyTwinkleCircuit,BigPlayable"
+                    "EnableTwinkleCircuitMultiple,BigPlayable"
                 ]
             },
             {
                 "name": "Set a Record as Gamma",
                 "item_count": 1,
                 "visibility_rules": [
-                    "$InvertItem|UnifyTwinkleCircuit,GammaPlayable"
+                    "EnableTwinkleCircuitMultiple,GammaPlayable"
                 ]
             }
         ]
