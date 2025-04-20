@@ -13,19 +13,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -46,19 +64,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -79,19 +115,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -112,19 +166,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -145,19 +217,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -178,19 +268,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -211,19 +319,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -244,19 +370,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -277,19 +421,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -310,19 +472,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS",
+                    "SonicMissionA",
+                    "SonicMissionB",
+                    "SonicMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -343,19 +523,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB",
+                    "TailsMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -376,19 +574,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB",
+                    "TailsMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -409,19 +625,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB",
+                    "TailsMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -442,19 +676,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB",
+                    "TailsMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -475,19 +727,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS",
+                    "TailsMissionA",
+                    "TailsMissionB",
+                    "TailsMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -508,19 +778,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB",
+                    "KnucklesMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -541,19 +829,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB",
+                    "KnucklesMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -574,19 +880,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB",
+                    "KnucklesMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -607,19 +931,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB",
+                    "KnucklesMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -640,19 +982,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS",
+                    "KnucklesMissionA",
+                    "KnucklesMissionB",
+                    "KnucklesMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -673,19 +1033,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA",
+                    "AmyMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA",
+                    "AmyMissionB",
+                    "AmyMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -706,19 +1084,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA",
+                    "AmyMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA",
+                    "AmyMissionB",
+                    "AmyMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -739,19 +1135,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA",
+                    "AmyMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS",
+                    "AmyMissionA",
+                    "AmyMissionB",
+                    "AmyMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -772,19 +1186,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB",
+                    "GammaMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -805,19 +1237,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB",
+                    "GammaMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -838,19 +1288,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB",
+                    "GammaMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -871,19 +1339,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB",
+                    "GammaMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -904,19 +1390,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS",
+                    "GammaMissionA",
+                    "GammaMissionB",
+                    "GammaMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -937,19 +1441,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB",
+                    "BigMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -970,19 +1492,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB",
+                    "BigMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -1003,19 +1543,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB",
+                    "BigMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             }
         ],
         "visibility_rules": [
@@ -1036,19 +1594,37 @@
         "sections": [
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS",
+                    "BigMissionA",
+                    "BigMissionB",
+                    "BigMissionC"
+                ]
             },
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             }
         ],
         "visibility_rules": [

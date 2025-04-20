@@ -159,6 +159,186 @@
         "codes": "BigPlayable"
     },
     {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sonic's C Missions",
+                "codes": "SonicMissionC",
+                "img": "images/settings/SonicMissionC.png"
+            },
+            {
+                "name": "Sonic's B Missions",
+                "codes": "SonicMissionB",
+                "img": "images/settings/SonicMissionB.png"
+            },
+            {
+                "name": "Sonic's A Missions",
+                "codes": "SonicMissionA",
+                "img": "images/settings/SonicMissionA.png"
+            },
+            {
+                "name": "Sonic's S Missions",
+                "codes": "SonicMissionS",
+                "img": "images/settings/SonicMissionS.png"
+            }
+        ],
+        "name": "Sonic Missions",
+        "type": "progressive",
+        "codes": "SonicMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Tails' C Missions",
+                "codes": "TailsMissionC",
+                "img": "images/settings/TailsMissionC.png"
+            },
+            {
+                "name": "Tails' B Missions",
+                "codes": "TailsMissionB",
+                "img": "images/settings/TailsMissionB.png"
+            },
+            {
+                "name": "Tails' A Missions",
+                "codes": "TailsMissionA",
+                "img": "images/settings/TailsMissionA.png"
+            },
+            {
+                "name": "Tails' S Missions",
+                "codes": "TailsMissionS",
+                "img": "images/settings/TailsMissionS.png"
+            }
+        ],
+        "name": "Tails Missions",
+        "type": "progressive",
+        "codes": "TailsMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Knuckles' C Missions",
+                "codes": "KnucklesMissionC",
+                "img": "images/settings/KnucklesMissionC.png"
+            },
+            {
+                "name": "Knuckles' B Missions",
+                "codes": "KnucklesMissionB",
+                "img": "images/settings/KnucklesMissionB.png"
+            },
+            {
+                "name": "Knuckles' A Missions",
+                "codes": "KnucklesMissionA",
+                "img": "images/settings/KnucklesMissionA.png"
+            },
+            {
+                "name": "Knuckles' S Missions",
+                "codes": "KnucklesMissionS",
+                "img": "images/settings/KnucklesMissionS.png"
+            }
+        ],
+        "name": "Knuckles Missions",
+        "type": "progressive",
+        "codes": "KnucklesMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Amy's C Missions",
+                "codes": "AmyMissionC",
+                "img": "images/settings/AmyMissionC.png"
+            },
+            {
+                "name": "Amy's B Missions",
+                "codes": "AmyMissionB",
+                "img": "images/settings/AmyMissionB.png"
+            },
+            {
+                "name": "Amy's A Missions",
+                "codes": "AmyMissionA",
+                "img": "images/settings/AmyMissionA.png"
+            },
+            {
+                "name": "Amy's S Missions",
+                "codes": "AmyMissionS",
+                "img": "images/settings/AmyMissionS.png"
+            }
+        ],
+        "name": "Amy Missions",
+        "type": "progressive",
+        "codes": "AmyMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Gamma's C Missions",
+                "codes": "GammaMissionC",
+                "img": "images/settings/GammaMissionC.png"
+            },
+            {
+                "name": "Gamma's B Missions",
+                "codes": "GammaMissionB",
+                "img": "images/settings/GammaMissionB.png"
+            },
+            {
+                "name": "Gamma's A Missions",
+                "codes": "GammaMissionA",
+                "img": "images/settings/GammaMissionA.png"
+            },
+            {
+                "name": "Gamma's S Missions",
+                "codes": "GammaMissionS",
+                "img": "images/settings/GammaMissionS.png"
+            }
+        ],
+        "name": "Gamma Missions",
+        "type": "progressive",
+        "codes": "GammaMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Big's C Missions",
+                "codes": "BigMissionC",
+                "img": "images/settings/BigMissionC.png"
+            },
+            {
+                "name": "Big's B Missions",
+                "codes": "BigMissionB",
+                "img": "images/settings/BigMissionB.png"
+            },
+            {
+                "name": "Big's A Missions",
+                "codes": "BigMissionA",
+                "img": "images/settings/BigMissionA.png"
+            },
+            {
+                "name": "Big's S Missions",
+                "codes": "BigMissionS",
+                "img": "images/settings/BigMissionS.png"
+            }
+        ],
+        "name": "Big Missions",
+        "type": "progressive",
+        "codes": "BigMissions"
+    },
+    {
         "img": "images/settings/Enemysanity.png",
         "name": "Enemysanity",
         "type": "toggle",

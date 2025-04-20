@@ -40,6 +40,49 @@ internal static partial class ItemGenerator
             new ToggleItem("Gamma Playable", "GammaPlayable", MakeImgPath("GammaPlayable")),
             new ToggleItem("Big Playable", "BigPlayable", MakeImgPath("BigPlayable")),
 
+            new ProgressiveItem("Sonic Missions", "SonicMissions", true, true, 0,
+            [
+                new ProgressiveItemStage("Sonic's C Missions", "SonicMissionC", MakeImgPath("SonicMissionC")),
+                new ProgressiveItemStage("Sonic's B Missions", "SonicMissionB", MakeImgPath("SonicMissionB")),
+                new ProgressiveItemStage("Sonic's A Missions", "SonicMissionA", MakeImgPath("SonicMissionA")),
+                new ProgressiveItemStage("Sonic's S Missions", "SonicMissionS", MakeImgPath("SonicMissionS"))
+            ]),
+            new ProgressiveItem("Tails Missions", "TailsMissions", true, true, 0,
+            [
+                new ProgressiveItemStage("Tails' C Missions", "TailsMissionC", MakeImgPath("TailsMissionC")),
+                new ProgressiveItemStage("Tails' B Missions", "TailsMissionB", MakeImgPath("TailsMissionB")),
+                new ProgressiveItemStage("Tails' A Missions", "TailsMissionA", MakeImgPath("TailsMissionA")),
+                new ProgressiveItemStage("Tails' S Missions", "TailsMissionS", MakeImgPath("TailsMissionS"))
+            ]),
+            new ProgressiveItem("Knuckles Missions", "KnucklesMissions", true, true, 0,
+            [
+                new ProgressiveItemStage("Knuckles' C Missions", "KnucklesMissionC", MakeImgPath("KnucklesMissionC")),
+                new ProgressiveItemStage("Knuckles' B Missions", "KnucklesMissionB", MakeImgPath("KnucklesMissionB")),
+                new ProgressiveItemStage("Knuckles' A Missions", "KnucklesMissionA", MakeImgPath("KnucklesMissionA")),
+                new ProgressiveItemStage("Knuckles' S Missions", "KnucklesMissionS", MakeImgPath("KnucklesMissionS"))
+            ]),
+            new ProgressiveItem("Amy Missions", "AmyMissions", true, true, 0,
+            [
+                new ProgressiveItemStage("Amy's C Missions", "AmyMissionC", MakeImgPath("AmyMissionC")),
+                new ProgressiveItemStage("Amy's B Missions", "AmyMissionB", MakeImgPath("AmyMissionB")),
+                new ProgressiveItemStage("Amy's A Missions", "AmyMissionA", MakeImgPath("AmyMissionA")),
+                new ProgressiveItemStage("Amy's S Missions", "AmyMissionS", MakeImgPath("AmyMissionS"))
+            ]),
+            new ProgressiveItem("Gamma Missions", "GammaMissions", true, true, 0,
+            [
+                new ProgressiveItemStage("Gamma's C Missions", "GammaMissionC", MakeImgPath("GammaMissionC")),
+                new ProgressiveItemStage("Gamma's B Missions", "GammaMissionB", MakeImgPath("GammaMissionB")),
+                new ProgressiveItemStage("Gamma's A Missions", "GammaMissionA", MakeImgPath("GammaMissionA")),
+                new ProgressiveItemStage("Gamma's S Missions", "GammaMissionS", MakeImgPath("GammaMissionS"))
+            ]),
+            new ProgressiveItem("Big Missions", "BigMissions", true, true, 0,
+            [
+                new ProgressiveItemStage("Big's C Missions", "BigMissionC", MakeImgPath("BigMissionC")),
+                new ProgressiveItemStage("Big's B Missions", "BigMissionB", MakeImgPath("BigMissionB")),
+                new ProgressiveItemStage("Big's A Missions", "BigMissionA", MakeImgPath("BigMissionA")),
+                new ProgressiveItemStage("Big's S Missions", "BigMissionS", MakeImgPath("BigMissionS"))
+            ]),
+
             new ToggleItem("Enemysanity", "Enemysanity", MakeImgPath("Enemysanity")),
             new ToggleItem("Sonic's Enemysanity", "SonicEnemysanity", MakeImgPath("SonicEnemysanity")),
             new ToggleItem("Tails's Enemysanity", "TailsEnemysanity", MakeImgPath("TailsEnemysanity")),

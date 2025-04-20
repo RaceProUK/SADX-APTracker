@@ -21,6 +21,14 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateLevels(FrozenDictionary<int, string> dict)
     {
+        static IEnumerable<string>? GetMissionVisibility(string character, string section) => section[^1] switch
+        {
+            'S' => [$"{character}MissionS"],
+            'A' => [$"{character}MissionS", $"{character}MissionA"],
+            'B' => [$"{character}MissionS", $"{character}MissionA", $"{character}MissionB"],
+            'C' => [$"{character}MissionS", $"{character}MissionA", $"{character}MissionB", $"{character}MissionC"],
+            _ => default
+        };
         static IEnumerable<Location> GetLevels(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
@@ -36,7 +44,9 @@ internal static partial class LocationGenerator
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location(level.Location.Key,
                                        [new MapLocation("levels", x, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section),
+                                       from section in level.Location
+                                       select new Section(section,
+                                                          VisibilityRules: GetMissionVisibility(character, section)),
                                        VisibilityRules: [$"{character}Playable"]);
         }
 
