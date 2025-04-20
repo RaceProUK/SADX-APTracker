@@ -18,10 +18,10 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Expert DC Logic", "ExpertLogicDC", MakeImgPath("ExpertLogicDC"), false),
                 new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("ExpertLogicDX"), false)
             ]),
-            new CollectibleItem("Emblems Required", "EmblemsRequired", MakeImgPath("Emblems"), 130),
-            new CollectibleItem("Levels Required", "LevelsRequired", MakeImgPath("Levels"), 128),
+            new CollectibleItem("Emblems Required", "EmblemsRequired", MakeImgPath("Emblems"), 1500),
+            new CollectibleItem("Levels Required", "LevelsRequired", MakeImgPath("Levels"), 31),
             new ToggleItem("Chaos Emeralds Required", "EmeraldsRequired", MakeImgPath("Emeralds")),
-            new CollectibleItem("Bosses Required", "BossesRequired", MakeImgPath("Bosses"), 18),
+            new CollectibleItem("Bosses Required", "BossesRequired", MakeImgPath("Bosses"), 15),
             new CollectibleItem("Missions Required", "MissionsRequired", MakeImgPath("Missions"), 60),
             new ToggleItem("Chao Races Required", "ChaoRacesRequired", MakeImgPath("ChaoRaces")),
 

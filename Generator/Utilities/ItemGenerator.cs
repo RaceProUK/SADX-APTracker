@@ -105,7 +105,7 @@ internal static partial class ItemGenerator
                            select new CollectibleItem(entry.Value.Pluralize(),
                                                       code,
                                                       $"images/collectibles/{code}.png",
-                                                      130);
+                                                      1500);
         await FileWriter.WriteFile(JsonSerializer.Serialize(collectibles, Constants.JsonOptions),
                                    "collectibles.json",
                                    "items");

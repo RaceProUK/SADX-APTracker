@@ -34,7 +34,7 @@
         "codes": "LogicLevel"
     },
     {
-        "max_quantity": 130,
+        "max_quantity": 1500,
         "initial_quantity": 0,
         "overlay_font_size": 16,
         "img": "images/settings/Emblems.png",
@@ -43,7 +43,7 @@
         "codes": "EmblemsRequired"
     },
     {
-        "max_quantity": 128,
+        "max_quantity": 31,
         "initial_quantity": 0,
         "overlay_font_size": 16,
         "img": "images/settings/Levels.png",
@@ -58,7 +58,7 @@
         "codes": "EmeraldsRequired"
     },
     {
-        "max_quantity": 18,
+        "max_quantity": 15,
         "initial_quantity": 0,
         "overlay_font_size": 16,
         "img": "images/settings/Bosses.png",
