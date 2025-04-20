@@ -241,5 +241,11 @@
         "name": "Big's Capsulesanity",
         "type": "toggle",
         "codes": "BigCapsulesanity"
+    },
+    {
+        "img": "images/settings/Fishsanity.png",
+        "name": "Fishsanity",
+        "type": "toggle",
+        "codes": "Fishsanity"
     }
 ]

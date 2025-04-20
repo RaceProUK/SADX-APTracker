@@ -55,6 +55,8 @@ internal static partial class ItemGenerator
             new ToggleItem("Amy's Capsulesanity", "AmyCapsulesanity", MakeImgPath("AmyCapsulesanity")),
             new ToggleItem("Gamma's Capsulesanity", "GammaCapsulesanity", MakeImgPath("GammaCapsulesanity")),
             new ToggleItem("Big's Capsulesanity", "BigCapsulesanity", MakeImgPath("BigCapsulesanity")),
+
+            new ToggleItem("Fishsanity", "Fishsanity", MakeImgPath("Fishsanity")),
         };
         await FileWriter.WriteFile(JsonSerializer.Serialize(settings, Constants.JsonOptions),
                                    "settings.json",

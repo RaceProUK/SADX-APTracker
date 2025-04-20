@@ -33,6 +33,7 @@ internal static partial class LocationGenerator
         await GenerateChaoRaces(idToName);
         await GenerateEnemies(idToName);
         await GenerateCapsules(idToName);
+        await GenerateFish(idToName);
         await GenerateMissions(idToName);
     }
 
