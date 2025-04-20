@@ -11,6 +11,9 @@ internal static partial class LocationGenerator
     private const int MissionsIconSize = 16;
     private const int BorderThickness = 1;
 
+    [GeneratedRegex("\\(([A-Za-z ]+)\\)")]
+    private static partial Regex CapsuleItemParser();
+
     [GeneratedRegex("\\(([A-Za-z]+)\\)")]
     private static partial Regex CharacterParser();
 

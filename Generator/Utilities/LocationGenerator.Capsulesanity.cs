@@ -18,9 +18,24 @@ internal static partial class LocationGenerator
     private const int GammaCapsulesEnd = 543860000;
     private const int BigCapsulesStart = 543860000;
     private const int BigCapsulesEnd = 543870000;
+    private const int PinballCapsulesStart = 543812548;
+    private const int PinballCapsulesEnd = 543812553;
 
     private static async Task GenerateCapsules(FrozenDictionary<int, string> dict)
     {
+        static string? GetVisibility(string name) => name switch
+        {
+            "Extra Life" => "LifeCapsulesanity",
+            "Shield" => "ShieldCapsulesanity",
+            "Magnetic Shield" => "ShieldCapsulesanity",
+            "Speed Up" => "PowerupCapsulesanity",
+            "Invincibility" => "PowerupCapsulesanity",
+            "Bomb" => "PowerupCapsulesanity",
+            "Five Rings" => "RingCapsulesanity",
+            "Ten Rings" => "RingCapsulesanity",
+            "Random Rings" => "RingCapsulesanity",
+            _ => default
+        };
         static IEnumerable<Location> GetCapsules(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
@@ -29,7 +44,7 @@ internal static partial class LocationGenerator
                             let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
                             let name = parts[0]
                             let section = parts[1]
-                            group section by name;
+                            group (entry.Key, Name: section) by name;
             var multipliers = locations.First().Key switch
             {
                 string s when s.Contains("(T") => [0, 1, 3, 4],
@@ -41,7 +56,14 @@ internal static partial class LocationGenerator
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location($"Capsulesanity - {level.Location.Key}",
                                        [new MapLocation("capsules", x, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section),
+                                       from section in level.Location
+                                       let item = CapsuleItemParser().Match(section.Name).Groups[1].Value
+                                       let visibility = GetVisibility(item)
+                                       let pinball = section.Key >= PinballCapsulesStart && section.Key < PinballCapsulesEnd
+                                       select new Section(section.Name,
+                                                          VisibilityRules: pinball
+                                                          ? [$"PinballCapsules,{visibility}"]
+                                                          : [visibility]),
                                        VisibilityRules: [$"{character}Playable,Capsulesanity,{character}Capsulesanity"]);
         }
 
@@ -51,12 +73,12 @@ internal static partial class LocationGenerator
         var amyCapsules = GetCapsules(dict, AmyCapsulesStart, AmyCapsulesEnd, 1082, 64);
         var gammaCapsules = GetCapsules(dict, GammaCapsulesStart, GammaCapsulesEnd, 1082, 448);
         var bigCapsules = GetCapsules(dict, BigCapsulesStart, BigCapsulesEnd, 1594, 64);
-        var Capsules = sonicCapsules.Union(tailsCapsules)
-                                .Union(knucklesCapsules)
-                                .Union(amyCapsules)
-                                .Union(gammaCapsules)
-                                .Union(bigCapsules);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(Capsules, Constants.JsonOptions),
+        var capsules = sonicCapsules.Union(tailsCapsules)
+                                    .Union(knucklesCapsules)
+                                    .Union(amyCapsules)
+                                    .Union(gammaCapsules)
+                                    .Union(bigCapsules);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(capsules, Constants.JsonOptions),
                                    "capsules.json",
                                    "locations");
     }

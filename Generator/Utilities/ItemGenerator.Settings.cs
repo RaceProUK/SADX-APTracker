@@ -56,6 +56,11 @@ internal static partial class ItemGenerator
             new ToggleItem("Gamma's Capsulesanity", "GammaCapsulesanity", MakeImgPath("GammaCapsulesanity")),
             new ToggleItem("Big's Capsulesanity", "BigCapsulesanity", MakeImgPath("BigCapsulesanity")),
 
+            new ToggleItem("Pinball Capsules", "PinballCapsules", MakeImgPath("PinballCapsules")),
+            new ToggleItem("Life Capsulesanity", "LifeCapsulesanity", MakeImgPath("LifeCapsulesanity")),
+            new ToggleItem("Shield Capsulesanity", "ShieldCapsulesanity", MakeImgPath("ShieldCapsulesanity")),
+            new ToggleItem("Power-up Capsulesanity", "PowerupCapsulesanity", MakeImgPath("PowerupCapsulesanity")),
+            new ToggleItem("Ring Capsulesanity", "RingCapsulesanity", MakeImgPath("RingCapsulesanity")),
             new ToggleItem("Fishsanity", "Fishsanity", MakeImgPath("Fishsanity")),
         };
         await FileWriter.WriteFile(JsonSerializer.Serialize(settings, Constants.JsonOptions),

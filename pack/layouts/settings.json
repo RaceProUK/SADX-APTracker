@@ -52,11 +52,11 @@
             ],
             [
                 "",
-                "",
-                "",
-                "",
-                "",
-                "",
+                "PinballCapsules",
+                "LifeCapsulesanity",
+                "ShieldCapsulesanity",
+                "PowerupCapsulesanity",
+                "RingCapsulesanity",
                 "Fishsanity"
             ]
         ]

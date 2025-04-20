@@ -243,6 +243,36 @@
         "codes": "BigCapsulesanity"
     },
     {
+        "img": "images/settings/PinballCapsules.png",
+        "name": "Pinball Capsules",
+        "type": "toggle",
+        "codes": "PinballCapsules"
+    },
+    {
+        "img": "images/settings/LifeCapsulesanity.png",
+        "name": "Life Capsulesanity",
+        "type": "toggle",
+        "codes": "LifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/ShieldCapsulesanity.png",
+        "name": "Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "ShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/PowerupCapsulesanity.png",
+        "name": "Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "PowerupCapsulesanity"
+    },
+    {
+        "img": "images/settings/RingCapsulesanity.png",
+        "name": "Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "RingCapsulesanity"
+    },
+    {
         "img": "images/settings/Fishsanity.png",
         "name": "Fishsanity",
         "type": "toggle",
