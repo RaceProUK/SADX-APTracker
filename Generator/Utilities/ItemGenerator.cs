@@ -101,10 +101,10 @@ internal static partial class ItemGenerator
     {
         var collectibles = from entry in dict
                            where entry.Key >= CollectiblesStart && entry.Key < GoalsStart
-                           let code = MakeCode(entry.Value).Pluralize()
+                           let code = MakeCode(entry.Value)
                            select new CollectibleItem(entry.Value.Pluralize(),
                                                       code,
-                                                      $"images/collectibles/{code}.png",
+                                                      $"images/collectibles/{code.Pluralize()}.png",
                                                       1500);
         await FileWriter.WriteFile(JsonSerializer.Serialize(collectibles, Constants.JsonOptions),
                                    "collectibles.json",

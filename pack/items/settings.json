@@ -43,7 +43,7 @@
         "codes": "EmblemsRequired"
     },
     {
-        "max_quantity": 31,
+        "max_quantity": 32,
         "initial_quantity": 0,
         "overlay_font_size": 16,
         "img": "images/settings/Levels.png",
