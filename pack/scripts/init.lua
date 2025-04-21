@@ -31,3 +31,11 @@ Tracker:AddLayouts("layouts/tracker.json")
 ScriptHost:LoadScript("scripts/settingNames.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 ScriptHost:LoadScript("scripts/archipelago.lua")
+
+for i = 1,60,1 do
+    local code = "AllowMission" .. i
+    local setting = Tracker:FindObjectForCode(code)
+    if setting then
+        setting.BadgeText = tostring(i)
+    end
+end
