@@ -121,6 +121,8 @@ internal static partial class ItemGenerator
             new ToggleItem("Ring Capsulesanity", "RingCapsulesanity", MakeImgPath("RingCapsulesanity")),
             new ToggleItem("Fishsanity", "Fishsanity", MakeImgPath("Fishsanity")),
         };
+        for (var i = 1; i <= 60; i++)
+            settings.Add(new ToggleItem($"Allow Mission {i}", $"AllowMission{i}", MakeImgPath("Missions")));
         await FileWriter.WriteFile(JsonSerializer.Serialize(settings, Constants.JsonOptions),
                                    "settings.json",
                                    "items");

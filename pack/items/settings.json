@@ -545,5 +545,365 @@
         "name": "Fishsanity",
         "type": "toggle",
         "codes": "Fishsanity"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 1",
+        "type": "toggle",
+        "codes": "AllowMission1"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 2",
+        "type": "toggle",
+        "codes": "AllowMission2"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 3",
+        "type": "toggle",
+        "codes": "AllowMission3"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 4",
+        "type": "toggle",
+        "codes": "AllowMission4"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 5",
+        "type": "toggle",
+        "codes": "AllowMission5"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 6",
+        "type": "toggle",
+        "codes": "AllowMission6"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 7",
+        "type": "toggle",
+        "codes": "AllowMission7"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 8",
+        "type": "toggle",
+        "codes": "AllowMission8"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 9",
+        "type": "toggle",
+        "codes": "AllowMission9"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 10",
+        "type": "toggle",
+        "codes": "AllowMission10"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 11",
+        "type": "toggle",
+        "codes": "AllowMission11"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 12",
+        "type": "toggle",
+        "codes": "AllowMission12"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 13",
+        "type": "toggle",
+        "codes": "AllowMission13"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 14",
+        "type": "toggle",
+        "codes": "AllowMission14"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 15",
+        "type": "toggle",
+        "codes": "AllowMission15"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 16",
+        "type": "toggle",
+        "codes": "AllowMission16"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 17",
+        "type": "toggle",
+        "codes": "AllowMission17"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 18",
+        "type": "toggle",
+        "codes": "AllowMission18"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 19",
+        "type": "toggle",
+        "codes": "AllowMission19"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 20",
+        "type": "toggle",
+        "codes": "AllowMission20"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 21",
+        "type": "toggle",
+        "codes": "AllowMission21"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 22",
+        "type": "toggle",
+        "codes": "AllowMission22"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 23",
+        "type": "toggle",
+        "codes": "AllowMission23"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 24",
+        "type": "toggle",
+        "codes": "AllowMission24"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 25",
+        "type": "toggle",
+        "codes": "AllowMission25"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 26",
+        "type": "toggle",
+        "codes": "AllowMission26"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 27",
+        "type": "toggle",
+        "codes": "AllowMission27"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 28",
+        "type": "toggle",
+        "codes": "AllowMission28"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 29",
+        "type": "toggle",
+        "codes": "AllowMission29"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 30",
+        "type": "toggle",
+        "codes": "AllowMission30"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 31",
+        "type": "toggle",
+        "codes": "AllowMission31"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 32",
+        "type": "toggle",
+        "codes": "AllowMission32"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 33",
+        "type": "toggle",
+        "codes": "AllowMission33"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 34",
+        "type": "toggle",
+        "codes": "AllowMission34"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 35",
+        "type": "toggle",
+        "codes": "AllowMission35"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 36",
+        "type": "toggle",
+        "codes": "AllowMission36"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 37",
+        "type": "toggle",
+        "codes": "AllowMission37"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 38",
+        "type": "toggle",
+        "codes": "AllowMission38"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 39",
+        "type": "toggle",
+        "codes": "AllowMission39"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 40",
+        "type": "toggle",
+        "codes": "AllowMission40"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 41",
+        "type": "toggle",
+        "codes": "AllowMission41"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 42",
+        "type": "toggle",
+        "codes": "AllowMission42"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 43",
+        "type": "toggle",
+        "codes": "AllowMission43"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 44",
+        "type": "toggle",
+        "codes": "AllowMission44"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 45",
+        "type": "toggle",
+        "codes": "AllowMission45"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 46",
+        "type": "toggle",
+        "codes": "AllowMission46"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 47",
+        "type": "toggle",
+        "codes": "AllowMission47"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 48",
+        "type": "toggle",
+        "codes": "AllowMission48"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 49",
+        "type": "toggle",
+        "codes": "AllowMission49"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 50",
+        "type": "toggle",
+        "codes": "AllowMission50"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 51",
+        "type": "toggle",
+        "codes": "AllowMission51"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 52",
+        "type": "toggle",
+        "codes": "AllowMission52"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 53",
+        "type": "toggle",
+        "codes": "AllowMission53"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 54",
+        "type": "toggle",
+        "codes": "AllowMission54"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 55",
+        "type": "toggle",
+        "codes": "AllowMission55"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 56",
+        "type": "toggle",
+        "codes": "AllowMission56"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 57",
+        "type": "toggle",
+        "codes": "AllowMission57"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 58",
+        "type": "toggle",
+        "codes": "AllowMission58"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 59",
+        "type": "toggle",
+        "codes": "AllowMission59"
+    },
+    {
+        "img": "images/settings/Missions.png",
+        "name": "Allow Mission 60",
+        "type": "toggle",
+        "codes": "AllowMission60"
     }
 ]

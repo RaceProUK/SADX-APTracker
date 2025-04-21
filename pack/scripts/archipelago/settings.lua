@@ -12,6 +12,13 @@ function ResetSettings()
             end
         end
     end
+    for i = 1,60,1 do
+        local code = "AllowMission" .. i
+        local setting = Tracker:FindObjectForCode(code)
+        if setting then
+            setting.Active = true
+        end
+    end
 end
 
 function ParseSettings(slotData)
@@ -208,9 +215,19 @@ function ParseSettings(slotData)
         setting.Active = slotData["FishSanity"] ~= 0
     end
     if slotData["MissionBlackList"] then
-        --TODO: Handle mission blacklist
-        for k, v in pairs(slotData["MissionBlackList"]) do
-            print("[" .. k .. "] = " .. tostring(v))
+        for i = 1,60,1 do
+            local code = "AllowMission" .. i
+            local setting = Tracker:FindObjectForCode(code)
+            if setting then
+                setting.Active = true
+            end
         end
+        for _, v in pairs(slotData["MissionBlackList"]) do
+            local code = "AllowMission" .. v
+            local setting = Tracker:FindObjectForCode(code)
+            if setting then
+                setting.Active = false
+            end
+         end
     end
 end

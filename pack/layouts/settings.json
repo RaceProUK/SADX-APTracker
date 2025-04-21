@@ -135,6 +135,91 @@
                         ]
                     ]
                 }
+            },
+            {
+                "type": "group",
+                "header": "Mission Mode Missions",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
+                        [
+                            "AllowMission1",
+                            "AllowMission2",
+                            "AllowMission3",
+                            "AllowMission4",
+                            "AllowMission5",
+                            "AllowMission6",
+                            "AllowMission7",
+                            "AllowMission8",
+                            "AllowMission9",
+                            "AllowMission10"
+                        ],
+                        [
+                            "AllowMission11",
+                            "AllowMission12",
+                            "AllowMission13",
+                            "AllowMission14",
+                            "AllowMission15",
+                            "AllowMission16",
+                            "AllowMission17",
+                            "AllowMission18",
+                            "AllowMission19",
+                            "AllowMission20"
+                        ],
+                        [
+                            "AllowMission21",
+                            "AllowMission22",
+                            "AllowMission23",
+                            "AllowMission24",
+                            "AllowMission25",
+                            "AllowMission26",
+                            "AllowMission27",
+                            "AllowMission28",
+                            "AllowMission29",
+                            "AllowMission30"
+                        ],
+                        [
+                            "AllowMission31",
+                            "AllowMission32",
+                            "AllowMission33",
+                            "AllowMission34",
+                            "AllowMission35",
+                            "AllowMission36",
+                            "AllowMission37",
+                            "AllowMission38",
+                            "AllowMission39",
+                            "AllowMission40"
+                        ],
+                        [
+                            "AllowMission41",
+                            "AllowMission42",
+                            "AllowMission43",
+                            "AllowMission44",
+                            "AllowMission45",
+                            "AllowMission46",
+                            "AllowMission47",
+                            "AllowMission48",
+                            "AllowMission49",
+                            "AllowMission50"
+                        ],
+                        [
+                            "AllowMission51",
+                            "AllowMission52",
+                            "AllowMission53",
+                            "AllowMission54",
+                            "AllowMission55",
+                            "AllowMission56",
+                            "AllowMission57",
+                            "AllowMission58",
+                            "AllowMission59",
+                            "AllowMission60"
+                        ]
+                    ]
+                }
             }
         ]
     }
