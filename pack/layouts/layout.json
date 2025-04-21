@@ -23,7 +23,7 @@
                         },
                         {
                             "type": "group",
-                            "header": "Characters",
+                            "header": "Characters and Upgrades",
                             "dock": "left",
                             "content": {
                                 "type": "layout",
@@ -37,14 +37,6 @@
                             "content": {
                                 "type": "layout",
                                 "key": "keys"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Settings",
-                            "content": {
-                                "type": "layout",
-                                "key": "settings"
                             }
                         }
                     ]

@@ -24,6 +24,7 @@ Tracker:AddLayouts("layouts/progression.json")
 Tracker:AddLayouts("layouts/characters.json")
 Tracker:AddLayouts("layouts/keys.json")
 Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/layout.json")
 Tracker:AddLayouts("layouts/tracker.json")
 

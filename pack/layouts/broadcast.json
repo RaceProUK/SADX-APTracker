@@ -1,0 +1,36 @@
+{
+    "broadcast_tracker": {
+        "type": "dock",
+        "background": "#6f6f7f",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Progression",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "progression"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Characters and Upgrades",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "characters"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Keys",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "keys"
+                }
+            }
+        ]
+    }
+}

@@ -1,21 +1,21 @@
 {
     "progression": {
         "type": "itemgrid",
-        "h_alignment": "left",
+        "h_alignment": "center",
         "item_margin": "4,4",
         "item_size": 32,
         "rows": [
             [
-                "Emblem",
+                "Emblem"
+            ],
+            [
                 "WhiteChaosEmerald",
-                "RedChaosEmerald"
-            ],
-            [
+                "RedChaosEmerald",
                 "CyanChaosEmerald",
-                "PurpleChaosEmerald",
-                "GreenChaosEmerald"
+                "PurpleChaosEmerald"
             ],
             [
+                "GreenChaosEmerald",
                 "YellowChaosEmerald",
                 "BlueChaosEmerald",
                 "Chaos'Peace"

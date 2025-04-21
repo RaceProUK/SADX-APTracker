@@ -1,73 +1,141 @@
 {
     "settings": {
-        "type": "itemgrid",
-        "h_alignment": "left",
-        "item_margin": "4,4",
-        "item_size": 32,
-        "rows": [
-            [
-                "LogicLevel",
-                "EmblemsRequired",
-                "LevelsRequired",
-                "EmeraldsRequired",
-                "BossesRequired",
-                "MissionsRequired",
-                "ChaoRacesRequired"
-            ],
-            [
-                "SkyChaseChecks",
-                "FieldEmblemChecks",
-                "SecretChaoEggs",
-                "UnifyEggHornet",
-                "UnifyChaos4",
-                "UnifyChaos6",
-                "ChaoRacesAccessLevels"
-            ],
-            [
-                "SandHillChecks",
-                "SonicPlayable",
-                "TailsPlayable",
-                "KnucklesPlayable",
-                "AmyPlayable",
-                "GammaPlayable",
-                "BigPlayable"
-            ],
-            [
-                "TwinkleCircuitChecks",
-                "SonicMissions",
-                "TailsMissions",
-                "KnucklesMissions",
-                "AmyMissions",
-                "GammaMissions",
-                "BigMissions"
-            ],
-            [
-                "Enemysanity",
-                "SonicEnemysanity",
-                "TailsEnemysanity",
-                "KnucklesEnemysanity",
-                "AmyEnemysanity",
-                "GammaEnemysanity",
-                "BigEnemysanity"
-            ],
-            [
-                "Capsulesanity",
-                "SonicCapsulesanity",
-                "TailsCapsulesanity",
-                "KnucklesCapsulesanity",
-                "AmyCapsulesanity",
-                "GammaCapsulesanity",
-                "BigCapsulesanity"
-            ],
-            [
-                "",
-                "PinballCapsules",
-                "LifeCapsulesanity",
-                "ShieldCapsulesanity",
-                "PowerupCapsulesanity",
-                "RingCapsulesanity",
-                "Fishsanity"
-            ]
+        "type": "dock",
+        "background": "#6f6f7f",
+        "margin": "0,0,0,0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Goal Conditions",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
+                        [
+                            "EmblemsRequired",
+                            "LevelsRequired",
+                            "EmeraldsRequired",
+                            "BossesRequired",
+                            "MissionsRequired",
+                            "ChaoRacesRequired"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Location Check Options",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
+                        [
+                            "FieldEmblemChecks",
+                            "SecretChaoEggs",
+                            "UnifyEggHornet",
+                            "UnifyChaos4",
+                            "UnifyChaos6"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Logic Settings",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
+                        [
+                            "LogicLevel",
+                            "ChaoRacesAccessLevels"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Characters and Stage Missions",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
+                        [
+                            "SonicPlayable",
+                            "TailsPlayable",
+                            "KnucklesPlayable",
+                            "AmyPlayable",
+                            "GammaPlayable",
+                            "BigPlayable"
+                        ],
+                        [
+                            "SonicMissions",
+                            "TailsMissions",
+                            "KnucklesMissions",
+                            "AmyMissions",
+                            "GammaMissions",
+                            "BigMissions"
+                        ],
+                        [
+                            "SkyChaseChecks",
+                            "SandHillChecks",
+                            "TwinkleCircuitChecks"
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Enemysanity, Capsulesanity, and Fishsanity",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
+                        [
+                            "Enemysanity",
+                            "SonicEnemysanity",
+                            "TailsEnemysanity",
+                            "KnucklesEnemysanity",
+                            "AmyEnemysanity",
+                            "GammaEnemysanity",
+                            "BigEnemysanity"
+                        ],
+                        [
+                            "Capsulesanity",
+                            "SonicCapsulesanity",
+                            "TailsCapsulesanity",
+                            "KnucklesCapsulesanity",
+                            "AmyCapsulesanity",
+                            "GammaCapsulesanity",
+                            "BigCapsulesanity"
+                        ],
+                        [
+                            "",
+                            "PinballCapsules",
+                            "LifeCapsulesanity",
+                            "ShieldCapsulesanity",
+                            "PowerupCapsulesanity",
+                            "RingCapsulesanity",
+                            "Fishsanity"
+                        ]
+                    ]
+                }
+            }
         ]
     }
 }
