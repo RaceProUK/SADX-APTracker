@@ -1,7 +1,6 @@
 ScriptHost:LoadScript("scripts/archipelago/itemMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/locationMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/settings.lua")
-ScriptHost:LoadScript("scripts/archipelago/settingNames.lua")
 
 CurrentIndex = -1
 
