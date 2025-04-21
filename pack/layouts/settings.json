@@ -20,14 +20,15 @@
                             "EmeraldsRequired",
                             "BossesRequired",
                             "MissionsRequired",
-                            "ChaoRacesRequired"
+                            "ChaoRacesRequired",
+                            "ChaoRacesAccessLevels"
                         ]
                     ]
                 }
             },
             {
                 "type": "group",
-                "header": "Location Check Options",
+                "header": "Logic and Location Check Options",
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
@@ -36,6 +37,8 @@
                     "item_size": 32,
                     "rows": [
                         [
+                            "LogicLevel",
+                            "",
                             "FieldEmblemChecks",
                             "SecretChaoEggs",
                             "UnifyEggHornet",
@@ -47,24 +50,7 @@
             },
             {
                 "type": "group",
-                "header": "Logic Settings",
-                "dock": "top",
-                "content": {
-                    "type": "itemgrid",
-                    "h_alignment": "center",
-                    "item_margin": "4,4",
-                    "item_size": 32,
-                    "rows": [
-                        [
-                            "LogicLevel",
-                            "ChaoRacesAccessLevels"
-                        ]
-                    ]
-                }
-            },
-            {
-                "type": "group",
-                "header": "Characters and Stage Missions",
+                "header": "Playable Characters",
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
@@ -79,7 +65,20 @@
                             "AmyPlayable",
                             "GammaPlayable",
                             "BigPlayable"
-                        ],
+                        ]
+                    ]
+                }
+            },
+            {
+                "type": "group",
+                "header": "Action Stage and Sub-Game Missions",
+                "dock": "top",
+                "content": {
+                    "type": "itemgrid",
+                    "h_alignment": "center",
+                    "item_margin": "4,4",
+                    "item_size": 32,
+                    "rows": [
                         [
                             "SonicMissions",
                             "TailsMissions",
@@ -108,6 +107,10 @@
                     "rows": [
                         [
                             "Enemysanity",
+                            "Capsulesanity",
+                            "Fishsanity"
+                        ],
+                        [
                             "SonicEnemysanity",
                             "TailsEnemysanity",
                             "KnucklesEnemysanity",
@@ -116,7 +119,6 @@
                             "BigEnemysanity"
                         ],
                         [
-                            "Capsulesanity",
                             "SonicCapsulesanity",
                             "TailsCapsulesanity",
                             "KnucklesCapsulesanity",
@@ -125,13 +127,11 @@
                             "BigCapsulesanity"
                         ],
                         [
-                            "",
                             "PinballCapsules",
                             "LifeCapsulesanity",
                             "ShieldCapsulesanity",
                             "PowerupCapsulesanity",
-                            "RingCapsulesanity",
-                            "Fishsanity"
+                            "RingCapsulesanity"
                         ]
                     ]
                 }
