@@ -20,9 +20,18 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateFish(FrozenDictionary<int, string> dict)
     {
+        static int GetOrder(string name) => name[0] switch
+        {
+            'T' => 0,
+            'I' => 1,
+            'E' => 2,
+            'H' => 3,
+            _ => int.MaxValue
+        };
+
         var locations = from entry in dict
                         where entry.Key >= FishStart && entry.Key < FishEnd
-                        orderby entry.Key
+                        orderby GetOrder(entry.Value), entry.Key
                         let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
                         let name = parts[0]
                         let section = parts[1]
