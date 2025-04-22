@@ -9,8 +9,11 @@
     </PropertyGroup>
     <PropertyGroup>
         <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+        <UserSecretsId>b142e81d-996d-4b19-a68a-38a41c45604e</UserSecretsId>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Humanizer.Core" Version="2.14.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="9.0.4" />
+        <PackageReference Include="SheetToObjects.Adapters.GoogleSheets" Version="3.1.0" />
     </ItemGroup>
 </Project>
