@@ -133,9 +133,20 @@ internal static class LogicLoader
     private static LogicRules ParseCharacterLogicRules(string s)
     {
         var rules = new LogicRules();
-        var lines = RemoveWhitespace(s).Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+        var lines = RemoveWhitespace(s).Split(",C", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
         foreach (var line in lines)
-            rules.Add([$"Playable{line.Split('.')[^1]}"]);
+        {
+            if (line.Contains("Upgrade"))
+            {
+                var start = line.IndexOf('(') + 1;
+                var items = line[start..^1].Split(',');
+                rules.Add([$"Playable{items[0].Split('.')[^1]}", items[1].Split('.')[^1]]);
+            }
+            else
+            {
+                rules.Add([$"Playable{line.Split('.')[^1]}"]);
+            }
+        }
         return rules;
     }
 

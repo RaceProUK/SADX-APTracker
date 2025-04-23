@@ -13,19 +13,88 @@
         "sections": [
             {
                 "name": "Station Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableSonic",
+                    "NormalLogic,PlayableKnuckles",
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableAmy",
+                    "NormalLogic,PlayableBig",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableAmy",
+                    "HardLogic,PlayableBig",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableAmy",
+                    "ExpertLogicDC,PlayableBig",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableAmy",
+                    "ExpertLogicDX,PlayableBig"
+                ]
             },
             {
                 "name": "Burger Shop Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableSonic",
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableKnuckles",
+                    "NormalLogic,PlayableAmy",
+                    "NormalLogic,PlayableBig",
+                    "NormalLogic,PlayableGamma",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableAmy",
+                    "HardLogic,PlayableBig",
+                    "HardLogic,PlayableGamma",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableAmy",
+                    "ExpertLogicDC,PlayableBig",
+                    "ExpertLogicDC,PlayableGamma",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableAmy",
+                    "ExpertLogicDX,PlayableBig",
+                    "ExpertLogicDX,PlayableGamma"
+                ]
             },
             {
                 "name": "City Hall Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableKnuckles,ShovelClaw",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles,ShovelClaw",
+                    "ExpertLogicDC,PlayableAmy",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableAmy",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles,ShovelClaw"
+                ]
             },
             {
                 "name": "Casino Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableSonic"
+                ]
             }
         ],
         "visibility_rules": [
@@ -46,19 +115,89 @@
         "sections": [
             {
                 "name": "Tails' Workshop Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableKnuckles",
+                    "NormalLogic,PlayableGamma,JetBooster",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableGamma,JetBooster",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableGamma,JetBooster",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableGamma,JetBooster"
+                ]
             },
             {
                 "name": "Shrine Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableKnuckles",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableGamma,JetBooster",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableGamma,JetBooster",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableGamma,JetBooster"
+                ]
             },
             {
                 "name": "Jungle Path Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableSonic",
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableKnuckles",
+                    "NormalLogic,PlayableAmy",
+                    "NormalLogic,PlayableBig",
+                    "NormalLogic,PlayableGamma",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableAmy",
+                    "HardLogic,PlayableBig",
+                    "HardLogic,PlayableGamma",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableAmy",
+                    "ExpertLogicDC,PlayableBig",
+                    "ExpertLogicDC,PlayableGamma",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableAmy",
+                    "ExpertLogicDX,PlayableBig",
+                    "ExpertLogicDX,PlayableGamma"
+                ]
             },
             {
                 "name": "Tree Stump Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableKnuckles",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles"
+                ]
             }
         ],
         "visibility_rules": [
@@ -79,19 +218,78 @@
         "sections": [
             {
                 "name": "Pool Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableKnuckles",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableAmy",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableAmy",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableAmy"
+                ]
             },
             {
                 "name": "Spinning Platform Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableSonic"
+                ]
             },
             {
                 "name": "Hidden Bed Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableTails",
+                    "NormalLogic,PlayableSonic",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableTails",
+                    "HardLogic,PlayableKnuckles",
+                    "HardLogic,PlayableAmy",
+                    "HardLogic,PlayableBig",
+                    "HardLogic,PlayableGamma",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableTails",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableAmy",
+                    "ExpertLogicDC,PlayableBig",
+                    "ExpertLogicDC,PlayableGamma",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableTails",
+                    "ExpertLogicDX,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableAmy",
+                    "ExpertLogicDX,PlayableBig",
+                    "ExpertLogicDX,PlayableGamma"
+                ]
             },
             {
                 "name": "Main Platform Emblem",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,PlayableSonic",
+                    "HardLogic,PlayableSonic",
+                    "HardLogic,PlayableBig",
+                    "HardLogic,PlayableKnuckles",
+                    "ExpertLogicDC,PlayableSonic",
+                    "ExpertLogicDC,PlayableBig",
+                    "ExpertLogicDC,PlayableKnuckles",
+                    "ExpertLogicDX,PlayableSonic",
+                    "ExpertLogicDX,PlayableBig",
+                    "ExpertLogicDX,PlayableKnuckles"
+                ]
             }
         ],
         "visibility_rules": [
