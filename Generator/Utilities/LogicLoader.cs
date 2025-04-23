@@ -97,25 +97,15 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<SubGameMission> LoadForSubGameMission()
-        => LoadFor<SubGameMission>("B448:I461", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Area))
-             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.SubGame))
-             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
-             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.NormalLogic))
-             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.HardLogic))
-             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.ExpertDCLogic))
-             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.ExpertDXLogic)));
-
     internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()
-        => LoadFor<UpgradeItem>("B350:I367", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
-             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Area))
-             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Upgrade))
-             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
-             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
-             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
-             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
+         => LoadFor<UpgradeItem>("B350:I367", _ =>
+             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
+              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Area))
+              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Upgrade))
+              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
+              .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
+              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
+              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
     private static async IAsyncEnumerable<T> LoadFor<T>(string range,
                                                      Func<MappingConfigBuilder<T>, MappingConfigBuilder<T>> mapping) where T : new()
