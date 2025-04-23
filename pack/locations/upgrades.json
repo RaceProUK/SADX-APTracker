@@ -21,6 +21,12 @@
             {
                 "name": "Crystal Ring Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic,LightShoes",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ],
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
@@ -84,6 +90,16 @@
             {
                 "name": "Life Belt Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,IceStone,StationFrontKey,Train",
+                    "NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "HardLogic,IceStone,StationFrontKey,Train",
+                    "HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "ExpertLogicDC,IceStone,StationFrontKey,Train",
+                    "ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "ExpertLogicDX,IceStone,StationFrontKey,Train",
+                    "ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -59,21 +60,26 @@ internal static partial class LocationGenerator
             _ => "Big"
         };
 
+        var logic = await LogicLoader.LoadForUpgradeItem().ToListAsync();
         var ssUpgrades = from entry in dict
                          where ssUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var mrUpgrades = from entry in dict
                          where mrUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var ecUpgrades = from entry in dict
                          where ecUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var icUpgrades = from entry in dict
                          where icUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var stationSquare = new Location("Station Square Upgrades",
                                          [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
@@ -91,5 +97,11 @@ internal static partial class LocationGenerator
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
                                    "upgrades.json",
                                    "locations");
+
+        IEnumerable<string>? GetAccessRules(string section) => logic.First(entry =>
+        {
+            var upgrade = entry.Upgrade.Split('.', StringSplitOptions.TrimEntries)[^1].Humanize(LetterCasing.Title);
+            return section.StartsWith(upgrade);
+        }).BuildAccessRules();
     }
 }
