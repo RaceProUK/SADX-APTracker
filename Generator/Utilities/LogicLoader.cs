@@ -78,8 +78,8 @@ internal static class LogicLoader
 
     internal static IAsyncEnumerable<LevelMission> LoadForLevelMission()
         => LoadFor<LevelMission>("B219:I347", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
-             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Level))
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
              .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))

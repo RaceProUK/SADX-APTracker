@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -31,7 +32,24 @@ internal static partial class LocationGenerator
     private static async Task GenerateLevels(FrozenDictionary<int, string> dict)
     {
         static IEnumerable<string>? GetMissionVisibility(string character, string section) => [$"{character}Mission{section[^1]}"];
-        static IEnumerable<Location> GetLevels(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
+
+        var missionLogic = await LogicLoader.LoadForLevelMission().ToListAsync();
+        var sonicLevels = GetLevels(dict, SonicLevelsStart, SonicLevelsEnd, 58, 64);
+        var tailsLevels = GetLevels(dict, TailsLevelsStart, TailsLevelsEnd, 570, 64);
+        var knucklesLevels = GetLevels(dict, KnucklesLevelsStart, KnucklesLevelsEnd, 570, 704);
+        var amyLevels = GetLevels(dict, AmyLevelsStart, AmyLevelsEnd, 1082, 64);
+        var gammaLevels = GetLevels(dict, GammaLevelsStart, GammaLevelsEnd, 1082, 448);
+        var bigLevels = GetLevels(dict, BigLevelsStart, BigLevelsEnd, 1594, 64);
+        var levels = sonicLevels.Union(tailsLevels)
+                                .Union(knucklesLevels)
+                                .Union(amyLevels)
+                                .Union(gammaLevels)
+                                .Union(bigLevels);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(levels, Constants.JsonOptions),
+                                   "levels.json",
+                                   "locations");
+
+        IEnumerable<Location> GetLevels(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
                             where entry.Key >= start && entry.Key < end
@@ -48,23 +66,16 @@ internal static partial class LocationGenerator
                                        [new MapLocation("levels", x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        select new Section(section,
+                                                          AccessRules: GetMissionAccessRules(level.Location.Key, character, section),
                                                           VisibilityRules: GetMissionVisibility(character, section)),
                                        VisibilityRules: [$"{character}Playable"]);
         }
 
-        var sonicLevels = GetLevels(dict, SonicLevelsStart, SonicLevelsEnd, 58, 64);
-        var tailsLevels = GetLevels(dict, TailsLevelsStart, TailsLevelsEnd, 570, 64);
-        var knucklesLevels = GetLevels(dict, KnucklesLevelsStart, KnucklesLevelsEnd, 570, 704);
-        var amyLevels = GetLevels(dict, AmyLevelsStart, AmyLevelsEnd, 1082, 64);
-        var gammaLevels = GetLevels(dict, GammaLevelsStart, GammaLevelsEnd, 1082, 448);
-        var bigLevels = GetLevels(dict, BigLevelsStart, BigLevelsEnd, 1594, 64);
-        var levels = sonicLevels.Union(tailsLevels)
-                                .Union(knucklesLevels)
-                                .Union(amyLevels)
-                                .Union(gammaLevels)
-                                .Union(bigLevels);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(levels, Constants.JsonOptions),
-                                   "levels.json",
-                                   "locations");
+        IEnumerable<string>? GetMissionAccessRules(string location, string character, string mission)
+            => missionLogic.First(entry =>
+            {
+                var level = entry.Level.Humanize(LetterCasing.Title);
+                return location.StartsWith(level) && character.Equals(entry.Character) && mission.EndsWith(entry.Mission);
+            }).BuildAccessRules();
     }
 }
