@@ -51,12 +51,22 @@ internal static partial class LocationGenerator
             "Chaos 6" => ["UnifyChaos6,SonicPlayable", "UnifyChaos6,KnucklesPlayable", "UnifyChaos6,BigPlayable"],
             _ => default
         };
+        static string[]? GetSharedBossAccess(string name) => name switch
+        {
+            "Egg Hornet" => ["PlayableSonic", "PlayableTails"],
+            "Chaos 4" => ["PlayableSonic", "PlayableTails", "PlayableKnuckles"],
+            "Chaos 6" => ["PlayableSonic", "PlayableKnuckles", "PlayableBig"],
+            _ => default
+        };
 
         var ssBosses = from entry in dict
                        where entry.Key >= StationSquareBossesStart && entry.Key < StationSquareBossesEnd
                        let character = CharacterParser().Match(entry.Value).Groups[1].Value
                        let boss = TrimBossName(entry.Value)
                        select new Section(boss,
+                                          AccessRules: string.IsNullOrEmpty(character)
+                                          ? GetSharedBossAccess(boss)
+                                          : [$"Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
@@ -65,6 +75,9 @@ internal static partial class LocationGenerator
                        let character = CharacterParser().Match(entry.Value).Groups[1].Value
                        let boss = TrimBossName(entry.Value)
                        select new Section(boss,
+                                          AccessRules: string.IsNullOrEmpty(character)
+                                          ? GetSharedBossAccess(boss)
+                                          : [$"Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
@@ -73,6 +86,9 @@ internal static partial class LocationGenerator
                        let character = CharacterParser().Match(entry.Value).Groups[1].Value
                        let boss = TrimBossName(entry.Value)
                        select new Section(boss,
+                                          AccessRules: string.IsNullOrEmpty(character)
+                                          ? GetSharedBossAccess(boss)
+                                          : [$"Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
