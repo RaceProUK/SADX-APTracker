@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -29,6 +30,7 @@ internal static partial class LocationGenerator
             _ => int.MaxValue
         };
 
+        var logic = await LogicLoader.LoadFish().ToListAsync();
         var locations = from entry in dict
                         where entry.Key >= FishStart && entry.Key < FishEnd
                         orderby GetOrder(entry.Value), entry.Key
@@ -41,10 +43,19 @@ internal static partial class LocationGenerator
                    let y = 64 + 128 * level.Multipler
                    select new Location($"Fishsanity - {level.Location.Key}",
                                        [new MapLocation("levels", 1594 + 48, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section),
+                                       from section in level.Location
+                                       select new Section(section,
+                                                          AccessRules: GetAccessRules(level.Location.Key, section)),
                                        VisibilityRules: [$"BigPlayable,Fishsanity"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(fish, Constants.JsonOptions),
                                    "fish.json",
                                    "locations");
+
+        IEnumerable<string>? GetAccessRules(string location, string section) => logic.First(entry =>
+        {
+            var level = entry.Level.Humanize(LetterCasing.Title);
+            var fish = entry.Type.Humanize(LetterCasing.Title);
+            return location.StartsWith(level) && section.Equals(fish);
+        }).BuildAccessRules();
     }
 }
