@@ -88,9 +88,9 @@ internal static class LogicLoader
 
     internal static IAsyncEnumerable<Mission> LoadForMission()
         => LoadFor<Mission>("B385:I445", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
-             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.CardArea))
-             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.ObjectiveArea))
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.CardArea))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.ObjectiveArea))
+             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(3).IsRequired().MapTo(_ => _.Number))
              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
              .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
@@ -132,6 +132,8 @@ internal static class LogicLoader
 
     private static LogicRules ParseKeyItemLogicRules(string s)
     {
+        s = string.Join(string.Empty, s.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries));
+
         var rules = new LogicRules();
         var lines = s.Split("],[", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
                      .Select(_ => _.Replace("[", string.Empty).Replace("]", string.Empty));

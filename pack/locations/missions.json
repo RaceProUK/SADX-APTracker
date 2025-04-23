@@ -58,6 +58,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,LightShoes",
+            "HardLogic",
+            "ExpertLogicDC",
+            "ExpertLogicDX"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission3"
         ]
@@ -247,6 +253,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,ShovelClaw",
+            "HardLogic,ShovelClaw",
+            "ExpertLogicDC,ShovelClaw",
+            "ExpertLogicDX,ShovelClaw"
+        ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission12"
         ]
@@ -414,6 +426,16 @@
                 "name": "Get all the medallions within the time limit! It's really slippery, so be careful!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "NormalLogic,IceStone,StationBackKey,Train,Dynamite",
+            "NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "HardLogic,IceStone,StationBackKey,Train,Dynamite",
+            "HardLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "ExpertLogicDC,IceStone,StationBackKey,Train,Dynamite",
+            "ExpertLogicDC,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "ExpertLogicDX,IceStone,StationBackKey,Train,Dynamite",
+            "ExpertLogicDX,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission20"
@@ -604,6 +626,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,LifeBelt",
+            "HardLogic",
+            "ExpertLogicDC",
+            "ExpertLogicDX"
+        ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission29"
         ]
@@ -709,6 +737,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,LightShoes",
+            "HardLogic,LightShoes",
+            "ExpertLogicDC",
+            "ExpertLogicDX"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission34"
         ]
@@ -729,6 +763,16 @@
                 "name": "I am the keeper of this icy lake! Catch me if you can!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "HardLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
+            "ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
+            "ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission35"
@@ -772,6 +816,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,JetAnklet",
+            "HardLogic",
+            "ExpertLogicDC",
+            "ExpertLogicDX"
+        ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission37"
         ]
@@ -792,6 +842,12 @@
                 "name": "A message from an ancient people: In the direction where the burning arrow is pointing you will see...",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "NormalLogic,ShovelClaw",
+            "HardLogic,ShovelClaw",
+            "ExpertLogicDC,ShovelClaw",
+            "ExpertLogicDX,ShovelClaw"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission38"
@@ -814,6 +870,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,JetBooster",
+            "HardLogic,JetBooster",
+            "ExpertLogicDC,JetBooster",
+            "ExpertLogicDX,JetBooster"
+        ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission39"
         ]
@@ -835,6 +897,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,LightShoes",
+            "HardLogic,LightShoes",
+            "ExpertLogicDC,LightShoes",
+            "ExpertLogicDX,LightShoes"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission40"
         ]
@@ -855,6 +923,12 @@
                 "name": "Look real carefully just as you fall from the waterfall!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "NormalLogic,LightShoes",
+            "HardLogic",
+            "ExpertLogicDC",
+            "ExpertLogicDX"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission41"
@@ -1066,6 +1140,12 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "NormalLogic,JetBooster",
+            "HardLogic,JetBooster",
+            "ExpertLogicDC,JetBooster",
+            "ExpertLogicDX,JetBooster"
+        ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission51"
         ]
@@ -1170,6 +1250,12 @@
                 "name": "Relentless eruptions occur in the flaming canyon. What could be hidden in the area she's staring at?",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "NormalLogic,ShovelClaw",
+            "HardLogic,ShovelClaw",
+            "ExpertLogicDC,ShovelClaw",
+            "ExpertLogicDX,ShovelClaw"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission56"

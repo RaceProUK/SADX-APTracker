@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -30,17 +31,22 @@ internal static partial class LocationGenerator
             _ => "Sonic"
         };
 
+        var logic = await LogicLoader.LoadForMission().ToListAsync();
         var missions = from entry in dict
                        where entry.Key >= MissionsStart && entry.Key < MissionsEnd
                        let number = int.Parse(NumberParser().Match(entry.Value).Value)
                        let x = CalculateX(number)
                        let y = CalculateY(number)
+                       let character = GetMissionCharacter(number)
                        select new Location(entry.Value,
                                            [new MapLocation("missions", x, y, MissionsIconSize, BorderThickness)],
                                            [new Section(Constants.MissionBriefs[number])],
-                                           VisibilityRules: [$"MissionsRequired,{GetMissionCharacter(number)}Playable,AllowMission{number}"]);
+                                           AccessRules: GetAccessRules(number),
+                                           VisibilityRules: [$"MissionsRequired,{character}Playable,AllowMission{number}"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(missions, Constants.JsonOptions),
                                    "missions.json",
                                    "locations");
+
+        IEnumerable<string>? GetAccessRules(int number) => logic.First(entry => number == entry.Number).BuildAccessRules();
     }
 }
