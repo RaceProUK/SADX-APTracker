@@ -50,18 +50,22 @@ internal static partial class LocationGenerator
             'B' => [$"Enable{subgame}"],
             _ => default
         };
+
         var sc1Missions = from entry in dict
                           where entry.Key >= SkyChaseAct1Start && entry.Key < SkyChaseAct1End
                           let mission = SublevelParser().Match(entry.Value).Groups[1].Value
-                          select new Section(mission, VisibilityRules: GetSubgameVisibility("SkyChase", mission));
+                          select new Section(mission,
+                                             VisibilityRules: GetSubgameVisibility("SkyChase", mission));
         var sc2Missions = from entry in dict
                           where entry.Key >= SkyChaseAct2Start && entry.Key < SkyChaseAct2End
                           let mission = SublevelParser().Match(entry.Value).Groups[1].Value
-                          select new Section(mission, VisibilityRules: GetSubgameVisibility("SkyChase", mission));
+                          select new Section(mission,
+                                             VisibilityRules: GetSubgameVisibility("SkyChase", mission));
         var shMissions = from entry in dict
                          where entry.Key >= SandHillStart && entry.Key < SandHillEnd
                          let mission = SublevelParser().Match(entry.Value).Groups[1].Value
-                         select new Section(mission, VisibilityRules: GetSubgameVisibility("SandHill", mission));
+                         select new Section(mission,
+                                            VisibilityRules: GetSubgameVisibility("SandHill", mission));
         var tcMissions1 = from entry in dict
                           where entry.Key >= TwinkleCircuitStart && entry.Key < TwinkleCircuitEnd
                           select new Section("Set a Record",
@@ -70,19 +74,23 @@ internal static partial class LocationGenerator
                           where entry.Key >= TwinkleCircuitMultipleStart && entry.Key < TwinkleCircuitMultipleEnd
                           let character = SublevelParser().Match(entry.Value).Groups[1].Value
                           select new Section($"Set a Record as {character}",
+                                             AccessRules: [$"Playable{character}"],
                                              VisibilityRules: [$"EnableTwinkleCircuitMultiple,{character}Playable"]);
         var skyChase1 = new Location("Sky Chase Act 1",
                                      [new MapLocation("levels", 1082, 1056, LevelsIconSize, BorderThickness)],
                                      sc1Missions,
+                                     AccessRules: ["PlayableSonic", "PlayableTails"],
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var skyChase2 = new Location("Sky Chase Act 2",
                                      [new MapLocation("levels", 1082, 1120, LevelsIconSize, BorderThickness)],
                                      sc2Missions,
+                                     AccessRules: ["PlayableSonic", "PlayableTails"],
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var sandHill = new Location("Sand Hill",
                                     [new MapLocation("levels", 1082, 1184, LevelsIconSize, BorderThickness)],
                                     shMissions,
-                                    VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
+                                    AccessRules: ["PlayableTails", "ExpertLogicDC,PlayableSonic", "ExpertLogicDX,PlayableSonic"],
+                                    VisibilityRules: ["TailsPlayable", "ExpertLogicDC,SonicPlayable", "ExpertLogicDX,SonicPlayable"]);
         var twinkleCircuit = new Location("Twinkle Circuit",
                                           [new MapLocation("levels", 1082, 1248, LevelsIconSize, BorderThickness)],
                                           tcMissions1.Union(tcMissions2));

@@ -62,10 +62,10 @@ internal static class LogicLoader
         => LoadFor<FieldEmblem>("B370:I382", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Name))
-             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
-             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
-             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
-             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
+             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.NormalLogic))
+             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.HardLogic))
+             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.ExpertDCLogic))
+             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
     internal static IAsyncEnumerable<Fish> LoadForFish()
         => LoadFor<Fish>("B1871:I1894", _ =>
@@ -102,10 +102,10 @@ internal static class LogicLoader
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.SubGame))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
-             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
-             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
-             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
-             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
+             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.NormalLogic))
+             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.HardLogic))
+             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.ExpertDCLogic))
+             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseCharacterLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
     internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()
         => LoadFor<UpgradeItem>("B350:I367", _ =>
@@ -130,18 +130,31 @@ internal static class LogicLoader
             yield return model.Value;
     }
 
+    private static LogicRules ParseCharacterLogicRules(string s)
+    {
+        var rules = new LogicRules();
+        var lines = RemoveWhitespace(s).Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+        foreach (var line in lines)
+            rules.Add([$"Playable{line.Split('.')[^1]}"]);
+        return rules;
+    }
+
     private static LogicRules ParseKeyItemLogicRules(string s)
     {
-        s = string.Join(string.Empty, s.Split(default(string[]), StringSplitOptions.RemoveEmptyEntries));
+        s = RemoveWhitespace(s);
 
         var rules = new LogicRules();
         var lines = s.Split("],[", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
                      .Select(_ => _.Replace("[", string.Empty).Replace("]", string.Empty));
         foreach (var line in lines)
         {
-            var items = line.Split(",", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+            var items = line.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
             rules.Add([.. items.Select(_ => _.Split('.')[^1])]);
         }
         return rules;
     }
+
+    private static string RemoveWhitespace(string s) => string.Join(string.Empty,
+                                                                    s.Split(default(string[]),
+                                                                            StringSplitOptions.RemoveEmptyEntries));
 }

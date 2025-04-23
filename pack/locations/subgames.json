@@ -26,6 +26,10 @@
                 ]
             }
         ],
+        "access_rules": [
+            "PlayableSonic",
+            "PlayableTails"
+        ],
         "visibility_rules": [
             "SonicPlayable",
             "TailsPlayable"
@@ -57,6 +61,10 @@
                     "EnableSkyChaseHard"
                 ]
             }
+        ],
+        "access_rules": [
+            "PlayableSonic",
+            "PlayableTails"
         ],
         "visibility_rules": [
             "SonicPlayable",
@@ -90,9 +98,15 @@
                 ]
             }
         ],
+        "access_rules": [
+            "PlayableTails",
+            "ExpertLogicDC,PlayableSonic",
+            "ExpertLogicDX,PlayableSonic"
+        ],
         "visibility_rules": [
-            "SonicPlayable",
-            "TailsPlayable"
+            "TailsPlayable",
+            "ExpertLogicDC,SonicPlayable",
+            "ExpertLogicDX,SonicPlayable"
         ]
     },
     {
@@ -117,6 +131,9 @@
             {
                 "name": "Set a Record as Sonic",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableSonic"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,SonicPlayable"
                 ]
@@ -124,6 +141,9 @@
             {
                 "name": "Set a Record as Tails",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableTails"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,TailsPlayable"
                 ]
@@ -131,6 +151,9 @@
             {
                 "name": "Set a Record as Knuckles",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableKnuckles"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,KnucklesPlayable"
                 ]
@@ -138,6 +161,9 @@
             {
                 "name": "Set a Record as Amy",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableAmy"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,AmyPlayable"
                 ]
@@ -145,6 +171,9 @@
             {
                 "name": "Set a Record as Big",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableBig"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,BigPlayable"
                 ]
@@ -152,6 +181,9 @@
             {
                 "name": "Set a Record as Gamma",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableGamma"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,GammaPlayable"
                 ]
