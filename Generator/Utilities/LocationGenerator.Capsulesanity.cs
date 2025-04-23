@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -45,7 +46,24 @@ internal static partial class LocationGenerator
             "Random Rings" => "RingCapsulesanity",
             _ => default
         };
-        static IEnumerable<Location> GetCapsules(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
+
+        var logic = await LogicLoader.LoadForCapsule().ToListAsync();
+        var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, 58, 64);
+        var tailsCapsules = GetCapsules(dict, TailsCapsulesStart, TailsCapsulesEnd, 570, 64);
+        var knucklesCapsules = GetCapsules(dict, KnucklesCapsulesStart, KnucklesCapsulesEnd, 570, 704);
+        var amyCapsules = GetCapsules(dict, AmyCapsulesStart, AmyCapsulesEnd, 1082, 64);
+        var gammaCapsules = GetCapsules(dict, GammaCapsulesStart, GammaCapsulesEnd, 1082, 448);
+        var bigCapsules = GetCapsules(dict, BigCapsulesStart, BigCapsulesEnd, 1594, 64);
+        var capsules = sonicCapsules.Union(tailsCapsules)
+                                    .Union(knucklesCapsules)
+                                    .Union(amyCapsules)
+                                    .Union(gammaCapsules)
+                                    .Union(bigCapsules);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(capsules, Constants.JsonOptions),
+                                   "capsules.json",
+                                   "locations");
+
+        IEnumerable<Location> GetCapsules(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
                             where entry.Key >= start && entry.Key < end && entry.Key % 1000 >= 500
@@ -70,25 +88,25 @@ internal static partial class LocationGenerator
                                        let visibility = GetVisibility(item)
                                        let pinball = section.Key >= PinballCapsulesStart && section.Key < PinballCapsulesEnd
                                        select new Section(section.Name,
+                                                          AccessRules: GetAccessRules(level.Location.Key,
+                                                                                      character,
+                                                                                      section.Name),
                                                           VisibilityRules: pinball
                                                           ? [$"PinballCapsules,{visibility}"]
                                                           : [visibility]),
                                        VisibilityRules: [$"{character}Playable,Capsulesanity,{character}Capsulesanity"]);
         }
 
-        var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, 58, 64);
-        var tailsCapsules = GetCapsules(dict, TailsCapsulesStart, TailsCapsulesEnd, 570, 64);
-        var knucklesCapsules = GetCapsules(dict, KnucklesCapsulesStart, KnucklesCapsulesEnd, 570, 704);
-        var amyCapsules = GetCapsules(dict, AmyCapsulesStart, AmyCapsulesEnd, 1082, 64);
-        var gammaCapsules = GetCapsules(dict, GammaCapsulesStart, GammaCapsulesEnd, 1082, 448);
-        var bigCapsules = GetCapsules(dict, BigCapsulesStart, BigCapsulesEnd, 1594, 64);
-        var capsules = sonicCapsules.Union(tailsCapsules)
-                                    .Union(knucklesCapsules)
-                                    .Union(amyCapsules)
-                                    .Union(gammaCapsules)
-                                    .Union(bigCapsules);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(capsules, Constants.JsonOptions),
-                                   "capsules.json",
-                                   "locations");
+        IEnumerable<string>? GetAccessRules(string location, string character, string section) => logic.First(entry =>
+        {
+            var level = entry.Level.Humanize(LetterCasing.Title);
+            var type = entry.Type.Humanize(LetterCasing.Title);
+            var capsule = SanityTypeParser().Match(section).Groups[1].Value;
+            var number = int.Parse(NumberParser().Match(section).Value);
+            return location.StartsWith(level)
+                   && character.Equals(entry.Character)
+                   && capsule.Equals(type, StringComparison.InvariantCultureIgnoreCase)
+                   && number == entry.Number;
+        }).BuildAccessRules();
     }
 }

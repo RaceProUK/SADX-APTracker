@@ -15,6 +15,9 @@ internal static partial class LocationGenerator
     [GeneratedRegex("\\(([A-Za-z]+)\\)")]
     private static partial Regex CharacterParser();
 
+    [GeneratedRegex("\\(([A-Za-z ]+)\\)")]
+    private static partial Regex SanityTypeParser();
+
     [GeneratedRegex("(\\d+)")]
     private static partial Regex NumberParser();
 

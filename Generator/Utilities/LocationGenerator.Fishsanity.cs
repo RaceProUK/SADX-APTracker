@@ -30,7 +30,7 @@ internal static partial class LocationGenerator
             _ => int.MaxValue
         };
 
-        var logic = await LogicLoader.LoadFish().ToListAsync();
+        var logic = await LogicLoader.LoadForFish().ToListAsync();
         var locations = from entry in dict
                         where entry.Key >= FishStart && entry.Key < FishEnd
                         orderby GetOrder(entry.Value), entry.Key

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -30,7 +31,23 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateEnemies(FrozenDictionary<int, string> dict)
     {
-        static IEnumerable<Location> GetEnemies(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
+        var logic = await LogicLoader.LoadForEnemy().ToListAsync();
+        var sonicEnemies = GetEnemies(dict, SonicEnemiesStart, SonicEnemiesEnd, 58, 64);
+        var tailsEnemies = GetEnemies(dict, TailsEnemiesStart, TailsEnemiesEnd, 570, 64);
+        var knucklesEnemies = GetEnemies(dict, KnucklesEnemiesStart, KnucklesEnemiesEnd, 570, 704);
+        var amyEnemies = GetEnemies(dict, AmyEnemiesStart, AmyEnemiesEnd, 1082, 64);
+        var gammaEnemies = GetEnemies(dict, GammaEnemiesStart, GammaEnemiesEnd, 1082, 448);
+        var bigEnemies = GetEnemies(dict, BigEnemiesStart, BigEnemiesEnd, 1594, 64);
+        var Enemies = sonicEnemies.Union(tailsEnemies)
+                                .Union(knucklesEnemies)
+                                .Union(amyEnemies)
+                                .Union(gammaEnemies)
+                                .Union(bigEnemies);
+        await FileWriter.WriteFile(JsonSerializer.Serialize(Enemies, Constants.JsonOptions),
+                                   "enemies.json",
+                                   "locations");
+
+        IEnumerable<Location> GetEnemies(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
                             where entry.Key >= start && entry.Key < end && entry.Key % 1000 < 500
@@ -51,23 +68,24 @@ internal static partial class LocationGenerator
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location($"Enemysanity - {level.Location.Key}",
                                        [new MapLocation("enemies", x, y, LevelsIconSize, BorderThickness)],
-                                       from section in level.Location select new Section(section),
+                                       from section in level.Location
+                                       select new Section(section,
+                                                          AccessRules: GetAccessRules(level.Location.Key,
+                                                                                      character,
+                                                                                      section)),
                                        VisibilityRules: [$"{character}Playable,Enemysanity,{character}Enemysanity"]);
         }
 
-        var sonicEnemies = GetEnemies(dict, SonicEnemiesStart, SonicEnemiesEnd, 58, 64);
-        var tailsEnemies = GetEnemies(dict, TailsEnemiesStart, TailsEnemiesEnd, 570, 64);
-        var knucklesEnemies = GetEnemies(dict, KnucklesEnemiesStart, KnucklesEnemiesEnd, 570, 704);
-        var amyEnemies = GetEnemies(dict, AmyEnemiesStart, AmyEnemiesEnd, 1082, 64);
-        var gammaEnemies = GetEnemies(dict, GammaEnemiesStart, GammaEnemiesEnd, 1082, 448);
-        var bigEnemies = GetEnemies(dict, BigEnemiesStart, BigEnemiesEnd, 1594, 64);
-        var Enemies = sonicEnemies.Union(tailsEnemies)
-                                .Union(knucklesEnemies)
-                                .Union(amyEnemies)
-                                .Union(gammaEnemies)
-                                .Union(bigEnemies);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(Enemies, Constants.JsonOptions),
-                                   "enemies.json",
-                                   "locations");
+        IEnumerable<string>? GetAccessRules(string location, string character, string section) => logic.First(entry =>
+        {
+            var level = entry.Level.Humanize(LetterCasing.Title);
+            var type = entry.Type.Humanize(LetterCasing.Title);
+            var enemy = SanityTypeParser().Match(section).Groups[1].Value;
+            var number = int.Parse(NumberParser().Match(section).Value);
+            return location.StartsWith(level)
+                   && character.Equals(entry.Character)
+                   && enemy.Equals(type)
+                   && number == entry.Number;
+        }).BuildAccessRules();
     }
 }

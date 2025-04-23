@@ -1181,39 +1181,93 @@
             },
             {
                 "name": "Enemy 15 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 16 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 17 (Gola)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 18 (Gola)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 19 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 20 (Gola)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 21 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 22 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 23 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             }
         ],
         "visibility_rules": [
@@ -2501,39 +2555,93 @@
             },
             {
                 "name": "Enemy 03 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 04 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 05 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 06 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 07 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 08 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 09 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 10 (Boa Boa)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 11 (Rhinotank)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             }
         ],
         "visibility_rules": [
@@ -2851,395 +2959,983 @@
             },
             {
                 "name": "Enemy 20 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 21 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 22 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 23 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 24 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 25 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 26 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 27 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 28 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 29 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 30 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 31 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 32 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 33 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 34 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 35 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 36 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 37 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 38 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 39 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 40 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 41 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 42 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 43 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 44 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 45 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 46 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 47 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 48 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 49 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 50 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 51 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 52 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 53 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 54 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 55 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 56 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 57 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 58 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 59 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 60 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 61 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 62 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 63 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 64 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 65 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 66 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 67 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 68 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 69 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 70 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 71 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 72 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 73 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 74 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 75 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 76 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 77 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 78 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 79 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 80 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 81 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 82 (Leon)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 83 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 84 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 85 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 86 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 87 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 88 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 89 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 90 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 91 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 92 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 93 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 94 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 95 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 96 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 97 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 98 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 99 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 100 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 101 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 102 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 103 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 104 (Egg Keeper)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 105 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 106 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 107 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 108 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 109 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 110 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 111 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 112 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 113 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 114 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 115 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 116 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             },
             {
                 "name": "Enemy 117 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX"
+                ]
             }
         ],
         "visibility_rules": [
@@ -3330,15 +4026,33 @@
             },
             {
                 "name": "Enemy 03 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic,LifeBelt",
+                    "ExpertLogicDC,LifeBelt",
+                    "ExpertLogicDX,LifeBelt"
+                ]
             },
             {
                 "name": "Enemy 04 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic,LifeBelt",
+                    "ExpertLogicDC,LifeBelt",
+                    "ExpertLogicDX,LifeBelt"
+                ]
             },
             {
                 "name": "Enemy 05 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic,LifeBelt",
+                    "ExpertLogicDC,LifeBelt",
+                    "ExpertLogicDX,LifeBelt"
+                ]
             }
         ],
         "visibility_rules": [

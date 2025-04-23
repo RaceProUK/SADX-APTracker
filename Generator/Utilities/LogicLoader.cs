@@ -16,8 +16,8 @@ internal static class LogicLoader
         ApiKey = config["GoogleApiKey"]!;
     }
 
-    internal static IAsyncEnumerable<AreaToArea> LoadAreaToArea()
-        => Load<AreaToArea>("B72:I216", _ =>
+    internal static IAsyncEnumerable<AreaToArea> LoadForAreaToArea()
+        => LoadFor<AreaToArea>("B72:I216", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.AreaFrom))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.AreaTo))
@@ -26,8 +26,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<AreaToLevel> LoadAreaToLevel()
-        => Load<AreaToLevel>("B3:I69", _ =>
+    internal static IAsyncEnumerable<AreaToLevel> LoadForAreaToLevel()
+        => LoadFor<AreaToLevel>("B3:I69", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Level))
@@ -36,10 +36,10 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<Capsule> LoadCapsule()
-        => Load<Capsule>("B1176:I1868", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
-             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Level))
+    internal static IAsyncEnumerable<Capsule> LoadForCapsule()
+        => LoadFor<Capsule>("B1176:I1868", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Type))
              .MapColumn(_ => _.WithColumnIndex(3).IsRequired().MapTo(_ => _.Number))
              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
@@ -47,10 +47,10 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<Enemy> LoadEnemy()
-        => Load<Enemy>("B464:I1173", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
-             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Level))
+    internal static IAsyncEnumerable<Enemy> LoadForEnemy()
+        => LoadFor<Enemy>("B464:I1173", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Type))
              .MapColumn(_ => _.WithColumnIndex(3).IsRequired().MapTo(_ => _.Number))
              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
@@ -58,8 +58,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<FieldEmblem> LoadFieldEmblem()
-        => Load<FieldEmblem>("B370:I382", _ =>
+    internal static IAsyncEnumerable<FieldEmblem> LoadForFieldEmblem()
+        => LoadFor<FieldEmblem>("B370:I382", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Name))
              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
@@ -67,8 +67,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<Fish> LoadFish()
-        => Load<Fish>("B1871:I1894", _ =>
+    internal static IAsyncEnumerable<Fish> LoadForFish()
+        => LoadFor<Fish>("B1871:I1894", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Type))
              .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
@@ -76,8 +76,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<LevelMission> LoadLevelMission()
-        => Load<LevelMission>("B219:I347", _ =>
+    internal static IAsyncEnumerable<LevelMission> LoadForLevelMission()
+        => LoadFor<LevelMission>("B219:I347", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Level))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
@@ -86,8 +86,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<Mission> LoadMission()
-        => Load<Mission>("B385:I445", _ =>
+    internal static IAsyncEnumerable<Mission> LoadForMission()
+        => LoadFor<Mission>("B385:I445", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.CardArea))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.ObjectiveArea))
@@ -97,8 +97,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<SubGameMission> LoadSubGameMission()
-        => Load<SubGameMission>("B448:I461", _ =>
+    internal static IAsyncEnumerable<SubGameMission> LoadForSubGameMission()
+        => LoadFor<SubGameMission>("B448:I461", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.SubGame))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
@@ -107,8 +107,8 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    internal static IAsyncEnumerable<UpgradeItem> LoadUpgradeItem()
-        => Load<UpgradeItem>("B350:I367", _ =>
+    internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()
+        => LoadFor<UpgradeItem>("B350:I367", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Upgrade))
@@ -117,7 +117,7 @@ internal static class LogicLoader
              .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
              .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
-    private static async IAsyncEnumerable<T> Load<T>(string range,
+    private static async IAsyncEnumerable<T> LoadFor<T>(string range,
                                                      Func<MappingConfigBuilder<T>, MappingConfigBuilder<T>> mapping) where T : new()
     {
         var adapter = new GoogleSheetAdapter();

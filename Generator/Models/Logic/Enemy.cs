@@ -2,9 +2,9 @@
 
 internal class Enemy : LogicSpecification
 {
-    public string Character { get; set; } = string.Empty;
-
     public string Level { get; set; } = string.Empty;
+
+    public string Character { get; set; } = string.Empty;
 
     public string Type { get; set; } = string.Empty;
 
