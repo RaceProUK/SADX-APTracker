@@ -40,6 +40,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Emerald Coast,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable"
         ]
@@ -84,6 +87,9 @@
                     "SonicMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Windy Valley,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable"
@@ -130,6 +136,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Casinopolis,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable"
         ]
@@ -174,6 +183,9 @@
                     "SonicMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Ice Cap,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable"
@@ -220,6 +232,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Twinkle Park,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable"
         ]
@@ -264,6 +279,9 @@
                     "SonicMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Speed Highway,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable"
@@ -310,6 +328,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Red Mountain,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable"
         ]
@@ -354,6 +375,9 @@
                     "SonicMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Sky Deck,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable"
@@ -424,6 +448,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Lost World,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable"
         ]
@@ -493,6 +520,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Final Egg,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable"
         ]
@@ -549,6 +579,9 @@
                     "TailsMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Tails|Windy Valley,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable"
@@ -607,6 +640,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Tails|Casinopolis,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable"
         ]
@@ -651,6 +687,9 @@
                     "TailsMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Tails|Ice Cap,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable"
@@ -709,6 +748,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Tails|Sky Deck,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable"
         ]
@@ -766,6 +808,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Tails|Speed Highway,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable"
         ]
@@ -811,6 +856,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Speed Highway,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable"
         ]
@@ -855,6 +903,9 @@
                     "KnucklesMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable"
@@ -925,6 +976,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Red Mountain,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable"
         ]
@@ -993,6 +1047,9 @@
                     "KnucklesMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Lost World,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable"
@@ -1063,6 +1120,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Sky Deck,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable"
         ]
@@ -1107,6 +1167,9 @@
                     "AmyMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Amy|Twinkle Park,PlayableAmy"
         ],
         "visibility_rules": [
             "AmyPlayable"
@@ -1153,6 +1216,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Amy|Hot Shelter,PlayableAmy"
+        ],
         "visibility_rules": [
             "AmyPlayable"
         ]
@@ -1197,6 +1263,9 @@
                     "AmyMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Amy|Final Egg,PlayableAmy"
         ],
         "visibility_rules": [
             "AmyPlayable"
@@ -1243,6 +1312,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Gamma|Final Egg,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable"
         ]
@@ -1287,6 +1359,9 @@
                     "GammaMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Gamma|Emerald Coast,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable"
@@ -1357,6 +1432,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Gamma|Windy Valley,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable"
         ]
@@ -1401,6 +1479,9 @@
                     "GammaMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Gamma|Red Mountain,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable"
@@ -1471,6 +1552,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Gamma|Hot Shelter,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable"
         ]
@@ -1533,6 +1617,9 @@
                     "BigMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Twinkle Park,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable"
@@ -1597,6 +1684,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Big|Ice Cap,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable"
         ]
@@ -1660,6 +1750,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Big|Emerald Coast,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable"
         ]
@@ -1722,6 +1815,9 @@
                     "BigMissionS"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Hot Shelter,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable"

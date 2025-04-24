@@ -122,8 +122,10 @@ internal static class LogicLoader
 
     private static LogicRules ParseCharacterLogicRules(string s)
     {
+        s = Common.RemoveWhitespace(s);
+
         var rules = new LogicRules();
-        var lines = RemoveWhitespace(s).Split(",C", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+        var lines = s.Split(",C", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
         foreach (var line in lines)
         {
             if (line.Contains("Upgrade"))
@@ -142,7 +144,7 @@ internal static class LogicLoader
 
     private static LogicRules ParseKeyItemLogicRules(string s)
     {
-        s = RemoveWhitespace(s);
+        s = Common.RemoveWhitespace(s);
 
         var rules = new LogicRules();
         var lines = s.Split("],[", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
@@ -154,8 +156,4 @@ internal static class LogicLoader
         }
         return rules;
     }
-
-    private static string RemoveWhitespace(string s) => string.Join(string.Empty,
-                                                                    s.Split(default(string[]),
-                                                                            StringSplitOptions.RemoveEmptyEntries));
 }

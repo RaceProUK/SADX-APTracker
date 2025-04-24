@@ -92,7 +92,8 @@ internal static partial class LocationGenerator
                                       ecUpgrades);
         var iceCap = new Location("Ice Cap Upgrade",
                                   [new MapLocation("levels", 1936, 192, LevelsIconSize, BorderThickness)],
-                                  icUpgrades);
+                                  icUpgrades,
+                                  AccessRules: ["$CanAccess|Big|Ice Cap,PlayableBig"]);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
                                    "upgrades.json",

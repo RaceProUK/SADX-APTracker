@@ -29,6 +29,8 @@ Tracker:AddLayouts("layouts/layout.json")
 Tracker:AddLayouts("layouts/tracker.json")
 
 ScriptHost:LoadScript("scripts/settingNames.lua")
+ScriptHost:LoadScript("scripts/accessRules.lua")
+ScriptHost:LoadScript("scripts/entranceMapper.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 ScriptHost:LoadScript("scripts/archipelago.lua")
 

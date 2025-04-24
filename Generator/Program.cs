@@ -13,6 +13,10 @@ else
     Console.WriteLine($"Number of items found: {dataPackage.ItemNameToId.Count}");
     Console.WriteLine();
 
+    Console.WriteLine("Generating logic scripts…");
+    await AccessRulesGenerator.Generate();
+    Console.WriteLine("Logic scripts generated");
+
     Console.WriteLine($"Generating locations…");
     await LocationGenerator.Generate(dataPackage.LocationNameToId);
     Console.WriteLine("Locations generated");

@@ -188,6 +188,9 @@
                     "BigPlayable"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Ice Cap,PlayableBig"
         ]
     }
 ]

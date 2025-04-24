@@ -19,6 +19,7 @@ function ResetSettings()
             setting.Active = true
         end
     end
+    EntranceMapper:Reset()
 end
 
 function ParseSettings(slotData)
@@ -213,6 +214,9 @@ function ParseSettings(slotData)
     if slotData["FishSanity"] then
         local setting = Tracker:FindObjectForCode(Settings.Fishsanity)
         setting.Active = slotData["FishSanity"] ~= 0
+    end
+    if slotData["EntranceRandomizer"] and slotData["LevelEntranceMap"] then
+        EntranceMapper:Fill(slotData["LevelEntranceMap"])
     end
     if slotData["MissionBlackList"] then
         for i = 1,60,1 do

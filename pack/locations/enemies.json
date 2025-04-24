@@ -84,6 +84,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Emerald Coast,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
         ]
@@ -140,6 +143,9 @@
                 "name": "Enemy 10 (Rhinotank)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Windy Valley,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
@@ -198,6 +204,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Casinopolis,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
         ]
@@ -234,6 +243,9 @@
                 "name": "Enemy 05 (Ice Ball)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Ice Cap,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
@@ -387,6 +399,9 @@
                 "name": "Enemy 34 (Kiki)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Twinkle Park,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
@@ -596,6 +611,9 @@
                 "name": "Enemy 48 (Cop Speeder)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Speed Highway,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
@@ -858,6 +876,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Red Mountain,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
         ]
@@ -1107,6 +1128,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Sky Deck,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
         ]
@@ -1269,6 +1293,9 @@
                     "ExpertLogicDX"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Sonic|Lost World,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
@@ -1447,6 +1474,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Sonic|Final Egg,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Enemysanity,SonicEnemysanity"
         ]
@@ -1476,6 +1506,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Tails|Windy Valley,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable,Enemysanity,TailsEnemysanity"
         ]
@@ -1504,6 +1537,9 @@
                 "name": "Enemy 03 (Spinner)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable,Enemysanity,TailsEnemysanity"
@@ -1557,6 +1593,9 @@
                 "name": "Enemy 09 (Spiky Spinner)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Tails|Sky Deck,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable,Enemysanity,TailsEnemysanity"
@@ -1699,6 +1738,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Tails|Speed Highway,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable,Enemysanity,TailsEnemysanity"
         ]
@@ -1780,6 +1822,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Speed Highway,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
         ]
@@ -1860,6 +1905,9 @@
                 "name": "Enemy 16 (Electro Spinner)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
@@ -1966,6 +2014,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Red Mountain,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
         ]
@@ -2022,6 +2073,9 @@
                 "name": "Enemy 10 (Leon)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Lost World,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
@@ -2104,6 +2158,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Knuckles|Sky Deck,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
         ]
@@ -2184,6 +2241,9 @@
                 "name": "Enemy 16 (Buyon)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Amy|Twinkle Park,PlayableAmy"
         ],
         "visibility_rules": [
             "AmyPlayable,Enemysanity,AmyEnemysanity"
@@ -2326,6 +2386,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Amy|Hot Shelter,PlayableAmy"
+        ],
         "visibility_rules": [
             "AmyPlayable,Enemysanity,AmyEnemysanity"
         ]
@@ -2371,6 +2434,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Amy|Final Egg,PlayableAmy"
+        ],
         "visibility_rules": [
             "AmyPlayable,Enemysanity,AmyEnemysanity"
         ]
@@ -2395,6 +2461,9 @@
                 "name": "Enemy 02 (Egg Keeper)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Gamma|Final Egg,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Enemysanity,GammaEnemysanity"
@@ -2529,6 +2598,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Gamma|Emerald Coast,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Enemysanity,GammaEnemysanity"
         ]
@@ -2643,6 +2715,9 @@
                     "ExpertLogicDX"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Gamma|Windy Valley,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Enemysanity,GammaEnemysanity"
@@ -2864,6 +2939,9 @@
                 "name": "Enemy 51 (Spinner)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Gamma|Red Mountain,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Enemysanity,GammaEnemysanity"
@@ -3938,6 +4016,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Gamma|Hot Shelter,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Enemysanity,GammaEnemysanity"
         ]
@@ -3971,6 +4052,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanAccess|Big|Twinkle Park,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Enemysanity,BigEnemysanity"
         ]
@@ -3999,6 +4083,9 @@
                 "name": "Enemy 03 (Kiki)",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Emerald Coast,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Enemysanity,BigEnemysanity"
@@ -4054,6 +4141,9 @@
                     "ExpertLogicDX,LifeBelt"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Hot Shelter,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Enemysanity,BigEnemysanity"
