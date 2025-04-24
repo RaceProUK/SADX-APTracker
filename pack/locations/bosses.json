@@ -66,7 +66,7 @@
                     "PlayableSonic"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyEggHornet,SonicPlayable"
+                    "NotHasItem|UnifyEggHornet,SonicPlayable"
                 ]
             },
             {
@@ -76,7 +76,7 @@
                     "PlayableTails"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyEggHornet,TailsPlayable"
+                    "NotHasItem|UnifyEggHornet,TailsPlayable"
                 ]
             },
             {
@@ -98,7 +98,7 @@
                     "PlayableSonic"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyChaos4,SonicPlayable"
+                    "NotHasItem|UnifyChaos4,SonicPlayable"
                 ]
             },
             {
@@ -108,7 +108,7 @@
                     "PlayableTails"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyChaos4,TailsPlayable"
+                    "NotHasItem|UnifyChaos4,TailsPlayable"
                 ]
             },
             {
@@ -118,7 +118,7 @@
                     "PlayableKnuckles"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyChaos4,KnucklesPlayable"
+                    "NotHasItem|UnifyChaos4,KnucklesPlayable"
                 ]
             },
             {
@@ -176,7 +176,7 @@
                     "PlayableSonic"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyChaos6,SonicPlayable"
+                    "NotHasItem|UnifyChaos6,SonicPlayable"
                 ]
             },
             {
@@ -186,7 +186,7 @@
                     "PlayableKnuckles"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyChaos6,KnucklesPlayable"
+                    "NotHasItem|UnifyChaos6,KnucklesPlayable"
                 ]
             },
             {
@@ -196,7 +196,7 @@
                     "PlayableBig"
                 ],
                 "visibility_rules": [
-                    "$InvertItem|UnifyChaos6,BigPlayable"
+                    "NotHasItem|UnifyChaos6,BigPlayable"
                 ]
             },
             {
