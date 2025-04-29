@@ -30,6 +30,9 @@
                 ]
             }
         ],
+        "access_rules": [
+            "$CanAccess|Big|Twinkle Park,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
         ]
@@ -70,6 +73,9 @@
                 "name": "Japanese Eel",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Ice Cap,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -125,6 +131,9 @@
                     "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Emerald Coast,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -190,6 +199,9 @@
                     "ExpertLogicDX"
                 ]
             }
+        ],
+        "access_rules": [
+            "$CanAccess|Big|Hot Shelter,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"

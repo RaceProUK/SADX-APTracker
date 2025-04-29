@@ -1,4 +1,5 @@
-﻿using System.Collections.Frozen;
+﻿using System;
+using System.Collections.Frozen;
 using System.Text.Json;
 using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
@@ -41,11 +42,14 @@ internal static partial class LocationGenerator
         var multipliers = Enumerable.Range(0, locations.Count());
         var fish = from level in locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m))
                    let y = 64 + 128 * level.Multipler
+                   let index = level.Location.Key.IndexOf('(')
+                   let access = level.Location.Key[0..(index - 1)]
                    select new Location($"Fishsanity - {level.Location.Key}",
                                        [new MapLocation("levels", 1594 + 48, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        select new Section(section,
                                                           AccessRules: GetAccessRules(level.Location.Key, section)),
+                                       AccessRules: [$"$CanAccess|Big|{access},PlayableBig"],
                                        VisibilityRules: [$"BigPlayable,Fishsanity"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(fish, Constants.JsonOptions),
                                    "fish.json",
