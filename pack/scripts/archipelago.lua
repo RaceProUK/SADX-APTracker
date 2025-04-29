@@ -46,6 +46,8 @@ function ItemReceived(index, id)
 
     local code = ItemMap[id]
     if code then
+        if code == "Emblem" then code = "Emblems" end
+
         local item = Tracker:FindObjectForCode(tostring(code))
         if item then
             if item.Type == "toggle" then
@@ -69,6 +71,25 @@ function LocationChecked(id)
     local location = Tracker:FindObjectForCode(address)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
+
+        if string.find(area, "Boss") then
+            local item = Tracker:FindObjectForCode("BossesBeaten")
+            if item then
+                item.AcquiredCount = item.AcquiredCount + item.Increment
+            end
+        end
+        if string.find(area, "Mission") then
+            local item = Tracker:FindObjectForCode("MissionsBeaten")
+            if item then
+                item.AcquiredCount = item.AcquiredCount + item.Increment
+            end
+        end
+        if string.find(area, "Chao Race") then
+            local item = Tracker:FindObjectForCode("ChaoRacesWon")
+            if item then
+                item.AcquiredCount = item.AcquiredCount + item.Increment
+            end
+        end
     end
 end
 

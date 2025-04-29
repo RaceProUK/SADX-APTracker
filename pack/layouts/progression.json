@@ -6,7 +6,11 @@
         "item_size": 32,
         "rows": [
             [
-                "Emblem"
+                "Emblems",
+                "LevelsBeaten",
+                "BossesBeaten",
+                "MissionsBeaten",
+                "ChaoRacesWon"
             ],
             [
                 "WhiteChaosEmerald",
@@ -17,7 +21,9 @@
             [
                 "GreenChaosEmerald",
                 "YellowChaosEmerald",
-                "BlueChaosEmerald",
+                "BlueChaosEmerald"
+            ],
+            [
                 "Chaos'Peace"
             ]
         ]

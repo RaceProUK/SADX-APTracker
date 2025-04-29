@@ -26,7 +26,7 @@ internal static partial class ItemGenerator
         await GenerateUpgradesJson(idToName);
         await GenerateKeysJson(idToName);
         await GenerateEmeraldsJson(idToName);
-        await GenerateCollectiblesJson(idToName);
+        await GenerateProgressionJson(idToName);
         await GenerateGoalsJson(idToName);
         await GenerateSettingsJson();
     }
@@ -97,17 +97,34 @@ internal static partial class ItemGenerator
                                    "items");
     }
 
-    private static async Task GenerateCollectiblesJson(FrozenDictionary<int, string> dict)
+    private static async Task GenerateProgressionJson(FrozenDictionary<int, string> dict)
     {
-        var collectibles = from entry in dict
-                           where entry.Key >= CollectiblesStart && entry.Key < GoalsStart
-                           let code = MakeCode(entry.Value)
-                           select new CollectibleItem(entry.Value.Pluralize(),
-                                                      code,
-                                                      $"images/collectibles/{code.Pluralize()}.png",
-                                                      1500);
-        await FileWriter.WriteFile(JsonSerializer.Serialize(collectibles, Constants.JsonOptions),
-                                   "collectibles.json",
+        var progressionItems = from entry in dict
+                               where entry.Key >= CollectiblesStart && entry.Key < GoalsStart
+                               let code = MakeCode(entry.Value).Pluralize()
+                               select new CollectibleItem(entry.Value.Pluralize(),
+                                                          code,
+                                                          $"images/progression/{code}.png",
+                                                          1500);
+        var levelsBeaten = new CollectibleItem("Levels Beaten",
+                                               "LevelsBeaten",
+                                               $"images/progression/Levels.png",
+                                               32);
+        var missionsBeaten = new CollectibleItem("Missions Beaten",
+                                                 "MissionsBeaten",
+                                                 $"images/progression/Missions.png",
+                                                 60);
+        var bossesBeaten = new CollectibleItem("Bosses Beaten",
+                                               "BossesBeaten",
+                                               $"images/progression/Bosses.png",
+                                               15);
+        var chaoRacesWon = new CollectibleItem("Chao Races Won",
+                                               "ChaoRacesWon",
+                                               $"images/progression/ChaoRaces.png",
+                                               5);
+        progressionItems = [.. progressionItems, levelsBeaten, missionsBeaten, bossesBeaten, chaoRacesWon];
+        await FileWriter.WriteFile(JsonSerializer.Serialize(progressionItems, Constants.JsonOptions),
+                                   "progression.json",
                                    "items");
     }
 

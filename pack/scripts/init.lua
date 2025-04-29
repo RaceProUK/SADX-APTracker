@@ -11,10 +11,10 @@ Tracker:AddLocations("locations/subgames.json")
 Tracker:AddLocations("locations/upgrades.json")
 
 Tracker:AddItems("items/characters.json")
-Tracker:AddItems("items/collectibles.json")
 Tracker:AddItems("items/emeralds.json")
 Tracker:AddItems("items/goals.json")
 Tracker:AddItems("items/keys.json")
+Tracker:AddItems("items/progression.json")
 Tracker:AddItems("items/upgrades.json")
 Tracker:AddItems("items/settings.json")
 

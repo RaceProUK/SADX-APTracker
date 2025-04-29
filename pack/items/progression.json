@@ -1,0 +1,47 @@
+[
+    {
+        "max_quantity": 1500,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/progression/Emblems.png",
+        "name": "Emblems",
+        "type": "consumable",
+        "codes": "Emblems"
+    },
+    {
+        "max_quantity": 32,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/progression/Levels.png",
+        "name": "Levels Beaten",
+        "type": "consumable",
+        "codes": "LevelsBeaten"
+    },
+    {
+        "max_quantity": 60,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/progression/Missions.png",
+        "name": "Missions Beaten",
+        "type": "consumable",
+        "codes": "MissionsBeaten"
+    },
+    {
+        "max_quantity": 15,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/progression/Bosses.png",
+        "name": "Bosses Beaten",
+        "type": "consumable",
+        "codes": "BossesBeaten"
+    },
+    {
+        "max_quantity": 5,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/progression/ChaoRaces.png",
+        "name": "Chao Races Won",
+        "type": "consumable",
+        "codes": "ChaoRacesWon"
+    }
+]
