@@ -40,12 +40,12 @@ internal static partial class LocationGenerator
                        select new Location(entry.Value,
                                            [new MapLocation("missions", x, y, MissionsIconSize, BorderThickness)],
                                            [new Section(Constants.MissionBriefs[number])],
-                                           AccessRules: GetAccessRules(number),
+                                           AccessRules: [$"Playable{character}", .. GetAccessRules(number)],
                                            VisibilityRules: [$"MissionsRequired,{character}Playable,AllowMission{number}"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(missions, Constants.JsonOptions),
                                    "missions.json",
                                    "locations");
 
-        IEnumerable<string>? GetAccessRules(int number) => logic.First(entry => number == entry.Number).BuildAccessRules();
+        IEnumerable<string> GetAccessRules(int number) => logic.First(entry => number == entry.Number).BuildAccessRules() ?? [];
     }
 }

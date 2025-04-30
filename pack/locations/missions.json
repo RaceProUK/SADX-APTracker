@@ -16,6 +16,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission1"
         ]
@@ -36,6 +39,9 @@
                 "name": "Get the balloon in the skies of Mystic Ruins!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission2"
@@ -59,6 +65,7 @@
             }
         ],
         "access_rules": [
+            "PlayableSonic",
             "NormalLogic,LightShoes",
             "HardLogic",
             "ExpertLogicDC",
@@ -85,6 +92,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableTails"
+        ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission4"
         ]
@@ -105,6 +115,9 @@
                 "name": "I lost my balloon! It's way up there now!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableKnuckles"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission5"
@@ -127,6 +140,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableAmy"
+        ],
         "visibility_rules": [
             "MissionsRequired,AmyPlayable,AllowMission6"
         ]
@@ -147,6 +163,9 @@
                 "name": "Lonely Metal Sonic needs a friend. Look carefully.",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableGamma"
         ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission7"
@@ -169,6 +188,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableBig"
+        ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission8"
         ]
@@ -189,6 +211,9 @@
                 "name": "Get the balloon floating behind the waterfall of the emerald sea.",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission9"
@@ -211,6 +236,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableTails"
+        ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission10"
         ]
@@ -231,6 +259,9 @@
                 "name": "Destroy the windmill and proceed. Find the balloon in orbit!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission11"
@@ -254,6 +285,7 @@
             }
         ],
         "access_rules": [
+            "PlayableKnuckles",
             "NormalLogic,ShovelClaw",
             "HardLogic,ShovelClaw",
             "ExpertLogicDC,ShovelClaw",
@@ -280,6 +312,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission13"
         ]
@@ -300,6 +335,9 @@
                 "name": "I am the keeper of this hotel! Catch me if you can!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableBig"
         ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission14"
@@ -322,6 +360,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission15"
         ]
@@ -342,6 +383,9 @@
                 "name": "Get the flags from the floating islands!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableTails"
         ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission16"
@@ -364,6 +408,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission17"
         ]
@@ -385,6 +432,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableAmy"
+        ],
         "visibility_rules": [
             "MissionsRequired,AmyPlayable,AllowMission18"
         ]
@@ -405,6 +455,9 @@
                 "name": "What is that behind the mirror?",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableAmy"
         ],
         "visibility_rules": [
             "MissionsRequired,AmyPlayable,AllowMission19"
@@ -428,6 +481,7 @@
             }
         ],
         "access_rules": [
+            "PlayableSonic",
             "NormalLogic,IceStone,StationBackKey,Train,Dynamite",
             "NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
             "HardLogic,IceStone,StationBackKey,Train,Dynamite",
@@ -458,6 +512,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableGamma"
+        ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission21"
         ]
@@ -478,6 +535,9 @@
                 "name": "Find the flag hidden in the secret passage under the emerald ocean!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableBig"
         ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission22"
@@ -500,6 +560,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission23"
         ]
@@ -520,6 +583,9 @@
                 "name": "'I hate this dark and filthy place!' Can you find it?",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableTails"
         ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission24"
@@ -542,6 +608,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableKnuckles"
+        ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission25"
         ]
@@ -562,6 +631,9 @@
                 "name": "What is that on top of the ship's mast that the pirates are protecting?",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableKnuckles"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission26"
@@ -584,6 +656,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission27"
         ]
@@ -604,6 +679,9 @@
                 "name": "During the morning traffic, use the fountain to get to the balloon.",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission28"
@@ -627,6 +705,7 @@
             }
         ],
         "access_rules": [
+            "PlayableBig",
             "NormalLogic,LifeBelt",
             "HardLogic",
             "ExpertLogicDC",
@@ -653,6 +732,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission30"
         ]
@@ -673,6 +755,9 @@
                 "name": "Get the balloon as you float in the air along with the trash!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableTails"
         ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission31"
@@ -695,6 +780,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableKnuckles"
+        ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission32"
         ]
@@ -715,6 +803,9 @@
                 "name": "Shoot yourself out of the cannon and get the balloon!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission33"
@@ -738,6 +829,7 @@
             }
         ],
         "access_rules": [
+            "PlayableSonic",
             "NormalLogic,LightShoes",
             "HardLogic,LightShoes",
             "ExpertLogicDC",
@@ -765,6 +857,7 @@
             }
         ],
         "access_rules": [
+            "PlayableBig",
             "NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
             "NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
             "HardLogic,IceStone,StationFrontKey,Train,Dynamite",
@@ -795,6 +888,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission36"
         ]
@@ -817,6 +913,7 @@
             }
         ],
         "access_rules": [
+            "PlayableTails",
             "NormalLogic,JetAnklet",
             "HardLogic",
             "ExpertLogicDC",
@@ -844,6 +941,7 @@
             }
         ],
         "access_rules": [
+            "PlayableKnuckles",
             "NormalLogic,ShovelClaw",
             "HardLogic,ShovelClaw",
             "ExpertLogicDC,ShovelClaw",
@@ -871,6 +969,7 @@
             }
         ],
         "access_rules": [
+            "PlayableGamma",
             "NormalLogic,JetBooster",
             "HardLogic,JetBooster",
             "ExpertLogicDC,JetBooster",
@@ -898,6 +997,7 @@
             }
         ],
         "access_rules": [
+            "PlayableSonic",
             "NormalLogic,LightShoes",
             "HardLogic,LightShoes",
             "ExpertLogicDC,LightShoes",
@@ -925,6 +1025,7 @@
             }
         ],
         "access_rules": [
+            "PlayableSonic",
             "NormalLogic,LightShoes",
             "HardLogic",
             "ExpertLogicDC",
@@ -951,6 +1052,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableGamma"
+        ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission42"
         ]
@@ -971,6 +1075,9 @@
                 "name": "Fortress of steel. High jump on three narrow paths. Be careful not to fall.",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableAmy"
         ],
         "visibility_rules": [
             "MissionsRequired,AmyPlayable,AllowMission43"
@@ -993,6 +1100,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableBig"
+        ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission44"
         ]
@@ -1013,6 +1123,9 @@
                 "name": "Go to a place where the rings are laid in the shape of Sonic's face!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission45"
@@ -1035,6 +1148,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission46"
         ]
@@ -1055,6 +1171,9 @@
                 "name": "Get ten balloons on the field under the time limit!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableTails"
         ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission47"
@@ -1077,6 +1196,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableKnuckles"
+        ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission48"
         ]
@@ -1098,6 +1220,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission49"
         ]
@@ -1118,6 +1243,9 @@
                 "name": "Select a road that splits into 5 paths before time runs out!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableAmy"
         ],
         "visibility_rules": [
             "MissionsRequired,AmyPlayable,AllowMission50"
@@ -1141,6 +1269,7 @@
             }
         ],
         "access_rules": [
+            "PlayableGamma",
             "NormalLogic,JetBooster",
             "HardLogic,JetBooster",
             "ExpertLogicDC,JetBooster",
@@ -1167,6 +1296,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableBig"
+        ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission52"
         ]
@@ -1187,6 +1319,9 @@
                 "name": "Pass the line of rings with 3 Super High Jumps on the ski slopes!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission53"
@@ -1209,6 +1344,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableTails"
+        ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission54"
         ]
@@ -1229,6 +1367,9 @@
                 "name": "Run down the building to get all the balloons!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission55"
@@ -1252,6 +1393,7 @@
             }
         ],
         "access_rules": [
+            "PlayableKnuckles",
             "NormalLogic,ShovelClaw",
             "HardLogic,ShovelClaw",
             "ExpertLogicDC,ShovelClaw",
@@ -1278,6 +1420,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableSonic"
+        ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission57"
         ]
@@ -1298,6 +1443,9 @@
                 "name": "The big rock will start rolling after you! Try and get all the flags!",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableSonic"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission58"
@@ -1320,6 +1468,9 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "PlayableKnuckles"
+        ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission59"
         ]
@@ -1340,6 +1491,9 @@
                 "name": "Something is hidden inside the dinosaurs mouth. Can you find it?",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "PlayableBig"
         ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission60"
