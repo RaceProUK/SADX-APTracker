@@ -18,15 +18,6 @@
         "codes": "LevelsBeaten"
     },
     {
-        "max_quantity": 60,
-        "initial_quantity": 0,
-        "overlay_font_size": 16,
-        "img": "images/progression/Missions.png",
-        "name": "Missions Beaten",
-        "type": "consumable",
-        "codes": "MissionsBeaten"
-    },
-    {
         "max_quantity": 15,
         "initial_quantity": 0,
         "overlay_font_size": 16,
@@ -34,6 +25,15 @@
         "name": "Bosses Beaten",
         "type": "consumable",
         "codes": "BossesBeaten"
+    },
+    {
+        "max_quantity": 60,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/progression/Missions.png",
+        "name": "Missions Beaten",
+        "type": "consumable",
+        "codes": "MissionsBeaten"
     },
     {
         "max_quantity": 5,

@@ -247,6 +247,9 @@
                 "name": "Open Their Heart",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$HasMetGoalCriteria"
         ]
     }
 ]

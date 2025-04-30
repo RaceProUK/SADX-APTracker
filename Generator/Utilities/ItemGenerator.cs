@@ -110,19 +110,19 @@ internal static partial class ItemGenerator
                                                "LevelsBeaten",
                                                $"images/progression/Levels.png",
                                                32);
-        var missionsBeaten = new CollectibleItem("Missions Beaten",
-                                                 "MissionsBeaten",
-                                                 $"images/progression/Missions.png",
-                                                 60);
         var bossesBeaten = new CollectibleItem("Bosses Beaten",
                                                "BossesBeaten",
                                                $"images/progression/Bosses.png",
                                                15);
+        var missionsBeaten = new CollectibleItem("Missions Beaten",
+                                                 "MissionsBeaten",
+                                                 $"images/progression/Missions.png",
+                                                 60);
         var chaoRacesWon = new CollectibleItem("Chao Races Won",
                                                "ChaoRacesWon",
                                                $"images/progression/ChaoRaces.png",
                                                5);
-        progressionItems = [.. progressionItems, levelsBeaten, missionsBeaten, bossesBeaten, chaoRacesWon];
+        progressionItems = [.. progressionItems, levelsBeaten, bossesBeaten, missionsBeaten, chaoRacesWon];
         await FileWriter.WriteFile(JsonSerializer.Serialize(progressionItems, Constants.JsonOptions),
                                    "progression.json",
                                    "items");
