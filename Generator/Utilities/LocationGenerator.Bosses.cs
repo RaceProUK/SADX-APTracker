@@ -39,9 +39,9 @@ internal static partial class LocationGenerator
     {
         static string[] GetBossVisibility(string name, string playable) => name switch
         {
-            string s when s.StartsWith("Egg Hornet") => [$"NotHasItem|UnifyEggHornet,{playable}"],
-            string s when s.StartsWith("Chaos 4") => [$"NotHasItem|UnifyChaos4,{playable}"],
-            string s when s.StartsWith("Chaos 6") => [$"NotHasItem|UnifyChaos6,{playable}"],
+            string s when s.StartsWith("Egg Hornet") => [$"$NotHasItem|UnifyEggHornet,{playable}"],
+            string s when s.StartsWith("Chaos 4") => [$"$NotHasItem|UnifyChaos4,{playable}"],
+            string s when s.StartsWith("Chaos 6") => [$"$NotHasItem|UnifyChaos6,{playable}"],
             _ => [playable]
         };
         static string[]? GetSharedBossVisibility(string name) => name switch
