@@ -14,6 +14,9 @@
             {
                 "name": "Light Shoes Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableSonic"
+                ],
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
@@ -22,10 +25,10 @@
                 "name": "Crystal Ring Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,LightShoes",
-                    "HardLogic,LightShoes",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "PlayableSonic,NormalLogic,LightShoes",
+                    "PlayableSonic,HardLogic,LightShoes",
+                    "PlayableSonic,ExpertLogicDC",
+                    "PlayableSonic,ExpertLogicDX"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -34,6 +37,9 @@
             {
                 "name": "Jet Anklet Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableTails"
+                ],
                 "visibility_rules": [
                     "TailsPlayable"
                 ]
@@ -41,6 +47,9 @@
             {
                 "name": "Lure 1 Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -62,6 +71,9 @@
             {
                 "name": "Ancient Light Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableSonic"
+                ],
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
@@ -69,6 +81,9 @@
             {
                 "name": "Rhythm Badge Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableTails"
+                ],
                 "visibility_rules": [
                     "TailsPlayable"
                 ]
@@ -76,6 +91,9 @@
             {
                 "name": "Shovel Claw Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableKnuckles"
+                ],
                 "visibility_rules": [
                     "KnucklesPlayable"
                 ]
@@ -83,6 +101,9 @@
             {
                 "name": "Fighting Gloves Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableKnuckles"
+                ],
                 "visibility_rules": [
                     "KnucklesPlayable"
                 ]
@@ -91,14 +112,14 @@
                 "name": "Life Belt Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,IceStone,StationFrontKey,Train",
-                    "NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "HardLogic,IceStone,StationFrontKey,Train",
-                    "HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "ExpertLogicDC,IceStone,StationFrontKey,Train",
-                    "ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "ExpertLogicDX,IceStone,StationFrontKey,Train",
-                    "ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train"
+                    "PlayableBig,NormalLogic,IceStone,StationFrontKey,Train",
+                    "PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "PlayableBig,HardLogic,IceStone,StationFrontKey,Train",
+                    "PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train",
+                    "PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train",
+                    "PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
@@ -107,6 +128,9 @@
             {
                 "name": "Power Rod Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -114,6 +138,9 @@
             {
                 "name": "Lure 2 Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -135,6 +162,9 @@
             {
                 "name": "Warrior Feather Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableAmy"
+                ],
                 "visibility_rules": [
                     "AmyPlayable"
                 ]
@@ -142,6 +172,9 @@
             {
                 "name": "Long Hammer Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableAmy"
+                ],
                 "visibility_rules": [
                     "AmyPlayable"
                 ]
@@ -149,6 +182,9 @@
             {
                 "name": "Jet Booster Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableGamma"
+                ],
                 "visibility_rules": [
                     "GammaPlayable"
                 ]
@@ -156,6 +192,9 @@
             {
                 "name": "Laser Blaster Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableGamma"
+                ],
                 "visibility_rules": [
                     "GammaPlayable"
                 ]
@@ -163,6 +202,9 @@
             {
                 "name": "Lure 4 Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -184,6 +226,9 @@
             {
                 "name": "Lure 3 Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
