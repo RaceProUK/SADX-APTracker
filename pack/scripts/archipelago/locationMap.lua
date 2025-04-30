@@ -1,5 +1,5 @@
 LocationMap = {
-    [543800009] = { "Station Square Bosses", "Perfect Chaos" },
+    [543800009] = { "Perfect Chaos", "Open Their Heart" },
     [543800010] = { "Station Square Field Emblems", "Station Emblem" },
     [543800011] = { "Station Square Field Emblems", "Burger Shop Emblem" },
     [543800012] = { "Station Square Field Emblems", "City Hall Emblem" },

@@ -19,7 +19,7 @@ internal static partial class LocationGenerator
 
     private static IEnumerable<LuaLocation> GenerateBossesLua(FrozenDictionary<int, string> dict)
     {
-        var perfectChaos = new LuaLocation(PerfectChaos, "Station Square Bosses", "Perfect Chaos");
+        var perfectChaos = new LuaLocation(PerfectChaos, "Perfect Chaos", "Open Their Heart");
         var ssBosses = from entry in dict
                        where entry.Key >= StationSquareBossesStart && entry.Key < StationSquareBossesEnd
                        let boss = TrimBossName(entry.Value)
@@ -94,14 +94,17 @@ internal static partial class LocationGenerator
                                           : GetBossVisibility(boss, $"{character}Playable"));
         var stationSquare = new Location("Station Square Bosses",
                                          [new MapLocation("levels", 1768, 640, LevelsIconSize, BorderThickness)],
-                                         [.. ssBosses, new Section("Perfect Chaos")]);
+                                         ssBosses);
         var mysticRuins = new Location("Mystic Ruins Bosses",
                                        [new MapLocation("levels", 1768, 900, LevelsIconSize, BorderThickness)],
                                        mrBosses);
         var eggCarrier = new Location("Egg Carrier Bosses",
                                       [new MapLocation("levels", 1768, 1160, LevelsIconSize, BorderThickness)],
                                       ecBosses);
-        var bosses = new[] { stationSquare, mysticRuins, eggCarrier };
+        var perfectChaos = new Location("Perfect Chaos",
+                                        [new MapLocation("levels", 1792, 598, LevelsIconSize, BorderThickness)],
+                                        [new Section("Open Their Heart")]);
+        var bosses = new[] { stationSquare, mysticRuins, eggCarrier, perfectChaos };
         await FileWriter.WriteFile(JsonSerializer.Serialize(bosses, Constants.JsonOptions),
                                    "bosses.json",
                                    "locations");
