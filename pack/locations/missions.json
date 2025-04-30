@@ -65,11 +65,10 @@
             }
         ],
         "access_rules": [
-            "PlayableSonic",
-            "NormalLogic,LightShoes",
-            "HardLogic",
-            "ExpertLogicDC",
-            "ExpertLogicDX"
+            "PlayableSonic,NormalLogic,LightShoes",
+            "PlayableSonic,HardLogic",
+            "PlayableSonic,ExpertLogicDC",
+            "PlayableSonic,ExpertLogicDX"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission3"
@@ -285,11 +284,10 @@
             }
         ],
         "access_rules": [
-            "PlayableKnuckles",
-            "NormalLogic,ShovelClaw",
-            "HardLogic,ShovelClaw",
-            "ExpertLogicDC,ShovelClaw",
-            "ExpertLogicDX,ShovelClaw"
+            "PlayableKnuckles,NormalLogic,ShovelClaw",
+            "PlayableKnuckles,HardLogic,ShovelClaw",
+            "PlayableKnuckles,ExpertLogicDC,ShovelClaw",
+            "PlayableKnuckles,ExpertLogicDX,ShovelClaw"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission12"
@@ -481,15 +479,14 @@
             }
         ],
         "access_rules": [
-            "PlayableSonic",
-            "NormalLogic,IceStone,StationBackKey,Train,Dynamite",
-            "NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "HardLogic,IceStone,StationBackKey,Train,Dynamite",
-            "HardLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "ExpertLogicDC,IceStone,StationBackKey,Train,Dynamite",
-            "ExpertLogicDC,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "ExpertLogicDX,IceStone,StationBackKey,Train,Dynamite",
-            "ExpertLogicDX,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite"
+            "PlayableSonic,NormalLogic,IceStone,StationBackKey,Train,Dynamite",
+            "PlayableSonic,NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "PlayableSonic,HardLogic,IceStone,StationBackKey,Train,Dynamite",
+            "PlayableSonic,HardLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "PlayableSonic,ExpertLogicDC,IceStone,StationBackKey,Train,Dynamite",
+            "PlayableSonic,ExpertLogicDC,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "PlayableSonic,ExpertLogicDX,IceStone,StationBackKey,Train,Dynamite",
+            "PlayableSonic,ExpertLogicDX,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission20"
@@ -705,11 +702,10 @@
             }
         ],
         "access_rules": [
-            "PlayableBig",
-            "NormalLogic,LifeBelt",
-            "HardLogic",
-            "ExpertLogicDC",
-            "ExpertLogicDX"
+            "PlayableBig,NormalLogic,LifeBelt",
+            "PlayableBig,HardLogic",
+            "PlayableBig,ExpertLogicDC",
+            "PlayableBig,ExpertLogicDX"
         ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission29"
@@ -829,11 +825,10 @@
             }
         ],
         "access_rules": [
-            "PlayableSonic",
-            "NormalLogic,LightShoes",
-            "HardLogic,LightShoes",
-            "ExpertLogicDC",
-            "ExpertLogicDX"
+            "PlayableSonic,NormalLogic,LightShoes",
+            "PlayableSonic,HardLogic,LightShoes",
+            "PlayableSonic,ExpertLogicDC",
+            "PlayableSonic,ExpertLogicDX"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission34"
@@ -857,15 +852,14 @@
             }
         ],
         "access_rules": [
-            "PlayableBig",
-            "NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
-            "NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "HardLogic,IceStone,StationFrontKey,Train,Dynamite",
-            "HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
-            "ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
-            "ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
+            "PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "PlayableBig,HardLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
+            "PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
+            "PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionsRequired,BigPlayable,AllowMission35"
@@ -913,11 +907,10 @@
             }
         ],
         "access_rules": [
-            "PlayableTails",
-            "NormalLogic,JetAnklet",
-            "HardLogic",
-            "ExpertLogicDC",
-            "ExpertLogicDX"
+            "PlayableTails,NormalLogic,JetAnklet",
+            "PlayableTails,HardLogic",
+            "PlayableTails,ExpertLogicDC",
+            "PlayableTails,ExpertLogicDX"
         ],
         "visibility_rules": [
             "MissionsRequired,TailsPlayable,AllowMission37"
@@ -941,11 +934,10 @@
             }
         ],
         "access_rules": [
-            "PlayableKnuckles",
-            "NormalLogic,ShovelClaw",
-            "HardLogic,ShovelClaw",
-            "ExpertLogicDC,ShovelClaw",
-            "ExpertLogicDX,ShovelClaw"
+            "PlayableKnuckles,NormalLogic,ShovelClaw",
+            "PlayableKnuckles,HardLogic,ShovelClaw",
+            "PlayableKnuckles,ExpertLogicDC,ShovelClaw",
+            "PlayableKnuckles,ExpertLogicDX,ShovelClaw"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission38"
@@ -969,11 +961,10 @@
             }
         ],
         "access_rules": [
-            "PlayableGamma",
-            "NormalLogic,JetBooster",
-            "HardLogic,JetBooster",
-            "ExpertLogicDC,JetBooster",
-            "ExpertLogicDX,JetBooster"
+            "PlayableGamma,NormalLogic,JetBooster",
+            "PlayableGamma,HardLogic,JetBooster",
+            "PlayableGamma,ExpertLogicDC,JetBooster",
+            "PlayableGamma,ExpertLogicDX,JetBooster"
         ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission39"
@@ -997,11 +988,10 @@
             }
         ],
         "access_rules": [
-            "PlayableSonic",
-            "NormalLogic,LightShoes",
-            "HardLogic,LightShoes",
-            "ExpertLogicDC,LightShoes",
-            "ExpertLogicDX,LightShoes"
+            "PlayableSonic,NormalLogic,LightShoes",
+            "PlayableSonic,HardLogic,LightShoes",
+            "PlayableSonic,ExpertLogicDC,LightShoes",
+            "PlayableSonic,ExpertLogicDX,LightShoes"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission40"
@@ -1025,11 +1015,10 @@
             }
         ],
         "access_rules": [
-            "PlayableSonic",
-            "NormalLogic,LightShoes",
-            "HardLogic",
-            "ExpertLogicDC",
-            "ExpertLogicDX"
+            "PlayableSonic,NormalLogic,LightShoes",
+            "PlayableSonic,HardLogic",
+            "PlayableSonic,ExpertLogicDC",
+            "PlayableSonic,ExpertLogicDX"
         ],
         "visibility_rules": [
             "MissionsRequired,SonicPlayable,AllowMission41"
@@ -1269,11 +1258,10 @@
             }
         ],
         "access_rules": [
-            "PlayableGamma",
-            "NormalLogic,JetBooster",
-            "HardLogic,JetBooster",
-            "ExpertLogicDC,JetBooster",
-            "ExpertLogicDX,JetBooster"
+            "PlayableGamma,NormalLogic,JetBooster",
+            "PlayableGamma,HardLogic,JetBooster",
+            "PlayableGamma,ExpertLogicDC,JetBooster",
+            "PlayableGamma,ExpertLogicDX,JetBooster"
         ],
         "visibility_rules": [
             "MissionsRequired,GammaPlayable,AllowMission51"
@@ -1393,11 +1381,10 @@
             }
         ],
         "access_rules": [
-            "PlayableKnuckles",
-            "NormalLogic,ShovelClaw",
-            "HardLogic,ShovelClaw",
-            "ExpertLogicDC,ShovelClaw",
-            "ExpertLogicDX,ShovelClaw"
+            "PlayableKnuckles,NormalLogic,ShovelClaw",
+            "PlayableKnuckles,HardLogic,ShovelClaw",
+            "PlayableKnuckles,ExpertLogicDC,ShovelClaw",
+            "PlayableKnuckles,ExpertLogicDX,ShovelClaw"
         ],
         "visibility_rules": [
             "MissionsRequired,KnucklesPlayable,AllowMission56"
