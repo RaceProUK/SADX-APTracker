@@ -4,7 +4,7 @@ namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static class AccessRulesGenerator
 {
-    private static readonly IEnumerable<string> Levels =
+    internal static readonly IEnumerable<string> Levels =
     [
         "Emerald Coast",
         "Windy Valley",
