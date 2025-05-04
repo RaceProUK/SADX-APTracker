@@ -1,3 +1,6 @@
+ScriptHost:LoadScript("scripts/logic/accessRules.lua")
+ScriptHost:LoadScript("scripts/logic/entranceMapper.lua")
+
 function HasItem(itemName)
     local item = Tracker:FindObjectForCode(itemName)
     return item and item.Active

@@ -41,7 +41,8 @@ internal static class AccessRulesGenerator
                       select $"    [\"{character} - {level} - {logicLevel}\"] = function() return {rule} end,";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["AccessRules = {", .. entries, "}"]),
                                                "accessRules.lua",
-                                               "scripts");
+                                               "scripts",
+                                               "logic");
 
         string MakeLogicRule(string character, string level, int logicLevel)
         {
