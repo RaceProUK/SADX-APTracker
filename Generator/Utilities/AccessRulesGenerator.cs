@@ -4,13 +4,55 @@ namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static class AccessRulesGenerator
 {
+    internal static IEnumerable<string> Areas { get; private set; } = [];
+
     internal static IEnumerable<string> Levels { get; private set; } = [];
 
     internal static IEnumerable<string> Characters { get; private set; } = [];
 
     internal static async Task Generate()
     {
+        await GenerateAreaReachRules();
         await GenerateLevelAccessRules();
+    }
+
+    private static async Task GenerateAreaReachRules()
+    {
+        var logic = await LogicLoader.LoadForAreaToArea().ToListAsync();
+        Areas = [.. logic.Select(_ => _.AreaFrom).Distinct()];
+        Characters = [.. logic.Select(_ => _.Character).Distinct()];
+
+        var entries = from character in Characters
+                      from areaFrom in Areas
+                      from areaTo in Areas
+                      where !string.Equals(areaFrom, areaTo, StringComparison.OrdinalIgnoreCase)
+                      from logicLevel in Enumerable.Range(0, 4)
+                      let rule = MakeLogicRule(character, areaFrom, areaTo, logicLevel)
+                      select $"    [\"{character} - {areaFrom} {areaTo} - {logicLevel}\"] = function() return {rule} end,";
+        await FileWriter.WriteFile(string.Join(Environment.NewLine, ["ReachRules = {", .. entries, "}"]),
+                                               "reachRules.lua",
+                                               "scripts",
+                                               "logic");
+
+        string MakeLogicRule(string character, string from, string to, int logicLevel)
+        {
+            var spec = logic.FirstOrDefault(_ => character.Equals(_.Character)
+                                                 && from.Equals(_.AreaFrom)
+                                                 && to.Equals(_.AreaTo));
+            if (spec is null)
+                return "false";
+
+            var set = logicLevel switch
+            {
+                0 => spec.NormalLogic,
+                1 => spec.HardLogic,
+                2 => spec.ExpertDCLogic,
+                3 => spec.ExpertDXLogic,
+                _ => []
+            };
+            var rules = set.Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));
+            return rules.Any() ? string.Join(" or ", rules) : "true";
+        }
     }
 
     private static async Task GenerateLevelAccessRules()
