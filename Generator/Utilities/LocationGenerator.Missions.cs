@@ -1,6 +1,5 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
-using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -50,7 +49,7 @@ internal static partial class LocationGenerator
         IEnumerable<string> GetAccessRules(int number, string character)
         {
             var spec = logic.First(entry => number == entry.Number);
-            var level = spec.ObjectiveArea.Humanize(LetterCasing.Title);
+            var level = spec.ObjectiveArea;
             var access = AccessRulesGenerator.Levels.Contains(level)
                 ? $"$CanAccess|{character}|{level},Playable{character}"
                 : $"Playable{character}";

@@ -4,39 +4,24 @@ namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static class AccessRulesGenerator
 {
-    internal static readonly IEnumerable<string> Levels =
-    [
-        "Emerald Coast",
-        "Windy Valley",
-        "Casinopolis",
-        "Ice Cap",
-        "Twinkle Park",
-        "Speed Highway",
-        "Red Mountain",
-        "Sky Deck",
-        "Lost World",
-        "Final Egg",
-        "Hot Shelter"
-    ];
+    internal static IEnumerable<string> Levels { get; private set; } = [];
 
-    private static readonly IEnumerable<string> Characters =
-    [
-        "Sonic",
-        "Tails",
-        "Knuckles",
-        "Amy",
-        "Gamma",
-        "Big"
-    ];
-
-    private static readonly IEnumerable<int> LogicLevels = Enumerable.Range(0, 4);
+    internal static IEnumerable<string> Characters { get; private set; } = [];
 
     internal static async Task Generate()
     {
+        await GenerateLevelAccessRules();
+    }
+
+    private static async Task GenerateLevelAccessRules()
+    {
         var logic = await LogicLoader.LoadForAreaToLevel().ToListAsync();
+        Levels = [.. logic.Select(_ => _.Level).Distinct()];
+        Characters = [.. logic.Select(_ => _.Character).Distinct()];
+
         var entries = from character in Characters
                       from level in Levels
-                      from logicLevel in LogicLevels
+                      from logicLevel in Enumerable.Range(0, 4)
                       let rule = MakeLogicRule(character, level, logicLevel)
                       select $"    [\"{character} - {level} - {logicLevel}\"] = function() return {rule} end,";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["AccessRules = {", .. entries, "}"]),
@@ -46,8 +31,6 @@ internal static class AccessRulesGenerator
 
         string MakeLogicRule(string character, string level, int logicLevel)
         {
-            level = Common.RemoveWhitespace(level);
-
             var spec = logic.First(_ => character.Equals(_.Character) && level.Equals(_.Level));
             var set = logicLevel switch
             {
