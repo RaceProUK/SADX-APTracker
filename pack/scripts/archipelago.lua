@@ -72,19 +72,22 @@ function LocationChecked(id)
     if location then
         location.AvailableChestCount = location.AvailableChestCount - 1
 
-        if string.find(area, "Boss") then
+        if section == "Mission C" and not string.find(area, "Mission") then
+            local item = Tracker:FindObjectForCode("LevelsBeaten")
+            if item then
+                item.AcquiredCount = item.AcquiredCount + item.Increment
+            end
+        elseif string.find(area, "Boss") then
             local item = Tracker:FindObjectForCode("BossesBeaten")
             if item then
                 item.AcquiredCount = item.AcquiredCount + item.Increment
             end
-        end
-        if string.find(area, "Mission") then
+        elseif string.find(area, "Mission") then
             local item = Tracker:FindObjectForCode("MissionsBeaten")
             if item then
                 item.AcquiredCount = item.AcquiredCount + item.Increment
             end
-        end
-        if string.find(area, "Chao Race") then
+        elseif string.find(area, "Chao Race") then
             local item = Tracker:FindObjectForCode("ChaoRacesWon")
             if item then
                 item.AcquiredCount = item.AcquiredCount + item.Increment
