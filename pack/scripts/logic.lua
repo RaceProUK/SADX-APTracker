@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/logic/accessRules.lua")
 ScriptHost:LoadScript("scripts/logic/reachRules.lua")
+ScriptHost:LoadScript("scripts/logic/entranceAreas.lua")
 ScriptHost:LoadScript("scripts/logic/entranceMapper.lua")
 
 function HasItem(itemName)
@@ -66,7 +67,8 @@ function CanAccess(character, target)
 
     local logicLevel = setting.CurrentStage
     local index = character .. " - " .. target .. " - " .. logicLevel
-    return AccessRules[index]()
+    local area = EntranceAreas[character .. " - " .. target]
+    return CanReach(character, area) and AccessRules[index]()
 end
 
 function HasMetGoalCriteria()

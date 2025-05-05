@@ -82,6 +82,13 @@ internal static class AccessRulesGenerator
                                                "scripts",
                                                "logic");
 
+        //Also write a level-entrance lookup because of Entrance Randomiser
+        var mappings = logic.Select(_ => $"    [\"{_.Character} - {_.Level}\"] = \"{_.Area}\",");
+        await FileWriter.WriteFile(string.Join(Environment.NewLine, ["EntranceAreas = {", .. mappings, "}"]),
+                                               "entranceAreas.lua",
+                                               "scripts",
+                                               "logic");
+
         string MakeLogicRule(string character, string level, int logicLevel)
         {
             var spec = logic.First(_ => character.Equals(_.Character) && level.Equals(_.Level));
