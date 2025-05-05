@@ -83,7 +83,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "TailsEggCarrierInside", MakeImgPath("TailsEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "TailsEggCarrierFrontDeck", MakeImgPath("TailsEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Knuckles's Starting Location", "KnucklesStart", true, true, 0,
+            new ProgressiveItem("Knuckles' Starting Location", "KnucklesStart", true, true, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "KnucklesStationSquareMain", MakeImgPath("KnucklesStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "KnucklesStation", MakeImgPath("KnucklesStation"), false),
@@ -111,7 +111,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "AmyEggCarrierInside", MakeImgPath("AmyEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "AmyEggCarrierFrontDeck", MakeImgPath("AmyEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Gamma's Starting Location", "AmyStart", true, true, 0,
+            new ProgressiveItem("Gamma's Starting Location", "GammaStart", true, true, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "GammaStationSquareMain", MakeImgPath("GammaStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "GammaStation", MakeImgPath("GammaStation"), false),
@@ -185,16 +185,16 @@ internal static partial class ItemGenerator
 
             new ToggleItem("Enemysanity", "Enemysanity", MakeImgPath("Enemysanity")),
             new ToggleItem("Sonic's Enemysanity", "SonicEnemysanity", MakeImgPath("SonicEnemysanity")),
-            new ToggleItem("Tails's Enemysanity", "TailsEnemysanity", MakeImgPath("TailsEnemysanity")),
-            new ToggleItem("Knuckles's Enemysanity", "KnucklesEnemysanity", MakeImgPath("KnucklesEnemysanity")),
+            new ToggleItem("Tails' Enemysanity", "TailsEnemysanity", MakeImgPath("TailsEnemysanity")),
+            new ToggleItem("Knuckles' Enemysanity", "KnucklesEnemysanity", MakeImgPath("KnucklesEnemysanity")),
             new ToggleItem("Amy's Enemysanity", "AmyEnemysanity", MakeImgPath("AmyEnemysanity")),
             new ToggleItem("Gamma's Enemysanity", "GammaEnemysanity", MakeImgPath("GammaEnemysanity")),
             new ToggleItem("Big's Enemysanity", "BigEnemysanity", MakeImgPath("BigEnemysanity")),
 
             new ToggleItem("Capsulesanity", "Capsulesanity", MakeImgPath("Capsulesanity")),
             new ToggleItem("Sonic's Capsulesanity", "SonicCapsulesanity", MakeImgPath("SonicCapsulesanity")),
-            new ToggleItem("Tails's Capsulesanity", "TailsCapsulesanity", MakeImgPath("TailsCapsulesanity")),
-            new ToggleItem("Knuckles's Capsulesanity", "KnucklesCapsulesanity", MakeImgPath("KnucklesCapsulesanity")),
+            new ToggleItem("Tails' Capsulesanity", "TailsCapsulesanity", MakeImgPath("TailsCapsulesanity")),
+            new ToggleItem("Knuckles' Capsulesanity", "KnucklesCapsulesanity", MakeImgPath("KnucklesCapsulesanity")),
             new ToggleItem("Amy's Capsulesanity", "AmyCapsulesanity", MakeImgPath("AmyCapsulesanity")),
             new ToggleItem("Gamma's Capsulesanity", "GammaCapsulesanity", MakeImgPath("GammaCapsulesanity")),
             new ToggleItem("Big's Capsulesanity", "BigCapsulesanity", MakeImgPath("BigCapsulesanity")),

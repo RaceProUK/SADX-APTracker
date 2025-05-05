@@ -64,22 +64,22 @@ internal static partial class LocationGenerator
         var ssUpgrades = from entry in dict
                          where ssUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
-                                            AccessRules: GetAccessRules(entry.Value, entry.Key),
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var mrUpgrades = from entry in dict
                          where mrUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
-                                            AccessRules: GetAccessRules(entry.Value, entry.Key),
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var ecUpgrades = from entry in dict
                          where ecUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
-                                            AccessRules: GetAccessRules(entry.Value, entry.Key),
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var icUpgrades = from entry in dict
                          where icUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value,
-                                            AccessRules: GetAccessRules(entry.Value, entry.Key),
+                                            AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var stationSquare = new Location("Station Square Upgrades",
                                          [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
@@ -92,22 +92,23 @@ internal static partial class LocationGenerator
                                       ecUpgrades);
         var iceCap = new Location("Ice Cap Upgrade",
                                   [new MapLocation("levels", 1936, 192, LevelsIconSize, BorderThickness)],
-                                  icUpgrades,
-                                  AccessRules: ["$CanAccess|Big|Ice Cap,PlayableBig"]);
+                                  icUpgrades);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
                                    "upgrades.json",
                                    "locations");
 
-        IEnumerable<string> GetAccessRules(string section, int upgradeId)
+        IEnumerable<string> GetAccessRules(string section)
         {
-            var character = GetUpgradeCharacter(upgradeId);
-            var rules = logic.First(entry =>
+            var spec = logic.First(entry =>
             {
                 var upgrade = entry.Upgrade.Split('.', StringSplitOptions.TrimEntries)[^1].Humanize(LetterCasing.Title);
                 return section.StartsWith(upgrade);
-            }).BuildAccessRules()?.Select(_ => $"Playable{character},{_}");
-            return rules ?? [$"Playable{character}"];
+            });
+            var func = AccessRulesGenerator.Levels.Contains(spec.Area) ? "CanAccess" : "CanReach";
+            var access = $"${func}|{spec.Character}|{spec.Area},Playable{spec.Character}";
+            var rules = spec.BuildAccessRules()?.Select(_ => $"{access},{_}");
+            return rules ?? [access];
         }
     }
 }

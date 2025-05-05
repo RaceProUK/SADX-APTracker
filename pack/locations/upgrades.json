@@ -15,7 +15,7 @@
                 "name": "Light Shoes Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|StationSquareMain,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -25,10 +25,10 @@
                 "name": "Crystal Ring Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic,NormalLogic,LightShoes",
-                    "PlayableSonic,HardLogic,LightShoes",
-                    "PlayableSonic,ExpertLogicDC",
-                    "PlayableSonic,ExpertLogicDX"
+                    "$CanReach|Sonic|Hotel,PlayableSonic,NormalLogic,LightShoes",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,HardLogic,LightShoes",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDC",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDX"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -38,7 +38,7 @@
                 "name": "Jet Anklet Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableTails"
+                    "$CanReach|Tails|StationSquareMain,PlayableTails"
                 ],
                 "visibility_rules": [
                     "TailsPlayable"
@@ -48,7 +48,7 @@
                 "name": "Lure 1 Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig"
+                    "$CanReach|Big|StationSquareMain,PlayableBig"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
@@ -72,7 +72,7 @@
                 "name": "Ancient Light Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|AngelIsland,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -82,7 +82,7 @@
                 "name": "Rhythm Badge Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableTails"
+                    "$CanReach|Tails|AngelIsland,PlayableTails"
                 ],
                 "visibility_rules": [
                     "TailsPlayable"
@@ -92,7 +92,7 @@
                 "name": "Shovel Claw Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableKnuckles"
+                    "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "KnucklesPlayable"
@@ -102,7 +102,7 @@
                 "name": "Fighting Gloves Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableKnuckles"
+                    "$CanReach|Knuckles|Jungle,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "KnucklesPlayable"
@@ -112,14 +112,14 @@
                 "name": "Life Belt Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig,NormalLogic,IceStone,StationFrontKey,Train",
-                    "PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "PlayableBig,HardLogic,IceStone,StationFrontKey,Train",
-                    "PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train",
-                    "PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train",
-                    "PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train"
+                    "$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
@@ -129,7 +129,7 @@
                 "name": "Power Rod Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig"
+                    "$CanReach|Big|Jungle,PlayableBig"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
@@ -139,7 +139,7 @@
                 "name": "Lure 2 Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig"
+                    "$CanReach|Big|Jungle,PlayableBig"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
@@ -163,7 +163,7 @@
                 "name": "Warrior Feather Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableAmy"
+                    "$CanReach|Amy|EggCarrierInside,PlayableAmy"
                 ],
                 "visibility_rules": [
                     "AmyPlayable"
@@ -173,7 +173,7 @@
                 "name": "Long Hammer Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableAmy"
+                    "$CanReach|Amy|EggCarrierInside,PlayableAmy"
                 ],
                 "visibility_rules": [
                     "AmyPlayable"
@@ -183,7 +183,7 @@
                 "name": "Jet Booster Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableGamma"
+                    "$CanReach|Gamma|EggCarrierInside,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "GammaPlayable"
@@ -193,7 +193,7 @@
                 "name": "Laser Blaster Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableGamma"
+                    "$CanReach|Gamma|EggCarrierInside,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "GammaPlayable"
@@ -203,7 +203,7 @@
                 "name": "Lure 4 Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig"
+                    "$CanReach|Big|EggCarrierInside,PlayableBig"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
@@ -227,15 +227,12 @@
                 "name": "Lure 3 Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig"
+                    "$CanAccess|Big|IceCap,PlayableBig"
                 ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
             }
-        ],
-        "access_rules": [
-            "$CanAccess|Big|Ice Cap,PlayableBig"
         ]
     }
 ]

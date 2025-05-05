@@ -31,7 +31,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Twinkle Park,PlayableBig"
+            "$CanAccess|Big|TwinklePark,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -75,7 +75,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Ice Cap,PlayableBig"
+            "$CanAccess|Big|IceCap,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -133,7 +133,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Emerald Coast,PlayableBig"
+            "$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -201,7 +201,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Hot Shelter,PlayableBig"
+            "$CanAccess|Big|HotShelter,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"

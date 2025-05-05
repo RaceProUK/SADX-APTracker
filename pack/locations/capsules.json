@@ -153,7 +153,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Emerald Coast,PlayableSonic"
+            "$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -310,7 +310,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Windy Valley,PlayableSonic"
+            "$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -777,7 +777,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Ice Cap,PlayableSonic"
+            "$CanAccess|Sonic|IceCap,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -1077,7 +1077,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Twinkle Park,PlayableSonic"
+            "$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -1398,7 +1398,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Speed Highway,PlayableSonic"
+            "$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -1633,7 +1633,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Red Mountain,PlayableSonic"
+            "$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -2115,7 +2115,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Sky Deck,PlayableSonic"
+            "$CanAccess|Sonic|SkyDeck,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -2374,7 +2374,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Lost World,PlayableSonic"
+            "$CanAccess|Sonic|LostWorld,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -2821,7 +2821,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Sonic|Final Egg,PlayableSonic"
+            "$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity,SonicCapsulesanity"
@@ -2911,7 +2911,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Tails|Windy Valley,PlayableTails"
+            "$CanAccess|Tails|WindyValley,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity,TailsCapsulesanity"
@@ -3497,7 +3497,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Tails|Sky Deck,PlayableTails"
+            "$CanAccess|Tails|SkyDeck,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity,TailsCapsulesanity"
@@ -3678,7 +3678,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Tails|Speed Highway,PlayableTails"
+            "$CanAccess|Tails|SpeedHighway,PlayableTails"
         ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity,TailsCapsulesanity"
@@ -3754,7 +3754,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Knuckles|Speed Highway,PlayableKnuckles"
+            "$CanAccess|Knuckles|SpeedHighway,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity,KnucklesCapsulesanity"
@@ -4067,7 +4067,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Knuckles|Red Mountain,PlayableKnuckles"
+            "$CanAccess|Knuckles|RedMountain,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity,KnucklesCapsulesanity"
@@ -4136,7 +4136,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Knuckles|Lost World,PlayableKnuckles"
+            "$CanAccess|Knuckles|LostWorld,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity,KnucklesCapsulesanity"
@@ -4240,7 +4240,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Knuckles|Sky Deck,PlayableKnuckles"
+            "$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
         ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity,KnucklesCapsulesanity"
@@ -4323,7 +4323,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Amy|Twinkle Park,PlayableAmy"
+            "$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
         "visibility_rules": [
             "AmyPlayable,Capsulesanity,AmyCapsulesanity"
@@ -4602,7 +4602,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Amy|Hot Shelter,PlayableAmy"
+            "$CanAccess|Amy|HotShelter,PlayableAmy"
         ],
         "visibility_rules": [
             "AmyPlayable,Capsulesanity,AmyCapsulesanity"
@@ -4671,7 +4671,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Amy|Final Egg,PlayableAmy"
+            "$CanAccess|Amy|FinalEgg,PlayableAmy"
         ],
         "visibility_rules": [
             "AmyPlayable,Capsulesanity,AmyCapsulesanity"
@@ -4761,7 +4761,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Gamma|Final Egg,PlayableGamma"
+            "$CanAccess|Gamma|FinalEgg,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity,GammaCapsulesanity"
@@ -4872,7 +4872,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Gamma|Emerald Coast,PlayableGamma"
+            "$CanAccess|Gamma|EmeraldCoast,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity,GammaCapsulesanity"
@@ -5022,7 +5022,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Gamma|Windy Valley,PlayableGamma"
+            "$CanAccess|Gamma|WindyValley,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity,GammaCapsulesanity"
@@ -5112,7 +5112,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Gamma|Red Mountain,PlayableGamma"
+            "$CanAccess|Gamma|RedMountain,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity,GammaCapsulesanity"
@@ -5495,7 +5495,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Gamma|Hot Shelter,PlayableGamma"
+            "$CanAccess|Gamma|HotShelter,PlayableGamma"
         ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity,GammaCapsulesanity"
@@ -5529,7 +5529,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Twinkle Park,PlayableBig"
+            "$CanAccess|Big|TwinklePark,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity,BigCapsulesanity"
@@ -5633,7 +5633,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Ice Cap,PlayableBig"
+            "$CanAccess|Big|IceCap,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity,BigCapsulesanity"
@@ -5667,7 +5667,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Emerald Coast,PlayableBig"
+            "$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity,BigCapsulesanity"
@@ -5775,7 +5775,7 @@
             }
         ],
         "access_rules": [
-            "$CanAccess|Big|Hot Shelter,PlayableBig"
+            "$CanAccess|Big|HotShelter,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity,BigCapsulesanity"

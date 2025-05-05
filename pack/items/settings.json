@@ -446,7 +446,7 @@
                 "inherit_codes": false
             }
         ],
-        "name": "Knuckles's Starting Location",
+        "name": "Knuckles' Starting Location",
         "type": "progressive",
         "codes": "KnucklesStart"
     },
@@ -600,7 +600,7 @@
         ],
         "name": "Gamma's Starting Location",
         "type": "progressive",
-        "codes": "AmyStart"
+        "codes": "GammaStart"
     },
     {
         "loop": true,
@@ -896,13 +896,13 @@
     },
     {
         "img": "images/settings/TailsEnemysanity.png",
-        "name": "Tails's Enemysanity",
+        "name": "Tails' Enemysanity",
         "type": "toggle",
         "codes": "TailsEnemysanity"
     },
     {
         "img": "images/settings/KnucklesEnemysanity.png",
-        "name": "Knuckles's Enemysanity",
+        "name": "Knuckles' Enemysanity",
         "type": "toggle",
         "codes": "KnucklesEnemysanity"
     },
@@ -938,13 +938,13 @@
     },
     {
         "img": "images/settings/TailsCapsulesanity.png",
-        "name": "Tails's Capsulesanity",
+        "name": "Tails' Capsulesanity",
         "type": "toggle",
         "codes": "TailsCapsulesanity"
     },
     {
         "img": "images/settings/KnucklesCapsulesanity.png",
-        "name": "Knuckles's Capsulesanity",
+        "name": "Knuckles' Capsulesanity",
         "type": "toggle",
         "codes": "KnucklesCapsulesanity"
     },

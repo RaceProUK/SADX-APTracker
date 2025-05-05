@@ -99,8 +99,8 @@ internal static class LogicLoader
 
     internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()
          => LoadFor<UpgradeItem>("B350:I367", _ =>
-             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
-              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Area))
+             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Area))
+              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
               .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Upgrade))
               .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
               .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))

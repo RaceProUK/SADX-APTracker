@@ -44,9 +44,13 @@ function CanReach(character, target)
     elseif startSetting.CurrentStage == 10 then
         origin = "EggCarrierFrontDeck"
     end
-    
-    local index = character .. " - " .. origin .." - " .. target .. " - " .. logicLevel
-    return ReachRules[index]()
+
+    if origin == target then
+        return true
+    else
+        local index = character .. " - " .. origin .." - " .. target .. " - " .. logicLevel
+        return ReachRules[index]()
+    end
 end
 
 function CanAccess(character, target)

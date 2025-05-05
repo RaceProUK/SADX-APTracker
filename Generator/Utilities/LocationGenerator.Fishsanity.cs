@@ -43,7 +43,7 @@ internal static partial class LocationGenerator
         var fish = from level in locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m))
                    let y = 64 + 128 * level.Multipler
                    let index = level.Location.Key.IndexOf('(')
-                   let access = level.Location.Key[0..(index - 1)]
+                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Fishsanity - {level.Location.Key}",
                                        [new MapLocation("levels", 1594 + 48, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location

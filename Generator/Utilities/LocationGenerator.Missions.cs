@@ -49,10 +49,10 @@ internal static partial class LocationGenerator
         IEnumerable<string> GetAccessRules(int number, string character)
         {
             var spec = logic.First(entry => number == entry.Number);
-            var level = spec.ObjectiveArea;
-            var access = AccessRulesGenerator.Levels.Contains(level)
-                ? $"$CanAccess|{character}|{level},Playable{character}"
-                : $"Playable{character}";
+            var func = AccessRulesGenerator.Levels.Contains(spec.ObjectiveArea) ? "CanAccess" : "CanReach";
+            var access = spec.CardArea.Equals(spec.ObjectiveArea)
+                ? $"CanReach|{character}|{spec.CardArea},Playable{character}"
+                : $"CanReach|{character}|{spec.CardArea},${func}|{character}|{spec.ObjectiveArea},Playable{character}";
             var rules = spec.BuildAccessRules()?.Select(_ => $"{access},{_}");
             return rules ?? [access];
         }

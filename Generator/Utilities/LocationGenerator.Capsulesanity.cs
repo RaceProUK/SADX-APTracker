@@ -82,7 +82,7 @@ internal static partial class LocationGenerator
                    let y = y0 + 128 * level.Multipler
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    let index = level.Location.Key.IndexOf('(')
-                   let access = level.Location.Key[0..(index - 1)]
+                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Capsulesanity - {level.Location.Key}",
                                        [new MapLocation("capsules", x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
