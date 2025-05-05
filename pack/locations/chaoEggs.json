@@ -16,6 +16,14 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanReach|Sonic|StationSquareMain,$CanReach|Sonic|Hotel,PlayableSonic",
+            "$CanReach|Tails|StationSquareMain,$CanReach|Tails|Hotel,PlayableTails",
+            "$CanReach|Knuckles|StationSquareMain,$CanReach|Knuckles|Hotel,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareMain,$CanReach|Amy|Hotel,PlayableAmy",
+            "$CanReach|Big|StationSquareMain,$CanReach|Big|Hotel,PlayableBig",
+            "$CanReach|Gamma|StationSquareMain,$CanReach|Gamma|Hotel,PlayableGamma"
+        ],
         "visibility_rules": [
             "SecretChaoEggs"
         ]
@@ -37,6 +45,14 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+            "$CanReach|Tails|MysticRuinsMain,PlayableTails",
+            "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles",
+            "$CanReach|Amy|MysticRuinsMain,PlayableAmy",
+            "$CanReach|Big|MysticRuinsMain,PlayableBig",
+            "$CanReach|Gamma|MysticRuinsMain,PlayableGamma"
+        ],
         "visibility_rules": [
             "SecretChaoEggs"
         ]
@@ -57,6 +73,14 @@
                 "name": "Black Chao Egg",
                 "item_count": 1
             }
+        ],
+        "access_rules": [
+            "$CanReach|Sonic|EggCarrierInside,PlayableSonic",
+            "$CanReach|Tails|EggCarrierInside,PlayableTails",
+            "$CanReach|Knuckles|EggCarrierInside,PlayableKnuckles",
+            "$CanReach|Amy|EggCarrierInside,PlayableAmy",
+            "$CanReach|Big|EggCarrierInside,PlayableBig",
+            "$CanReach|Gamma|EggCarrierInside,PlayableGamma"
         ],
         "visibility_rules": [
             "SecretChaoEggs"

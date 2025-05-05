@@ -30,14 +30,17 @@ internal static partial class LocationGenerator
         var stationSquare = new Location("Station Square Chao Egg",
                                          [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
                                          [(new Section(dict[GoldEgg]))],
+                                         AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareMain,$CanReach|{_}|Hotel,Playable{_}"),
                                          VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
                                        [(new Section(dict[SilverEgg]))],
+                                       AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|MysticRuinsMain,Playable{_}"),
                                        VisibilityRules: ["SecretChaoEggs"]);
         var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
                                       [(new Section(dict[BlackEgg]))],
+                                      AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|EggCarrierInside,Playable{_}"),
                                       VisibilityRules: ["SecretChaoEggs"]);
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),
