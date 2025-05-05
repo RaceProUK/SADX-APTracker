@@ -1,3 +1,5 @@
+Tracker.AllowDeferredLogicUpdate = true
+
 Tracker:AddLocations("locations/bosses.json")
 Tracker:AddLocations("locations/capsules.json")
 Tracker:AddLocations("locations/chaoEggs.json")

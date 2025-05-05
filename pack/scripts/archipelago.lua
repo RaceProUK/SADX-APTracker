@@ -5,6 +5,7 @@ ScriptHost:LoadScript("scripts/archipelago/settings.lua")
 CurrentIndex = -1
 
 function Reset(slotData)
+    Tracker.BulkUpdate = true
     CurrentIndex = -1
 
     for _, value in pairs(ItemMap) do
@@ -35,6 +36,8 @@ function Reset(slotData)
     if slotData ~= nil then
         ParseSettings(slotData)
     end
+
+    Tracker.BulkUpdate = false
 end
 
 function ItemReceived(index, id)
