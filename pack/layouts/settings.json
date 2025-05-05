@@ -50,7 +50,7 @@
             },
             {
                 "type": "group",
-                "header": "Playable Characters",
+                "header": "Playable Characters and Starting Locations",
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
@@ -65,6 +65,14 @@
                             "AmyPlayable",
                             "GammaPlayable",
                             "BigPlayable"
+                        ],
+                        [
+                            "SonicStart",
+                            "TailsStart",
+                            "KnucklesStart",
+                            "AmyStart",
+                            "GammaStart",
+                            "BigStart"
                         ]
                     ]
                 }

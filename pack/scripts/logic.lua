@@ -1,4 +1,5 @@
 ScriptHost:LoadScript("scripts/logic/accessRules.lua")
+ScriptHost:LoadScript("scripts/logic/reachRules.lua")
 ScriptHost:LoadScript("scripts/logic/entranceMapper.lua")
 
 function HasItem(itemName)
@@ -9,6 +10,43 @@ end
 function NotHasItem(itemName)
     local item = Tracker:FindObjectForCode(itemName)
     return item and not item.Active
+end
+
+function CanReach(character, target)
+    local logicSetting = Tracker:FindObjectForCode("LogicLevel")
+    local startSetting = Tracker:FindObjectForCode(character .. "Start")
+    if logicSetting == nil or startSetting == nil then
+        return true
+    end
+
+    local logicLevel = logicSetting.CurrentStage
+    local origin = ""
+    if startSetting.CurrentStage == 0 then
+        origin = "StationSquareMain"
+    elseif startSetting.CurrentStage == 1 then
+        origin = "Station"
+    elseif startSetting.CurrentStage == 2 then
+        origin = "Hotel"
+    elseif startSetting.CurrentStage == 3 then
+        origin = "Casino"
+    elseif startSetting.CurrentStage == 4 then
+        origin = "TwinkleParkLobby"
+    elseif startSetting.CurrentStage == 5 then
+        origin = "MysticRuinsMain"
+    elseif startSetting.CurrentStage == 6 then
+        origin = "AngelIsland"
+    elseif startSetting.CurrentStage == 7 then
+        origin = "Jungle"
+    elseif startSetting.CurrentStage == 8 then
+        origin = "EggCarrierOutside"
+    elseif startSetting.CurrentStage == 9 then
+        origin = "EggCarrierInside"
+    elseif startSetting.CurrentStage == 10 then
+        origin = "EggCarrierFrontDeck"
+    end
+    
+    local index = character .. " - " .. origin .." - " .. target .. " - " .. logicLevel
+    return ReachRules[index]()
 end
 
 function CanAccess(character, target)
