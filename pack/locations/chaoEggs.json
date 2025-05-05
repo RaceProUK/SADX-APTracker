@@ -17,12 +17,18 @@
             }
         ],
         "access_rules": [
-            "$CanReach|Sonic|StationSquareMain,$CanReach|Sonic|Hotel,PlayableSonic",
-            "$CanReach|Tails|StationSquareMain,$CanReach|Tails|Hotel,PlayableTails",
-            "$CanReach|Knuckles|StationSquareMain,$CanReach|Knuckles|Hotel,PlayableKnuckles",
-            "$CanReach|Amy|StationSquareMain,$CanReach|Amy|Hotel,PlayableAmy",
-            "$CanReach|Big|StationSquareMain,$CanReach|Big|Hotel,PlayableBig",
-            "$CanReach|Gamma|StationSquareMain,$CanReach|Gamma|Hotel,PlayableGamma"
+            "$CanReach|Sonic|StationSquareMain,HotelFrontKey,PlayableSonic",
+            "$CanReach|Tails|StationSquareMain,HotelFrontKey,PlayableTails",
+            "$CanReach|Knuckles|StationSquareMain,HotelFrontKey,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareMain,HotelFrontKey,PlayableAmy",
+            "$CanReach|Big|StationSquareMain,HotelFrontKey,PlayableBig",
+            "$CanReach|Gamma|StationSquareMain,HotelFrontKey,PlayableGamma",
+            "$CanReach|Sonic|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableSonic",
+            "$CanReach|Tails|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableTails",
+            "$CanReach|Knuckles|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableAmy",
+            "$CanReach|Big|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableBig",
+            "$CanReach|Gamma|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableGamma"
         ],
         "visibility_rules": [
             "SecretChaoEggs"

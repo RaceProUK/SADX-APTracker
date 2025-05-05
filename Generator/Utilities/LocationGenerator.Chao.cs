@@ -30,7 +30,11 @@ internal static partial class LocationGenerator
         var stationSquare = new Location("Station Square Chao Egg",
                                          [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
                                          [(new Section(dict[GoldEgg]))],
-                                         AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareMain,$CanReach|{_}|Hotel,Playable{_}"),
+                                         AccessRules:
+                                         [
+                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareMain,HotelFrontKey,Playable{_}"),
+                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,Playable{_}")
+                                         ],
                                          VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
