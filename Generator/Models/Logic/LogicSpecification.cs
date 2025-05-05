@@ -12,7 +12,7 @@ internal abstract class LogicSpecification
 
     public LogicRules ExpertDXLogic { get; set; } = [];
 
-    internal IEnumerable<string>? BuildAccessRules()
+    internal virtual IEnumerable<string>? BuildAccessRules()
     {
         var hardLogic = HardLogic.Any()
             ? HardLogic.Select(_ => $"HardLogic,{string.Join(',', _)}")
