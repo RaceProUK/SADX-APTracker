@@ -1,4 +1,11 @@
 ﻿using System.Data;
+using Humanizer;
+using QuikGraph;
+using QuikGraph.Algorithms;
+using QuikGraph.Algorithms.Observers;
+using QuikGraph.Algorithms.RankedShortestPath;
+using QuikGraph.Algorithms.Search;
+using RPS.SADX.PopTracker.Generator.Models.Logic;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 
@@ -19,6 +26,9 @@ internal static class AccessRulesGenerator
     private static async Task GenerateAreaReachRules()
     {
         var logic = await LogicLoader.LoadForAreaToArea().ToListAsync();
+        var graphs = logic.GroupBy(_ => _.Character)
+                          .ToDictionary(_ => _.Key,
+                                        _ => _.ToBidirectionalGraph<string, AreaToArea>());
         Areas = [.. logic.Select(_ => _.AreaFrom).Distinct()];
         Characters = [.. logic.Select(_ => _.Character).Distinct()];
 
@@ -28,7 +38,7 @@ internal static class AccessRulesGenerator
                       where !string.Equals(areaFrom, areaTo, StringComparison.OrdinalIgnoreCase)
                       from logicLevel in Enumerable.Range(0, 4)
                       let rule = MakeLogicRule(character, areaFrom, areaTo, logicLevel)
-                      select $"    [\"{character} - {areaFrom} {areaTo} - {logicLevel}\"] = function() return {rule} end,";
+                      select $"    [\"{character} - {areaFrom} - {areaTo} - {logicLevel}\"] = function() return {rule} end,";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["ReachRules = {", .. entries, "}"]),
                                                "reachRules.lua",
                                                "scripts",
@@ -36,21 +46,22 @@ internal static class AccessRulesGenerator
 
         string MakeLogicRule(string character, string from, string to, int logicLevel)
         {
-            var spec = logic.FirstOrDefault(_ => character.Equals(_.Character)
-                                                 && from.Equals(_.AreaFrom)
-                                                 && to.Equals(_.AreaTo));
-            if (spec is null)
+            if (!graphs.TryGetValue(character, out var graph))
                 return "false";
 
-            var set = logicLevel switch
-            {
-                0 => spec.NormalLogic,
-                1 => spec.HardLogic,
-                2 => spec.ExpertDCLogic,
-                3 => spec.ExpertDXLogic,
-                _ => []
-            };
-            var rules = set.Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));
+            var rules = from path in graph.RankedShortestPathHoffmanPavley(_ => 1, @from, to, 3)
+                        let steps = path.SelectMany(_ => logicLevel switch
+                        {
+                            0 => _.NormalLogic,
+                            1 => _.HardLogic,
+                            2 => _.ExpertDCLogic,
+                            3 => _.ExpertDXLogic,
+                            _ => []
+                        })
+                        let items = steps.SelectMany(_ => _)
+                        select string.Join(" and ", items.Select(_ => $"HasItem(\"{_}\")"));
+            if (rules.Any(_ => _.Length == 0))
+                rules = [];
             return rules.Any() ? string.Join(" or ", rules) : "true";
         }
     }
