@@ -69,28 +69,47 @@ internal static partial class LocationGenerator
         var tcMissions1 = from entry in dict
                           where entry.Key >= TwinkleCircuitStart && entry.Key < TwinkleCircuitEnd
                           select new Section("Set a Record",
+                                             AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|TwinkleParkLobby,Playable{_}"),
                                              VisibilityRules: ["EnableTwinkleCircuit"]);
         var tcMissions2 = from entry in dict
                           where entry.Key >= TwinkleCircuitMultipleStart && entry.Key < TwinkleCircuitMultipleEnd
                           let character = SublevelParser().Match(entry.Value).Groups[1].Value
                           select new Section($"Set a Record as {character}",
-                                             AccessRules: [$"Playable{character}"],
+                                             AccessRules: [$"$CanReach|{character}|TwinkleParkLobby,Playable{character}"],
                                              VisibilityRules: [$"EnableTwinkleCircuitMultiple,{character}Playable"]);
         var skyChase1 = new Location("Sky Chase Act 1",
                                      [new MapLocation("levels", 1082, 1056, LevelsIconSize, BorderThickness)],
                                      sc1Missions,
-                                     AccessRules: ["PlayableSonic", "PlayableTails"],
+                                     AccessRules:
+                                     [
+                                         "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+                                         "$CanReach|Tails|MysticRuinsMain,PlayableTails"
+                                     ],
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var skyChase2 = new Location("Sky Chase Act 2",
                                      [new MapLocation("levels", 1082, 1120, LevelsIconSize, BorderThickness)],
                                      sc2Missions,
-                                     AccessRules: ["PlayableSonic", "PlayableTails"],
+                                     AccessRules:
+                                     [
+                                         "$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                                         "$CanReach|Tails|EggCarrierOutside,PlayableTails"
+                                     ],
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var sandHill = new Location("Sand Hill",
                                     [new MapLocation("levels", 1082, 1184, LevelsIconSize, BorderThickness)],
                                     shMissions,
-                                    AccessRules: ["PlayableTails", "ExpertLogicDC,PlayableSonic", "ExpertLogicDX,PlayableSonic"],
-                                    VisibilityRules: ["TailsPlayable", "ExpertLogicDC,SonicPlayable", "ExpertLogicDX,SonicPlayable"]);
+                                    AccessRules:
+                                    [
+                                        "$CanReach|Tails|Jungle,PlayableTails",
+                                        "$CanReach|Sonic|Jungle,ExpertLogicDC,PlayableSonic",
+                                        "$CanReach|Sonic|Jungle,ExpertLogicDX,PlayableSonic"
+                                    ],
+                                    VisibilityRules:
+                                    [
+                                        "TailsPlayable",
+                                        "ExpertLogicDC,SonicPlayable",
+                                        "ExpertLogicDX,SonicPlayable"
+                                    ]);
         var twinkleCircuit = new Location("Twinkle Circuit",
                                           [new MapLocation("levels", 1082, 1248, LevelsIconSize, BorderThickness)],
                                           tcMissions1.Union(tcMissions2));
