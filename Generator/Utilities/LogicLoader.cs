@@ -108,7 +108,7 @@ internal static class LogicLoader
               .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic)));
 
     private static async IAsyncEnumerable<T> LoadFor<T>(string range,
-                                                     Func<MappingConfigBuilder<T>, MappingConfigBuilder<T>> mapping) where T : new()
+                                                        Func<MappingConfigBuilder<T>, MappingConfigBuilder<T>> mapping) where T : new()
     {
         var adapter = new GoogleSheetAdapter();
         var sheet = await adapter.GetAsync("1MKI-oe2KDodhk1MlMcgdEny0LGvkJETRHZTIyP23Xko",
@@ -131,12 +131,15 @@ internal static class LogicLoader
             if (line.Contains("Upgrade"))
             {
                 var start = line.IndexOf('(') + 1;
-                var items = line[start..^1].Split(',');
-                rules.Add([$"Playable{items[0].Split('.')[^1]}", items[1].Split('.')[^1]]);
+                var parts = line[start..^1].Split(',');
+                var character = parts[0].Split('.')[^1];
+                var item = parts[1].Split('.')[^1];
+                rules.Add([$"Playable{character}", item]);
             }
             else
             {
-                rules.Add([$"Playable{line.Split('.')[^1]}"]);
+                var character = line.Split('.')[^1];
+                rules.Add([$"Playable{character}"]);
             }
         }
         return rules;
