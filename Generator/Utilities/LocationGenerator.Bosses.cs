@@ -53,20 +53,46 @@ internal static partial class LocationGenerator
         };
         static string[]? GetSharedBossAccess(string name) => name switch
         {
-            "Egg Hornet" => ["PlayableSonic", "PlayableTails"],
-            "Chaos 4" => ["PlayableSonic", "PlayableTails", "PlayableKnuckles"],
-            "Chaos 6" => ["PlayableSonic", "PlayableKnuckles", "PlayableBig"],
+            "Egg Hornet" =>
+            [
+                "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+                "$CanReach|Tails|MysticRuinsMain,PlayableTails"
+            ],
+            "Chaos 4" =>
+            [
+                "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+                "$CanReach|Tails|MysticRuinsMain,PlayableTails",
+                "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles"
+            ],
+            "Chaos 6" =>
+            [
+                "$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                "$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                "$CanReach|Big|EggCarrierOutside,PlayableBig"
+            ],
             _ => default
+        };
+        static string GetStationSquareBossArea(string name) => name switch
+        {
+            string s when s.StartsWith("Chaos 2") => "Hotel",
+            string s when s.StartsWith("Egg Walker") => "Casino",
+            _ => "StationSquareMain"
+        };
+        static string GetMysticRuinsBossArea(string name) => name switch
+        {
+            string s when s.StartsWith("Egg Viper") || s.StartsWith("E101 Beta") => "Jungle",
+            _ => "MysticRuinsMain"
         };
 
         var ssBosses = from entry in dict
                        where entry.Key >= StationSquareBossesStart && entry.Key < StationSquareBossesEnd
                        let character = CharacterParser().Match(entry.Value).Groups[1].Value
                        let boss = TrimBossName(entry.Value)
+                       let area = GetStationSquareBossArea(boss)
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"Playable{character}"],
+                                          : [$"$CanReach|{character}|{area},Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
@@ -74,10 +100,11 @@ internal static partial class LocationGenerator
                        where entry.Key >= MysticRuinsBossesStart && entry.Key < MysticRuinsBossesEnd
                        let character = CharacterParser().Match(entry.Value).Groups[1].Value
                        let boss = TrimBossName(entry.Value)
+                       let area = GetMysticRuinsBossArea(boss)
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"Playable{character}"],
+                                          : [$"$CanReach|{character}|{area},Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
@@ -88,7 +115,7 @@ internal static partial class LocationGenerator
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"Playable{character}"],
+                                          : [$"$CanReach|{character}|EggCarrierOutside,Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));

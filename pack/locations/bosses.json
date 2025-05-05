@@ -15,7 +15,7 @@
                 "name": "Chaos 0 (Sonic)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|StationSquareMain,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -25,7 +25,7 @@
                 "name": "Chaos 2 (Knuckles)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableKnuckles"
+                    "$CanReach|Knuckles|Hotel,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "KnucklesPlayable"
@@ -35,7 +35,7 @@
                 "name": "Egg Walker (Tails)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableTails"
+                    "$CanReach|Tails|Casino,PlayableTails"
                 ],
                 "visibility_rules": [
                     "TailsPlayable"
@@ -59,7 +59,7 @@
                 "name": "Egg Hornet (Sonic)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|MysticRuinsMain,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyEggHornet,SonicPlayable"
@@ -69,7 +69,7 @@
                 "name": "Egg Hornet (Tails)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableTails"
+                    "$CanReach|Tails|MysticRuinsMain,PlayableTails"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyEggHornet,TailsPlayable"
@@ -79,8 +79,8 @@
                 "name": "Egg Hornet",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic",
-                    "PlayableTails"
+                    "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+                    "$CanReach|Tails|MysticRuinsMain,PlayableTails"
                 ],
                 "visibility_rules": [
                     "UnifyEggHornet,SonicPlayable",
@@ -91,7 +91,7 @@
                 "name": "Chaos 4 (Sonic)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|MysticRuinsMain,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyChaos4,SonicPlayable"
@@ -101,7 +101,7 @@
                 "name": "Chaos 4 (Tails)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableTails"
+                    "$CanReach|Tails|MysticRuinsMain,PlayableTails"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyChaos4,TailsPlayable"
@@ -111,7 +111,7 @@
                 "name": "Chaos 4 (Knuckles)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableKnuckles"
+                    "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyChaos4,KnucklesPlayable"
@@ -121,9 +121,9 @@
                 "name": "Chaos 4",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic",
-                    "PlayableTails",
-                    "PlayableKnuckles"
+                    "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+                    "$CanReach|Tails|MysticRuinsMain,PlayableTails",
+                    "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "UnifyChaos4,SonicPlayable",
@@ -135,7 +135,7 @@
                 "name": "Egg Viper (Sonic)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|Jungle,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -159,7 +159,7 @@
                 "name": "E-101 Beta (Gamma)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableGamma"
+                    "$CanReach|Gamma|EggCarrierOutside,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "GammaPlayable"
@@ -169,7 +169,7 @@
                 "name": "Chaos 6 (Sonic)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic"
+                    "$CanReach|Sonic|EggCarrierOutside,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyChaos6,SonicPlayable"
@@ -179,7 +179,7 @@
                 "name": "Chaos 6 (Knuckles)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableKnuckles"
+                    "$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyChaos6,KnucklesPlayable"
@@ -189,7 +189,7 @@
                 "name": "Chaos 6 (Big)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableBig"
+                    "$CanReach|Big|EggCarrierOutside,PlayableBig"
                 ],
                 "visibility_rules": [
                     "$NotHasItem|UnifyChaos6,BigPlayable"
@@ -199,9 +199,9 @@
                 "name": "Chaos 6",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableSonic",
-                    "PlayableKnuckles",
-                    "PlayableBig"
+                    "$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                    "$CanReach|Big|EggCarrierOutside,PlayableBig"
                 ],
                 "visibility_rules": [
                     "UnifyChaos6,SonicPlayable",
@@ -213,7 +213,7 @@
                 "name": "E-101 mkII (Gamma)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableGamma"
+                    "$CanReach|Gamma|EggCarrierOutside,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "GammaPlayable"
@@ -223,7 +223,7 @@
                 "name": "E-100 Zero (Amy)",
                 "item_count": 1,
                 "access_rules": [
-                    "PlayableAmy"
+                    "$CanReach|Amy|EggCarrierOutside,PlayableAmy"
                 ],
                 "visibility_rules": [
                     "AmyPlayable"
