@@ -32,6 +32,14 @@
                 "item_count": 1
             }
         ],
+        "access_rules": [
+            "$CanReach|Sonic|Hotel,PlayableSonic",
+            "$CanReach|Tails|Hotel,PlayableTails",
+            "$CanReach|Knuckles|Hotel,PlayableKnuckles",
+            "$CanReach|Amy|Hotel,PlayableAmy",
+            "$CanReach|Big|Hotel,PlayableBig",
+            "$CanReach|Gamma|Hotel,PlayableGamma"
+        ],
         "visibility_rules": [
             "ChaoRacesRequired"
         ]

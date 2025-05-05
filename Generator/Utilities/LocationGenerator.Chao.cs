@@ -52,6 +52,7 @@ internal static partial class LocationGenerator
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
                                      select new Section(entry.Value),
+                                     AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|Hotel,Playable{_}"),
                                      VisibilityRules: ["ChaoRacesRequired"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(new[] { chaoRaces }, Constants.JsonOptions),
                                    "chaoRaces.json",
