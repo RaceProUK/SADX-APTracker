@@ -55,7 +55,7 @@ internal static partial class ItemGenerator
             new ToggleItem("Gamma Playable", "GammaPlayable", MakeImgPath("GammaPlayable")),
             new ToggleItem("Big Playable", "BigPlayable", MakeImgPath("BigPlayable")),
 
-            new ProgressiveItem("Sonic's Starting Location", "SonicStart", true, true, 0,
+            new ProgressiveItem("Sonic's Starting Location", "SonicStart", true, false, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "SonicStationSquareMain", MakeImgPath("SonicStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "SonicStation", MakeImgPath("SonicStation"), false),
@@ -69,7 +69,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "SonicEggCarrierInside", MakeImgPath("SonicEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "SonicEggCarrierFrontDeck", MakeImgPath("SonicEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Tails Starting Location", "TailsStart", true, true, 0,
+            new ProgressiveItem("Tails Starting Location", "TailsStart", true, false, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "TailsStationSquareMain", MakeImgPath("TailsStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "TailsStation", MakeImgPath("TailsStation"), false),
@@ -83,7 +83,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "TailsEggCarrierInside", MakeImgPath("TailsEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "TailsEggCarrierFrontDeck", MakeImgPath("TailsEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Knuckles' Starting Location", "KnucklesStart", true, true, 0,
+            new ProgressiveItem("Knuckles' Starting Location", "KnucklesStart", true, false, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "KnucklesStationSquareMain", MakeImgPath("KnucklesStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "KnucklesStation", MakeImgPath("KnucklesStation"), false),
@@ -97,7 +97,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "KnucklesEggCarrierInside", MakeImgPath("KnucklesEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "KnucklesEggCarrierFrontDeck", MakeImgPath("KnucklesEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Amy's Starting Location", "AmyStart", true, true, 0,
+            new ProgressiveItem("Amy's Starting Location", "AmyStart", true, false, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "AmyStationSquareMain", MakeImgPath("AmyStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "AmyStation", MakeImgPath("AmyStation"), false),
@@ -111,7 +111,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "AmyEggCarrierInside", MakeImgPath("AmyEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "AmyEggCarrierFrontDeck", MakeImgPath("AmyEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Gamma's Starting Location", "GammaStart", true, true, 0,
+            new ProgressiveItem("Gamma's Starting Location", "GammaStart", true, false, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "GammaStationSquareMain", MakeImgPath("GammaStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "GammaStation", MakeImgPath("GammaStation"), false),
@@ -125,7 +125,7 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Egg Carrier Inside", "GammaEggCarrierInside", MakeImgPath("GammaEggCarrierInside"), false),
                 new ProgressiveItemStage("Egg Carrier Front Deck", "GammaEggCarrierFrontDeck", MakeImgPath("GammaEggCarrierFrontDeck"), false)
             ]),
-            new ProgressiveItem("Big's Starting Location", "BigStart", true, true, 0,
+            new ProgressiveItem("Big's Starting Location", "BigStart", true, false, 0,
             [
                 new ProgressiveItemStage("Station Square (Hub)", "BigStationSquareMain", MakeImgPath("BigStationSquareMain"), false),
                 new ProgressiveItemStage("Station", "BigStation", MakeImgPath("BigStation"), false),
