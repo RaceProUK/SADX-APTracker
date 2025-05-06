@@ -1,43 +1,9 @@
 [
     {
-        "loop": true,
-        "allow_disabled": false,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "name": "Normal Logic",
-                "codes": "NormalLogic",
-                "img": "images/settings/NormalLogic.png",
-                "inherit_codes": false
-            },
-            {
-                "name": "Hard Logic",
-                "codes": "HardLogic",
-                "img": "images/settings/HardLogic.png",
-                "inherit_codes": false
-            },
-            {
-                "name": "Expert DC Logic",
-                "codes": "ExpertLogicDC",
-                "img": "images/settings/ExpertLogicDC.png",
-                "inherit_codes": false
-            },
-            {
-                "name": "Expert DX Logic",
-                "codes": "ExpertLogicDX",
-                "img": "images/settings/ExpertLogicDX.png",
-                "inherit_codes": false
-            }
-        ],
-        "name": "Logic Level",
-        "type": "progressive",
-        "codes": "LogicLevel"
-    },
-    {
         "max_quantity": 1500,
         "initial_quantity": 0,
         "overlay_font_size": 16,
-        "img": "images/settings/Emblems.png",
+        "img": "images/settings/goals/Emblems.png",
         "name": "Emblems Required",
         "type": "consumable",
         "codes": "EmblemsRequired"
@@ -46,13 +12,13 @@
         "max_quantity": 32,
         "initial_quantity": 0,
         "overlay_font_size": 16,
-        "img": "images/settings/Levels.png",
+        "img": "images/settings/goals/Levels.png",
         "name": "Levels Required",
         "type": "consumable",
         "codes": "LevelsRequired"
     },
     {
-        "img": "images/settings/Emeralds.png",
+        "img": "images/settings/goals/Emeralds.png",
         "name": "Chaos Emeralds Required",
         "type": "toggle",
         "codes": "EmeraldsRequired"
@@ -61,7 +27,7 @@
         "max_quantity": 15,
         "initial_quantity": 0,
         "overlay_font_size": 16,
-        "img": "images/settings/Bosses.png",
+        "img": "images/settings/goals/Bosses.png",
         "name": "Bosses Required",
         "type": "consumable",
         "codes": "BossesRequired"
@@ -70,154 +36,122 @@
         "max_quantity": 60,
         "initial_quantity": 0,
         "overlay_font_size": 16,
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Missions Required",
         "type": "consumable",
         "codes": "MissionsRequired"
     },
     {
-        "img": "images/settings/ChaoRaces.png",
+        "img": "images/settings/goals/ChaoRaces.png",
         "name": "Chao Races Required",
         "type": "toggle",
         "codes": "ChaoRacesRequired"
     },
     {
-        "img": "images/settings/FieldEmblemChecks.png",
-        "name": "Include Field Emblem Checks",
-        "type": "toggle",
-        "codes": "FieldEmblemChecks"
-    },
-    {
-        "img": "images/settings/SecretChaoEggs.png",
-        "name": "Secret Chao Eggs",
-        "type": "toggle",
-        "codes": "SecretChaoEggs"
-    },
-    {
-        "img": "images/settings/UnifyEggHornet.png",
-        "name": "Unify Egg Hornet",
-        "type": "toggle",
-        "codes": "UnifyEggHornet"
-    },
-    {
-        "img": "images/settings/UnifyChaos4.png",
-        "name": "Unify Chaos 4",
-        "type": "toggle",
-        "codes": "UnifyChaos4"
-    },
-    {
-        "img": "images/settings/UnifyChaos6.png",
-        "name": "Unify Chaos 6",
-        "type": "toggle",
-        "codes": "UnifyChaos6"
-    },
-    {
         "max_quantity": 128,
         "initial_quantity": 0,
         "overlay_font_size": 16,
-        "img": "images/settings/ChaoRacesAccessLevels.png",
+        "img": "images/settings/goals/ChaoRacesAccessLevels.png",
         "name": "Levels Required for Chao Races",
         "type": "consumable",
         "codes": "ChaoRacesAccessLevels"
     },
     {
         "loop": true,
-        "allow_disabled": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
             {
-                "name": "Sky Chase - Normal Mission Only",
-                "codes": "EnableSkyChase",
-                "img": "images/settings/SkyChaseB.png",
-                "inherit_codes": true
-            },
-            {
-                "name": "Sky Chase - Both Missions",
-                "codes": "EnableSkyChaseHard",
-                "img": "images/settings/SkyChaseA.png",
-                "inherit_codes": true
-            }
-        ],
-        "name": "Sky Chase Checks",
-        "type": "progressive",
-        "codes": "SkyChaseChecks"
-    },
-    {
-        "loop": true,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "name": "Sand Hill - Normal Mission Only",
-                "codes": "EnableSandHill",
-                "img": "images/settings/SandHillB.png",
-                "inherit_codes": true
-            },
-            {
-                "name": "Sand Hill - Both Missions",
-                "codes": "EnableSandHillHard",
-                "img": "images/settings/SandHillA.png",
-                "inherit_codes": true
-            }
-        ],
-        "name": "Sand Hill Checks",
-        "type": "progressive",
-        "codes": "SandHillChecks"
-    },
-    {
-        "loop": true,
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "name": "Twinkle Circuit - Single Check",
-                "codes": "EnableTwinkleCircuit",
-                "img": "images/settings/TwinkleCircuit.png",
+                "name": "Normal Logic",
+                "codes": "NormalLogic",
+                "img": "images/settings/logic/NormalLogic.png",
                 "inherit_codes": false
             },
             {
-                "name": "Twinkle Circuit - Character Checks",
-                "codes": "EnableTwinkleCircuitMultiple",
-                "img": "images/settings/TwinkleCircuitMultiple.png",
+                "name": "Hard Logic",
+                "codes": "HardLogic",
+                "img": "images/settings/logic/HardLogic.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Expert DC Logic",
+                "codes": "ExpertLogicDC",
+                "img": "images/settings/logic/ExpertLogicDC.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Expert DX Logic",
+                "codes": "ExpertLogicDX",
+                "img": "images/settings/logic/ExpertLogicDX.png",
                 "inherit_codes": false
             }
         ],
-        "name": "Twinkle Circuit Checks",
+        "name": "Logic Level",
         "type": "progressive",
-        "codes": "TwinkleCircuitChecks"
+        "codes": "LogicLevel"
     },
     {
-        "img": "images/settings/SonicPlayable.png",
+        "img": "images/settings/logic/FieldEmblemChecks.png",
+        "name": "Include Field Emblem Checks",
+        "type": "toggle",
+        "codes": "FieldEmblemChecks"
+    },
+    {
+        "img": "images/settings/logic/SecretChaoEggs.png",
+        "name": "Secret Chao Eggs",
+        "type": "toggle",
+        "codes": "SecretChaoEggs"
+    },
+    {
+        "img": "images/settings/logic/UnifyEggHornet.png",
+        "name": "Unify Egg Hornet",
+        "type": "toggle",
+        "codes": "UnifyEggHornet"
+    },
+    {
+        "img": "images/settings/logic/UnifyChaos4.png",
+        "name": "Unify Chaos 4",
+        "type": "toggle",
+        "codes": "UnifyChaos4"
+    },
+    {
+        "img": "images/settings/logic/UnifyChaos6.png",
+        "name": "Unify Chaos 6",
+        "type": "toggle",
+        "codes": "UnifyChaos6"
+    },
+    {
+        "img": "images/settings/characters/SonicPlayable.png",
         "name": "Sonic Playable",
         "type": "toggle",
         "codes": "SonicPlayable"
     },
     {
-        "img": "images/settings/TailsPlayable.png",
+        "img": "images/settings/characters/TailsPlayable.png",
         "name": "Tails Playable",
         "type": "toggle",
         "codes": "TailsPlayable"
     },
     {
-        "img": "images/settings/KnucklesPlayable.png",
+        "img": "images/settings/characters/KnucklesPlayable.png",
         "name": "Knuckles Playable",
         "type": "toggle",
         "codes": "KnucklesPlayable"
     },
     {
-        "img": "images/settings/AmyPlayable.png",
+        "img": "images/settings/characters/AmyPlayable.png",
         "name": "Amy Playable",
         "type": "toggle",
         "codes": "AmyPlayable"
     },
     {
-        "img": "images/settings/GammaPlayable.png",
+        "img": "images/settings/characters/GammaPlayable.png",
         "name": "Gamma Playable",
         "type": "toggle",
         "codes": "GammaPlayable"
     },
     {
-        "img": "images/settings/BigPlayable.png",
+        "img": "images/settings/characters/BigPlayable.png",
         "name": "Big Playable",
         "type": "toggle",
         "codes": "BigPlayable"
@@ -230,67 +164,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "SonicStationSquareMain",
-                "img": "images/settings/SonicStationSquareMain.png",
+                "img": "images/settings/starts/SonicStationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "SonicStation",
-                "img": "images/settings/SonicStation.png",
+                "img": "images/settings/starts/SonicStation.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "SonicHotel",
-                "img": "images/settings/SonicHotel.png",
+                "img": "images/settings/starts/SonicHotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "SonicCasino",
-                "img": "images/settings/SonicCasino.png",
+                "img": "images/settings/starts/SonicCasino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "SonicTwinkleParkLobby",
-                "img": "images/settings/SonicTwinkleParkLobby.png",
+                "img": "images/settings/starts/SonicTwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "SonicMysticRuinsMain",
-                "img": "images/settings/SonicMysticRuinsMain.png",
+                "img": "images/settings/starts/SonicMysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "SonicAngelIsland",
-                "img": "images/settings/SonicAngelIsland.png",
+                "img": "images/settings/starts/SonicAngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "SonicJungle",
-                "img": "images/settings/SonicJungle.png",
+                "img": "images/settings/starts/SonicJungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "SonicEggCarrierOutside",
-                "img": "images/settings/SonicEggCarrierOutside.png",
+                "img": "images/settings/starts/SonicEggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "SonicEggCarrierInside",
-                "img": "images/settings/SonicEggCarrierInside.png",
+                "img": "images/settings/starts/SonicEggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "SonicEggCarrierFrontDeck",
-                "img": "images/settings/SonicEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/SonicEggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -306,67 +240,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "TailsStationSquareMain",
-                "img": "images/settings/TailsStationSquareMain.png",
+                "img": "images/settings/starts/TailsStationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "TailsStation",
-                "img": "images/settings/TailsStation.png",
+                "img": "images/settings/starts/TailsStation.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "TailsHotel",
-                "img": "images/settings/TailsHotel.png",
+                "img": "images/settings/starts/TailsHotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "TailsCasino",
-                "img": "images/settings/TailsCasino.png",
+                "img": "images/settings/starts/TailsCasino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "TailsTwinkleParkLobby",
-                "img": "images/settings/TailsTwinkleParkLobby.png",
+                "img": "images/settings/starts/TailsTwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "TailsMysticRuinsMain",
-                "img": "images/settings/TailsMysticRuinsMain.png",
+                "img": "images/settings/starts/TailsMysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "TailsAngelIsland",
-                "img": "images/settings/TailsAngelIsland.png",
+                "img": "images/settings/starts/TailsAngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "TailsJungle",
-                "img": "images/settings/TailsJungle.png",
+                "img": "images/settings/starts/TailsJungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "TailsEggCarrierOutside",
-                "img": "images/settings/TailsEggCarrierOutside.png",
+                "img": "images/settings/starts/TailsEggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "TailsEggCarrierInside",
-                "img": "images/settings/TailsEggCarrierInside.png",
+                "img": "images/settings/starts/TailsEggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "TailsEggCarrierFrontDeck",
-                "img": "images/settings/TailsEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/TailsEggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -382,67 +316,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "KnucklesStationSquareMain",
-                "img": "images/settings/KnucklesStationSquareMain.png",
+                "img": "images/settings/starts/KnucklesStationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "KnucklesStation",
-                "img": "images/settings/KnucklesStation.png",
+                "img": "images/settings/starts/KnucklesStation.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "KnucklesHotel",
-                "img": "images/settings/KnucklesHotel.png",
+                "img": "images/settings/starts/KnucklesHotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "KnucklesCasino",
-                "img": "images/settings/KnucklesCasino.png",
+                "img": "images/settings/starts/KnucklesCasino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "KnucklesTwinkleParkLobby",
-                "img": "images/settings/KnucklesTwinkleParkLobby.png",
+                "img": "images/settings/starts/KnucklesTwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "KnucklesMysticRuinsMain",
-                "img": "images/settings/KnucklesMysticRuinsMain.png",
+                "img": "images/settings/starts/KnucklesMysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "KnucklesAngelIsland",
-                "img": "images/settings/KnucklesAngelIsland.png",
+                "img": "images/settings/starts/KnucklesAngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "KnucklesJungle",
-                "img": "images/settings/KnucklesJungle.png",
+                "img": "images/settings/starts/KnucklesJungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "KnucklesEggCarrierOutside",
-                "img": "images/settings/KnucklesEggCarrierOutside.png",
+                "img": "images/settings/starts/KnucklesEggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "KnucklesEggCarrierInside",
-                "img": "images/settings/KnucklesEggCarrierInside.png",
+                "img": "images/settings/starts/KnucklesEggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "KnucklesEggCarrierFrontDeck",
-                "img": "images/settings/KnucklesEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/KnucklesEggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -458,67 +392,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "AmyStationSquareMain",
-                "img": "images/settings/AmyStationSquareMain.png",
+                "img": "images/settings/starts/AmyStationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "AmyStation",
-                "img": "images/settings/AmyStation.png",
+                "img": "images/settings/starts/AmyStation.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "AmyHotel",
-                "img": "images/settings/AmyHotel.png",
+                "img": "images/settings/starts/AmyHotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "AmyCasino",
-                "img": "images/settings/AmyCasino.png",
+                "img": "images/settings/starts/AmyCasino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "AmyTwinkleParkLobby",
-                "img": "images/settings/AmyTwinkleParkLobby.png",
+                "img": "images/settings/starts/AmyTwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "AmyMysticRuinsMain",
-                "img": "images/settings/AmyMysticRuinsMain.png",
+                "img": "images/settings/starts/AmyMysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "AmyAngelIsland",
-                "img": "images/settings/AmyAngelIsland.png",
+                "img": "images/settings/starts/AmyAngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "AmyJungle",
-                "img": "images/settings/AmyJungle.png",
+                "img": "images/settings/starts/AmyJungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "AmyEggCarrierOutside",
-                "img": "images/settings/AmyEggCarrierOutside.png",
+                "img": "images/settings/starts/AmyEggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "AmyEggCarrierInside",
-                "img": "images/settings/AmyEggCarrierInside.png",
+                "img": "images/settings/starts/AmyEggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "AmyEggCarrierFrontDeck",
-                "img": "images/settings/AmyEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/AmyEggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -534,67 +468,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "GammaStationSquareMain",
-                "img": "images/settings/GammaStationSquareMain.png",
+                "img": "images/settings/starts/GammaStationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "GammaStation",
-                "img": "images/settings/GammaStation.png",
+                "img": "images/settings/starts/GammaStation.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "GammaHotel",
-                "img": "images/settings/GammaHotel.png",
+                "img": "images/settings/starts/GammaHotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "GammaCasino",
-                "img": "images/settings/GammaCasino.png",
+                "img": "images/settings/starts/GammaCasino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "GammaTwinkleParkLobby",
-                "img": "images/settings/GammaTwinkleParkLobby.png",
+                "img": "images/settings/starts/GammaTwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "GammaMysticRuinsMain",
-                "img": "images/settings/GammaMysticRuinsMain.png",
+                "img": "images/settings/starts/GammaMysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "GammaAngelIsland",
-                "img": "images/settings/GammaAngelIsland.png",
+                "img": "images/settings/starts/GammaAngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "GammaJungle",
-                "img": "images/settings/GammaJungle.png",
+                "img": "images/settings/starts/GammaJungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "GammaEggCarrierOutside",
-                "img": "images/settings/GammaEggCarrierOutside.png",
+                "img": "images/settings/starts/GammaEggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "GammaEggCarrierInside",
-                "img": "images/settings/GammaEggCarrierInside.png",
+                "img": "images/settings/starts/GammaEggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "GammaEggCarrierFrontDeck",
-                "img": "images/settings/GammaEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/GammaEggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -610,67 +544,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "BigStationSquareMain",
-                "img": "images/settings/BigStationSquareMain.png",
+                "img": "images/settings/starts/BigStationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "BigStation",
-                "img": "images/settings/BigStation.png",
+                "img": "images/settings/starts/BigStation.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "BigHotel",
-                "img": "images/settings/BigHotel.png",
+                "img": "images/settings/starts/BigHotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "BigCasino",
-                "img": "images/settings/BigCasino.png",
+                "img": "images/settings/starts/BigCasino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "BigTwinkleParkLobby",
-                "img": "images/settings/BigTwinkleParkLobby.png",
+                "img": "images/settings/starts/BigTwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "BigMysticRuinsMain",
-                "img": "images/settings/BigMysticRuinsMain.png",
+                "img": "images/settings/starts/BigMysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "BigAngelIsland",
-                "img": "images/settings/BigAngelIsland.png",
+                "img": "images/settings/starts/BigAngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "BigJungle",
-                "img": "images/settings/BigJungle.png",
+                "img": "images/settings/starts/BigJungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "BigEggCarrierOutside",
-                "img": "images/settings/BigEggCarrierOutside.png",
+                "img": "images/settings/starts/BigEggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "BigEggCarrierInside",
-                "img": "images/settings/BigEggCarrierInside.png",
+                "img": "images/settings/starts/BigEggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "BigEggCarrierFrontDeck",
-                "img": "images/settings/BigEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/BigEggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -686,25 +620,25 @@
             {
                 "name": "Sonic's C Missions",
                 "codes": "SonicMissionC",
-                "img": "images/settings/SonicMissionC.png",
+                "img": "images/settings/objectives/SonicMissionC.png",
                 "inherit_codes": true
             },
             {
                 "name": "Sonic's B Missions",
                 "codes": "SonicMissionB",
-                "img": "images/settings/SonicMissionB.png",
+                "img": "images/settings/objectives/SonicMissionB.png",
                 "inherit_codes": true
             },
             {
                 "name": "Sonic's A Missions",
                 "codes": "SonicMissionA",
-                "img": "images/settings/SonicMissionA.png",
+                "img": "images/settings/objectives/SonicMissionA.png",
                 "inherit_codes": true
             },
             {
                 "name": "Sonic's S Missions",
                 "codes": "SonicMissionS",
-                "img": "images/settings/SonicMissionS.png",
+                "img": "images/settings/objectives/SonicMissionS.png",
                 "inherit_codes": true
             }
         ],
@@ -720,25 +654,25 @@
             {
                 "name": "Tails' C Missions",
                 "codes": "TailsMissionC",
-                "img": "images/settings/TailsMissionC.png",
+                "img": "images/settings/objectives/TailsMissionC.png",
                 "inherit_codes": true
             },
             {
                 "name": "Tails' B Missions",
                 "codes": "TailsMissionB",
-                "img": "images/settings/TailsMissionB.png",
+                "img": "images/settings/objectives/TailsMissionB.png",
                 "inherit_codes": true
             },
             {
                 "name": "Tails' A Missions",
                 "codes": "TailsMissionA",
-                "img": "images/settings/TailsMissionA.png",
+                "img": "images/settings/objectives/TailsMissionA.png",
                 "inherit_codes": true
             },
             {
                 "name": "Tails' S Missions",
                 "codes": "TailsMissionS",
-                "img": "images/settings/TailsMissionS.png",
+                "img": "images/settings/objectives/TailsMissionS.png",
                 "inherit_codes": true
             }
         ],
@@ -754,25 +688,25 @@
             {
                 "name": "Knuckles' C Missions",
                 "codes": "KnucklesMissionC",
-                "img": "images/settings/KnucklesMissionC.png",
+                "img": "images/settings/objectives/KnucklesMissionC.png",
                 "inherit_codes": true
             },
             {
                 "name": "Knuckles' B Missions",
                 "codes": "KnucklesMissionB",
-                "img": "images/settings/KnucklesMissionB.png",
+                "img": "images/settings/objectives/KnucklesMissionB.png",
                 "inherit_codes": true
             },
             {
                 "name": "Knuckles' A Missions",
                 "codes": "KnucklesMissionA",
-                "img": "images/settings/KnucklesMissionA.png",
+                "img": "images/settings/objectives/KnucklesMissionA.png",
                 "inherit_codes": true
             },
             {
                 "name": "Knuckles' S Missions",
                 "codes": "KnucklesMissionS",
-                "img": "images/settings/KnucklesMissionS.png",
+                "img": "images/settings/objectives/KnucklesMissionS.png",
                 "inherit_codes": true
             }
         ],
@@ -788,25 +722,25 @@
             {
                 "name": "Amy's C Missions",
                 "codes": "AmyMissionC",
-                "img": "images/settings/AmyMissionC.png",
+                "img": "images/settings/objectives/AmyMissionC.png",
                 "inherit_codes": true
             },
             {
                 "name": "Amy's B Missions",
                 "codes": "AmyMissionB",
-                "img": "images/settings/AmyMissionB.png",
+                "img": "images/settings/objectives/AmyMissionB.png",
                 "inherit_codes": true
             },
             {
                 "name": "Amy's A Missions",
                 "codes": "AmyMissionA",
-                "img": "images/settings/AmyMissionA.png",
+                "img": "images/settings/objectives/AmyMissionA.png",
                 "inherit_codes": true
             },
             {
                 "name": "Amy's S Missions",
                 "codes": "AmyMissionS",
-                "img": "images/settings/AmyMissionS.png",
+                "img": "images/settings/objectives/AmyMissionS.png",
                 "inherit_codes": true
             }
         ],
@@ -822,25 +756,25 @@
             {
                 "name": "Gamma's C Missions",
                 "codes": "GammaMissionC",
-                "img": "images/settings/GammaMissionC.png",
+                "img": "images/settings/objectives/GammaMissionC.png",
                 "inherit_codes": true
             },
             {
                 "name": "Gamma's B Missions",
                 "codes": "GammaMissionB",
-                "img": "images/settings/GammaMissionB.png",
+                "img": "images/settings/objectives/GammaMissionB.png",
                 "inherit_codes": true
             },
             {
                 "name": "Gamma's A Missions",
                 "codes": "GammaMissionA",
-                "img": "images/settings/GammaMissionA.png",
+                "img": "images/settings/objectives/GammaMissionA.png",
                 "inherit_codes": true
             },
             {
                 "name": "Gamma's S Missions",
                 "codes": "GammaMissionS",
-                "img": "images/settings/GammaMissionS.png",
+                "img": "images/settings/objectives/GammaMissionS.png",
                 "inherit_codes": true
             }
         ],
@@ -856,25 +790,25 @@
             {
                 "name": "Big's C Missions",
                 "codes": "BigMissionC",
-                "img": "images/settings/BigMissionC.png",
+                "img": "images/settings/objectives/BigMissionC.png",
                 "inherit_codes": true
             },
             {
                 "name": "Big's B Missions",
                 "codes": "BigMissionB",
-                "img": "images/settings/BigMissionB.png",
+                "img": "images/settings/objectives/BigMissionB.png",
                 "inherit_codes": true
             },
             {
                 "name": "Big's A Missions",
                 "codes": "BigMissionA",
-                "img": "images/settings/BigMissionA.png",
+                "img": "images/settings/objectives/BigMissionA.png",
                 "inherit_codes": true
             },
             {
                 "name": "Big's S Missions",
                 "codes": "BigMissionS",
-                "img": "images/settings/BigMissionS.png",
+                "img": "images/settings/objectives/BigMissionS.png",
                 "inherit_codes": true
             }
         ],
@@ -883,481 +817,547 @@
         "codes": "BigMissions"
     },
     {
-        "img": "images/settings/Enemysanity.png",
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sky Chase - Normal Mission Only",
+                "codes": "EnableSkyChase",
+                "img": "images/settings/objectives/SkyChaseB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sky Chase - Both Missions",
+                "codes": "EnableSkyChaseHard",
+                "img": "images/settings/objectives/SkyChaseA.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sky Chase Checks",
+        "type": "progressive",
+        "codes": "SkyChaseChecks"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sand Hill - Normal Mission Only",
+                "codes": "EnableSandHill",
+                "img": "images/settings/objectives/SandHillB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sand Hill - Both Missions",
+                "codes": "EnableSandHillHard",
+                "img": "images/settings/objectives/SandHillA.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sand Hill Checks",
+        "type": "progressive",
+        "codes": "SandHillChecks"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Twinkle Circuit - Single Check",
+                "codes": "EnableTwinkleCircuit",
+                "img": "images/settings/objectives/TwinkleCircuit.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Twinkle Circuit - Character Checks",
+                "codes": "EnableTwinkleCircuitMultiple",
+                "img": "images/settings/objectives/TwinkleCircuitMultiple.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Twinkle Circuit Checks",
+        "type": "progressive",
+        "codes": "TwinkleCircuitChecks"
+    },
+    {
+        "img": "images/settings/sanities/Enemysanity.png",
         "name": "Enemysanity",
         "type": "toggle",
         "codes": "Enemysanity"
     },
     {
-        "img": "images/settings/SonicEnemysanity.png",
+        "img": "images/settings/sanities/SonicEnemysanity.png",
         "name": "Sonic's Enemysanity",
         "type": "toggle",
         "codes": "SonicEnemysanity"
     },
     {
-        "img": "images/settings/TailsEnemysanity.png",
+        "img": "images/settings/sanities/TailsEnemysanity.png",
         "name": "Tails' Enemysanity",
         "type": "toggle",
         "codes": "TailsEnemysanity"
     },
     {
-        "img": "images/settings/KnucklesEnemysanity.png",
+        "img": "images/settings/sanities/KnucklesEnemysanity.png",
         "name": "Knuckles' Enemysanity",
         "type": "toggle",
         "codes": "KnucklesEnemysanity"
     },
     {
-        "img": "images/settings/AmyEnemysanity.png",
+        "img": "images/settings/sanities/AmyEnemysanity.png",
         "name": "Amy's Enemysanity",
         "type": "toggle",
         "codes": "AmyEnemysanity"
     },
     {
-        "img": "images/settings/GammaEnemysanity.png",
+        "img": "images/settings/sanities/GammaEnemysanity.png",
         "name": "Gamma's Enemysanity",
         "type": "toggle",
         "codes": "GammaEnemysanity"
     },
     {
-        "img": "images/settings/BigEnemysanity.png",
+        "img": "images/settings/sanities/BigEnemysanity.png",
         "name": "Big's Enemysanity",
         "type": "toggle",
         "codes": "BigEnemysanity"
     },
     {
-        "img": "images/settings/Capsulesanity.png",
+        "img": "images/settings/sanities/Capsulesanity.png",
         "name": "Capsulesanity",
         "type": "toggle",
         "codes": "Capsulesanity"
     },
     {
-        "img": "images/settings/SonicCapsulesanity.png",
+        "img": "images/settings/sanities/SonicCapsulesanity.png",
         "name": "Sonic's Capsulesanity",
         "type": "toggle",
         "codes": "SonicCapsulesanity"
     },
     {
-        "img": "images/settings/TailsCapsulesanity.png",
+        "img": "images/settings/sanities/TailsCapsulesanity.png",
         "name": "Tails' Capsulesanity",
         "type": "toggle",
         "codes": "TailsCapsulesanity"
     },
     {
-        "img": "images/settings/KnucklesCapsulesanity.png",
+        "img": "images/settings/sanities/KnucklesCapsulesanity.png",
         "name": "Knuckles' Capsulesanity",
         "type": "toggle",
         "codes": "KnucklesCapsulesanity"
     },
     {
-        "img": "images/settings/AmyCapsulesanity.png",
+        "img": "images/settings/sanities/AmyCapsulesanity.png",
         "name": "Amy's Capsulesanity",
         "type": "toggle",
         "codes": "AmyCapsulesanity"
     },
     {
-        "img": "images/settings/GammaCapsulesanity.png",
+        "img": "images/settings/sanities/GammaCapsulesanity.png",
         "name": "Gamma's Capsulesanity",
         "type": "toggle",
         "codes": "GammaCapsulesanity"
     },
     {
-        "img": "images/settings/BigCapsulesanity.png",
+        "img": "images/settings/sanities/BigCapsulesanity.png",
         "name": "Big's Capsulesanity",
         "type": "toggle",
         "codes": "BigCapsulesanity"
     },
     {
-        "img": "images/settings/PinballCapsules.png",
+        "img": "images/settings/sanities/PinballCapsules.png",
         "name": "Pinball Capsules",
         "type": "toggle",
         "codes": "PinballCapsules"
     },
     {
-        "img": "images/settings/LifeCapsulesanity.png",
+        "img": "images/settings/sanities/LifeCapsulesanity.png",
         "name": "Life Capsulesanity",
         "type": "toggle",
         "codes": "LifeCapsulesanity"
     },
     {
-        "img": "images/settings/ShieldCapsulesanity.png",
+        "img": "images/settings/sanities/ShieldCapsulesanity.png",
         "name": "Shield Capsulesanity",
         "type": "toggle",
         "codes": "ShieldCapsulesanity"
     },
     {
-        "img": "images/settings/PowerupCapsulesanity.png",
+        "img": "images/settings/sanities/PowerupCapsulesanity.png",
         "name": "Power-up Capsulesanity",
         "type": "toggle",
         "codes": "PowerupCapsulesanity"
     },
     {
-        "img": "images/settings/RingCapsulesanity.png",
+        "img": "images/settings/sanities/RingCapsulesanity.png",
         "name": "Ring Capsulesanity",
         "type": "toggle",
         "codes": "RingCapsulesanity"
     },
     {
-        "img": "images/settings/Fishsanity.png",
+        "img": "images/settings/sanities/Fishsanity.png",
         "name": "Fishsanity",
         "type": "toggle",
         "codes": "Fishsanity"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 1",
         "type": "toggle",
         "codes": "AllowMission1"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 2",
         "type": "toggle",
         "codes": "AllowMission2"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 3",
         "type": "toggle",
         "codes": "AllowMission3"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 4",
         "type": "toggle",
         "codes": "AllowMission4"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 5",
         "type": "toggle",
         "codes": "AllowMission5"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 6",
         "type": "toggle",
         "codes": "AllowMission6"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 7",
         "type": "toggle",
         "codes": "AllowMission7"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 8",
         "type": "toggle",
         "codes": "AllowMission8"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 9",
         "type": "toggle",
         "codes": "AllowMission9"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 10",
         "type": "toggle",
         "codes": "AllowMission10"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 11",
         "type": "toggle",
         "codes": "AllowMission11"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 12",
         "type": "toggle",
         "codes": "AllowMission12"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 13",
         "type": "toggle",
         "codes": "AllowMission13"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 14",
         "type": "toggle",
         "codes": "AllowMission14"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 15",
         "type": "toggle",
         "codes": "AllowMission15"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 16",
         "type": "toggle",
         "codes": "AllowMission16"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 17",
         "type": "toggle",
         "codes": "AllowMission17"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 18",
         "type": "toggle",
         "codes": "AllowMission18"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 19",
         "type": "toggle",
         "codes": "AllowMission19"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 20",
         "type": "toggle",
         "codes": "AllowMission20"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 21",
         "type": "toggle",
         "codes": "AllowMission21"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 22",
         "type": "toggle",
         "codes": "AllowMission22"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 23",
         "type": "toggle",
         "codes": "AllowMission23"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 24",
         "type": "toggle",
         "codes": "AllowMission24"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 25",
         "type": "toggle",
         "codes": "AllowMission25"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 26",
         "type": "toggle",
         "codes": "AllowMission26"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 27",
         "type": "toggle",
         "codes": "AllowMission27"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 28",
         "type": "toggle",
         "codes": "AllowMission28"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 29",
         "type": "toggle",
         "codes": "AllowMission29"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 30",
         "type": "toggle",
         "codes": "AllowMission30"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 31",
         "type": "toggle",
         "codes": "AllowMission31"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 32",
         "type": "toggle",
         "codes": "AllowMission32"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 33",
         "type": "toggle",
         "codes": "AllowMission33"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 34",
         "type": "toggle",
         "codes": "AllowMission34"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 35",
         "type": "toggle",
         "codes": "AllowMission35"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 36",
         "type": "toggle",
         "codes": "AllowMission36"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 37",
         "type": "toggle",
         "codes": "AllowMission37"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 38",
         "type": "toggle",
         "codes": "AllowMission38"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 39",
         "type": "toggle",
         "codes": "AllowMission39"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 40",
         "type": "toggle",
         "codes": "AllowMission40"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 41",
         "type": "toggle",
         "codes": "AllowMission41"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 42",
         "type": "toggle",
         "codes": "AllowMission42"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 43",
         "type": "toggle",
         "codes": "AllowMission43"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 44",
         "type": "toggle",
         "codes": "AllowMission44"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 45",
         "type": "toggle",
         "codes": "AllowMission45"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 46",
         "type": "toggle",
         "codes": "AllowMission46"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 47",
         "type": "toggle",
         "codes": "AllowMission47"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 48",
         "type": "toggle",
         "codes": "AllowMission48"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 49",
         "type": "toggle",
         "codes": "AllowMission49"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 50",
         "type": "toggle",
         "codes": "AllowMission50"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 51",
         "type": "toggle",
         "codes": "AllowMission51"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 52",
         "type": "toggle",
         "codes": "AllowMission52"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 53",
         "type": "toggle",
         "codes": "AllowMission53"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 54",
         "type": "toggle",
         "codes": "AllowMission54"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 55",
         "type": "toggle",
         "codes": "AllowMission55"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 56",
         "type": "toggle",
         "codes": "AllowMission56"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 57",
         "type": "toggle",
         "codes": "AllowMission57"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 58",
         "type": "toggle",
         "codes": "AllowMission58"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 59",
         "type": "toggle",
         "codes": "AllowMission59"
     },
     {
-        "img": "images/settings/Missions.png",
+        "img": "images/settings/goals/Missions.png",
         "name": "Allow Mission 60",
         "type": "toggle",
         "codes": "AllowMission60"
