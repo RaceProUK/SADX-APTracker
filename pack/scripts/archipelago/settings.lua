@@ -23,10 +23,6 @@ function ResetSettings()
 end
 
 function ParseSettings(slotData)
-    if slotData["LogicLevel"] then
-        local setting = Tracker:FindObjectForCode(Settings.LogicLevel)
-        setting.CurrentStage = math.tointeger(slotData["LogicLevel"]) or 0
-    end
     if slotData["EmblemsForPerfectChaos"] then
         local setting = Tracker:FindObjectForCode(Settings.EmblemsRequired)
         setting.AcquiredCount = math.tointeger(slotData["EmblemsForPerfectChaos"]) or 0
@@ -51,6 +47,14 @@ function ParseSettings(slotData)
         local setting = Tracker:FindObjectForCode(Settings.ChaoRacesRequired)
         setting.Active = slotData["GoalRequiresChaoRaces"] ~= 0
     end
+    if slotData["ChaoRacesLevelsToAccessPercentage"] then
+        local setting = Tracker:FindObjectForCode(Settings.ChaoRacesAccessLevels)
+        setting.AcquiredCount = math.tointeger(slotData["ChaoRacesLevelsToAccessPercentage"]) or 0
+    end
+    if slotData["LogicLevel"] then
+        local setting = Tracker:FindObjectForCode(Settings.LogicLevel)
+        setting.CurrentStage = math.tointeger(slotData["LogicLevel"]) or 0
+    end
     if slotData["FieldEmblemChecks"] then
         local setting = Tracker:FindObjectForCode(Settings.FieldEmblemChecks)
         setting.Active = slotData["FieldEmblemChecks"] ~= 0
@@ -70,22 +74,6 @@ function ParseSettings(slotData)
     if slotData["UnifyChaos6"] then
         local setting = Tracker:FindObjectForCode(Settings.UnifyChaos6)
         setting.Active = slotData["UnifyChaos6"] ~= 0
-    end
-    if slotData["ChaoRacesLevelsToAccessPercentage"] then
-        local setting = Tracker:FindObjectForCode(Settings.ChaoRacesAccessLevels)
-        setting.AcquiredCount = math.tointeger(slotData["ChaoRacesLevelsToAccessPercentage"]) or 0
-    end
-    if slotData["SkyChaseChecks"] and slotData["SkyChaseChecksHard"] then
-        local setting = Tracker:FindObjectForCode(Settings.SkyChaseChecks)
-        setting.CurrentStage = (math.tointeger(slotData["SkyChaseChecks"]) + math.tointeger(slotData["SkyChaseChecksHard"])) or 0
-    end
-    if slotData["SandHillCheck"] and slotData["SandHillCheckHard"] then
-        local setting = Tracker:FindObjectForCode(Settings.SandHillChecks)
-        setting.CurrentStage = (math.tointeger(slotData["SandHillCheck"]) + math.tointeger(slotData["SandHillCheckHard"])) or 0
-    end
-    if slotData["TwinkleCircuitCheck"] and slotData["MultipleTwinkleCircuitChecks"] then
-        local setting = Tracker:FindObjectForCode(Settings.TwinkleCircuitChecks)
-        setting.CurrentStage = (math.tointeger(slotData["TwinkleCircuitCheck"]) + math.tointeger(slotData["MultipleTwinkleCircuitChecks"])) or 0
     end
     if slotData["PlayableSonic"] then
         local setting = Tracker:FindObjectForCode(Settings.SonicPlayable)
@@ -111,6 +99,30 @@ function ParseSettings(slotData)
         local setting = Tracker:FindObjectForCode(Settings.BigPlayable)
         setting.Active = slotData["PlayableBig"] ~= 0
     end
+    if slotData["SonicStartingArea"] then
+        local setting = Tracker:FindObjectForCode(Settings.SonicStart)
+        setting.CurrentStage = math.tointeger(slotData["SonicStartingArea"]) or 0
+    end
+    if slotData["TailsStartingArea"] then
+        local setting = Tracker:FindObjectForCode(Settings.TailsStart)
+        setting.CurrentStage = math.tointeger(slotData["TailsStartingArea"]) or 0
+    end
+    if slotData["KnucklesStartingArea"] then
+        local setting = Tracker:FindObjectForCode(Settings.KnucklesStart)
+        setting.CurrentStage = math.tointeger(slotData["KnucklesStartingArea"]) or 0
+    end
+    if slotData["AmyStartingArea"] then
+        local setting = Tracker:FindObjectForCode(Settings.AmyStart)
+        setting.CurrentStage = math.tointeger(slotData["AmyStartingArea"]) or 0
+    end
+    if slotData["GammaStartingArea"] then
+        local setting = Tracker:FindObjectForCode(Settings.GammaStart)
+        setting.CurrentStage = math.tointeger(slotData["GammaStartingArea"]) or 0
+    end
+    if slotData["BigStartingArea"] then
+        local setting = Tracker:FindObjectForCode(Settings.BigStart)
+        setting.CurrentStage = math.tointeger(slotData["BigStartingArea"]) or 0
+    end
     if slotData["SonicActionStageMissions"] then
         local setting = Tracker:FindObjectForCode(Settings.SonicMissions)
         setting.CurrentStage = math.tointeger(slotData["SonicActionStageMissions"]) or 0
@@ -134,6 +146,18 @@ function ParseSettings(slotData)
     if slotData["BigActionStageMissions"] then
         local setting = Tracker:FindObjectForCode(Settings.BigMissions)
         setting.CurrentStage = math.tointeger(slotData["BigActionStageMissions"]) or 0
+    end
+    if slotData["SkyChaseChecks"] and slotData["SkyChaseChecksHard"] then
+        local setting = Tracker:FindObjectForCode(Settings.SkyChaseChecks)
+        setting.CurrentStage = (math.tointeger(slotData["SkyChaseChecks"]) + math.tointeger(slotData["SkyChaseChecksHard"])) or 0
+    end
+    if slotData["SandHillCheck"] and slotData["SandHillCheckHard"] then
+        local setting = Tracker:FindObjectForCode(Settings.SandHillChecks)
+        setting.CurrentStage = (math.tointeger(slotData["SandHillCheck"]) + math.tointeger(slotData["SandHillCheckHard"])) or 0
+    end
+    if slotData["TwinkleCircuitCheck"] and slotData["MultipleTwinkleCircuitChecks"] then
+        local setting = Tracker:FindObjectForCode(Settings.TwinkleCircuitChecks)
+        setting.CurrentStage = (math.tointeger(slotData["TwinkleCircuitCheck"]) + math.tointeger(slotData["MultipleTwinkleCircuitChecks"])) or 0
     end
     if slotData["EnemySanity"] then
         local setting = Tracker:FindObjectForCode(Settings.Enemysanity)

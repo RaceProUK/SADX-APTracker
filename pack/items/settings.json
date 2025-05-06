@@ -164,67 +164,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "SonicStationSquareMain",
-                "img": "images/settings/starts/SonicStationSquareMain.png",
+                "img": "images/settings/starts/StationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "SonicStation",
-                "img": "images/settings/starts/SonicStation.png",
+                "img": "images/settings/starts/Station.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "SonicHotel",
-                "img": "images/settings/starts/SonicHotel.png",
+                "img": "images/settings/starts/Hotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "SonicCasino",
-                "img": "images/settings/starts/SonicCasino.png",
+                "img": "images/settings/starts/Casino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "SonicTwinkleParkLobby",
-                "img": "images/settings/starts/SonicTwinkleParkLobby.png",
+                "img": "images/settings/starts/TwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "SonicMysticRuinsMain",
-                "img": "images/settings/starts/SonicMysticRuinsMain.png",
+                "img": "images/settings/starts/MysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "SonicAngelIsland",
-                "img": "images/settings/starts/SonicAngelIsland.png",
+                "img": "images/settings/starts/AngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "SonicJungle",
-                "img": "images/settings/starts/SonicJungle.png",
+                "img": "images/settings/starts/Jungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "SonicEggCarrierOutside",
-                "img": "images/settings/starts/SonicEggCarrierOutside.png",
+                "img": "images/settings/starts/EggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "SonicEggCarrierInside",
-                "img": "images/settings/starts/SonicEggCarrierInside.png",
+                "img": "images/settings/starts/EggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "SonicEggCarrierFrontDeck",
-                "img": "images/settings/starts/SonicEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/EggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -240,67 +240,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "TailsStationSquareMain",
-                "img": "images/settings/starts/TailsStationSquareMain.png",
+                "img": "images/settings/starts/StationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "TailsStation",
-                "img": "images/settings/starts/TailsStation.png",
+                "img": "images/settings/starts/Station.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "TailsHotel",
-                "img": "images/settings/starts/TailsHotel.png",
+                "img": "images/settings/starts/Hotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "TailsCasino",
-                "img": "images/settings/starts/TailsCasino.png",
+                "img": "images/settings/starts/Casino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "TailsTwinkleParkLobby",
-                "img": "images/settings/starts/TailsTwinkleParkLobby.png",
+                "img": "images/settings/starts/TwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "TailsMysticRuinsMain",
-                "img": "images/settings/starts/TailsMysticRuinsMain.png",
+                "img": "images/settings/starts/MysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "TailsAngelIsland",
-                "img": "images/settings/starts/TailsAngelIsland.png",
+                "img": "images/settings/starts/AngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "TailsJungle",
-                "img": "images/settings/starts/TailsJungle.png",
+                "img": "images/settings/starts/Jungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "TailsEggCarrierOutside",
-                "img": "images/settings/starts/TailsEggCarrierOutside.png",
+                "img": "images/settings/starts/EggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "TailsEggCarrierInside",
-                "img": "images/settings/starts/TailsEggCarrierInside.png",
+                "img": "images/settings/starts/EggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "TailsEggCarrierFrontDeck",
-                "img": "images/settings/starts/TailsEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/EggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -316,67 +316,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "KnucklesStationSquareMain",
-                "img": "images/settings/starts/KnucklesStationSquareMain.png",
+                "img": "images/settings/starts/StationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "KnucklesStation",
-                "img": "images/settings/starts/KnucklesStation.png",
+                "img": "images/settings/starts/Station.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "KnucklesHotel",
-                "img": "images/settings/starts/KnucklesHotel.png",
+                "img": "images/settings/starts/Hotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "KnucklesCasino",
-                "img": "images/settings/starts/KnucklesCasino.png",
+                "img": "images/settings/starts/Casino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "KnucklesTwinkleParkLobby",
-                "img": "images/settings/starts/KnucklesTwinkleParkLobby.png",
+                "img": "images/settings/starts/TwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "KnucklesMysticRuinsMain",
-                "img": "images/settings/starts/KnucklesMysticRuinsMain.png",
+                "img": "images/settings/starts/MysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "KnucklesAngelIsland",
-                "img": "images/settings/starts/KnucklesAngelIsland.png",
+                "img": "images/settings/starts/AngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "KnucklesJungle",
-                "img": "images/settings/starts/KnucklesJungle.png",
+                "img": "images/settings/starts/Jungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "KnucklesEggCarrierOutside",
-                "img": "images/settings/starts/KnucklesEggCarrierOutside.png",
+                "img": "images/settings/starts/EggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "KnucklesEggCarrierInside",
-                "img": "images/settings/starts/KnucklesEggCarrierInside.png",
+                "img": "images/settings/starts/EggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "KnucklesEggCarrierFrontDeck",
-                "img": "images/settings/starts/KnucklesEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/EggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -392,67 +392,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "AmyStationSquareMain",
-                "img": "images/settings/starts/AmyStationSquareMain.png",
+                "img": "images/settings/starts/StationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "AmyStation",
-                "img": "images/settings/starts/AmyStation.png",
+                "img": "images/settings/starts/Station.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "AmyHotel",
-                "img": "images/settings/starts/AmyHotel.png",
+                "img": "images/settings/starts/Hotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "AmyCasino",
-                "img": "images/settings/starts/AmyCasino.png",
+                "img": "images/settings/starts/Casino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "AmyTwinkleParkLobby",
-                "img": "images/settings/starts/AmyTwinkleParkLobby.png",
+                "img": "images/settings/starts/TwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "AmyMysticRuinsMain",
-                "img": "images/settings/starts/AmyMysticRuinsMain.png",
+                "img": "images/settings/starts/MysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "AmyAngelIsland",
-                "img": "images/settings/starts/AmyAngelIsland.png",
+                "img": "images/settings/starts/AngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "AmyJungle",
-                "img": "images/settings/starts/AmyJungle.png",
+                "img": "images/settings/starts/Jungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "AmyEggCarrierOutside",
-                "img": "images/settings/starts/AmyEggCarrierOutside.png",
+                "img": "images/settings/starts/EggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "AmyEggCarrierInside",
-                "img": "images/settings/starts/AmyEggCarrierInside.png",
+                "img": "images/settings/starts/EggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "AmyEggCarrierFrontDeck",
-                "img": "images/settings/starts/AmyEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/EggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -468,67 +468,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "GammaStationSquareMain",
-                "img": "images/settings/starts/GammaStationSquareMain.png",
+                "img": "images/settings/starts/StationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "GammaStation",
-                "img": "images/settings/starts/GammaStation.png",
+                "img": "images/settings/starts/Station.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "GammaHotel",
-                "img": "images/settings/starts/GammaHotel.png",
+                "img": "images/settings/starts/Hotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "GammaCasino",
-                "img": "images/settings/starts/GammaCasino.png",
+                "img": "images/settings/starts/Casino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "GammaTwinkleParkLobby",
-                "img": "images/settings/starts/GammaTwinkleParkLobby.png",
+                "img": "images/settings/starts/TwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "GammaMysticRuinsMain",
-                "img": "images/settings/starts/GammaMysticRuinsMain.png",
+                "img": "images/settings/starts/MysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "GammaAngelIsland",
-                "img": "images/settings/starts/GammaAngelIsland.png",
+                "img": "images/settings/starts/AngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "GammaJungle",
-                "img": "images/settings/starts/GammaJungle.png",
+                "img": "images/settings/starts/Jungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "GammaEggCarrierOutside",
-                "img": "images/settings/starts/GammaEggCarrierOutside.png",
+                "img": "images/settings/starts/EggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "GammaEggCarrierInside",
-                "img": "images/settings/starts/GammaEggCarrierInside.png",
+                "img": "images/settings/starts/EggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "GammaEggCarrierFrontDeck",
-                "img": "images/settings/starts/GammaEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/EggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
@@ -544,67 +544,67 @@
             {
                 "name": "Station Square (Hub)",
                 "codes": "BigStationSquareMain",
-                "img": "images/settings/starts/BigStationSquareMain.png",
+                "img": "images/settings/starts/StationSquareMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Station",
                 "codes": "BigStation",
-                "img": "images/settings/starts/BigStation.png",
+                "img": "images/settings/starts/Station.png",
                 "inherit_codes": false
             },
             {
                 "name": "Hotel",
                 "codes": "BigHotel",
-                "img": "images/settings/starts/BigHotel.png",
+                "img": "images/settings/starts/Hotel.png",
                 "inherit_codes": false
             },
             {
                 "name": "Casino",
                 "codes": "BigCasino",
-                "img": "images/settings/starts/BigCasino.png",
+                "img": "images/settings/starts/Casino.png",
                 "inherit_codes": false
             },
             {
                 "name": "Twinkle Park Lobby",
                 "codes": "BigTwinkleParkLobby",
-                "img": "images/settings/starts/BigTwinkleParkLobby.png",
+                "img": "images/settings/starts/TwinkleParkLobby.png",
                 "inherit_codes": false
             },
             {
                 "name": "Mystic Ruins (Hub)",
                 "codes": "BigMysticRuinsMain",
-                "img": "images/settings/starts/BigMysticRuinsMain.png",
+                "img": "images/settings/starts/MysticRuinsMain.png",
                 "inherit_codes": false
             },
             {
                 "name": "Angel Island",
                 "codes": "BigAngelIsland",
-                "img": "images/settings/starts/BigAngelIsland.png",
+                "img": "images/settings/starts/AngelIsland.png",
                 "inherit_codes": false
             },
             {
                 "name": "Jungle",
                 "codes": "BigJungle",
-                "img": "images/settings/starts/BigJungle.png",
+                "img": "images/settings/starts/Jungle.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Outside",
                 "codes": "BigEggCarrierOutside",
-                "img": "images/settings/starts/BigEggCarrierOutside.png",
+                "img": "images/settings/starts/EggCarrierOutside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Inside",
                 "codes": "BigEggCarrierInside",
-                "img": "images/settings/starts/BigEggCarrierInside.png",
+                "img": "images/settings/starts/EggCarrierInside.png",
                 "inherit_codes": false
             },
             {
                 "name": "Egg Carrier Front Deck",
                 "codes": "BigEggCarrierFrontDeck",
-                "img": "images/settings/starts/BigEggCarrierFrontDeck.png",
+                "img": "images/settings/starts/EggCarrierFrontDeck.png",
                 "inherit_codes": false
             }
         ],
