@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Frozen;
+﻿using System.Collections.Frozen;
 using System.Text.Json;
 using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
