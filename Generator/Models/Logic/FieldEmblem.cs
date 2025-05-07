@@ -1,7 +1,9 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace RPS.SADX.PopTracker.Generator.Models.Logic;
 
+[DebuggerDisplay("{Area}: {Name}")]
 internal partial class FieldEmblem : LogicSpecification
 {
     [GeneratedRegex("Playable(([A-Za-z]+))")]

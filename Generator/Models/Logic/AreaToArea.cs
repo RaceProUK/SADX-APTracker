@@ -3,7 +3,7 @@ using QuikGraph;
 
 namespace RPS.SADX.PopTracker.Generator.Models.Logic;
 
-[DebuggerDisplay("{Source} -> {Target}")]
+[DebuggerDisplay("{Character}: {AreaFrom} -> {AreaTo}")]
 internal class AreaToArea : LogicSpecification, IEdge<string>
 {
     public string Character { get; set; } = string.Empty;
