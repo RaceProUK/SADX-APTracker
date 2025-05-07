@@ -1,10 +1,6 @@
 ﻿using System.Data;
-using Humanizer;
 using QuikGraph;
 using QuikGraph.Algorithms;
-using QuikGraph.Algorithms.Observers;
-using QuikGraph.Algorithms.RankedShortestPath;
-using QuikGraph.Algorithms.Search;
 using RPS.SADX.PopTracker.Generator.Models.Logic;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -49,20 +45,33 @@ internal static class AccessRulesGenerator
             if (!graphs.TryGetValue(character, out var graph))
                 return "false";
 
-            var rules = from path in graph.RankedShortestPathHoffmanPavley(_ => 1, @from, to, 3)
-                        let steps = path.SelectMany(_ => logicLevel switch
-                        {
-                            0 => _.NormalLogic,
-                            1 => _.HardLogic,
-                            2 => _.ExpertDCLogic,
-                            3 => _.ExpertDXLogic,
-                            _ => []
-                        })
-                        let items = steps.SelectMany(_ => _)
-                        select string.Join(" and ", items.Select(_ => $"HasItem(\"{_}\")"));
-            if (rules.Any(_ => _.Length == 0))
-                rules = [];
-            return rules.Any() ? string.Join(" or ", rules) : "true";
+            var itemSets = new List<HashSet<string>>();
+            foreach (var path in graph.RankedShortestPathHoffmanPavley(_ => 1, @from, to, 3).OrderBy(_ => _.Count()))
+            {
+                var steps = path.Select(_ => logicLevel switch
+                {
+                    0 => _.NormalLogic,
+                    1 => _.HardLogic,
+                    2 => _.ExpertDCLogic,
+                    3 => _.ExpertDXLogic,
+                    _ => []
+                });
+                if (steps.All(_ => !_.Any()))
+                    break; // If no item is needed for the shortest path, then there are no item sets
+                else
+                {
+                    // Build an item set for each chain
+                    foreach (var chain in CartesianProduct(steps))
+                    {
+                        var items = chain.SelectMany(_ => _);
+                        if (items.Any()) //But only if said chain has items
+                            itemSets.Add([.. items]);
+                    }
+                }
+            }
+            var rules = itemSets.Distinct(HashSet<string>.CreateSetComparer())
+                                .Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));
+            return rules.Any() ? string.Join(" or ", rules.OrderBy(_ => _.Length)) : "true";
         }
     }
 
@@ -103,5 +112,14 @@ internal static class AccessRulesGenerator
             var rules = set.Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));
             return rules.Any() ? string.Join(" or ", rules) : "true";
         }
+    }
+
+    private static IEnumerable<IEnumerable<LogicRule>> CartesianProduct(IEnumerable<LogicRules> sequences)
+    {
+        IEnumerable<IEnumerable<LogicRule>> emptyProduct = [[]];
+        return sequences.Where(_ => _.Any())
+                        .Aggregate(emptyProduct, (accumulator, sequence) => from accseq in accumulator
+                                                                            from item in sequence
+                                                                            select accseq.Concat([item]));
     }
 }
