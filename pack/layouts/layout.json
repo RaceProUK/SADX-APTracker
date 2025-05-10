@@ -38,6 +38,15 @@
                                 "type": "layout",
                                 "key": "keys"
                             }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Information",
+                            "dock": "left",
+                            "content": {
+                                "type": "text",
+                                "text": "Logic version 1.1.1"
+                            }
                         }
                     ]
                 },
