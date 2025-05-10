@@ -402,7 +402,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionA"
@@ -415,7 +416,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionB"
@@ -428,7 +430,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionC"
@@ -441,7 +444,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionS"
@@ -474,7 +478,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionA"
@@ -487,7 +492,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionB"
@@ -500,7 +506,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionC"
@@ -513,7 +520,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicMissionS"
@@ -546,7 +554,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionA"
@@ -573,7 +582,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionS"
@@ -606,7 +616,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionA"
@@ -633,7 +644,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionS"
@@ -714,7 +726,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionA"
@@ -741,7 +754,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionS"
@@ -774,7 +788,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionA"
@@ -801,7 +816,8 @@
                     "NormalLogic,JetAnklet",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "TailsMissionS"
@@ -930,7 +946,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionA"
@@ -943,7 +960,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionB"
@@ -956,7 +974,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionC"
@@ -969,7 +988,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionS"
@@ -1002,7 +1022,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionA"
@@ -1015,7 +1036,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionB"
@@ -1028,7 +1050,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionC"
@@ -1041,7 +1064,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionS"
@@ -1074,7 +1098,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionA"
@@ -1087,7 +1112,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionB"
@@ -1100,7 +1126,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionC"
@@ -1113,7 +1140,8 @@
                     "NormalLogic,ShovelClaw",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "KnucklesMissionS"
@@ -1386,7 +1414,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionA"
@@ -1399,7 +1428,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionB"
@@ -1412,7 +1442,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionC"
@@ -1425,7 +1456,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionS"
@@ -1504,9 +1536,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionA"
@@ -1517,9 +1550,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionB"
@@ -1530,9 +1564,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionC"
@@ -1543,9 +1578,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "GammaMissionS"
@@ -1578,7 +1614,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1591,7 +1628,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1611,7 +1649,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionS"
@@ -1644,7 +1683,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1657,7 +1697,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1677,7 +1718,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionS"
@@ -1710,7 +1752,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1723,7 +1766,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1743,7 +1787,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionS"
@@ -1776,7 +1821,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1789,7 +1835,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1809,7 +1856,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionS"

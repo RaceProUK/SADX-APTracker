@@ -32,7 +32,7 @@ internal static class AccessRulesGenerator
                       from areaFrom in Areas
                       from areaTo in Areas
                       where !string.Equals(areaFrom, areaTo, StringComparison.OrdinalIgnoreCase)
-                      from logicLevel in Enumerable.Range(0, 4)
+                      from logicLevel in Enumerable.Range(0, 5)
                       let rule = MakeLogicRule(character, areaFrom, areaTo, logicLevel)
                       select $"    [\"{character} - {areaFrom} - {areaTo} - {logicLevel}\"] = function() return {rule} end,";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["ReachRules = {", .. entries, "}"]),
@@ -54,6 +54,7 @@ internal static class AccessRulesGenerator
                     1 => _.HardLogic,
                     2 => _.ExpertDCLogic,
                     3 => _.ExpertDXLogic,
+                    4 => _.ExpertDXPlusLogic,
                     _ => []
                 });
                 if (steps.All(_ => !_.Any()))
@@ -83,7 +84,7 @@ internal static class AccessRulesGenerator
 
         var entries = from character in Characters
                       from level in Levels
-                      from logicLevel in Enumerable.Range(0, 4)
+                      from logicLevel in Enumerable.Range(0, 5)
                       let rule = MakeLogicRule(character, level, logicLevel)
                       select $"    [\"{character} - {level} - {logicLevel}\"] = function() return {rule} end,";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["AccessRules = {", .. entries, "}"]),
@@ -107,6 +108,7 @@ internal static class AccessRulesGenerator
                 1 => spec.HardLogic,
                 2 => spec.ExpertDCLogic,
                 3 => spec.ExpertDXLogic,
+                4 => spec.ExpertDXPlusLogic,
                 _ => []
             };
             var rules = set.Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));

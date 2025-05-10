@@ -26,7 +26,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ]
             }
         ],
@@ -128,7 +129,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ]
             }
         ],
@@ -158,7 +160,8 @@
                     "NormalLogic,LifeBelt",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -172,7 +175,8 @@
                     "NormalLogic,LifeBelt",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -186,7 +190,8 @@
                     "NormalLogic,Lure1,Lure2,Lure3,Lure4",
                     "HardLogic,Lure1,Lure2,Lure3,Lure4",
                     "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4"
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ]
             },
             {
@@ -196,7 +201,8 @@
                     "NormalLogic,LifeBelt",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             }
         ],

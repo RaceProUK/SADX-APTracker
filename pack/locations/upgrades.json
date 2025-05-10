@@ -28,7 +28,8 @@
                     "$CanReach|Sonic|Hotel,PlayableSonic,NormalLogic,LightShoes",
                     "$CanReach|Sonic|Hotel,PlayableSonic,HardLogic,LightShoes",
                     "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDC",
-                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDX"
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDX",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -112,14 +113,14 @@
                 "name": "Life Belt Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train",
-                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train"
+                    "$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,Train,Dynamite",
+                    "$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,Train,Dynamite"
                 ],
                 "visibility_rules": [
                     "BigPlayable"

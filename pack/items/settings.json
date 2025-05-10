@@ -84,6 +84,12 @@
                 "codes": "ExpertLogicDX",
                 "img": "images/settings/logic/ExpertLogicDX.png",
                 "inherit_codes": false
+            },
+            {
+                "name": "Expert DX+ Logic",
+                "codes": "ExpertLogicDXPlus",
+                "img": "images/settings/logic/ExpertLogicDXPlus.png",
+                "inherit_codes": false
             }
         ],
         "name": "Logic Level",

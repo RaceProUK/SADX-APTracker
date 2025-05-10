@@ -51,8 +51,8 @@ internal static partial class LocationGenerator
             var spec = logic.First(entry => number == entry.Number);
             var func = AccessRulesGenerator.Levels.Contains(spec.ObjectiveArea) ? "CanAccess" : "CanReach";
             var access = spec.CardArea.Equals(spec.ObjectiveArea)
-                ? $"CanReach|{character}|{spec.CardArea},Playable{character}"
-                : $"CanReach|{character}|{spec.CardArea},${func}|{character}|{spec.ObjectiveArea},Playable{character}";
+                ? $"$CanReach|{character}|{spec.CardArea},Playable{character}"
+                : $"$CanReach|{character}|{spec.CardArea},${func}|{character}|{spec.ObjectiveArea},Playable{character}";
             var rules = spec.BuildAccessRules()?.Select(_ => $"{access},{_}");
             return rules ?? [access];
         }

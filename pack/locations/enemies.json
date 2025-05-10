@@ -1210,7 +1210,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1220,7 +1221,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1230,7 +1232,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1240,7 +1243,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1250,7 +1254,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1260,7 +1265,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1270,7 +1276,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1280,7 +1287,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -1290,7 +1298,8 @@
                     "NormalLogic,LightShoes",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             }
         ],
@@ -2632,7 +2641,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2642,7 +2652,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2652,7 +2663,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2662,7 +2674,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2672,7 +2685,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2682,7 +2696,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2692,7 +2707,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2702,7 +2718,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -2712,7 +2729,8 @@
                     "NormalLogic,JetBooster",
                     "HardLogic",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             }
         ],
@@ -3040,9 +3058,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3050,9 +3069,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3060,9 +3080,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3070,9 +3091,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3080,9 +3102,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3090,9 +3113,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3100,9 +3124,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3110,9 +3135,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3120,9 +3146,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3130,9 +3157,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3140,9 +3168,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3150,9 +3179,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3160,9 +3190,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3170,9 +3201,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3180,9 +3212,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3190,9 +3223,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3200,9 +3234,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3210,9 +3245,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3220,9 +3256,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3230,9 +3267,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3240,9 +3278,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3250,9 +3289,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3260,9 +3300,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3270,9 +3311,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3280,9 +3322,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3290,9 +3333,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3300,9 +3344,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3310,9 +3355,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3320,9 +3366,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3330,9 +3377,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3340,9 +3388,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3350,9 +3399,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3360,9 +3410,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3370,9 +3421,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3380,9 +3432,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3390,9 +3443,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3400,9 +3454,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3410,9 +3465,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3420,9 +3476,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3430,9 +3487,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3440,9 +3498,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3450,9 +3509,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3460,9 +3520,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3470,9 +3531,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3480,9 +3542,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3490,9 +3553,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3500,9 +3564,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3510,9 +3575,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3520,9 +3586,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3530,9 +3597,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3540,9 +3608,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3550,9 +3619,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3560,9 +3630,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3570,9 +3641,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3580,9 +3652,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3590,9 +3663,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3600,9 +3674,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3610,9 +3685,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3620,9 +3696,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3630,9 +3707,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3640,9 +3718,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3650,9 +3729,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3660,9 +3740,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3670,9 +3751,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3680,9 +3762,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3690,9 +3773,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3700,9 +3784,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3710,9 +3795,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3720,9 +3806,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3730,9 +3817,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3740,9 +3828,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3750,9 +3839,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3760,9 +3850,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3770,9 +3861,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3780,9 +3872,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3790,9 +3883,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3800,9 +3894,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3810,9 +3905,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3820,9 +3916,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3830,9 +3927,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3840,9 +3938,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3850,9 +3949,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3860,9 +3960,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3870,9 +3971,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3880,9 +3982,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3890,9 +3993,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3900,9 +4004,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3910,9 +4015,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3920,9 +4026,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3930,9 +4037,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3940,9 +4048,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3950,9 +4059,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3960,9 +4070,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3970,9 +4081,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3980,9 +4092,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -3990,9 +4103,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -4000,9 +4114,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             },
             {
@@ -4010,9 +4125,10 @@
                 "item_count": 1,
                 "access_rules": [
                     "NormalLogic,JetBooster",
-                    "HardLogic",
+                    "HardLogic,JetBooster",
                     "ExpertLogicDC",
-                    "ExpertLogicDX"
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
                 ]
             }
         ],
@@ -4118,7 +4234,8 @@
                     "NormalLogic,LifeBelt",
                     "HardLogic,LifeBelt",
                     "ExpertLogicDC,LifeBelt",
-                    "ExpertLogicDX,LifeBelt"
+                    "ExpertLogicDX,LifeBelt",
+                    "ExpertLogicDXPlus,LifeBelt"
                 ]
             },
             {
@@ -4128,7 +4245,8 @@
                     "NormalLogic,LifeBelt",
                     "HardLogic,LifeBelt",
                     "ExpertLogicDC,LifeBelt",
-                    "ExpertLogicDX,LifeBelt"
+                    "ExpertLogicDX,LifeBelt",
+                    "ExpertLogicDXPlus,LifeBelt"
                 ]
             },
             {
@@ -4138,7 +4256,8 @@
                     "NormalLogic,LifeBelt",
                     "HardLogic,LifeBelt",
                     "ExpertLogicDC,LifeBelt",
-                    "ExpertLogicDX,LifeBelt"
+                    "ExpertLogicDX,LifeBelt",
+                    "ExpertLogicDXPlus,LifeBelt"
                 ]
             }
         ],

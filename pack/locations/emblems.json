@@ -20,21 +20,31 @@
                     "NormalLogic,$CanReach|Tails|Station,PlayableTails",
                     "NormalLogic,$CanReach|Amy|Station,PlayableAmy",
                     "NormalLogic,$CanReach|Big|Station,PlayableBig",
+                    "NormalLogic,$CanReach|Gamma|Station,PlayableGamma,JetBooster",
                     "HardLogic,$CanReach|Sonic|Station,PlayableSonic",
-                    "HardLogic,$CanReach|Knuckles|Station,PlayableKnuckles",
                     "HardLogic,$CanReach|Tails|Station,PlayableTails",
+                    "HardLogic,$CanReach|Knuckles|Station,PlayableKnuckles",
                     "HardLogic,$CanReach|Amy|Station,PlayableAmy",
                     "HardLogic,$CanReach|Big|Station,PlayableBig",
+                    "HardLogic,$CanReach|Gamma|Station,PlayableGamma",
                     "ExpertLogicDC,$CanReach|Sonic|Station,PlayableSonic",
-                    "ExpertLogicDC,$CanReach|Knuckles|Station,PlayableKnuckles",
                     "ExpertLogicDC,$CanReach|Tails|Station,PlayableTails",
+                    "ExpertLogicDC,$CanReach|Knuckles|Station,PlayableKnuckles",
                     "ExpertLogicDC,$CanReach|Amy|Station,PlayableAmy",
                     "ExpertLogicDC,$CanReach|Big|Station,PlayableBig",
+                    "ExpertLogicDC,$CanReach|Gamma|Station,PlayableGamma",
                     "ExpertLogicDX,$CanReach|Sonic|Station,PlayableSonic",
-                    "ExpertLogicDX,$CanReach|Knuckles|Station,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Tails|Station,PlayableTails",
+                    "ExpertLogicDX,$CanReach|Knuckles|Station,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Amy|Station,PlayableAmy",
-                    "ExpertLogicDX,$CanReach|Big|Station,PlayableBig"
+                    "ExpertLogicDX,$CanReach|Big|Station,PlayableBig",
+                    "ExpertLogicDX,$CanReach|Gamma|Station,PlayableGamma",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|Station,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|Station,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|Station,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|Station,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Big|Station,PlayableBig",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|Station,PlayableGamma"
                 ]
             },
             {
@@ -64,7 +74,13 @@
                     "ExpertLogicDX,$CanReach|Knuckles|StationSquareMain,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Amy|StationSquareMain,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Big|StationSquareMain,PlayableBig",
-                    "ExpertLogicDX,$CanReach|Gamma|StationSquareMain,PlayableGamma"
+                    "ExpertLogicDX,$CanReach|Gamma|StationSquareMain,PlayableGamma",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|StationSquareMain,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|StationSquareMain,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|StationSquareMain,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|StationSquareMain,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Big|StationSquareMain,PlayableBig",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|StationSquareMain,PlayableGamma"
                 ]
             },
             {
@@ -80,7 +96,10 @@
                     "ExpertLogicDC,$CanReach|Knuckles|StationSquareMain,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Amy|StationSquareMain,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Tails|StationSquareMain,PlayableTails",
-                    "ExpertLogicDX,$CanReach|Knuckles|StationSquareMain,PlayableKnuckles,ShovelClaw"
+                    "ExpertLogicDX,$CanReach|Knuckles|StationSquareMain,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|StationSquareMain,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Tails|StationSquareMain,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|StationSquareMain,PlayableKnuckles"
                 ]
             },
             {
@@ -92,8 +111,12 @@
                     "HardLogic,$CanReach|Sonic|Casino,PlayableSonic",
                     "ExpertLogicDC,$CanReach|Tails|Casino,PlayableTails",
                     "ExpertLogicDC,$CanReach|Sonic|Casino,PlayableSonic",
+                    "ExpertLogicDC,$CanReach|Amy|Casino,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Tails|Casino,PlayableTails",
-                    "ExpertLogicDX,$CanReach|Sonic|Casino,PlayableSonic"
+                    "ExpertLogicDX,$CanReach|Sonic|Casino,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|Casino,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|Casino,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|Casino,PlayableKnuckles"
                 ]
             }
         ],
@@ -128,10 +151,17 @@
                     "ExpertLogicDC,$CanReach|Tails|MysticRuinsMain,PlayableTails",
                     "ExpertLogicDC,$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles",
                     "ExpertLogicDC,$CanReach|Gamma|MysticRuinsMain,PlayableGamma,JetBooster",
+                    "ExpertLogicDC,$CanReach|Amy|MysticRuinsMain,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
                     "ExpertLogicDX,$CanReach|Tails|MysticRuinsMain,PlayableTails",
                     "ExpertLogicDX,$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles",
-                    "ExpertLogicDX,$CanReach|Gamma|MysticRuinsMain,PlayableGamma,JetBooster"
+                    "ExpertLogicDX,$CanReach|Gamma|MysticRuinsMain,PlayableGamma,JetBooster",
+                    "ExpertLogicDX,$CanReach|Amy|MysticRuinsMain,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|MysticRuinsMain,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|MysticRuinsMain,PlayableGamma,JetBooster",
+                    "ExpertLogicDXPlus,$CanReach|Amy|MysticRuinsMain,PlayableAmy"
                 ]
             },
             {
@@ -149,7 +179,11 @@
                     "ExpertLogicDX,$CanReach|Sonic|AngelIsland,PlayableSonic",
                     "ExpertLogicDX,$CanReach|Tails|AngelIsland,PlayableTails",
                     "ExpertLogicDX,$CanReach|Knuckles|AngelIsland,PlayableKnuckles",
-                    "ExpertLogicDX,$CanReach|Gamma|AngelIsland,PlayableGamma,JetBooster"
+                    "ExpertLogicDX,$CanReach|Gamma|AngelIsland,PlayableGamma,JetBooster",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|AngelIsland,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|AngelIsland,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|AngelIsland,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|AngelIsland,PlayableGamma,JetBooster"
                 ]
             },
             {
@@ -179,7 +213,13 @@
                     "ExpertLogicDX,$CanReach|Knuckles|Jungle,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Amy|Jungle,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Big|Jungle,PlayableBig",
-                    "ExpertLogicDX,$CanReach|Gamma|Jungle,PlayableGamma"
+                    "ExpertLogicDX,$CanReach|Gamma|Jungle,PlayableGamma",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|Jungle,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|Jungle,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|Jungle,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|Jungle,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Big|Jungle,PlayableBig",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|Jungle,PlayableGamma"
                 ]
             },
             {
@@ -196,7 +236,14 @@
                     "ExpertLogicDC,$CanReach|Knuckles|Jungle,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Sonic|Jungle,PlayableSonic",
                     "ExpertLogicDX,$CanReach|Tails|Jungle,PlayableTails",
-                    "ExpertLogicDX,$CanReach|Knuckles|Jungle,PlayableKnuckles"
+                    "ExpertLogicDX,$CanReach|Knuckles|Jungle,PlayableKnuckles",
+                    "ExpertLogicDX,$CanReach|Amy|Jungle,PlayableAmy",
+                    "ExpertLogicDX,$CanReach|Gamma|Jungle,PlayableGamma",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|Jungle,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|Jungle,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|Jungle,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|Jungle,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|Jungle,PlayableGamma"
                 ]
             }
         ],
@@ -233,7 +280,13 @@
                     "ExpertLogicDX,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
                     "ExpertLogicDX,$CanReach|Tails|EggCarrierOutside,PlayableTails",
                     "ExpertLogicDX,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
-                    "ExpertLogicDX,$CanReach|Amy|EggCarrierOutside,PlayableAmy"
+                    "ExpertLogicDX,$CanReach|Amy|EggCarrierOutside,PlayableAmy",
+                    "ExpertLogicDX,$CanReach|Gamma|EggCarrierOutside,PlayableGamma",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|EggCarrierOutside,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|EggCarrierOutside,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|EggCarrierOutside,PlayableGamma"
                 ]
             },
             {
@@ -243,10 +296,19 @@
                     "NormalLogic,$CanReach|Tails|EggCarrierOutside,PlayableTails",
                     "HardLogic,$CanReach|Tails|EggCarrierOutside,PlayableTails",
                     "HardLogic,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "HardLogic,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
                     "ExpertLogicDC,$CanReach|Tails|EggCarrierOutside,PlayableTails",
                     "ExpertLogicDC,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "ExpertLogicDC,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                    "ExpertLogicDC,$CanReach|Amy|EggCarrierOutside,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Tails|EggCarrierOutside,PlayableTails",
-                    "ExpertLogicDX,$CanReach|Sonic|EggCarrierOutside,PlayableSonic"
+                    "ExpertLogicDX,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "ExpertLogicDX,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                    "ExpertLogicDX,$CanReach|Amy|EggCarrierOutside,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Tails|EggCarrierOutside,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|EggCarrierOutside,PlayableAmy"
                 ]
             },
             {
@@ -272,7 +334,13 @@
                     "ExpertLogicDX,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
                     "ExpertLogicDX,$CanReach|Amy|EggCarrierOutside,PlayableAmy",
                     "ExpertLogicDX,$CanReach|Big|EggCarrierOutside,PlayableBig",
-                    "ExpertLogicDX,$CanReach|Gamma|EggCarrierOutside,PlayableGamma"
+                    "ExpertLogicDX,$CanReach|Gamma|EggCarrierOutside,PlayableGamma",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Tails|EggCarrierOutside,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|EggCarrierOutside,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Big|EggCarrierOutside,PlayableBig",
+                    "ExpertLogicDXPlus,$CanReach|Gamma|EggCarrierOutside,PlayableGamma"
                 ]
             },
             {
@@ -283,12 +351,22 @@
                     "HardLogic,$CanReach|Sonic|EggCarrierFrontDeck,PlayableSonic",
                     "HardLogic,$CanReach|Big|EggCarrierFrontDeck,PlayableBig",
                     "HardLogic,$CanReach|Knuckles|EggCarrierFrontDeck,PlayableKnuckles",
+                    "HardLogic,$CanReach|Amy|EggCarrierFrontDeck,PlayableAmy",
                     "ExpertLogicDC,$CanReach|Sonic|EggCarrierFrontDeck,PlayableSonic",
                     "ExpertLogicDC,$CanReach|Big|EggCarrierFrontDeck,PlayableBig",
                     "ExpertLogicDC,$CanReach|Knuckles|EggCarrierFrontDeck,PlayableKnuckles",
+                    "ExpertLogicDC,$CanReach|Amy|EggCarrierFrontDeck,PlayableAmy",
+                    "ExpertLogicDC,$CanReach|Tails|EggCarrierFrontDeck,PlayableTails",
                     "ExpertLogicDX,$CanReach|Sonic|EggCarrierFrontDeck,PlayableSonic",
                     "ExpertLogicDX,$CanReach|Big|EggCarrierFrontDeck,PlayableBig",
-                    "ExpertLogicDX,$CanReach|Knuckles|EggCarrierFrontDeck,PlayableKnuckles"
+                    "ExpertLogicDX,$CanReach|Knuckles|EggCarrierFrontDeck,PlayableKnuckles",
+                    "ExpertLogicDX,$CanReach|Amy|EggCarrierFrontDeck,PlayableAmy",
+                    "ExpertLogicDX,$CanReach|Tails|EggCarrierFrontDeck,PlayableTails",
+                    "ExpertLogicDXPlus,$CanReach|Sonic|EggCarrierFrontDeck,PlayableSonic",
+                    "ExpertLogicDXPlus,$CanReach|Big|EggCarrierFrontDeck,PlayableBig",
+                    "ExpertLogicDXPlus,$CanReach|Knuckles|EggCarrierFrontDeck,PlayableKnuckles",
+                    "ExpertLogicDXPlus,$CanReach|Amy|EggCarrierFrontDeck,PlayableAmy",
+                    "ExpertLogicDXPlus,$CanReach|Tails|EggCarrierFrontDeck,PlayableTails"
                 ]
             }
         ],

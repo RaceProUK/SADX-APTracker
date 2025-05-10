@@ -12,6 +12,8 @@ internal abstract class LogicSpecification
 
     public LogicRules ExpertDXLogic { get; set; } = [];
 
+    public LogicRules ExpertDXPlusLogic { get; set; } = [];
+
     internal virtual IEnumerable<string>? BuildAccessRules()
     {
         var hardLogic = HardLogic.Any()
@@ -23,11 +25,15 @@ internal abstract class LogicSpecification
         var expertDXLogic = ExpertDXLogic.Any()
             ? ExpertDXLogic.Select(_ => $"ExpertLogicDX,{string.Join(',', _)}")
             : ["ExpertLogicDX"];
+        var expertDXPlusLogic = ExpertDXPlusLogic.Any()
+            ? ExpertDXPlusLogic.Select(_ => $"ExpertLogicDXPlus,{string.Join(',', _)}")
+            : ["ExpertLogicDXPlus"];
         return NormalLogic.Any()
             ? NormalLogic.Select(_ => $"NormalLogic,{string.Join(',', _)}")
                          .Union(hardLogic)
                          .Union(expertDCLogic)
                          .Union(expertDXLogic)
+                         .Union(expertDXPlusLogic)
             : default;
     }
 }
