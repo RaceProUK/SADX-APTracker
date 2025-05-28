@@ -45,7 +45,7 @@
                             "dock": "left",
                             "content": {
                                 "type": "text",
-                                "text": "Logic version 1.1.1"
+                                "text": "Logic version 1.1.2"
                             }
                         }
                     ]

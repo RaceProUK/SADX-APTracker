@@ -121,7 +121,7 @@ internal static class LogicLoader
     {
         var adapter = new GoogleSheetAdapter();
         var sheet = await adapter.GetAsync("1MKI-oe2KDodhk1MlMcgdEny0LGvkJETRHZTIyP23Xko",
-                                           $"Logic (1.1.1)!{range}",
+                                           $"Logic (1.1.2)!{range}",
                                            ApiKey);
         var mapper = new SheetMapper().AddConfigFor(mapping);
         var mapped = mapper.Map<T>(sheet);

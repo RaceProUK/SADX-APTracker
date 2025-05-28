@@ -46,7 +46,7 @@
                 ]
             },
             {
-                "name": "Lure 1 Upgrade Point",
+                "name": "Lure 1 (Sewers) Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
                     "$CanReach|Big|StationSquareMain,PlayableBig"
@@ -137,7 +137,7 @@
                 ]
             },
             {
-                "name": "Lure 2 Upgrade Point",
+                "name": "Lure 2 (Jungle) Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
                     "$CanReach|Big|Jungle,PlayableBig"
@@ -201,7 +201,7 @@
                 ]
             },
             {
-                "name": "Lure 4 Upgrade Point",
+                "name": "Lure 4 (Jail) Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
                     "$CanReach|Big|EggCarrierInside,PlayableBig"
@@ -225,7 +225,7 @@
         ],
         "sections": [
             {
-                "name": "Lure 3 Upgrade Point",
+                "name": "Lure 3 (Ice Cap) Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
                     "$CanAccess|Big|IceCap,PlayableBig"

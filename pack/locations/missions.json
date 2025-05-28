@@ -1001,8 +1001,8 @@
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic,LightShoes",
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC",
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX",
+            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC,LightShoes",
+            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX,LightShoes",
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
