@@ -9,11 +9,10 @@ function Reset(slotData)
     CurrentIndex = -1
 
     for _, value in pairs(ItemMap) do
-        local code = value[1]
+        local code = tostring(value)
         if code then
             local item = Tracker:FindObjectForCode(code)
             if item then
-                print(item.Type)
                 if item.Type == "toggle" then
                     item.Active = false
                 elseif item.Type == "consumable" then
