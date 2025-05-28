@@ -26,7 +26,7 @@ internal static class DataPackageLoader
         {
             Console.WriteLine("Choose a datapackage to load:");
             for (var i = 0; i < files.Length; i++)
-                Console.WriteLine($"{i} - {files[i]}");
+                Console.WriteLine($"{i} - {files[i]} (last updated {File.GetLastWriteTime(files[i])})");
 
             var input = Console.ReadLine();
             if (int.TryParse(input, out var id) && id >= 0 && id < files.Length)
