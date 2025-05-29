@@ -103,7 +103,7 @@ function HasMetGoalCriteria()
         local enoughEmblems = emblemsObtained.AcquiredCount >= emblemsRequired.AcquiredCount
         local enoughLevels = levelsBeaten.AcquiredCount >= levelsRequired.AcquiredCount
         local enoughBosses = bossesBeaten.AcquiredCount >= bossesRequired.AcquiredCount
-        local enoughMissions = missionsRequired.AcquiredCount >= missionsRequired.AcquiredCount
+        local enoughMissions = missionsBeaten.AcquiredCount >= missionsRequired.AcquiredCount
         local enoughChaoRaces = chaoRacesWon.AcquiredCount >= chaoRacesRequired.AcquiredCount
         local enoughEmeralds = (whiteChaosEmerald.Active and
                                 redChaosEmerald.Active and
