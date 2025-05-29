@@ -8,6 +8,14 @@ function Reset(slotData)
     Tracker.BulkUpdate = true
     CurrentIndex = -1
 
+    --Accumulated Items
+    Tracker:FindObjectForCode("Emblems").AcquiredCount = 0
+    Tracker:FindObjectForCode("LevelsBeaten").AcquiredCount = 0
+    Tracker:FindObjectForCode("BossesBeaten").AcquiredCount = 0
+    Tracker:FindObjectForCode("MissionsBeaten").AcquiredCount = 0
+    Tracker:FindObjectForCode("ChaoRacesWon").AcquiredCount = 0
+
+    --Auto-tracked Items
     for _, value in pairs(ItemMap) do
         local code = tostring(value)
         if code then
@@ -22,6 +30,7 @@ function Reset(slotData)
         end
     end
 
+    --Locations
     for _, value in pairs(LocationMap) do
         local area = value[1]
         local section = value[2]
