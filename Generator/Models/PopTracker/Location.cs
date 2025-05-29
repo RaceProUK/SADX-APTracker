@@ -3,6 +3,8 @@
 internal record Location(string Name,
                          IEnumerable<MapLocation> MapLocations,
                          IEnumerable<Section> Sections,
+                         string ChestUnopenedImg = "images/ItemBox.png",
+                         string ChestOpenedImg = "images/ItemBoxBroken.png",
                          IEnumerable<string>? AccessRules = default,
                          IEnumerable<string>? VisibilityRules = default);
 

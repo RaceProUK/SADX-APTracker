@@ -26,6 +26,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
             "$CanReach|Tails|MysticRuinsMain,PlayableTails"
@@ -62,6 +64,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
             "$CanReach|Tails|EggCarrierOutside,PlayableTails"
@@ -98,6 +102,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|Jungle,PlayableTails",
             "$CanReach|Sonic|Jungle,ExpertLogicDC,PlayableSonic",
@@ -196,6 +202,8 @@
                     "EnableTwinkleCircuitMultiple,GammaPlayable"
                 ]
             }
-        ]
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
     }
 ]

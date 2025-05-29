@@ -32,6 +32,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Hotel,PlayableSonic",
             "$CanReach|Tails|Hotel,PlayableTails",

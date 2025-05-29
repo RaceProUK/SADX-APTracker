@@ -120,6 +120,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "visibility_rules": [
             "FieldEmblemChecks"
         ]
@@ -247,6 +249,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "visibility_rules": [
             "FieldEmblemChecks"
         ]
@@ -370,6 +374,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "visibility_rules": [
             "FieldEmblemChecks"
         ]

@@ -40,6 +40,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
         ],
@@ -88,6 +90,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
@@ -136,6 +140,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
@@ -184,6 +190,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|IceCap,PlayableSonic"
         ],
@@ -232,6 +240,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
@@ -280,6 +290,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
@@ -328,6 +340,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
@@ -376,6 +390,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|SkyDeck,PlayableSonic"
         ],
@@ -452,6 +468,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|LostWorld,PlayableSonic"
         ],
@@ -528,6 +546,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
@@ -590,6 +610,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Tails|WindyValley,PlayableTails"
         ],
@@ -652,6 +674,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
@@ -700,6 +724,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Tails|IceCap,PlayableTails"
         ],
@@ -762,6 +788,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Tails|SkyDeck,PlayableTails"
         ],
@@ -824,6 +852,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Tails|SpeedHighway,PlayableTails"
         ],
@@ -872,6 +902,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Knuckles|SpeedHighway,PlayableKnuckles"
         ],
@@ -920,6 +952,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
@@ -996,6 +1030,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Knuckles|RedMountain,PlayableKnuckles"
         ],
@@ -1072,6 +1108,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Knuckles|LostWorld,PlayableKnuckles"
         ],
@@ -1148,6 +1186,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
         ],
@@ -1196,6 +1236,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
@@ -1244,6 +1286,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Amy|HotShelter,PlayableAmy"
         ],
@@ -1292,6 +1336,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Amy|FinalEgg,PlayableAmy"
         ],
@@ -1340,6 +1386,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Gamma|FinalEgg,PlayableGamma"
         ],
@@ -1388,6 +1436,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Gamma|EmeraldCoast,PlayableGamma"
         ],
@@ -1464,6 +1514,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Gamma|WindyValley,PlayableGamma"
         ],
@@ -1512,6 +1564,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Gamma|RedMountain,PlayableGamma"
         ],
@@ -1588,6 +1642,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Gamma|HotShelter,PlayableGamma"
         ],
@@ -1657,6 +1713,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|TwinklePark,PlayableBig"
         ],
@@ -1726,6 +1784,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|IceCap,PlayableBig"
         ],
@@ -1795,6 +1855,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
@@ -1864,6 +1926,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|HotShelter,PlayableBig"
         ],

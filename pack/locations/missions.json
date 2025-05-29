@@ -16,6 +16,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,PlayableSonic"
         ],
@@ -40,6 +42,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,PlayableSonic"
         ],
@@ -64,6 +68,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Hotel,PlayableSonic,NormalLogic,LightShoes",
             "$CanReach|Sonic|Hotel,PlayableSonic,HardLogic,LightShoes",
@@ -92,6 +98,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|MysticRuinsMain,PlayableTails"
         ],
@@ -116,6 +124,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|Casino,PlayableKnuckles"
         ],
@@ -140,6 +150,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Amy|MysticRuinsMain,PlayableAmy"
         ],
@@ -164,6 +176,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Gamma|MysticRuinsMain,$CanReach|Gamma|Jungle,PlayableGamma"
         ],
@@ -188,6 +202,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|StationSquareMain,PlayableBig"
         ],
@@ -212,6 +228,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
         ],
@@ -236,6 +254,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|Hotel,PlayableTails"
         ],
@@ -260,6 +280,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
@@ -284,6 +306,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles,NormalLogic,ShovelClaw",
             "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles,HardLogic,ShovelClaw",
@@ -312,6 +336,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Casino,$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
@@ -336,6 +362,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|StationSquareMain,$CanReach|Big|Hotel,PlayableBig"
         ],
@@ -360,6 +388,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
@@ -384,6 +414,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|MysticRuinsMain,$CanAccess|Tails|WindyValley,PlayableTails"
         ],
@@ -408,6 +440,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
@@ -432,6 +466,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Amy|Station,$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
@@ -456,6 +492,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Amy|StationSquareMain,$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
@@ -480,6 +518,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,NormalLogic,IceStone,StationBackKey,Train,Dynamite",
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
@@ -513,6 +553,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Gamma|Jungle,$CanAccess|Gamma|FinalEgg,PlayableGamma"
         ],
@@ -537,6 +579,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|Hotel,$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
@@ -561,6 +605,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|TwinkleParkLobby,$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
@@ -585,6 +631,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|Casino,$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
@@ -609,6 +657,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
@@ -633,6 +683,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
@@ -657,6 +709,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
@@ -681,6 +735,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
@@ -705,6 +761,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|StationSquareMain,PlayableBig,NormalLogic,LifeBelt",
             "$CanReach|Big|StationSquareMain,PlayableBig,HardLogic",
@@ -733,6 +791,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
@@ -757,6 +817,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|Station,$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
@@ -781,6 +843,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|AngelIsland,PlayableKnuckles"
         ],
@@ -805,6 +869,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|EggCarrierOutside,PlayableSonic"
         ],
@@ -829,6 +895,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|EggCarrierOutside,PlayableSonic,NormalLogic,LightShoes",
             "$CanReach|Sonic|EggCarrierOutside,PlayableSonic,HardLogic,LightShoes",
@@ -857,6 +925,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
             "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
@@ -890,6 +960,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|EggCarrierInside,$CanAccess|Sonic|SkyDeck,PlayableSonic"
         ],
@@ -914,6 +986,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|Jungle,PlayableTails,NormalLogic,JetAnklet",
             "$CanReach|Tails|Jungle,PlayableTails,HardLogic",
@@ -942,6 +1016,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,NormalLogic,ShovelClaw",
             "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,HardLogic,ShovelClaw",
@@ -970,6 +1046,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,NormalLogic,JetBooster",
             "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,HardLogic,JetBooster",
@@ -998,6 +1076,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic,LightShoes",
@@ -1026,6 +1106,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic",
@@ -1054,6 +1136,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Gamma|EggCarrierInside,$CanAccess|Gamma|HotShelter,PlayableGamma"
         ],
@@ -1078,6 +1162,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Amy|EggCarrierInside,$CanAccess|Amy|HotShelter,PlayableAmy"
         ],
@@ -1102,6 +1188,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|EggCarrierOutside,PlayableBig"
         ],
@@ -1126,6 +1214,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
@@ -1150,6 +1240,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
@@ -1174,6 +1266,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|MysticRuinsMain,PlayableTails"
         ],
@@ -1198,6 +1292,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
@@ -1222,6 +1318,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
@@ -1246,6 +1344,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Amy|Jungle,$CanAccess|Amy|FinalEgg,PlayableAmy"
         ],
@@ -1270,6 +1370,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,NormalLogic,JetBooster",
             "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,HardLogic,JetBooster",
@@ -1298,6 +1400,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|Jungle,PlayableBig"
         ],
@@ -1322,6 +1426,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic"
         ],
@@ -1346,6 +1452,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Tails|AngelIsland,$CanAccess|Tails|IceCap,PlayableTails"
         ],
@@ -1370,6 +1478,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|TwinkleParkLobby,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
@@ -1394,6 +1504,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,NormalLogic,ShovelClaw",
             "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,HardLogic,ShovelClaw",
@@ -1422,6 +1534,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
@@ -1446,6 +1560,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic",
@@ -1474,6 +1590,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Knuckles|EggCarrierOutside,$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
         ],
@@ -1498,6 +1616,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Big|MysticRuinsMain,$CanAccess|Big|IceCap,PlayableBig"
         ],

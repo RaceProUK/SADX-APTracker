@@ -55,7 +55,9 @@
                     "BigPlayable"
                 ]
             }
-        ]
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
     },
     {
         "name": "Mystic Ruins Upgrades",
@@ -146,7 +148,9 @@
                     "BigPlayable"
                 ]
             }
-        ]
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
     },
     {
         "name": "Egg Carrier Upgrades",
@@ -210,7 +214,9 @@
                     "BigPlayable"
                 ]
             }
-        ]
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
     },
     {
         "name": "Ice Cap Upgrade",
@@ -234,6 +240,8 @@
                     "BigPlayable"
                 ]
             }
-        ]
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
     }
 ]

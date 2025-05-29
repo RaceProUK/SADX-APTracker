@@ -16,6 +16,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|StationSquareMain,HotelFrontKey,PlayableSonic",
             "$CanReach|Tails|StationSquareMain,HotelFrontKey,PlayableTails",
@@ -51,6 +53,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
             "$CanReach|Tails|MysticRuinsMain,PlayableTails",
@@ -80,6 +84,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanReach|Sonic|EggCarrierInside,PlayableSonic",
             "$CanReach|Tails|EggCarrierInside,PlayableTails",

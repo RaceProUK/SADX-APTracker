@@ -31,6 +31,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|TwinklePark,PlayableBig"
         ],
@@ -75,6 +77,8 @@
                 "item_count": 1
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|IceCap,PlayableBig"
         ],
@@ -134,6 +138,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
@@ -206,6 +212,8 @@
                 ]
             }
         ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
             "$CanAccess|Big|HotShelter,PlayableBig"
         ],
