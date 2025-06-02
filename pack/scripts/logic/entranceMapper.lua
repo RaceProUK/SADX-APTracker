@@ -1,17 +1,17 @@
 --Key: SADX APWorld level ID
 --Value: Level name and tracker setting stage
 EntranceIDMap = {
-    ["11"] = { "Emerald Coast", 1 },
-    ["12"] = { "Windy Valley", 2 },
+    ["11"] = { "EmeraldCoast", 1 },
+    ["12"] = { "WindyValley", 2 },
     ["13"] = { "Casinopolis", 3 },
-    ["14"] = { "Ice Cap", 4 },
-    ["15"] = { "Twinkle Park", 5 },
-    ["16"] = { "Speed Highway", 6 },
-    ["17"] = { "Red Mountain", 7 },
-    ["18"] = { "Sky Deck", 8 },
-    ["19"] = { "Lost World", 9 },
-    ["20"] = { "Final Egg", 10 },
-    ["21"] = { "Hot Shelter", 11 }
+    ["14"] = { "IceCap", 4 },
+    ["15"] = { "TwinklePark", 5 },
+    ["16"] = { "SpeedHighway", 6 },
+    ["17"] = { "RedMountain", 7 },
+    ["18"] = { "SkyDeck", 8 },
+    ["19"] = { "LostWorld", 9 },
+    ["20"] = { "FinalEgg", 10 },
+    ["21"] = { "HotShelter", 11 }
 }
 
 --Key: Vanilla entrance
@@ -27,15 +27,15 @@ function EntranceMapper:Fill(areaMap)
 end
 
 function EntranceMapper:Reset()
-    EntranceMapper["Emerald Coast"] = nil
-    EntranceMapper["Windy Valley"] = nil
+    EntranceMapper["EmeraldCoast"] = nil
+    EntranceMapper["WindyValley"] = nil
     EntranceMapper["Casinopolis"] = nil
-    EntranceMapper["Ice Cap"] = nil
-    EntranceMapper["Twinkle Park"] = nil
-    EntranceMapper["Speed Highway"] = nil
-    EntranceMapper["Red Mountain"] = nil
-    EntranceMapper["Sky Deck"] = nil
-    EntranceMapper["Lost World"] = nil
-    EntranceMapper["Final Egg"] = nil
-    EntranceMapper["Hot Shelter"] = nil
+    EntranceMapper["IceCap"] = nil
+    EntranceMapper["TwinklePark"] = nil
+    EntranceMapper["SpeedHighway"] = nil
+    EntranceMapper["RedMountain"] = nil
+    EntranceMapper["SkyDeck"] = nil
+    EntranceMapper["LostWorld"] = nil
+    EntranceMapper["FinalEgg"] = nil
+    EntranceMapper["HotShelter"] = nil
 end
