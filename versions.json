@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.1",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.1/sadx_rando_raceprouk.zip",
+            "sha256": "",
+            "changelog": [
+                "Fixed a bug that prevented the Entrance Mapper working correctly"
+            ]
+        },
+        {
             "package_version": "1.112.0",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.0/sadx_rando_raceprouk.zip",
             "sha256": "4faa94d0cdb8e5c08cf1053ad3575d50e5eead734d066bfc1bd7edf1a8b5631b",
