@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.2",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.2/sadx_rando_raceprouk.zip",
+            "sha256": "dd12c8f09392e4f1e0075b1a8834f0f32af4341651eb94a927605b99ad378ce3",
+            "changelog": [
+                "Fixed the location of the E-101 Beta boss fight"
+            ]
+        },
+        {
             "package_version": "1.112.1",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.1/sadx_rando_raceprouk.zip",
             "sha256": "33509adbd831eab95eca60708f40fc57366b49ad6bdd9249ed1fae75a9cba841",

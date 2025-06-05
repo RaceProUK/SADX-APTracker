@@ -11,8 +11,8 @@ internal static partial class LocationGenerator
     private const int StationSquareBossesStart = 543800700;
     private const int StationSquareBossesEnd = 543800730;
     private const int MysticRuinsBossesStart = 543800730;
-    private const int MysticRuinsBossesEnd = 543800760;
-    private const int EggCarrierBossesStart = 543800760;
+    private const int MysticRuinsBossesEnd = 543800770;
+    private const int EggCarrierBossesStart = 543800770;
     private const int EggCarrierBossesEnd = 543800800;
 
     private static string TrimBossName(string name) => name.Replace(" Boss Fight", string.Empty);
@@ -80,7 +80,7 @@ internal static partial class LocationGenerator
         };
         static string GetMysticRuinsBossArea(string name) => name switch
         {
-            string s when s.StartsWith("Egg Viper") || s.StartsWith("E101 Beta") => "Jungle",
+            string s when s.StartsWith("Egg Viper") || s.StartsWith("E-101 Beta") => "Jungle",
             _ => "MysticRuinsMain"
         };
 

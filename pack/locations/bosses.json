@@ -142,6 +142,16 @@
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
+            },
+            {
+                "name": "E-101 Beta (Gamma)",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Gamma|Jungle,PlayableGamma"
+                ],
+                "visibility_rules": [
+                    "GammaPlayable"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
@@ -159,16 +169,6 @@
             }
         ],
         "sections": [
-            {
-                "name": "E-101 Beta (Gamma)",
-                "item_count": 1,
-                "access_rules": [
-                    "$CanReach|Gamma|EggCarrierOutside,PlayableGamma"
-                ],
-                "visibility_rules": [
-                    "GammaPlayable"
-                ]
-            },
             {
                 "name": "Chaos 6 (Sonic)",
                 "item_count": 1,
