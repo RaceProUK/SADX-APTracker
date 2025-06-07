@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.3",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.3/sadx_rando_raceprouk.zip",
+            "sha256": "ea2d7452e67e21777475ae2643f2bd1e3759f1ae768dde7c850c27935a38e675",
+            "changelog": [
+                "Fixed access rule generation so logic now accounts for all possible paths between two areas"
+            ]
+        },
+        {
             "package_version": "1.112.2",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.2/sadx_rando_raceprouk.zip",
             "sha256": "dd12c8f09392e4f1e0075b1a8834f0f32af4341651eb94a927605b99ad378ce3",
