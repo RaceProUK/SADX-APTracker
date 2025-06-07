@@ -46,7 +46,7 @@ internal static class AccessRulesGenerator
                 return "false";
 
             var itemSets = new List<HashSet<string>>();
-            foreach (var path in graph.RankedShortestPathHoffmanPavley(_ => 1, @from, to, 3).OrderBy(_ => _.Count()))
+            foreach (var path in graph.RankedShortestPathHoffmanPavley(_ => 1, @from, to, 4).OrderBy(_ => _.Count()))
             {
                 var steps = path.Select(_ => logicLevel switch
                 {
