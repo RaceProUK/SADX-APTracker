@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.4",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.4/sadx_rando_raceprouk.zip",
+            "sha256": "e447865e2dbe6e74e3f198909328a1af4d24f3d26b779bc863c9087ea48da6df",
+            "changelog": [
+                "Fixed Chao Egg logic and visibility"
+            ]
+        },
+        {
             "package_version": "1.112.3",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.3/sadx_rando_raceprouk.zip",
             "sha256": "ea2d7452e67e21777475ae2643f2bd1e3759f1ae768dde7c850c27935a38e675",
