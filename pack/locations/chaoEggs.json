@@ -63,7 +63,11 @@
             "$CanReach|Big|MysticRuinsMain,PlayableBig"
         ],
         "visibility_rules": [
-            "SecretChaoEggs"
+            "SecretChaoEggs,SonicPlayable",
+            "SecretChaoEggs,TailsPlayable",
+            "SecretChaoEggs,KnucklesPlayable",
+            "SecretChaoEggs,AmyPlayable",
+            "SecretChaoEggs,BigPlayable"
         ]
     },
     {
@@ -91,7 +95,9 @@
             "$CanReach|Gamma|EggCarrierInside,PlayableGamma"
         ],
         "visibility_rules": [
-            "SecretChaoEggs"
+            "SecretChaoEggs,AmyPlayable",
+            "SecretChaoEggs,BigPlayable",
+            "SecretChaoEggs,GammaPlayable"
         ]
     }
 ]
