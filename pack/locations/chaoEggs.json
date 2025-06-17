@@ -60,8 +60,7 @@
             "$CanReach|Tails|MysticRuinsMain,PlayableTails",
             "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles",
             "$CanReach|Amy|MysticRuinsMain,PlayableAmy",
-            "$CanReach|Big|MysticRuinsMain,PlayableBig",
-            "$CanReach|Gamma|MysticRuinsMain,PlayableGamma"
+            "$CanReach|Big|MysticRuinsMain,PlayableBig"
         ],
         "visibility_rules": [
             "SecretChaoEggs"
@@ -87,9 +86,6 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|EggCarrierInside,PlayableSonic",
-            "$CanReach|Tails|EggCarrierInside,PlayableTails",
-            "$CanReach|Knuckles|EggCarrierInside,PlayableKnuckles",
             "$CanReach|Amy|EggCarrierInside,PlayableAmy",
             "$CanReach|Big|EggCarrierInside,PlayableBig",
             "$CanReach|Gamma|EggCarrierInside,PlayableGamma"

@@ -13,6 +13,10 @@ internal static partial class LocationGenerator
     private const int RacesStart = 543800905;
     private const int RacesEnd = 543800910;
 
+    private static readonly IEnumerable<string> PondCharacters = ["Sonic", "Tails", "Knuckles", "Amy", "Big"];
+
+    private static readonly IEnumerable<string> BrigCharacters = ["Amy", "Big", "Gamma"];
+
     private static IEnumerable<LuaLocation> GenerateChaoEggsLua(FrozenDictionary<int, string> dict)
     {
         yield return new LuaLocation(GoldEgg, "Station Square Chao Egg", dict[GoldEgg]);
@@ -39,12 +43,12 @@ internal static partial class LocationGenerator
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
                                        [(new Section(dict[SilverEgg]))],
-                                       AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|MysticRuinsMain,Playable{_}"),
+                                       AccessRules: PondCharacters.Select(_ => $"$CanReach|{_}|MysticRuinsMain,Playable{_}"),
                                        VisibilityRules: ["SecretChaoEggs"]);
         var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
                                       [(new Section(dict[BlackEgg]))],
-                                      AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|EggCarrierInside,Playable{_}"),
+                                      AccessRules: BrigCharacters.Select(_ => $"$CanReach|{_}|EggCarrierInside,Playable{_}"),
                                       VisibilityRules: ["SecretChaoEggs"]);
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),
