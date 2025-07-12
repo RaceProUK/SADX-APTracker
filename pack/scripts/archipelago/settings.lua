@@ -59,9 +59,17 @@ function ParseSettings(slotData)
         local setting = Tracker:FindObjectForCode(Settings.FieldEmblemChecks)
         setting.Active = slotData["FieldEmblemChecks"] ~= 0
     end
+    if slotData["MissionModeChecks"] then
+        local setting = Tracker:FindObjectForCode(Settings.MissionModeChecks)
+        setting.Active = slotData["MissionModeChecks"] ~= 0
+    end
     if slotData["SecretChaoEggs"] then
         local setting = Tracker:FindObjectForCode(Settings.SecretChaoEggs)
         setting.Active = slotData["SecretChaoEggs"] ~= 0
+    end
+    if slotData["ChaoRacesChecks"] then
+        local setting = Tracker:FindObjectForCode(Settings.ChaoRacesChecks)
+        setting.Active = slotData["ChaoRacesChecks"] ~= 0
     end
     if slotData["UnifyEggHornet"] then
         local setting = Tracker:FindObjectForCode(Settings.UnifyEggHornet)

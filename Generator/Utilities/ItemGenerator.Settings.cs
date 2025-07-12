@@ -27,8 +27,12 @@ internal static partial class ItemGenerator
                 new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("logic", "ExpertLogicDX"), false),
                 new ProgressiveItemStage("Expert DX+ Logic", "ExpertLogicDXPlus", MakeImgPath("logic", "ExpertLogicDXPlus"), false)
             ]),
+
             new ToggleItem("Include Field Emblem Checks", "FieldEmblemChecks", MakeImgPath("logic", "FieldEmblemChecks")),
-            new ToggleItem("Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("logic", "SecretChaoEggs")),
+            new ToggleItem("Include Mission Mode Checks", "MissionModeChecks", MakeImgPath("logic", "MissionModeChecks")),
+            new ToggleItem("Include Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("logic", "SecretChaoEggs")),
+            new ToggleItem("Include Chao Races", "ChaoRacesChecks", MakeImgPath("logic", "ChaoRacesChecks")),
+
             new ToggleItem("Unify Egg Hornet", "UnifyEggHornet", MakeImgPath("logic", "UnifyEggHornet")),
             new ToggleItem("Unify Chaos 4", "UnifyChaos4", MakeImgPath("logic", "UnifyChaos4")),
             new ToggleItem("Unify Chaos 6", "UnifyChaos6", MakeImgPath("logic", "UnifyChaos6")),

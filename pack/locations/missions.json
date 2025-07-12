@@ -22,7 +22,7 @@
             "$CanReach|Sonic|StationSquareMain,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission1"
+            "MissionModeChecks,SonicPlayable,AllowMission1"
         ]
     },
     {
@@ -48,7 +48,7 @@
             "$CanReach|Sonic|MysticRuinsMain,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission2"
+            "MissionModeChecks,SonicPlayable,AllowMission2"
         ]
     },
     {
@@ -78,7 +78,7 @@
             "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDXPlus,LightShoes"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission3"
+            "MissionModeChecks,SonicPlayable,AllowMission3"
         ]
     },
     {
@@ -104,7 +104,7 @@
             "$CanReach|Tails|MysticRuinsMain,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission4"
+            "MissionModeChecks,TailsPlayable,AllowMission4"
         ]
     },
     {
@@ -130,7 +130,7 @@
             "$CanReach|Knuckles|Casino,PlayableKnuckles"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission5"
+            "MissionModeChecks,KnucklesPlayable,AllowMission5"
         ]
     },
     {
@@ -156,7 +156,7 @@
             "$CanReach|Amy|MysticRuinsMain,PlayableAmy"
         ],
         "visibility_rules": [
-            "MissionsRequired,AmyPlayable,AllowMission6"
+            "MissionModeChecks,AmyPlayable,AllowMission6"
         ]
     },
     {
@@ -182,7 +182,7 @@
             "$CanReach|Gamma|MysticRuinsMain,$CanReach|Gamma|Jungle,PlayableGamma"
         ],
         "visibility_rules": [
-            "MissionsRequired,GammaPlayable,AllowMission7"
+            "MissionModeChecks,GammaPlayable,AllowMission7"
         ]
     },
     {
@@ -208,7 +208,7 @@
             "$CanReach|Big|StationSquareMain,PlayableBig"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission8"
+            "MissionModeChecks,BigPlayable,AllowMission8"
         ]
     },
     {
@@ -234,7 +234,7 @@
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission9"
+            "MissionModeChecks,SonicPlayable,AllowMission9"
         ]
     },
     {
@@ -260,7 +260,7 @@
             "$CanReach|Tails|Hotel,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission10"
+            "MissionModeChecks,TailsPlayable,AllowMission10"
         ]
     },
     {
@@ -286,7 +286,7 @@
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission11"
+            "MissionModeChecks,SonicPlayable,AllowMission11"
         ]
     },
     {
@@ -316,7 +316,7 @@
             "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission12"
+            "MissionModeChecks,KnucklesPlayable,AllowMission12"
         ]
     },
     {
@@ -342,7 +342,7 @@
             "$CanReach|Sonic|Casino,$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission13"
+            "MissionModeChecks,SonicPlayable,AllowMission13"
         ]
     },
     {
@@ -368,7 +368,7 @@
             "$CanReach|Big|StationSquareMain,$CanReach|Big|Hotel,PlayableBig"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission14"
+            "MissionModeChecks,BigPlayable,AllowMission14"
         ]
     },
     {
@@ -394,7 +394,7 @@
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission15"
+            "MissionModeChecks,SonicPlayable,AllowMission15"
         ]
     },
     {
@@ -420,7 +420,7 @@
             "$CanReach|Tails|MysticRuinsMain,$CanAccess|Tails|WindyValley,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission16"
+            "MissionModeChecks,TailsPlayable,AllowMission16"
         ]
     },
     {
@@ -446,7 +446,7 @@
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission17"
+            "MissionModeChecks,SonicPlayable,AllowMission17"
         ]
     },
     {
@@ -472,7 +472,7 @@
             "$CanReach|Amy|Station,$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
         "visibility_rules": [
-            "MissionsRequired,AmyPlayable,AllowMission18"
+            "MissionModeChecks,AmyPlayable,AllowMission18"
         ]
     },
     {
@@ -498,7 +498,7 @@
             "$CanReach|Amy|StationSquareMain,$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
         "visibility_rules": [
-            "MissionsRequired,AmyPlayable,AllowMission19"
+            "MissionModeChecks,AmyPlayable,AllowMission19"
         ]
     },
     {
@@ -533,7 +533,7 @@
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDXPlus,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission20"
+            "MissionModeChecks,SonicPlayable,AllowMission20"
         ]
     },
     {
@@ -559,7 +559,7 @@
             "$CanReach|Gamma|Jungle,$CanAccess|Gamma|FinalEgg,PlayableGamma"
         ],
         "visibility_rules": [
-            "MissionsRequired,GammaPlayable,AllowMission21"
+            "MissionModeChecks,GammaPlayable,AllowMission21"
         ]
     },
     {
@@ -585,7 +585,7 @@
             "$CanReach|Big|Hotel,$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission22"
+            "MissionModeChecks,BigPlayable,AllowMission22"
         ]
     },
     {
@@ -611,7 +611,7 @@
             "$CanReach|Sonic|TwinkleParkLobby,$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission23"
+            "MissionModeChecks,SonicPlayable,AllowMission23"
         ]
     },
     {
@@ -637,7 +637,7 @@
             "$CanReach|Tails|Casino,$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission24"
+            "MissionModeChecks,TailsPlayable,AllowMission24"
         ]
     },
     {
@@ -663,7 +663,7 @@
             "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission25"
+            "MissionModeChecks,KnucklesPlayable,AllowMission25"
         ]
     },
     {
@@ -689,7 +689,7 @@
             "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission26"
+            "MissionModeChecks,KnucklesPlayable,AllowMission26"
         ]
     },
     {
@@ -715,7 +715,7 @@
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission27"
+            "MissionModeChecks,SonicPlayable,AllowMission27"
         ]
     },
     {
@@ -741,7 +741,7 @@
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission28"
+            "MissionModeChecks,SonicPlayable,AllowMission28"
         ]
     },
     {
@@ -771,7 +771,7 @@
             "$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission29"
+            "MissionModeChecks,BigPlayable,AllowMission29"
         ]
     },
     {
@@ -797,7 +797,7 @@
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission30"
+            "MissionModeChecks,SonicPlayable,AllowMission30"
         ]
     },
     {
@@ -823,7 +823,7 @@
             "$CanReach|Tails|Station,$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission31"
+            "MissionModeChecks,TailsPlayable,AllowMission31"
         ]
     },
     {
@@ -849,7 +849,7 @@
             "$CanReach|Knuckles|AngelIsland,PlayableKnuckles"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission32"
+            "MissionModeChecks,KnucklesPlayable,AllowMission32"
         ]
     },
     {
@@ -875,7 +875,7 @@
             "$CanReach|Sonic|EggCarrierOutside,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission33"
+            "MissionModeChecks,SonicPlayable,AllowMission33"
         ]
     },
     {
@@ -905,7 +905,7 @@
             "$CanReach|Sonic|EggCarrierOutside,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission34"
+            "MissionModeChecks,SonicPlayable,AllowMission34"
         ]
     },
     {
@@ -940,7 +940,7 @@
             "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission35"
+            "MissionModeChecks,BigPlayable,AllowMission35"
         ]
     },
     {
@@ -966,7 +966,7 @@
             "$CanReach|Sonic|EggCarrierInside,$CanAccess|Sonic|SkyDeck,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission36"
+            "MissionModeChecks,SonicPlayable,AllowMission36"
         ]
     },
     {
@@ -996,7 +996,7 @@
             "$CanReach|Tails|Jungle,PlayableTails,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission37"
+            "MissionModeChecks,TailsPlayable,AllowMission37"
         ]
     },
     {
@@ -1026,7 +1026,7 @@
             "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission38"
+            "MissionModeChecks,KnucklesPlayable,AllowMission38"
         ]
     },
     {
@@ -1056,7 +1056,7 @@
             "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,GammaPlayable,AllowMission39"
+            "MissionModeChecks,GammaPlayable,AllowMission39"
         ]
     },
     {
@@ -1086,7 +1086,7 @@
             "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission40"
+            "MissionModeChecks,SonicPlayable,AllowMission40"
         ]
     },
     {
@@ -1116,7 +1116,7 @@
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission41"
+            "MissionModeChecks,SonicPlayable,AllowMission41"
         ]
     },
     {
@@ -1142,7 +1142,7 @@
             "$CanReach|Gamma|EggCarrierInside,$CanAccess|Gamma|HotShelter,PlayableGamma"
         ],
         "visibility_rules": [
-            "MissionsRequired,GammaPlayable,AllowMission42"
+            "MissionModeChecks,GammaPlayable,AllowMission42"
         ]
     },
     {
@@ -1168,7 +1168,7 @@
             "$CanReach|Amy|EggCarrierInside,$CanAccess|Amy|HotShelter,PlayableAmy"
         ],
         "visibility_rules": [
-            "MissionsRequired,AmyPlayable,AllowMission43"
+            "MissionModeChecks,AmyPlayable,AllowMission43"
         ]
     },
     {
@@ -1194,7 +1194,7 @@
             "$CanReach|Big|EggCarrierOutside,PlayableBig"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission44"
+            "MissionModeChecks,BigPlayable,AllowMission44"
         ]
     },
     {
@@ -1220,7 +1220,7 @@
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission45"
+            "MissionModeChecks,SonicPlayable,AllowMission45"
         ]
     },
     {
@@ -1246,7 +1246,7 @@
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission46"
+            "MissionModeChecks,SonicPlayable,AllowMission46"
         ]
     },
     {
@@ -1272,7 +1272,7 @@
             "$CanReach|Tails|MysticRuinsMain,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission47"
+            "MissionModeChecks,TailsPlayable,AllowMission47"
         ]
     },
     {
@@ -1298,7 +1298,7 @@
             "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission48"
+            "MissionModeChecks,KnucklesPlayable,AllowMission48"
         ]
     },
     {
@@ -1324,7 +1324,7 @@
             "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission49"
+            "MissionModeChecks,SonicPlayable,AllowMission49"
         ]
     },
     {
@@ -1350,7 +1350,7 @@
             "$CanReach|Amy|Jungle,$CanAccess|Amy|FinalEgg,PlayableAmy"
         ],
         "visibility_rules": [
-            "MissionsRequired,AmyPlayable,AllowMission50"
+            "MissionModeChecks,AmyPlayable,AllowMission50"
         ]
     },
     {
@@ -1380,7 +1380,7 @@
             "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,GammaPlayable,AllowMission51"
+            "MissionModeChecks,GammaPlayable,AllowMission51"
         ]
     },
     {
@@ -1406,7 +1406,7 @@
             "$CanReach|Big|Jungle,PlayableBig"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission52"
+            "MissionModeChecks,BigPlayable,AllowMission52"
         ]
     },
     {
@@ -1432,7 +1432,7 @@
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission53"
+            "MissionModeChecks,SonicPlayable,AllowMission53"
         ]
     },
     {
@@ -1458,7 +1458,7 @@
             "$CanReach|Tails|AngelIsland,$CanAccess|Tails|IceCap,PlayableTails"
         ],
         "visibility_rules": [
-            "MissionsRequired,TailsPlayable,AllowMission54"
+            "MissionModeChecks,TailsPlayable,AllowMission54"
         ]
     },
     {
@@ -1484,7 +1484,7 @@
             "$CanReach|Sonic|TwinkleParkLobby,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission55"
+            "MissionModeChecks,SonicPlayable,AllowMission55"
         ]
     },
     {
@@ -1514,7 +1514,7 @@
             "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission56"
+            "MissionModeChecks,KnucklesPlayable,AllowMission56"
         ]
     },
     {
@@ -1540,7 +1540,7 @@
             "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission57"
+            "MissionModeChecks,SonicPlayable,AllowMission57"
         ]
     },
     {
@@ -1570,7 +1570,7 @@
             "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
-            "MissionsRequired,SonicPlayable,AllowMission58"
+            "MissionModeChecks,SonicPlayable,AllowMission58"
         ]
     },
     {
@@ -1596,7 +1596,7 @@
             "$CanReach|Knuckles|EggCarrierOutside,$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
         ],
         "visibility_rules": [
-            "MissionsRequired,KnucklesPlayable,AllowMission59"
+            "MissionModeChecks,KnucklesPlayable,AllowMission59"
         ]
     },
     {
@@ -1622,7 +1622,7 @@
             "$CanReach|Big|MysticRuinsMain,$CanAccess|Big|IceCap,PlayableBig"
         ],
         "visibility_rules": [
-            "MissionsRequired,BigPlayable,AllowMission60"
+            "MissionModeChecks,BigPlayable,AllowMission60"
         ]
     }
 ]

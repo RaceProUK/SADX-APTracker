@@ -40,7 +40,10 @@
                             "LogicLevel",
                             "",
                             "FieldEmblemChecks",
+                            "MissionModeChecks",
                             "SecretChaoEggs",
+                            "ChaoRacesChecks",
+                            "",
                             "UnifyEggHornet",
                             "UnifyChaos4",
                             "UnifyChaos6"
@@ -93,9 +96,8 @@
                             "KnucklesMissions",
                             "AmyMissions",
                             "GammaMissions",
-                            "BigMissions"
-                        ],
-                        [
+                            "BigMissions",
+                            "",
                             "SkyChaseChecks",
                             "SandHillChecks",
                             "TwinkleCircuitChecks"

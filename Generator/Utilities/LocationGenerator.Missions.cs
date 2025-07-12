@@ -41,7 +41,7 @@ internal static partial class LocationGenerator
                                            [new MapLocation("missions", x, y, MissionsIconSize, BorderThickness)],
                                            [new Section(Constants.MissionBriefs[number])],
                                            AccessRules: GetAccessRules(number, character),
-                                           VisibilityRules: [$"MissionsRequired,{character}Playable,AllowMission{number}"]);
+                                           VisibilityRules: [$"MissionModeChecks,{character}Playable,AllowMission{number}"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(missions, Constants.JsonOptions),
                                    "missions.json",
                                    "locations");

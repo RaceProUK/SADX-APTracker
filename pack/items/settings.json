@@ -103,10 +103,22 @@
         "codes": "FieldEmblemChecks"
     },
     {
+        "img": "images/settings/logic/MissionModeChecks.png",
+        "name": "Include Mission Mode Checks",
+        "type": "toggle",
+        "codes": "MissionModeChecks"
+    },
+    {
         "img": "images/settings/logic/SecretChaoEggs.png",
-        "name": "Secret Chao Eggs",
+        "name": "Include Secret Chao Eggs",
         "type": "toggle",
         "codes": "SecretChaoEggs"
+    },
+    {
+        "img": "images/settings/logic/ChaoRacesChecks.png",
+        "name": "Include Chao Races",
+        "type": "toggle",
+        "codes": "ChaoRacesChecks"
     },
     {
         "img": "images/settings/logic/UnifyEggHornet.png",

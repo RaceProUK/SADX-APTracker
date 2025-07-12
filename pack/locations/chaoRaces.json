@@ -43,7 +43,7 @@
             "$CanReach|Gamma|Hotel,PlayableGamma"
         ],
         "visibility_rules": [
-            "ChaoRacesRequired"
+            "ChaoRacesChecks"
         ]
     }
 ]
