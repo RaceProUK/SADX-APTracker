@@ -1,0 +1,5 @@
+theme: jekyll-theme-hacker
+title: Sonic Adventure DX Archipelago Auto-Tracker
+description: A PopTracker pack for Sonic Adventure DX with Archipelago integration
+github:
+  is_project_page: false
