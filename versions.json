@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.6",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.6/sadx_rando_raceprouk.zip",
+            "sha256": "014ad3eedad9295cc641858a7cdc5a71338d4fd6ebae98ba15d3321a7e2fddea",
+            "changelog": [
+                "Added support for Auto-start Missions"
+            ]
+        },
+        {
             "package_version": "1.112.5",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.5/sadx_rando_raceprouk.zip",
             "sha256": "fdb793d0d36d0125282f84760e27d9409df2fc5eba9504b1945c6d88d4115c70",
