@@ -63,6 +63,10 @@ function ParseSettings(slotData)
         local setting = Tracker:FindObjectForCode(Settings.MissionModeChecks)
         setting.Active = slotData["MissionModeChecks"] ~= 0
     end
+    if slotData["AutoStartMissions"] then
+        local setting = Tracker:FindObjectForCode(Settings.AutoStartMissions)
+        setting.Active = slotData["AutoStartMissions"] ~= 0
+    end
     if slotData["SecretChaoEggs"] then
         local setting = Tracker:FindObjectForCode(Settings.SecretChaoEggs)
         setting.Active = slotData["SecretChaoEggs"] ~= 0

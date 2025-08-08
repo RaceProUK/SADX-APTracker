@@ -9,6 +9,7 @@ Settings = {
     LogicLevel = "LogicLevel",
     FieldEmblemChecks = "FieldEmblemChecks",
     MissionModeChecks = "MissionModeChecks",
+    AutoStartMissions = "AutoStartMissions",
     SecretChaoEggs = "SecretChaoEggs",
     ChaoRacesChecks = "ChaoRacesChecks",
     UnifyEggHornet = "UnifyEggHornet",

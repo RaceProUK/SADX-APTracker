@@ -13,7 +13,12 @@ function NotHasItem(itemName)
     return item and not item.Active
 end
 
-function CanReach(character, target)
+function CanReach(character, target, isMissionCardCheck)
+    local setting = Tracker:FindObjectForCode("AutoStartMissions")
+    if setting and setting.Active and isMissionCardCheck then
+        return true
+    end
+
     local logicSetting = Tracker:FindObjectForCode("LogicLevel")
     local startSetting = Tracker:FindObjectForCode(character .. "Start")
     if logicSetting == nil or startSetting == nil then

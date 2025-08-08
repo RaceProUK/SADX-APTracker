@@ -30,6 +30,7 @@ internal static partial class ItemGenerator
 
             new ToggleItem("Include Field Emblem Checks", "FieldEmblemChecks", MakeImgPath("logic", "FieldEmblemChecks")),
             new ToggleItem("Include Mission Mode Checks", "MissionModeChecks", MakeImgPath("logic", "MissionModeChecks")),
+            new ToggleItem("Auto-start Missions", "AutoStartMissions", MakeImgPath("logic", "AutoStartMissions")),
             new ToggleItem("Include Secret Chao Eggs", "SecretChaoEggs", MakeImgPath("logic", "SecretChaoEggs")),
             new ToggleItem("Include Chao Races", "ChaoRacesChecks", MakeImgPath("logic", "ChaoRacesChecks")),
 

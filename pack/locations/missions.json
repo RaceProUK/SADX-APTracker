@@ -179,7 +179,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Gamma|MysticRuinsMain,$CanReach|Gamma|Jungle,PlayableGamma"
+            "$CanReach|Gamma|MysticRuinsMain|1,$CanReach|Gamma|Jungle,PlayableGamma"
         ],
         "visibility_rules": [
             "MissionModeChecks,GammaPlayable,AllowMission7"
@@ -231,7 +231,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
+            "$CanReach|Sonic|StationSquareMain|1,$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission9"
@@ -283,7 +283,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|WindyValley,PlayableSonic"
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission11"
@@ -339,7 +339,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|Casino,$CanAccess|Sonic|Casinopolis,PlayableSonic"
+            "$CanReach|Sonic|Casino|1,$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission13"
@@ -365,7 +365,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Big|StationSquareMain,$CanReach|Big|Hotel,PlayableBig"
+            "$CanReach|Big|StationSquareMain|1,$CanReach|Big|Hotel,PlayableBig"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission14"
@@ -391,7 +391,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|WindyValley,PlayableSonic"
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|WindyValley,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission15"
@@ -417,7 +417,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Tails|MysticRuinsMain,$CanAccess|Tails|WindyValley,PlayableTails"
+            "$CanReach|Tails|MysticRuinsMain|1,$CanAccess|Tails|WindyValley,PlayableTails"
         ],
         "visibility_rules": [
             "MissionModeChecks,TailsPlayable,AllowMission16"
@@ -443,7 +443,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|Casinopolis,PlayableSonic"
+            "$CanReach|Sonic|StationSquareMain|1,$CanAccess|Sonic|Casinopolis,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission17"
@@ -469,7 +469,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Amy|Station,$CanAccess|Amy|TwinklePark,PlayableAmy"
+            "$CanReach|Amy|Station|1,$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
         "visibility_rules": [
             "MissionModeChecks,AmyPlayable,AllowMission18"
@@ -495,7 +495,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Amy|StationSquareMain,$CanAccess|Amy|TwinklePark,PlayableAmy"
+            "$CanReach|Amy|StationSquareMain|1,$CanAccess|Amy|TwinklePark,PlayableAmy"
         ],
         "visibility_rules": [
             "MissionModeChecks,AmyPlayable,AllowMission19"
@@ -521,16 +521,16 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,NormalLogic,IceStone,StationBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,HardLogic,IceStone,StationBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,HardLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDC,IceStone,StationBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDC,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDX,IceStone,StationBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDX,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDXPlus,IceStone,StationBackKey,Train,Dynamite",
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDXPlus,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite"
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,NormalLogic,IceStone,StationBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,NormalLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,HardLogic,IceStone,StationBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,HardLogic,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDC,IceStone,StationBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDC,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDX,IceStone,StationBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDX,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDXPlus,IceStone,StationBackKey,Train,Dynamite",
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic,ExpertLogicDXPlus,IceStone,StationFrontKey,HotelFrontKey,HotelBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission20"
@@ -556,7 +556,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Gamma|Jungle,$CanAccess|Gamma|FinalEgg,PlayableGamma"
+            "$CanReach|Gamma|Jungle|1,$CanAccess|Gamma|FinalEgg,PlayableGamma"
         ],
         "visibility_rules": [
             "MissionModeChecks,GammaPlayable,AllowMission21"
@@ -582,7 +582,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Big|Hotel,$CanAccess|Big|EmeraldCoast,PlayableBig"
+            "$CanReach|Big|Hotel|1,$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission22"
@@ -608,7 +608,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|TwinkleParkLobby,$CanAccess|Sonic|TwinklePark,PlayableSonic"
+            "$CanReach|Sonic|TwinkleParkLobby|1,$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission23"
@@ -634,7 +634,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Tails|Casino,$CanAccess|Tails|Casinopolis,PlayableTails"
+            "$CanReach|Tails|Casino|1,$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
         "visibility_rules": [
             "MissionModeChecks,TailsPlayable,AllowMission24"
@@ -660,7 +660,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
+            "$CanReach|Knuckles|StationSquareMain|1,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
             "MissionModeChecks,KnucklesPlayable,AllowMission25"
@@ -686,7 +686,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
+            "$CanReach|Knuckles|StationSquareMain|1,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
             "MissionModeChecks,KnucklesPlayable,AllowMission26"
@@ -712,7 +712,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
+            "$CanReach|Sonic|StationSquareMain|1,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission27"
@@ -738,7 +738,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
+            "$CanReach|Sonic|StationSquareMain|1,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission28"
@@ -794,7 +794,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|RedMountain,PlayableSonic"
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission30"
@@ -820,7 +820,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Tails|Station,$CanAccess|Tails|Casinopolis,PlayableTails"
+            "$CanReach|Tails|Station|1,$CanAccess|Tails|Casinopolis,PlayableTails"
         ],
         "visibility_rules": [
             "MissionModeChecks,TailsPlayable,AllowMission31"
@@ -928,16 +928,16 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,StationFrontKey,Train,Dynamite",
-            "$CanReach|Big|MysticRuinsMain,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,StationFrontKey,Train,Dynamite",
+            "$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission35"
@@ -963,7 +963,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|EggCarrierInside,$CanAccess|Sonic|SkyDeck,PlayableSonic"
+            "$CanReach|Sonic|EggCarrierInside|1,$CanAccess|Sonic|SkyDeck,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission36"
@@ -1019,11 +1019,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,NormalLogic,ShovelClaw",
-            "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,HardLogic,ShovelClaw",
-            "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDC,ShovelClaw",
-            "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDX",
-            "$CanReach|Knuckles|Jungle,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDXPlus"
+            "$CanReach|Knuckles|Jungle|1,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,NormalLogic,ShovelClaw",
+            "$CanReach|Knuckles|Jungle|1,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,HardLogic,ShovelClaw",
+            "$CanReach|Knuckles|Jungle|1,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDC,ShovelClaw",
+            "$CanReach|Knuckles|Jungle|1,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDX",
+            "$CanReach|Knuckles|Jungle|1,$CanAccess|Knuckles|LostWorld,PlayableKnuckles,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,KnucklesPlayable,AllowMission38"
@@ -1049,11 +1049,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,NormalLogic,JetBooster",
-            "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,HardLogic,JetBooster",
-            "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDC,JetBooster",
-            "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDX,JetBooster",
-            "$CanReach|Gamma|Hotel,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDXPlus"
+            "$CanReach|Gamma|Hotel|1,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,NormalLogic,JetBooster",
+            "$CanReach|Gamma|Hotel|1,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,HardLogic,JetBooster",
+            "$CanReach|Gamma|Hotel|1,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDC,JetBooster",
+            "$CanReach|Gamma|Hotel|1,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDX,JetBooster",
+            "$CanReach|Gamma|Hotel|1,$CanAccess|Gamma|EmeraldCoast,PlayableGamma,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,GammaPlayable,AllowMission39"
@@ -1079,11 +1079,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic,LightShoes",
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC,LightShoes",
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX,LightShoes",
-            "$CanReach|Sonic|MysticRuinsMain,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic,LightShoes",
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC,LightShoes",
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX,LightShoes",
+            "$CanReach|Sonic|MysticRuinsMain|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission40"
@@ -1109,11 +1109,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission41"
@@ -1139,7 +1139,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Gamma|EggCarrierInside,$CanAccess|Gamma|HotShelter,PlayableGamma"
+            "$CanReach|Gamma|EggCarrierInside|1,$CanAccess|Gamma|HotShelter,PlayableGamma"
         ],
         "visibility_rules": [
             "MissionModeChecks,GammaPlayable,AllowMission42"
@@ -1165,7 +1165,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Amy|EggCarrierInside,$CanAccess|Amy|HotShelter,PlayableAmy"
+            "$CanReach|Amy|EggCarrierInside|1,$CanAccess|Amy|HotShelter,PlayableAmy"
         ],
         "visibility_rules": [
             "MissionModeChecks,AmyPlayable,AllowMission43"
@@ -1217,7 +1217,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|FinalEgg,PlayableSonic"
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission45"
@@ -1243,7 +1243,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|FinalEgg,PlayableSonic"
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|FinalEgg,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission46"
@@ -1295,7 +1295,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Knuckles|StationSquareMain,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
+            "$CanReach|Knuckles|StationSquareMain|1,$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
         ],
         "visibility_rules": [
             "MissionModeChecks,KnucklesPlayable,AllowMission48"
@@ -1321,7 +1321,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareMain,$CanAccess|Sonic|TwinklePark,PlayableSonic"
+            "$CanReach|Sonic|StationSquareMain|1,$CanAccess|Sonic|TwinklePark,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission49"
@@ -1347,7 +1347,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Amy|Jungle,$CanAccess|Amy|FinalEgg,PlayableAmy"
+            "$CanReach|Amy|Jungle|1,$CanAccess|Amy|FinalEgg,PlayableAmy"
         ],
         "visibility_rules": [
             "MissionModeChecks,AmyPlayable,AllowMission50"
@@ -1373,11 +1373,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,NormalLogic,JetBooster",
-            "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,HardLogic,JetBooster",
-            "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDC,JetBooster",
-            "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDX,JetBooster",
-            "$CanReach|Gamma|Jungle,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDXPlus"
+            "$CanReach|Gamma|Jungle|1,$CanAccess|Gamma|WindyValley,PlayableGamma,NormalLogic,JetBooster",
+            "$CanReach|Gamma|Jungle|1,$CanAccess|Gamma|WindyValley,PlayableGamma,HardLogic,JetBooster",
+            "$CanReach|Gamma|Jungle|1,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDC,JetBooster",
+            "$CanReach|Gamma|Jungle|1,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDX,JetBooster",
+            "$CanReach|Gamma|Jungle|1,$CanAccess|Gamma|WindyValley,PlayableGamma,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,GammaPlayable,AllowMission51"
@@ -1429,7 +1429,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|IceCap,PlayableSonic"
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|IceCap,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission53"
@@ -1455,7 +1455,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Tails|AngelIsland,$CanAccess|Tails|IceCap,PlayableTails"
+            "$CanReach|Tails|AngelIsland|1,$CanAccess|Tails|IceCap,PlayableTails"
         ],
         "visibility_rules": [
             "MissionModeChecks,TailsPlayable,AllowMission54"
@@ -1481,7 +1481,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|TwinkleParkLobby,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
+            "$CanReach|Sonic|TwinkleParkLobby|1,$CanAccess|Sonic|SpeedHighway,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission55"
@@ -1507,11 +1507,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,NormalLogic,ShovelClaw",
-            "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,HardLogic,ShovelClaw",
-            "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDC,ShovelClaw",
-            "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDX,ShovelClaw",
-            "$CanReach|Knuckles|MysticRuinsMain,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDXPlus"
+            "$CanReach|Knuckles|MysticRuinsMain|1,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,NormalLogic,ShovelClaw",
+            "$CanReach|Knuckles|MysticRuinsMain|1,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,HardLogic,ShovelClaw",
+            "$CanReach|Knuckles|MysticRuinsMain|1,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDC,ShovelClaw",
+            "$CanReach|Knuckles|MysticRuinsMain|1,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDX,ShovelClaw",
+            "$CanReach|Knuckles|MysticRuinsMain|1,$CanAccess|Knuckles|RedMountain,PlayableKnuckles,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,KnucklesPlayable,AllowMission56"
@@ -1537,7 +1537,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|AngelIsland,$CanAccess|Sonic|RedMountain,PlayableSonic"
+            "$CanReach|Sonic|AngelIsland|1,$CanAccess|Sonic|RedMountain,PlayableSonic"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission57"
@@ -1563,11 +1563,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX",
-            "$CanReach|Sonic|Jungle,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,NormalLogic,LightShoes",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,HardLogic",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDC",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDX",
+            "$CanReach|Sonic|Jungle|1,$CanAccess|Sonic|LostWorld,PlayableSonic,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,SonicPlayable,AllowMission58"
@@ -1593,7 +1593,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Knuckles|EggCarrierOutside,$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
+            "$CanReach|Knuckles|EggCarrierOutside|1,$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
         ],
         "visibility_rules": [
             "MissionModeChecks,KnucklesPlayable,AllowMission59"
@@ -1619,7 +1619,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Big|MysticRuinsMain,$CanAccess|Big|IceCap,PlayableBig"
+            "$CanReach|Big|MysticRuinsMain|1,$CanAccess|Big|IceCap,PlayableBig"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission60"

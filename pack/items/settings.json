@@ -109,6 +109,12 @@
         "codes": "MissionModeChecks"
     },
     {
+        "img": "images/settings/logic/AutoStartMissions.png",
+        "name": "Auto-start Missions",
+        "type": "toggle",
+        "codes": "AutoStartMissions"
+    },
+    {
         "img": "images/settings/logic/SecretChaoEggs.png",
         "name": "Include Secret Chao Eggs",
         "type": "toggle",
