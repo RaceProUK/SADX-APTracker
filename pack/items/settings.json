@@ -328,7 +328,7 @@
                 "inherit_codes": false
             }
         ],
-        "name": "Tails Starting Location",
+        "name": "Tails' Starting Location",
         "type": "progressive",
         "codes": "TailsStart"
     },
