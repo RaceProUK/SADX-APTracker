@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.112.7",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.7/sadx_rando_raceprouk.zip",
+            "sha256": "883a94396adf1ed1d881e11fb4a3ffd3201a8defbd98882afe7056ab7b21b47d",
+            "changelog": [
+                "Added support for Lazy Fishing",
+                "Fixed ordering of Level Missions - 'S' now appears above 'A' instead of below 'C'",
+                "Added the missing apostrophe in \"Tails' Starting Location\""
+            ]
+        },
+        {
             "package_version": "1.112.6",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.6/sadx_rando_raceprouk.zip",
             "sha256": "014ad3eedad9295cc641858a7cdc5a71338d4fd6ebae98ba15d3321a7e2fddea",
