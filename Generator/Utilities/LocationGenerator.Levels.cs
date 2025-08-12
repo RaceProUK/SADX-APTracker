@@ -67,6 +67,7 @@ internal static partial class LocationGenerator
                    select new Location(level.Location.Key,
                                        [new MapLocation("levels", x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
+                                       orderby section[^1] ^ 0b0001_0000
                                        select new Section(section,
                                                           AccessRules: GetMissionAccessRules(level.Location.Key, character, section),
                                                           VisibilityRules: GetMissionVisibility(character, section)),
