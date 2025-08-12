@@ -83,7 +83,7 @@ internal static partial class LocationGenerator
                 return location.StartsWith(level) && character.Equals(entry.Character) && mission.EndsWith(entry.Mission);
             }).BuildAccessRules();
             if (rules is not null && "Big".Equals(character) && !"C".Equals(mission))
-                rules = rules.Select(_ => $"^$IsLazyFishingLevel|3,{_}");
+                rules = rules.Select(_ => $"^$LazyFishingCheck|3,{_}");
             return rules;
         }
     }

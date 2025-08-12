@@ -60,7 +60,7 @@ internal static partial class LocationGenerator
                 ? $"$CanReach|{character}|{spec.ObjectiveArea},Playable{character}"
                 : $"$CanReach|{character}|{spec.CardArea}|1,${func}|{character}|{spec.ObjectiveArea},Playable{character}";
             if ("Big".Equals(character) && IsFishingMission(number))
-                access = $"^$IsLazyFishingLevel|3,{access}";
+                access = $"^$LazyFishingCheck|3,{access}";
             return spec.BuildAccessRules()?.Select(_ => $"{access},{_}") ?? [access];
         }
     }

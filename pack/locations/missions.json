@@ -365,7 +365,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "^$IsLazyFishingLevel|3,$CanReach|Big|StationSquareMain|1,$CanReach|Big|Hotel,PlayableBig"
+            "^$LazyFishingCheck|3,$CanReach|Big|StationSquareMain|1,$CanReach|Big|Hotel,PlayableBig"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission14"
@@ -764,11 +764,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "^$IsLazyFishingLevel|3,$CanReach|Big|StationSquareMain,PlayableBig,NormalLogic,LifeBelt",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|StationSquareMain,PlayableBig,HardLogic",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDC",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDX",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDXPlus"
+            "^$LazyFishingCheck|3,$CanReach|Big|StationSquareMain,PlayableBig,NormalLogic,LifeBelt",
+            "^$LazyFishingCheck|3,$CanReach|Big|StationSquareMain,PlayableBig,HardLogic",
+            "^$LazyFishingCheck|3,$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDC",
+            "^$LazyFishingCheck|3,$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDX",
+            "^$LazyFishingCheck|3,$CanReach|Big|StationSquareMain,PlayableBig,ExpertLogicDXPlus"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission29"
@@ -928,16 +928,16 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,StationFrontKey,Train,Dynamite",
-            "^$IsLazyFishingLevel|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,NormalLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,StationFrontKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,HardLogic,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,StationFrontKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDC,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,StationFrontKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDX,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,StationFrontKey,Train,Dynamite",
+            "^$LazyFishingCheck|3,$CanReach|Big|MysticRuinsMain|1,$CanReach|Big|AngelIsland,PlayableBig,ExpertLogicDXPlus,IceStone,HotelFrontKey,HotelBackKey,StationBackKey,Train,Dynamite"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission35"
@@ -1191,7 +1191,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "^$IsLazyFishingLevel|3,$CanReach|Big|EggCarrierOutside,PlayableBig"
+            "^$LazyFishingCheck|3,$CanReach|Big|EggCarrierOutside,PlayableBig"
         ],
         "visibility_rules": [
             "MissionModeChecks,BigPlayable,AllowMission44"

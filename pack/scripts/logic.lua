@@ -13,7 +13,7 @@ function NotHasItem(itemName)
     return item and not item.Active
 end
 
-function IsLazyFishingLevel(level)
+function LazyFishingCheck(level)
     level = math.tointeger(level)
 
     local setting = Tracker:FindObjectForCode("LazyFishing")
