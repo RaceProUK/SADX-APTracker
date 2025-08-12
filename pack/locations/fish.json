@@ -34,7 +34,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Big|TwinklePark,PlayableBig"
+            "^$IsLazyFishingLevel|2,$CanAccess|Big|TwinklePark,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -80,7 +80,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Big|IceCap,PlayableBig"
+            "^$IsLazyFishingLevel|2,$CanAccess|Big|IceCap,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -141,7 +141,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Big|EmeraldCoast,PlayableBig"
+            "^$IsLazyFishingLevel|2,$CanAccess|Big|EmeraldCoast,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
@@ -215,7 +215,7 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Big|HotShelter,PlayableBig"
+            "^$IsLazyFishingLevel|2,$CanAccess|Big|HotShelter,PlayableBig"
         ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"

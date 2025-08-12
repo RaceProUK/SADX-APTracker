@@ -75,10 +75,15 @@ internal static partial class LocationGenerator
         }
 
         IEnumerable<string>? GetMissionAccessRules(string location, string character, string mission)
-            => missionLogic.First(entry =>
+        {
+            var rules = missionLogic.First(entry =>
             {
                 var level = entry.Level.Humanize(LetterCasing.Title);
                 return location.StartsWith(level) && character.Equals(entry.Character) && mission.EndsWith(entry.Mission);
             }).BuildAccessRules();
+            if (rules is not null && "Big".Equals(character) && !"C".Equals(mission))
+                rules = rules.Select(_ => $"^$IsLazyFishingLevel|3,{_}");
+            return rules;
+        }
     }
 }

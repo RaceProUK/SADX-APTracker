@@ -55,6 +55,10 @@ function ParseSettings(slotData)
         local setting = Tracker:FindObjectForCode(Settings.LogicLevel)
         setting.CurrentStage = math.tointeger(slotData["LogicLevel"]) or 0
     end
+    if slotData["LazyFishing"] then
+        local setting = Tracker:FindObjectForCode(Settings.LazyFishing)
+        setting.CurrentStage = math.tointeger(slotData["LazyFishing"]) or 0
+    end
     if slotData["FieldEmblemChecks"] then
         local setting = Tracker:FindObjectForCode(Settings.FieldEmblemChecks)
         setting.Active = slotData["FieldEmblemChecks"] ~= 0

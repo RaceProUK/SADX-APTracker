@@ -7,6 +7,7 @@ Settings = {
     ChaoRacesRequired = "ChaoRacesRequired",
     ChaoRacesAccessLevels = "ChaoRacesAccessLevels",
     LogicLevel = "LogicLevel",
+    LazyFishing = "LazyFishing",
     FieldEmblemChecks = "FieldEmblemChecks",
     MissionModeChecks = "MissionModeChecks",
     AutoStartMissions = "AutoStartMissions",

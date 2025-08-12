@@ -1,6 +1,7 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
 using RPS.SADX.PopTracker.Generator.Models;
+using RPS.SADX.PopTracker.Generator.Models.Logic;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
@@ -29,6 +30,11 @@ internal static partial class LocationGenerator
             8 or 14 or 22 or 29 or 35 or 44 or 52 or 60 => "Big",
             _ => "Sonic"
         };
+        static bool IsFishingMission(int number) => number switch
+        {
+            14 or 29 or 35 or 44 => true,
+            _ => false
+        };
 
         var logic = await LogicLoader.LoadForMission().ToListAsync();
         var missions = from entry in dict
@@ -54,6 +60,12 @@ internal static partial class LocationGenerator
                 ? $"$CanReach|{character}|{spec.ObjectiveArea},Playable{character}"
                 : $"$CanReach|{character}|{spec.CardArea}|1,${func}|{character}|{spec.ObjectiveArea},Playable{character}";
             var rules = spec.BuildAccessRules()?.Select(_ => $"{access},{_}");
+            if ("Big".Equals(character) && IsFishingMission(number))
+            {
+                access = $"^$IsLazyFishingLevel|3,{access}";
+                if (rules is not null)
+                    rules = rules.Select(_ => $"^$IsLazyFishingLevel|3,{_}");
+            }
             return rules ?? [access];
         }
     }

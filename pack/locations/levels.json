@@ -1667,11 +1667,11 @@
                 "name": "Mission A",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1681,11 +1681,11 @@
                 "name": "Mission B",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX",
-                    "ExpertLogicDXPlus"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1702,11 +1702,11 @@
                 "name": "Mission S",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionS"
@@ -1738,11 +1738,11 @@
                 "name": "Mission A",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1752,11 +1752,11 @@
                 "name": "Mission B",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX",
-                    "ExpertLogicDXPlus"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1773,11 +1773,11 @@
                 "name": "Mission S",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionS"
@@ -1809,11 +1809,11 @@
                 "name": "Mission A",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1823,11 +1823,11 @@
                 "name": "Mission B",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX",
-                    "ExpertLogicDXPlus"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1844,11 +1844,11 @@
                 "name": "Mission S",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
                 ],
                 "visibility_rules": [
                     "BigMissionS"
@@ -1880,11 +1880,11 @@
                 "name": "Mission A",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX",
-                    "ExpertLogicDXPlus"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionA"
@@ -1894,11 +1894,11 @@
                 "name": "Mission B",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX",
-                    "ExpertLogicDXPlus"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionB"
@@ -1915,11 +1915,11 @@
                 "name": "Mission S",
                 "item_count": 1,
                 "access_rules": [
-                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
-                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
-                    "ExpertLogicDC",
-                    "ExpertLogicDX",
-                    "ExpertLogicDXPlus"
+                    "^$IsLazyFishingLevel|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDC",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDX",
+                    "^$IsLazyFishingLevel|3,ExpertLogicDXPlus"
                 ],
                 "visibility_rules": [
                     "BigMissionS"

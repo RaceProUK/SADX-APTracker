@@ -13,6 +13,21 @@ function NotHasItem(itemName)
     return item and not item.Active
 end
 
+function IsLazyFishingLevel(level)
+    level = math.tointeger(level)
+
+    local setting = Tracker:FindObjectForCode("LazyFishing")
+    if setting == nil or setting.CurrentStage < level then
+        return AccessibilityLevel.Normal
+    elseif setting.CurrentStage >= level then
+        if HasItem("PowerRod") then
+            return AccessibilityLevel.Normal
+        else
+            return AccessibilityLevel.SequenceBreak
+        end
+    end
+end
+
 function CanReach(character, target, isMissionCardCheck)
     local setting = Tracker:FindObjectForCode("AutoStartMissions")
     if setting and setting.Active and isMissionCardCheck then

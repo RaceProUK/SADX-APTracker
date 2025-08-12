@@ -48,7 +48,7 @@ internal static partial class LocationGenerator
                                        from section in level.Location
                                        select new Section(section,
                                                           AccessRules: GetAccessRules(level.Location.Key, section)),
-                                       AccessRules: [$"$CanAccess|Big|{access},PlayableBig"],
+                                       AccessRules: [$"^$IsLazyFishingLevel|2,$CanAccess|Big|{access},PlayableBig"],
                                        VisibilityRules: [$"BigPlayable,Fishsanity"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(fish, Constants.JsonOptions),
                                    "fish.json",

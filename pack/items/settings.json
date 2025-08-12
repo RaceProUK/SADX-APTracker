@@ -97,6 +97,40 @@
         "codes": "LogicLevel"
     },
     {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Lazy Fishing - Off",
+                "codes": "LazyFishingOff",
+                "img": "images/settings/logic/LazyFishingOff.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lazy Fishing - No Logic",
+                "codes": "LazyFishingNoLogic",
+                "img": "images/settings/logic/LazyFishingNoLogic.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lazy Fishing - Fishsanity",
+                "codes": "LazyFishingFishsanity",
+                "img": "images/settings/logic/LazyFishingFishsanity.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lazy Fishing - All",
+                "codes": "LazyFishingAll",
+                "img": "images/settings/logic/LazyFishingAll.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Lazy Fishing",
+        "type": "progressive",
+        "codes": "LazyFishing"
+    },
+    {
         "img": "images/settings/logic/FieldEmblemChecks.png",
         "name": "Include Field Emblem Checks",
         "type": "toggle",

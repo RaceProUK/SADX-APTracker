@@ -63,6 +63,13 @@ internal static partial class ItemGenerator
             new ProgressiveItemStage("Expert DX Logic", "ExpertLogicDX", MakeImgPath("logic", "ExpertLogicDX"), false),
             new ProgressiveItemStage("Expert DX+ Logic", "ExpertLogicDXPlus", MakeImgPath("logic", "ExpertLogicDXPlus"), false)
         ]);
+        yield return new ProgressiveItem("Lazy Fishing", "LazyFishing", true, false, 0,
+        [
+            new ProgressiveItemStage("Lazy Fishing - Off", "LazyFishingOff", MakeImgPath("logic", "LazyFishingOff"), false),
+            new ProgressiveItemStage("Lazy Fishing - No Logic", "LazyFishingNoLogic", MakeImgPath("logic", "LazyFishingNoLogic"), false),
+            new ProgressiveItemStage("Lazy Fishing - Fishsanity", "LazyFishingFishsanity", MakeImgPath("logic", "LazyFishingFishsanity"), false),
+            new ProgressiveItemStage("Lazy Fishing - All", "LazyFishingAll", MakeImgPath("logic", "LazyFishingAll"), false)
+        ]);
 
         yield return new ToggleItem("Include Field Emblem Checks", "FieldEmblemChecks", MakeImgPath("logic", "FieldEmblemChecks"));
         yield return new ToggleItem("Include Mission Mode Checks", "MissionModeChecks", MakeImgPath("logic", "MissionModeChecks"));
