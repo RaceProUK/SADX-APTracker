@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.8",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.8/sadx_rando_raceprouk.zip",
+            "sha256": "d2abc11d4894c14ccdec894293c94d6864c273541345122a9d0f139e6fac01b1",
+            "changelog": [
+                "Fixed the resetting of settings when resetting"
+            ]
+        },
+        {
             "package_version": "1.112.7",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.7/sadx_rando_raceprouk.zip",
             "sha256": "883a94396adf1ed1d881e11fb4a3ffd3201a8defbd98882afe7056ab7b21b47d",
