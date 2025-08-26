@@ -8,6 +8,8 @@ function Reset(slotData)
     Tracker.BulkUpdate = true
     CurrentIndex = -1
 
+    ResetSettings()
+
     --Accumulated Items
     Tracker:FindObjectForCode("Emblems").AcquiredCount = 0
     Tracker:FindObjectForCode("LevelsBeaten").AcquiredCount = 0
