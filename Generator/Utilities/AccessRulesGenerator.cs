@@ -58,7 +58,11 @@ internal static class AccessRulesGenerator
                     _ => []
                 });
                 if (steps.All(_ => !_.Any()))
-                    break; // If no item is needed for the shortest path, then there are no item sets
+                {
+                    // If no item is needed for a path, then discard all item sets and move on
+                    itemSets.Clear();
+                    break;
+                }
                 else
                 {
                     // Build an item set for each chain
