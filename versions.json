@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.9",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.9/sadx_rando_raceprouk.zip",
+            "sha256": "351e1d44c38fdd2d8236d361f0cd241b771fa96cfff193953f9abc6511048d2d",
+            "changelog": [
+                "Various reach rules fixed for all Expert logic levels"
+            ]
+        },
+        {
             "package_version": "1.112.8",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.8/sadx_rando_raceprouk.zip",
             "sha256": "d2abc11d4894c14ccdec894293c94d6864c273541345122a9d0f139e6fac01b1",
