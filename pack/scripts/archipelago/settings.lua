@@ -12,7 +12,7 @@ function ResetSettings()
             end
         end
     end
-    for i = 1,60,1 do
+    for i = 1, 60, 1 do
         local code = "AllowMission" .. i
         local setting = Tracker:FindObjectForCode(code)
         if setting then
@@ -164,16 +164,40 @@ function ParseSettings(slotData)
         setting.CurrentStage = math.tointeger(slotData["BigActionStageMissions"]) or 0
     end
     if slotData["SkyChaseChecks"] and slotData["SkyChaseChecksHard"] then
+        local enabled = slotData["SkyChaseChecks"] ~= 0
+        local addHard = slotData["SkyChaseChecksHard"] ~= 0
         local setting = Tracker:FindObjectForCode(Settings.SkyChaseChecks)
-        setting.CurrentStage = (math.tointeger(slotData["SkyChaseChecks"]) + math.tointeger(slotData["SkyChaseChecksHard"])) or 0
+        if enabled and addHard then
+            setting.CurrentStage = 2
+        elseif enabled then
+            setting.CurrentStage = 1
+        else
+            setting.CurrentStage = 0
+        end
     end
     if slotData["SandHillCheck"] and slotData["SandHillCheckHard"] then
+        local enabled = slotData["SandHillCheck"] ~= 0
+        local addHard = slotData["SandHillCheckHard"] ~= 0
         local setting = Tracker:FindObjectForCode(Settings.SandHillChecks)
-        setting.CurrentStage = (math.tointeger(slotData["SandHillCheck"]) + math.tointeger(slotData["SandHillCheckHard"])) or 0
+        if enabled and addHard then
+            setting.CurrentStage = 2
+        elseif enabled then
+            setting.CurrentStage = 1
+        else
+            setting.CurrentStage = 0
+        end
     end
     if slotData["TwinkleCircuitCheck"] and slotData["MultipleTwinkleCircuitChecks"] then
+        local enabled = slotData["TwinkleCircuitCheck"] ~= 0
+        local multiple = slotData["MultipleTwinkleCircuitChecks"] ~= 0
         local setting = Tracker:FindObjectForCode(Settings.TwinkleCircuitChecks)
-        setting.CurrentStage = (math.tointeger(slotData["TwinkleCircuitCheck"]) + math.tointeger(slotData["MultipleTwinkleCircuitChecks"])) or 0
+        if enabled and multiple then
+            setting.CurrentStage = 2
+        elseif enabled then
+            setting.CurrentStage = 1
+        else
+            setting.CurrentStage = 0
+        end
     end
     if slotData["EnemySanity"] then
         local setting = Tracker:FindObjectForCode(Settings.Enemysanity)
@@ -259,7 +283,7 @@ function ParseSettings(slotData)
         EntranceMapper:Fill(slotData["LevelEntranceMap"])
     end
     if slotData["MissionBlackList"] then
-        for i = 1,60,1 do
+        for i = 1, 60, 1 do
             local code = "AllowMission" .. i
             local setting = Tracker:FindObjectForCode(code)
             if setting then
@@ -272,6 +296,6 @@ function ParseSettings(slotData)
             if setting then
                 setting.Active = false
             end
-         end
+        end
     end
 end
