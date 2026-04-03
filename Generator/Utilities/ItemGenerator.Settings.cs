@@ -26,13 +26,14 @@ internal static partial class ItemGenerator
 
     private static async Task GenerateSettingsJson()
     {
-        var settings = GenerateGoalSettings().Concat(GenerateLogicSettings())
-                                             .Concat(GeneratePlayableCharacterSettings())
-                                             .Concat(GenerateStartingLocationSettings())
-                                             .Concat(GenerateLevelMissionSettings())
-                                             .Concat(GenerateSubGameSettings())
-                                             .Concat(GenerateSanitySettings())
-                                             .Concat(GenerateMissionsSettings());
+        var settings = GenerateHiddenSettings().Concat(GenerateGoalSettings())
+                                               .Concat(GenerateLogicSettings())
+                                               .Concat(GeneratePlayableCharacterSettings())
+                                               .Concat(GenerateStartingLocationSettings())
+                                               .Concat(GenerateLevelMissionSettings())
+                                               .Concat(GenerateSubGameSettings())
+                                               .Concat(GenerateSanitySettings())
+                                               .Concat(GenerateMissionsSettings());
         await FileWriter.WriteFile(JsonSerializer.Serialize(settings, Constants.JsonOptions),
                                    "settings.json",
                                    "items");
@@ -41,6 +42,11 @@ internal static partial class ItemGenerator
     private static string MakeImgPath(string section, string img) => $"images/settings/{section}/{img}.png";
 
     private static string ToPossessive(this string word) => word[^1] == 's' ? $"{word}'" : $"{word}'s";
+
+    private static IEnumerable<Item> GenerateHiddenSettings()
+    {
+        yield return new HiddenItem("Logic Version Mismatch", "VersionMismatch");
+    }
 
     private static IEnumerable<Item> GenerateGoalSettings()
     {

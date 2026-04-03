@@ -93,6 +93,10 @@ internal static class Constants
         {
             switch (value)
             {
+                case HiddenItem toggle:
+                    JsonSerializer.Serialize(writer, toggle, options);
+                    break;
+
                 case ToggleItem toggle:
                     JsonSerializer.Serialize(writer, toggle, options);
                     break;

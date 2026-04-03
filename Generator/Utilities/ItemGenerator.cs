@@ -38,6 +38,7 @@ internal static partial class ItemGenerator
     private static async Task GenerateItemMapLua(FrozenDictionary<int, string> dict)
     {
         var entries = from entry in dict
+                      orderby entry.Key
                       let code = MakeCode(entry.Value)
                       select $"    [{entry.Key}] = \"{code}\",";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["ItemMap = {", .. entries, "}"]),
@@ -49,6 +50,7 @@ internal static partial class ItemGenerator
     private static async Task GenerateCharactersJson(FrozenDictionary<int, string> dict)
     {
         var characters = from entry in dict
+                         orderby entry.Key
                          where entry.Key >= CharactersStart && entry.Key < UpgradesStart
                          let img = GetWord(entry.Value, 1)
                          let code = MakeCode(entry.Value)
@@ -61,6 +63,7 @@ internal static partial class ItemGenerator
     private static async Task GenerateUpgradesJson(FrozenDictionary<int, string> dict)
     {
         var upgrades = from entry in dict
+                       orderby entry.Key
                        where entry.Key >= UpgradesStart && entry.Key < FillerStart
                        let code = MakeCode(entry.Value)
                        select new ToggleItem(entry.Value, code, $"images/upgrades/{code}.png");
@@ -72,10 +75,12 @@ internal static partial class ItemGenerator
     private static async Task GenerateKeysJson(FrozenDictionary<int, string> dict)
     {
         var keys1 = from entry in dict
+                    orderby entry.Key
                     where entry.Key >= Keys1Start && entry.Key < CollectiblesStart
                     let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value, code, $"images/keys/{code}.png");
         var keys2 = from entry in dict
+                    orderby entry.Key
                     where entry.Key >= Keys2Start && entry.Key < Keys2End
                     let code = MakeCode(entry.Value)
                     select new ToggleItem(entry.Value, code, $"images/keys/{code}.png");
@@ -88,6 +93,7 @@ internal static partial class ItemGenerator
     private static async Task GenerateEmeraldsJson(FrozenDictionary<int, string> dict)
     {
         var emeralds = from entry in dict
+                       orderby entry.Key
                        where entry.Key >= EmeraldsStart && entry.Key < TrapsStart
                        let img = GetWord(entry.Value, 0)
                        let code = MakeCode(entry.Value)

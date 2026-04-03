@@ -4,6 +4,10 @@ internal abstract record Item(string Name,
                               string Type,
                               string Codes);
 
+internal record HiddenItem(string Name,
+                           string Codes)
+    : Item(Name, "toggle", Codes);
+
 internal abstract record ImageItem(string Name,
                                    string Type,
                                    string Codes,

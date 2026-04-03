@@ -9,13 +9,13 @@
     </PropertyGroup>
     <PropertyGroup>
         <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+        <WarningsNotAsErrors>NU1903,NU1904</WarningsNotAsErrors>
         <UserSecretsId>b142e81d-996d-4b19-a68a-38a41c45604e</UserSecretsId>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Humanizer.Core" Version="3.0.10" />
         <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.5" />
         <PackageReference Include="QuikGraph" Version="2.5.0" />
-        <PackageReference Include="Refit" Version="10.0.1" />
         <PackageReference Include="SheetToObjects.Adapters.GoogleSheets" Version="3.1.0" />
         <PackageReference Include="System.Linq.Async" Version="7.0.0" />
     </ItemGroup>
