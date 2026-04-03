@@ -1,0 +1,12 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#212121",
+        "content": {
+            "type": "map",
+            "maps": [
+                "versionMismatch"
+            ]
+        }
+    }
+}

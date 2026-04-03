@@ -1,5 +1,10 @@
 [
     {
+        "name": "Logic Version Mismatch",
+        "type": "toggle",
+        "codes": "VersionMismatch"
+    },
+    {
         "max_quantity": 1500,
         "initial_quantity": 0,
         "overlay_font_size": 16,

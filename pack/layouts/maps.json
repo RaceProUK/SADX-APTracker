@@ -22,5 +22,9 @@
         "location_size": 20,
         "location_border_thickness": 3,
         "img": "images/maps/Missions.png"
+    },
+    {
+        "name": "versionMismatch",
+        "img": "images/maps/VersionMismatch.png"
     }
 ]
