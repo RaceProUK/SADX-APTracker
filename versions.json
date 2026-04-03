@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.112.11",
+            "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.11/sadx_rando_raceprouk.zip",
+            "sha256": "23f645f99b28551ec52ce9545a1195232e6ee736d230a8f4dae5f140cecc9d37",
+            "changelog": [
+                "Added a version check to inform the user if they connect to an incompatible multiworld slot"
+            ]
+        },
+        {
             "package_version": "1.112.10",
             "download_url": "https://github.com/RaceProUK/SADX-APTracker/releases/download/v1.112.10/sadx_rando_raceprouk.zip",
             "sha256": "351e1d44c38fdd2d8236d361f0cd241b771fa96cfff193953f9abc6511048d2d",
