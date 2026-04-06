@@ -400,4 +400,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Custom tools
-Install-Local.bat
+**/Install-Local.bat
