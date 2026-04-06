@@ -1,0 +1,209 @@
+[
+    {
+        "name": "Sky Chase Act 1",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1056,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission B",
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChase"
+                ]
+            },
+            {
+                "name": "Mission A",
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChaseHard"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+            "$CanReach|Tails|MysticRuinsMain,PlayableTails"
+        ],
+        "visibility_rules": [
+            "SonicPlayable",
+            "TailsPlayable"
+        ]
+    },
+    {
+        "name": "Sky Chase Act 2",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1120,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission B",
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChase"
+                ]
+            },
+            {
+                "name": "Mission A",
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSkyChaseHard"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
+            "$CanReach|Tails|EggCarrierOutside,PlayableTails"
+        ],
+        "visibility_rules": [
+            "SonicPlayable",
+            "TailsPlayable"
+        ]
+    },
+    {
+        "name": "Sand Hill",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1184,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission B",
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSandHill"
+                ]
+            },
+            {
+                "name": "Mission A",
+                "item_count": 1,
+                "visibility_rules": [
+                    "EnableSandHillHard"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Tails|Jungle,PlayableTails",
+            "$CanReach|Sonic|Jungle,ExpertLogicDC,PlayableSonic",
+            "$CanReach|Sonic|Jungle,ExpertLogicDX,PlayableSonic"
+        ],
+        "visibility_rules": [
+            "TailsPlayable",
+            "ExpertLogicDC,SonicPlayable",
+            "ExpertLogicDX,SonicPlayable"
+        ]
+    },
+    {
+        "name": "Twinkle Circuit",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1248,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Set a Record",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Sonic|TwinkleParkLobby,PlayableSonic",
+                    "$CanReach|Tails|TwinkleParkLobby,PlayableTails",
+                    "$CanReach|Knuckles|TwinkleParkLobby,PlayableKnuckles",
+                    "$CanReach|Amy|TwinkleParkLobby,PlayableAmy",
+                    "$CanReach|Big|TwinkleParkLobby,PlayableBig",
+                    "$CanReach|Gamma|TwinkleParkLobby,PlayableGamma"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuit"
+                ]
+            },
+            {
+                "name": "Set a Record as Sonic",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Sonic|TwinkleParkLobby,PlayableSonic"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuitMultiple,SonicPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Tails",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Tails|TwinkleParkLobby,PlayableTails"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuitMultiple,TailsPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Knuckles",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Knuckles|TwinkleParkLobby,PlayableKnuckles"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuitMultiple,KnucklesPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Amy",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Amy|TwinkleParkLobby,PlayableAmy"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuitMultiple,AmyPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Big",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Big|TwinkleParkLobby,PlayableBig"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuitMultiple,BigPlayable"
+                ]
+            },
+            {
+                "name": "Set a Record as Gamma",
+                "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Gamma|TwinkleParkLobby,PlayableGamma"
+                ],
+                "visibility_rules": [
+                    "EnableTwinkleCircuitMultiple,GammaPlayable"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    }
+]

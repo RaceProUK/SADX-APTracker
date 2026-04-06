@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/Logic11x/">
+    <Project Path="Logic11x/Generator/Generator.csproj" />
+  </Folder>
+  <Folder Name="/Logic12x/" />
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path=".gitignore" />
@@ -6,5 +10,4 @@
     <File Path="README.md" />
     <File Path="renovate.json" />
   </Folder>
-  <Project Path="Generator/Generator.csproj" />
 </Solution>

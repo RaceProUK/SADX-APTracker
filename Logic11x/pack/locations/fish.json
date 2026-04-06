@@ -1,0 +1,224 @@
+[
+    {
+        "name": "Fishsanity - Twinkle Park (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1642,
+                "y": 64,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Largemouth Bass",
+                "item_count": 1
+            },
+            {
+                "name": "Piranha",
+                "item_count": 1
+            },
+            {
+                "name": "Mecha Fish",
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|TwinklePark,PlayableBig"
+        ],
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
+    },
+    {
+        "name": "Fishsanity - Ice Cap (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1642,
+                "y": 192,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Hammerhead",
+                "item_count": 1
+            },
+            {
+                "name": "Mecha Fish",
+                "item_count": 1
+            },
+            {
+                "name": "Largemouth Bass",
+                "item_count": 1
+            },
+            {
+                "name": "Salmon",
+                "item_count": 1
+            },
+            {
+                "name": "Shark",
+                "item_count": 1
+            },
+            {
+                "name": "Japanese Eel",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|IceCap,PlayableBig"
+        ],
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
+    },
+    {
+        "name": "Fishsanity - Emerald Coast (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1642,
+                "y": 320,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Hammerhead",
+                "item_count": 1
+            },
+            {
+                "name": "Striped Beakfish",
+                "item_count": 1
+            },
+            {
+                "name": "Mecha Fish",
+                "item_count": 1
+            },
+            {
+                "name": "Shark",
+                "item_count": 1
+            },
+            {
+                "name": "Sea Bass",
+                "item_count": 1
+            },
+            {
+                "name": "Red Sea Bream",
+                "item_count": 1
+            },
+            {
+                "name": "Moray Eel",
+                "item_count": 1
+            },
+            {
+                "name": "Blue Marlin",
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|EmeraldCoast,PlayableBig"
+        ],
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
+    },
+    {
+        "name": "Fishsanity - Hot Shelter (Big)",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1642,
+                "y": 448,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Angler Fish",
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ]
+            },
+            {
+                "name": "Hammerhead",
+                "item_count": 1
+            },
+            {
+                "name": "Oarfish",
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ]
+            },
+            {
+                "name": "Shark",
+                "item_count": 1
+            },
+            {
+                "name": "Coelacanth",
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ]
+            },
+            {
+                "name": "Moray Eel",
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ]
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|HotShelter,PlayableBig"
+        ],
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
+    }
+]

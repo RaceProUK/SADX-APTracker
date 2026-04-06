@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Station Square Chao Egg",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1864,
+                "y": 640,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Gold Chao Egg",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|StationSquareMain,HotelFrontKey,PlayableSonic",
+            "$CanReach|Tails|StationSquareMain,HotelFrontKey,PlayableTails",
+            "$CanReach|Knuckles|StationSquareMain,HotelFrontKey,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareMain,HotelFrontKey,PlayableAmy",
+            "$CanReach|Big|StationSquareMain,HotelFrontKey,PlayableBig",
+            "$CanReach|Gamma|StationSquareMain,HotelFrontKey,PlayableGamma",
+            "$CanReach|Sonic|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableSonic",
+            "$CanReach|Tails|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableTails",
+            "$CanReach|Knuckles|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableAmy",
+            "$CanReach|Big|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableBig",
+            "$CanReach|Gamma|StationSquareMain,StationBackKey,StationFrontKey,HotelBackKey,PlayableGamma"
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs"
+        ]
+    },
+    {
+        "name": "Mystic Ruins Chao Egg",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1864,
+                "y": 900,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Silver Chao Egg",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|MysticRuinsMain,PlayableSonic",
+            "$CanReach|Tails|MysticRuinsMain,PlayableTails",
+            "$CanReach|Knuckles|MysticRuinsMain,PlayableKnuckles",
+            "$CanReach|Amy|MysticRuinsMain,PlayableAmy",
+            "$CanReach|Big|MysticRuinsMain,PlayableBig"
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs,SonicPlayable",
+            "SecretChaoEggs,TailsPlayable",
+            "SecretChaoEggs,KnucklesPlayable",
+            "SecretChaoEggs,AmyPlayable",
+            "SecretChaoEggs,BigPlayable"
+        ]
+    },
+    {
+        "name": "Egg Carrier Chao Egg",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1864,
+                "y": 1160,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Black Chao Egg",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Amy|EggCarrierInside,PlayableAmy",
+            "$CanReach|Big|EggCarrierInside,PlayableBig",
+            "$CanReach|Gamma|EggCarrierInside,PlayableGamma"
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs,AmyPlayable",
+            "SecretChaoEggs,BigPlayable",
+            "SecretChaoEggs,GammaPlayable"
+        ]
+    }
+]
