@@ -13,7 +13,8 @@ internal static partial class LocationGenerator
     private const int RacesStart = 543800905;
     private const int RacesEnd = 543800910;
 
-    private const string ChaoEggsMap = "levels";
+    private const int ChaoEggsX = 1864;
+    private const int ChaoRacesX = 1912;
 
     private static IEnumerable<LuaLocation> GenerateChaoEggsLua(FrozenDictionary<int, string> dict)
     {
@@ -30,13 +31,13 @@ internal static partial class LocationGenerator
     private static async Task GenerateChaoEggs(FrozenDictionary<int, string> dict)
     {
         var stationSquare = new Location("Station Square Chao Egg",
-                                         [new MapLocation(ChaoEggsMap, 1864, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY, LevelsIconSize, BorderThickness)],
                                          [(new Section(dict[GoldEgg]))]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
-                                       [new MapLocation(ChaoEggsMap, 1864, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY + FieldSpacingY, LevelsIconSize, BorderThickness)],
                                        [(new Section(dict[SilverEgg]))]);
         var eggCarrier = new Location("Egg Carrier Chao Egg",
-                                      [new MapLocation(ChaoEggsMap, 1864, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY + 2 * FieldSpacingY, LevelsIconSize, BorderThickness)],
                                       [(new Section(dict[BlackEgg]))]);
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),
@@ -47,7 +48,7 @@ internal static partial class LocationGenerator
     private static async Task GenerateChaoRaces(FrozenDictionary<int, string> dict)
     {
         var chaoRaces = new Location("Chao Races",
-                                     [new MapLocation(ChaoEggsMap, 1912, 640, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation(LevelsMap, ChaoRacesX, FieldItemsY, LevelsIconSize, BorderThickness)],
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
                                      select new Section(entry.Value));

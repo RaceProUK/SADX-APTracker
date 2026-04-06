@@ -9,6 +9,7 @@ internal static partial class LocationGenerator
 {
     private const int FishStart = 543800950;
     private const int FishEnd = 543801000;
+    private const int FishOffsetX = 48;
 
     private static IEnumerable<LuaLocation> GenerateFishLua(FrozenDictionary<int, string> dict)
         => from entry in dict
@@ -38,9 +39,9 @@ internal static partial class LocationGenerator
                         group section by name;
         var multipliers = Enumerable.Range(0, locations.Count());
         var fish = from level in locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m))
-                   let y = 64 + 128 * level.Multipler
+                   let y = BigLevelsY + LevelsSpacingY * level.Multipler
                    select new Location($"Fishsanity - {level.Location.Key}",
-                                       [new MapLocation("levels", 1594 + 48, y, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, BigLevelsX + FishOffsetX, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        select new Section(section));
         await FileWriter.WriteFile(JsonSerializer.Serialize(fish, Constants.JsonOptions),

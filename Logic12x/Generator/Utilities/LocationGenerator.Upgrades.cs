@@ -25,7 +25,8 @@ internal static partial class LocationGenerator
     private const int Lure3 = 543800604;
     private const int Lure4 = 543800605;
 
-    private const string UpgradesMap = "levels";
+    private const int UpgradesX = 1722;
+    private const int IceCapUpgradeX = 1936;
 
     private static readonly int[] ssUpgradeIds = [LightShoes, CrystalRing, JetAnklet, Lure1];
     private static readonly int[] mrUpgradeIds = [AncientLight, RhythmBadge, ShovelClaw, FightingGloves, LifeBelt, PowerRod, Lure2];
@@ -50,7 +51,8 @@ internal static partial class LocationGenerator
     }
 
     private static async Task GenerateUpgrades(FrozenDictionary<int, string> dict)
-    {        var ssUpgrades = from entry in dict
+    {
+        var ssUpgrades = from entry in dict
                          where ssUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
         var mrUpgrades = from entry in dict
@@ -63,16 +65,16 @@ internal static partial class LocationGenerator
                          where icUpgradeIds.Contains(entry.Key)
                          select new Section(entry.Value);
         var stationSquare = new Location("Station Square Upgrades",
-                                         [new MapLocation(UpgradesMap, 1722, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, UpgradesX, FieldItemsY, LevelsIconSize, BorderThickness)],
                                          ssUpgrades);
         var mysticRuins = new Location("Mystic Ruins Upgrades",
-                                       [new MapLocation(UpgradesMap, 1722, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, UpgradesX, FieldItemsY + FieldSpacingY, LevelsIconSize, BorderThickness)],
                                        mrUpgrades);
         var eggCarrier = new Location("Egg Carrier Upgrades",
-                                      [new MapLocation(UpgradesMap, 1722, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, UpgradesX, FieldItemsY + 2 * FieldSpacingY, LevelsIconSize, BorderThickness)],
                                       ecUpgrades);
         var iceCap = new Location("Ice Cap Upgrade",
-                                  [new MapLocation(UpgradesMap, 1936, 192, LevelsIconSize, BorderThickness)],
+                                  [new MapLocation(LevelsMap, IceCapUpgradeX, BigLevelsY + LevelsSpacingY, LevelsIconSize, BorderThickness)],
                                   icUpgrades);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),

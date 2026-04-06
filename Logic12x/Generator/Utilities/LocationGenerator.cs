@@ -5,9 +5,41 @@ namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static partial class LocationGenerator
 {
+    private const string LevelsMap = "levels";
+
     private const int LevelsIconSize = 32;
     private const int MissionsIconSize = 16;
     private const int BorderThickness = 1;
+
+    private const int LevelsSpacingY = 128;
+    private const int SubGamesSpacingY = 64;
+    private const int FieldSpacingY = 260;
+
+    private const int SonicLevelsX = 58;
+    private const int SonicLevelsY = 64;
+
+    private const int TailsLevelsX = 570;
+    private const int TailsLevelsY = 64;
+
+    private const int KnucklesLevelsX = 570;
+    private const int KnucklesLevelsY = 704;
+
+    private const int AmyLevelsX = 1082;
+    private const int AmyLevelsY = 64;
+
+    private const int GammaLevelsX = 1082;
+    private const int GammaLevelsY = 448;
+
+    private const int BigLevelsX = 1594;
+    private const int BigLevelsY = 64;
+
+    private const int SubGamesLevelsX = 1082;
+    private const int SubGamesLevelsY = 1056;
+
+    private const int FieldItemsY = 640;
+
+    private const int SanitiesModulus = 1000;
+    private const int SanitiesMidpoint = SanitiesModulus / 2;
 
     [GeneratedRegex("\\(([A-Za-z ]+)\\)")]
     private static partial Regex CapsuleItemParser();

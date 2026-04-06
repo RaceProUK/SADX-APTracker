@@ -20,9 +20,11 @@ internal static partial class LocationGenerator
     private const int BigEnemiesStart = 543860000;
     private const int BigEnemiesEnd = 543870000;
 
+    private const string EnemiesMap = "enemies";
+
     private static IEnumerable<LuaLocation> GenerateEnemiesLua(FrozenDictionary<int, string> dict)
         => from entry in dict
-           where entry.Key >= SonicEnemiesStart && entry.Key < BigEnemiesEnd && entry.Key % 1000 < 500
+           where entry.Key >= SonicEnemiesStart && entry.Key < BigEnemiesEnd && entry.Key % SanitiesModulus < SanitiesMidpoint
            let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
            let name = parts[0]
            let section = parts[1]
@@ -30,12 +32,12 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateEnemies(FrozenDictionary<int, string> dict)
     {
-        var sonicEnemies = GetEnemies(dict, SonicEnemiesStart, SonicEnemiesEnd, 58, 64);
-        var tailsEnemies = GetEnemies(dict, TailsEnemiesStart, TailsEnemiesEnd, 570, 64);
-        var knucklesEnemies = GetEnemies(dict, KnucklesEnemiesStart, KnucklesEnemiesEnd, 570, 704);
-        var amyEnemies = GetEnemies(dict, AmyEnemiesStart, AmyEnemiesEnd, 1082, 64);
-        var gammaEnemies = GetEnemies(dict, GammaEnemiesStart, GammaEnemiesEnd, 1082, 448);
-        var bigEnemies = GetEnemies(dict, BigEnemiesStart, BigEnemiesEnd, 1594, 64);
+        var sonicEnemies = GetEnemies(dict, SonicEnemiesStart, SonicEnemiesEnd, SonicLevelsX, SonicLevelsY);
+        var tailsEnemies = GetEnemies(dict, TailsEnemiesStart, TailsEnemiesEnd, TailsLevelsX, TailsLevelsY);
+        var knucklesEnemies = GetEnemies(dict, KnucklesEnemiesStart, KnucklesEnemiesEnd, KnucklesLevelsX, KnucklesLevelsY);
+        var amyEnemies = GetEnemies(dict, AmyEnemiesStart, AmyEnemiesEnd, AmyLevelsX, AmyLevelsY);
+        var gammaEnemies = GetEnemies(dict, GammaEnemiesStart, GammaEnemiesEnd, GammaLevelsX, GammaLevelsY);
+        var bigEnemies = GetEnemies(dict, BigEnemiesStart, BigEnemiesEnd, BigLevelsX, BigLevelsY);
         var Enemies = sonicEnemies.Union(tailsEnemies)
                                 .Union(knucklesEnemies)
                                 .Union(amyEnemies)
@@ -48,7 +50,7 @@ internal static partial class LocationGenerator
         IEnumerable<Location> GetEnemies(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
-                            where entry.Key >= start && entry.Key < end && entry.Key % 1000 < 500
+                            where entry.Key >= start && entry.Key < end && entry.Key % SanitiesModulus < SanitiesMidpoint
                             orderby entry.Key
                             let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
                             let name = parts[0]
@@ -62,9 +64,9 @@ internal static partial class LocationGenerator
             };
             var enemies = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in enemies
-                   let y = y0 + 128 * level.Multipler
+                   let y = y0 + LevelsSpacingY * level.Multipler
                    select new Location($"Enemysanity - {level.Location.Key}",
-                                       [new MapLocation("enemies", x, y, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(EnemiesMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        select new Section(section));
         }

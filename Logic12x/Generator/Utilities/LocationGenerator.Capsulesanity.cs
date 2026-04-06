@@ -20,9 +20,11 @@ internal static partial class LocationGenerator
     private const int BigCapsulesStart = 543860000;
     private const int BigCapsulesEnd = 543870000;
 
+    private const string CapsulesMap = "capsules";
+
     private static IEnumerable<LuaLocation> GenerateCapsulesLua(FrozenDictionary<int, string> dict)
         => from entry in dict
-           where entry.Key >= SonicCapsulesStart && entry.Key < BigCapsulesEnd && entry.Key % 1000 >= 500
+           where entry.Key >= SonicCapsulesStart && entry.Key < BigCapsulesEnd && entry.Key % SanitiesModulus >= SanitiesMidpoint
            let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
            let name = parts[0]
            let section = parts[1]
@@ -30,12 +32,12 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateCapsules(FrozenDictionary<int, string> dict)
     {
-        var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, 58, 64);
-        var tailsCapsules = GetCapsules(dict, TailsCapsulesStart, TailsCapsulesEnd, 570, 64);
-        var knucklesCapsules = GetCapsules(dict, KnucklesCapsulesStart, KnucklesCapsulesEnd, 570, 704);
-        var amyCapsules = GetCapsules(dict, AmyCapsulesStart, AmyCapsulesEnd, 1082, 64);
-        var gammaCapsules = GetCapsules(dict, GammaCapsulesStart, GammaCapsulesEnd, 1082, 448);
-        var bigCapsules = GetCapsules(dict, BigCapsulesStart, BigCapsulesEnd, 1594, 64);
+        var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, SonicLevelsX, SonicLevelsY);
+        var tailsCapsules = GetCapsules(dict, TailsCapsulesStart, TailsCapsulesEnd, TailsLevelsX, TailsLevelsY);
+        var knucklesCapsules = GetCapsules(dict, KnucklesCapsulesStart, KnucklesCapsulesEnd, KnucklesLevelsX, KnucklesLevelsY);
+        var amyCapsules = GetCapsules(dict, AmyCapsulesStart, AmyCapsulesEnd, AmyLevelsX, AmyLevelsY);
+        var gammaCapsules = GetCapsules(dict, GammaCapsulesStart, GammaCapsulesEnd, GammaLevelsX, GammaLevelsY);
+        var bigCapsules = GetCapsules(dict, BigCapsulesStart, BigCapsulesEnd, BigLevelsX, BigLevelsY);
         var capsules = sonicCapsules.Union(tailsCapsules)
                                     .Union(knucklesCapsules)
                                     .Union(amyCapsules)
@@ -48,7 +50,7 @@ internal static partial class LocationGenerator
         IEnumerable<Location> GetCapsules(FrozenDictionary<int, string> dict, int start, int end, int x, int y0)
         {
             var locations = from entry in dict
-                            where entry.Key >= start && entry.Key < end && entry.Key % 1000 >= 500
+                            where entry.Key >= start && entry.Key < end && entry.Key % SanitiesModulus >= SanitiesMidpoint
                             orderby entry.Key
                             let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
                             let name = parts[0]
@@ -61,9 +63,9 @@ internal static partial class LocationGenerator
             };
             var capsules = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in capsules
-                   let y = y0 + 128 * level.Multipler
+                   let y = y0 + LevelsSpacingY * level.Multipler
                    select new Location($"Capsulesanity - {level.Location.Key}",
-                                       [new MapLocation("capsules", x, y, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(CapsulesMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        select new Section(section.Name));
         }

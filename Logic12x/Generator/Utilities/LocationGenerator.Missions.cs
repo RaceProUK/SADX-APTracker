@@ -10,6 +10,12 @@ internal static partial class LocationGenerator
     private const int MissionsStart = 543800800;
     private const int MissionsEnd = 543800900;
 
+    private const int StartX = 56;
+    private const int StartY = 44;
+    private const int OffsetX = 38;
+    private const int OffsetY = 30;
+    private const int LineLength = 10;
+
     private static IEnumerable<LuaLocation> GenerateMissionsLua(FrozenDictionary<int, string> dict)
         => from entry in dict
            where entry.Key >= MissionsStart && entry.Key < MissionsEnd
@@ -18,8 +24,8 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateMissions(FrozenDictionary<int, string> dict)
     {
-        static int CalculateX(int number) => 56 * ((number - 1) % 10) + 38;
-        static int CalculateY(int number) => 44 * ((number - 1) / 10) + 30;
+        static int CalculateX(int number) => StartX * ((number - 1) % LineLength) + OffsetX;
+        static int CalculateY(int number) => StartY * ((number - 1) / LineLength) + OffsetY;
 
         var missions = from entry in dict
                        where entry.Key >= MissionsStart && entry.Key < MissionsEnd

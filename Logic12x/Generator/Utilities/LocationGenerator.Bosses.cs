@@ -15,7 +15,9 @@ internal static partial class LocationGenerator
     private const int EggCarrierBossesStart = 543800770;
     private const int EggCarrierBossesEnd = 543800800;
 
-    private const string BossesMap = "levels";
+    private const int BossesX = 1768;
+    private const int PerfectChaosX = 1792;
+    private const int PerfectChaosY = 598;
 
     private static string TrimBossName(string name) => name.Replace(" Boss Fight", string.Empty);
 
@@ -52,16 +54,16 @@ internal static partial class LocationGenerator
                        let boss = TrimBossName(entry.Value)
                        select new Section(boss);
         var stationSquare = new Location("Station Square Bosses",
-                                         [new MapLocation(BossesMap, 1768, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, BossesX, FieldItemsY, LevelsIconSize, BorderThickness)],
                                          ssBosses);
         var mysticRuins = new Location("Mystic Ruins Bosses",
-                                       [new MapLocation(BossesMap, 1768, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, BossesX, FieldItemsY + FieldSpacingY, LevelsIconSize, BorderThickness)],
                                        mrBosses);
         var eggCarrier = new Location("Egg Carrier Bosses",
-                                      [new MapLocation(BossesMap, 1768, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, BossesX, FieldItemsY + 2 * FieldSpacingY, LevelsIconSize, BorderThickness)],
                                       ecBosses);
         var perfectChaos = new Location("Perfect Chaos",
-                                        [new MapLocation(BossesMap, 1792, 598, LevelsIconSize, BorderThickness)],
+                                        [new MapLocation(LevelsMap, PerfectChaosX, PerfectChaosY, LevelsIconSize, BorderThickness)],
                                         [new Section("Open Their Heart")]);
         var bosses = new[] { stationSquare, mysticRuins, eggCarrier, perfectChaos };
         await FileWriter.WriteFile(JsonSerializer.Serialize(bosses, Constants.JsonOptions),
