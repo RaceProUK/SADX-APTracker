@@ -1,5 +1,5 @@
-﻿using RPS.SADX.PopTracker.Generator.Utilities;
-using System.Text;
+﻿using System.Text;
+using RPS.SADX.PopTracker.Generator.Utilities;
 
 Console.OutputEncoding = Encoding.UTF8;
 

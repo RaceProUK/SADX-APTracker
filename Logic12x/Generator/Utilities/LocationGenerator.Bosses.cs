@@ -15,6 +15,8 @@ internal static partial class LocationGenerator
     private const int EggCarrierBossesStart = 543800770;
     private const int EggCarrierBossesEnd = 543800800;
 
+    private const string BossesMap = "levels";
+
     private static string TrimBossName(string name) => name.Replace(" Boss Fight", string.Empty);
 
     private static IEnumerable<LuaLocation> GenerateBossesLua(FrozenDictionary<int, string> dict)
@@ -50,16 +52,16 @@ internal static partial class LocationGenerator
                        let boss = TrimBossName(entry.Value)
                        select new Section(boss);
         var stationSquare = new Location("Station Square Bosses",
-                                         [new MapLocation("levels", 1768, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(BossesMap, 1768, 640, LevelsIconSize, BorderThickness)],
                                          ssBosses);
         var mysticRuins = new Location("Mystic Ruins Bosses",
-                                       [new MapLocation("levels", 1768, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(BossesMap, 1768, 900, LevelsIconSize, BorderThickness)],
                                        mrBosses);
         var eggCarrier = new Location("Egg Carrier Bosses",
-                                      [new MapLocation("levels", 1768, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(BossesMap, 1768, 1160, LevelsIconSize, BorderThickness)],
                                       ecBosses);
         var perfectChaos = new Location("Perfect Chaos",
-                                        [new MapLocation("levels", 1792, 598, LevelsIconSize, BorderThickness)],
+                                        [new MapLocation(BossesMap, 1792, 598, LevelsIconSize, BorderThickness)],
                                         [new Section("Open Their Heart")]);
         var bosses = new[] { stationSquare, mysticRuins, eggCarrier, perfectChaos };
         await FileWriter.WriteFile(JsonSerializer.Serialize(bosses, Constants.JsonOptions),

@@ -18,6 +18,8 @@ internal static partial class LocationGenerator
     private const int TwinkleCircuitMultipleStart = 543800040;
     private const int TwinkleCircuitMultipleEnd = 543800046;
 
+    private const string SubGamesMap = "levels";
+
     private static IEnumerable<LuaLocation> GenerateSubGamesLua(FrozenDictionary<int, string> dict)
     {
         var skyChase1 = from entry in dict
@@ -64,16 +66,16 @@ internal static partial class LocationGenerator
                           let character = SublevelParser().Match(entry.Value).Groups[1].Value
                           select new Section($"Set a Record as {character}");
         var skyChase1 = new Location("Sky Chase Act 1",
-                                     [new MapLocation("levels", 1082, 1056, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation(SubGamesMap, 1082, 1056, LevelsIconSize, BorderThickness)],
                                      sc1Missions);
         var skyChase2 = new Location("Sky Chase Act 2",
-                                     [new MapLocation("levels", 1082, 1120, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation(SubGamesMap, 1082, 1120, LevelsIconSize, BorderThickness)],
                                      sc2Missions);
         var sandHill = new Location("Sand Hill",
-                                    [new MapLocation("levels", 1082, 1184, LevelsIconSize, BorderThickness)],
+                                    [new MapLocation(SubGamesMap, 1082, 1184, LevelsIconSize, BorderThickness)],
                                     shMissions);
         var twinkleCircuit = new Location("Twinkle Circuit",
-                                          [new MapLocation("levels", 1082, 1248, LevelsIconSize, BorderThickness)],
+                                          [new MapLocation(SubGamesMap, 1082, 1248, LevelsIconSize, BorderThickness)],
                                           tcMissions1.Union(tcMissions2));
         var subGames = new[] { skyChase1, skyChase2, sandHill, twinkleCircuit };
         await FileWriter.WriteFile(JsonSerializer.Serialize(subGames, Constants.JsonOptions),

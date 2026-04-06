@@ -1,5 +1,5 @@
-﻿using RPS.SADX.PopTracker.Generator.Models;
-using System.Text.Json;
+﻿using System.Text.Json;
+using RPS.SADX.PopTracker.Generator.Models;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 

@@ -63,9 +63,6 @@ internal static partial class LocationGenerator
             var enemies = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in enemies
                    let y = y0 + 128 * level.Multipler
-                   let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
-                   let index = level.Location.Key.IndexOf('(')
-                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Enemysanity - {level.Location.Key}",
                                        [new MapLocation("enemies", x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
