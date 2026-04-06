@@ -1,7 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
 using RPS.SADX.PopTracker.Generator.Models;
-using RPS.SADX.PopTracker.Generator.Models.Logic;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
