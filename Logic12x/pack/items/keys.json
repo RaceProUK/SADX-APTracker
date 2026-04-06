@@ -1,0 +1,110 @@
+[
+    {
+        "img": "images/keys/Train.png",
+        "name": "Train",
+        "type": "toggle",
+        "codes": "Train"
+    },
+    {
+        "img": "images/keys/Boat.png",
+        "name": "Boat",
+        "type": "toggle",
+        "codes": "Boat"
+    },
+    {
+        "img": "images/keys/Raft.png",
+        "name": "Raft",
+        "type": "toggle",
+        "codes": "Raft"
+    },
+    {
+        "img": "images/keys/HotelKey.png",
+        "name": "Hotel Key",
+        "type": "toggle",
+        "codes": "HotelKey"
+    },
+    {
+        "img": "images/keys/CasinoKey.png",
+        "name": "Casino Key",
+        "type": "toggle",
+        "codes": "CasinoKey"
+    },
+    {
+        "img": "images/keys/TwinkleParkTicket.png",
+        "name": "Twinkle Park Ticket",
+        "type": "toggle",
+        "codes": "TwinkleParkTicket"
+    },
+    {
+        "img": "images/keys/EmployeeCard.png",
+        "name": "Employee Card",
+        "type": "toggle",
+        "codes": "EmployeeCard"
+    },
+    {
+        "img": "images/keys/IceStone.png",
+        "name": "Ice Stone",
+        "type": "toggle",
+        "codes": "IceStone"
+    },
+    {
+        "img": "images/keys/Dynamite.png",
+        "name": "Dynamite",
+        "type": "toggle",
+        "codes": "Dynamite"
+    },
+    {
+        "img": "images/keys/JungleCart.png",
+        "name": "Jungle Cart",
+        "type": "toggle",
+        "codes": "JungleCart"
+    },
+    {
+        "img": "images/keys/WindStone.png",
+        "name": "Wind Stone",
+        "type": "toggle",
+        "codes": "WindStone"
+    },
+    {
+        "img": "images/keys/StationKey.png",
+        "name": "Station Key",
+        "type": "toggle",
+        "codes": "StationKey"
+    },
+    {
+        "img": "images/keys/ShutterKey.png",
+        "name": "Shutter Key",
+        "type": "toggle",
+        "codes": "ShutterKey"
+    },
+    {
+        "img": "images/keys/Egglift.png",
+        "name": "Egglift",
+        "type": "toggle",
+        "codes": "Egglift"
+    },
+    {
+        "img": "images/keys/Monorail.png",
+        "name": "Monorail",
+        "type": "toggle",
+        "codes": "Monorail"
+    },
+    {
+        "img": "images/keys/PoolKey.png",
+        "name": "Pool Key",
+        "type": "toggle",
+        "codes": "PoolKey"
+    },
+    {
+        "img": "images/keys/PolicePass.png",
+        "name": "Police Pass",
+        "type": "toggle",
+        "codes": "PolicePass"
+    },
+    {
+        "img": "images/keys/TimeMachine.png",
+        "name": "Time Machine",
+        "type": "toggle",
+        "codes": "TimeMachine"
+    }
+]

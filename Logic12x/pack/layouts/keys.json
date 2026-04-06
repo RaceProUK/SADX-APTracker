@@ -1,0 +1,36 @@
+{
+    "keys": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "4,4",
+        "item_size": 32,
+        "rows": [
+            [
+                "PolicePass",
+                "TwinkleParkTicket",
+                "EmployeeCard"
+            ],
+            [
+                "HotelKey",
+                "PoolKey",
+                "CasinoKey",
+                "StationKey",
+                "ShutterKey"
+            ],
+            [
+                "WindStone",
+                "IceStone",
+                "Dynamite",
+                "JungleCart",
+                "TimeMachine"
+            ],
+            [
+                "Egglift",
+                "Monorail",
+                "Train",
+                "Boat",
+                "Raft"
+            ]
+        ]
+    }
+}

@@ -1,0 +1,118 @@
+[
+    {
+        "name": "Sky Chase Act 1",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1056,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission A",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    },
+    {
+        "name": "Sky Chase Act 2",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1120,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission A",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    },
+    {
+        "name": "Sand Hill",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1184,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Mission B",
+                "item_count": 1
+            },
+            {
+                "name": "Mission A",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    },
+    {
+        "name": "Twinkle Circuit",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1082,
+                "y": 1248,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Set a Record",
+                "item_count": 1
+            },
+            {
+                "name": "Set a Record as Sonic",
+                "item_count": 1
+            },
+            {
+                "name": "Set a Record as Tails",
+                "item_count": 1
+            },
+            {
+                "name": "Set a Record as Knuckles",
+                "item_count": 1
+            },
+            {
+                "name": "Set a Record as Amy",
+                "item_count": 1
+            },
+            {
+                "name": "Set a Record as Big",
+                "item_count": 1
+            },
+            {
+                "name": "Set a Record as Gamma",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    }
+]

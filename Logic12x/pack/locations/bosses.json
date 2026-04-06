@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Station Square Bosses",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1768,
+                "y": 640,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Chaos 0 (Sonic)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 2 (Knuckles)",
+                "item_count": 1
+            },
+            {
+                "name": "Egg Walker (Tails)",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    },
+    {
+        "name": "Mystic Ruins Bosses",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1768,
+                "y": 900,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Egg Hornet (Sonic)",
+                "item_count": 1
+            },
+            {
+                "name": "Egg Hornet (Tails)",
+                "item_count": 1
+            },
+            {
+                "name": "Egg Hornet",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4 (Sonic)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4 (Tails)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4 (Knuckles)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 4",
+                "item_count": 1
+            },
+            {
+                "name": "Egg Viper (Sonic)",
+                "item_count": 1
+            },
+            {
+                "name": "E-101 Beta (Gamma)",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    },
+    {
+        "name": "Egg Carrier Bosses",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1768,
+                "y": 1160,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Chaos 6 (Sonic)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 6 (Knuckles)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 6 (Big)",
+                "item_count": 1
+            },
+            {
+                "name": "Chaos 6",
+                "item_count": 1
+            },
+            {
+                "name": "E-101 mkII (Gamma)",
+                "item_count": 1
+            },
+            {
+                "name": "E-100 Zero (Amy)",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    },
+    {
+        "name": "Perfect Chaos",
+        "map_locations": [
+            {
+                "map": "levels",
+                "x": 1792,
+                "y": 598,
+                "size": 32,
+                "border_thickness": 1
+            }
+        ],
+        "sections": [
+            {
+                "name": "Open Their Heart",
+                "item_count": 1
+            }
+        ],
+        "chest_unopened_img": "images/ItemBox.png",
+        "chest_opened_img": "images/ItemBoxBroken.png"
+    }
+]

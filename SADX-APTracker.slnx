@@ -2,7 +2,9 @@
   <Folder Name="/Logic11x/">
     <Project Path="Logic11x/Generator/Generator.csproj" />
   </Folder>
-  <Folder Name="/Logic12x/" />
+  <Folder Name="/Logic12x/">
+    <Project Path="Logic12x/Generator/Generator.csproj" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path=".gitignore" />

@@ -1,0 +1,31 @@
+{
+    "progression": {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "4,4",
+        "item_size": 32,
+        "rows": [
+            [
+                "Emblems",
+                "LevelsBeaten",
+                "BossesBeaten",
+                "MissionsBeaten",
+                "ChaoRacesWon"
+            ],
+            [
+                "WhiteChaosEmerald",
+                "RedChaosEmerald",
+                "CyanChaosEmerald",
+                "PurpleChaosEmerald"
+            ],
+            [
+                "GreenChaosEmerald",
+                "YellowChaosEmerald",
+                "BlueChaosEmerald"
+            ],
+            [
+                "Chaos'Peace"
+            ]
+        ]
+    }
+}
