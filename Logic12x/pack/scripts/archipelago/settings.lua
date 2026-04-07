@@ -21,6 +21,7 @@ function ResetSettings()
             setting.Active = true
         end
     end
+    EntranceMapper:Reset()
 end
 
 function ParseSettings(slotData)
@@ -357,5 +358,9 @@ function ParseSettings(slotData)
                 setting.Active = false
             end
         end
+    end
+
+    if slotData["EntranceRandomizer"] and slotData["LevelEntranceMap"] then
+        EntranceMapper:Fill(slotData["LevelEntranceMap"])
     end
 end
