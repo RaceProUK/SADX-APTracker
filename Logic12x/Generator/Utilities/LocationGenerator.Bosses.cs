@@ -53,7 +53,7 @@ internal static partial class LocationGenerator
             "Egg Hornet" => ["UnifyEggHornet,SonicPlayable", "UnifyEggHornet,TailsPlayable"],
             "Chaos 4" => ["UnifyChaos4,SonicPlayable", "UnifyChaos4,TailsPlayable", "UnifyChaos4,KnucklesPlayable"],
             "Chaos 6" => ["UnifyChaos6,SonicPlayable", "UnifyChaos6,KnucklesPlayable", "UnifyChaos6,BigPlayable"],
-            _ => default
+            _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
         static string[]? GetSharedBossAccess(string name) => name switch
         {
@@ -74,7 +74,7 @@ internal static partial class LocationGenerator
                 "$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
                 "$CanReach|Big|EggCarrierOutside,PlayableBig"
             ],
-            _ => default
+            _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
         static string GetStationSquareBossArea(string name) => name switch
         {
@@ -86,7 +86,7 @@ internal static partial class LocationGenerator
         static string GetMysticRuinsBossArea(string name) => name switch
         {
             string s when s.StartsWith("Egg Hornet") || s.StartsWith("Chaos 4") => "MysticRuinsHub",
-            string s when s.StartsWith("Egg Viper") || s.StartsWith("E-101 Beta") => "MysticRuinsHubFinalEggTower",
+            string s when s.StartsWith("Egg Viper") || s.StartsWith("E-101 Beta") => "MysticRuinsFinalEggTower",
             _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
 

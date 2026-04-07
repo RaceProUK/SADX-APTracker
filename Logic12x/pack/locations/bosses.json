@@ -137,7 +137,7 @@
                 "name": "Egg Viper (Sonic)",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanReach|Sonic|MysticRuinsHubFinalEggTower,PlayableSonic"
+                    "$CanReach|Sonic|MysticRuinsFinalEggTower,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "SonicPlayable"
@@ -147,7 +147,7 @@
                 "name": "E-101 Beta (Gamma)",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanReach|Gamma|MysticRuinsHubFinalEggTower,PlayableGamma"
+                    "$CanReach|Gamma|MysticRuinsFinalEggTower,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "GammaPlayable"
