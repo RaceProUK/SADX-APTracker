@@ -21,16 +21,16 @@ internal static partial class ItemGenerator
         "Station Square - Station",
         "Station Square - Casino",
         "Station Square - Sewers",
-        "Station Square - Main",
+        "Station Square - Hub",
         "Station Square - Twinkle Park Tunnel",
         "Station Square - Hotel",
         "Station Square - Hotel Pool",
         "Station Square - Twinkle Park Lobby",
-        "Mystic Ruins - Main",
+        "Mystic Ruins - Hub",
         "Mystic Ruins - Angel Island",
         "Mystic Ruins - Ice Cave",
         "Mystic Ruins - Past Altar",
-        "Mystic Ruins - Past Main",
+        "Mystic Ruins - Past City",
         "Mystic Ruins - Jungle",
         "Mystic Ruins - Final Egg Tower",
         "Egg Carrier - Outside",
@@ -126,7 +126,7 @@ internal static partial class ItemGenerator
                                       false,
                                       0,
                                       from start in Starts
-                                      let code = Common.RemoveWhitespace(start).Replace("(Hub)", "Main")
+                                      let code = Common.RemoveWhitespace(start).Replace("-", String.Empty)
                                       select new ProgressiveItemStage(start,
                                                                       $"{character}{code}",
                                                                       MakeImgPath("starts", code),
