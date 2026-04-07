@@ -1,0 +1,2064 @@
+[
+    {
+        "name": "Logic Version Mismatch",
+        "type": "toggle",
+        "codes": "VersionMismatch"
+    },
+    {
+        "max_quantity": 1500,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/settings/goals/Emblems.png",
+        "name": "Emblems Required",
+        "type": "consumable",
+        "codes": "EmblemsRequired"
+    },
+    {
+        "max_quantity": 32,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/settings/goals/Levels.png",
+        "name": "Levels Required",
+        "type": "consumable",
+        "codes": "LevelsRequired"
+    },
+    {
+        "img": "images/settings/goals/Emeralds.png",
+        "name": "Chaos Emeralds Required",
+        "type": "toggle",
+        "codes": "EmeraldsRequired"
+    },
+    {
+        "max_quantity": 15,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/settings/goals/Bosses.png",
+        "name": "Bosses Required",
+        "type": "consumable",
+        "codes": "BossesRequired"
+    },
+    {
+        "max_quantity": 60,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/settings/goals/Missions.png",
+        "name": "Missions Required",
+        "type": "consumable",
+        "codes": "MissionsRequired"
+    },
+    {
+        "img": "images/settings/goals/ChaoRaces.png",
+        "name": "Chao Races Required",
+        "type": "toggle",
+        "codes": "ChaoRacesRequired"
+    },
+    {
+        "max_quantity": 128,
+        "initial_quantity": 0,
+        "overlay_font_size": 16,
+        "img": "images/settings/goals/ChaoRacesAccessLevels.png",
+        "name": "Levels Required for Chao Races",
+        "type": "consumable",
+        "codes": "ChaoRacesAccessLevels"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Normal Logic",
+                "codes": "NormalLogic",
+                "img": "images/settings/logic/NormalLogic.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hard Logic",
+                "codes": "HardLogic",
+                "img": "images/settings/logic/HardLogic.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Expert DC Logic",
+                "codes": "ExpertLogicDC",
+                "img": "images/settings/logic/ExpertLogicDC.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Expert DX Logic",
+                "codes": "ExpertLogicDX",
+                "img": "images/settings/logic/ExpertLogicDX.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Expert DX+ Logic",
+                "codes": "ExpertLogicDXPlus",
+                "img": "images/settings/logic/ExpertLogicDXPlus.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Logic Level",
+        "type": "progressive",
+        "codes": "LogicLevel"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Lazy Fishing - Off",
+                "codes": "LazyFishingOff",
+                "img": "images/settings/logic/LazyFishingOff.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lazy Fishing - No Logic",
+                "codes": "LazyFishingNoLogic",
+                "img": "images/settings/logic/LazyFishingNoLogic.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lazy Fishing - Fishsanity",
+                "codes": "LazyFishingFishsanity",
+                "img": "images/settings/logic/LazyFishingFishsanity.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Lazy Fishing - All",
+                "codes": "LazyFishingAll",
+                "img": "images/settings/logic/LazyFishingAll.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Lazy Fishing",
+        "type": "progressive",
+        "codes": "LazyFishing"
+    },
+    {
+        "img": "images/settings/logic/FieldEmblemChecks.png",
+        "name": "Include Field Emblem Checks",
+        "type": "toggle",
+        "codes": "FieldEmblemChecks"
+    },
+    {
+        "img": "images/settings/logic/MissionModeChecks.png",
+        "name": "Include Mission Mode Checks",
+        "type": "toggle",
+        "codes": "MissionModeChecks"
+    },
+    {
+        "img": "images/settings/logic/AutoStartMissions.png",
+        "name": "Auto-start Missions",
+        "type": "toggle",
+        "codes": "AutoStartMissions"
+    },
+    {
+        "img": "images/settings/logic/SecretChaoEggs.png",
+        "name": "Include Secret Chao Eggs",
+        "type": "toggle",
+        "codes": "SecretChaoEggs"
+    },
+    {
+        "img": "images/settings/logic/ChaoRacesChecks.png",
+        "name": "Include Chao Races",
+        "type": "toggle",
+        "codes": "ChaoRacesChecks"
+    },
+    {
+        "img": "images/settings/logic/UnifyEggHornet.png",
+        "name": "Unify Egg Hornet",
+        "type": "toggle",
+        "codes": "UnifyEggHornet"
+    },
+    {
+        "img": "images/settings/logic/UnifyChaos4.png",
+        "name": "Unify Chaos 4",
+        "type": "toggle",
+        "codes": "UnifyChaos4"
+    },
+    {
+        "img": "images/settings/logic/UnifyChaos6.png",
+        "name": "Unify Chaos 6",
+        "type": "toggle",
+        "codes": "UnifyChaos6"
+    },
+    {
+        "img": "images/settings/characters/SonicPlayable.png",
+        "name": "Sonic Playable",
+        "type": "toggle",
+        "codes": "SonicPlayable"
+    },
+    {
+        "img": "images/settings/characters/TailsPlayable.png",
+        "name": "Tails Playable",
+        "type": "toggle",
+        "codes": "TailsPlayable"
+    },
+    {
+        "img": "images/settings/characters/KnucklesPlayable.png",
+        "name": "Knuckles Playable",
+        "type": "toggle",
+        "codes": "KnucklesPlayable"
+    },
+    {
+        "img": "images/settings/characters/AmyPlayable.png",
+        "name": "Amy Playable",
+        "type": "toggle",
+        "codes": "AmyPlayable"
+    },
+    {
+        "img": "images/settings/characters/GammaPlayable.png",
+        "name": "Gamma Playable",
+        "type": "toggle",
+        "codes": "GammaPlayable"
+    },
+    {
+        "img": "images/settings/characters/BigPlayable.png",
+        "name": "Big Playable",
+        "type": "toggle",
+        "codes": "BigPlayable"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Station Square - Station",
+                "codes": "SonicStationSquare-Station",
+                "img": "images/settings/starts/StationSquare-Station.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Casino",
+                "codes": "SonicStationSquare-Casino",
+                "img": "images/settings/starts/StationSquare-Casino.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Sewers",
+                "codes": "SonicStationSquare-Sewers",
+                "img": "images/settings/starts/StationSquare-Sewers.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Main",
+                "codes": "SonicStationSquare-Main",
+                "img": "images/settings/starts/StationSquare-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Tunnel",
+                "codes": "SonicStationSquare-TwinkleParkTunnel",
+                "img": "images/settings/starts/StationSquare-TwinkleParkTunnel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel",
+                "codes": "SonicStationSquare-Hotel",
+                "img": "images/settings/starts/StationSquare-Hotel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel Pool",
+                "codes": "SonicStationSquare-HotelPool",
+                "img": "images/settings/starts/StationSquare-HotelPool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Lobby",
+                "codes": "SonicStationSquare-TwinkleParkLobby",
+                "img": "images/settings/starts/StationSquare-TwinkleParkLobby.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Main",
+                "codes": "SonicMysticRuins-Main",
+                "img": "images/settings/starts/MysticRuins-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Angel Island",
+                "codes": "SonicMysticRuins-AngelIsland",
+                "img": "images/settings/starts/MysticRuins-AngelIsland.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Ice Cave",
+                "codes": "SonicMysticRuins-IceCave",
+                "img": "images/settings/starts/MysticRuins-IceCave.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Altar",
+                "codes": "SonicMysticRuins-PastAltar",
+                "img": "images/settings/starts/MysticRuins-PastAltar.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Main",
+                "codes": "SonicMysticRuins-PastMain",
+                "img": "images/settings/starts/MysticRuins-PastMain.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Jungle",
+                "codes": "SonicMysticRuins-Jungle",
+                "img": "images/settings/starts/MysticRuins-Jungle.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Final Egg Tower",
+                "codes": "SonicMysticRuins-FinalEggTower",
+                "img": "images/settings/starts/MysticRuins-FinalEggTower.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Outside",
+                "codes": "SonicEggCarrier-Outside",
+                "img": "images/settings/starts/EggCarrier-Outside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Bridge",
+                "codes": "SonicEggCarrier-Bridge",
+                "img": "images/settings/starts/EggCarrier-Bridge.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Deck",
+                "codes": "SonicEggCarrier-Deck",
+                "img": "images/settings/starts/EggCarrier-Deck.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Captain Room",
+                "codes": "SonicEggCarrier-CaptainRoom",
+                "img": "images/settings/starts/EggCarrier-CaptainRoom.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Pool",
+                "codes": "SonicEggCarrier-Pool",
+                "img": "images/settings/starts/EggCarrier-Pool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Arsenal",
+                "codes": "SonicEggCarrier-Arsenal",
+                "img": "images/settings/starts/EggCarrier-Arsenal.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Inside",
+                "codes": "SonicEggCarrier-Inside",
+                "img": "images/settings/starts/EggCarrier-Inside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Hedgehog Hammer",
+                "codes": "SonicEggCarrier-HedgehogHammer",
+                "img": "images/settings/starts/EggCarrier-HedgehogHammer.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Prison Hall",
+                "codes": "SonicEggCarrier-PrisonHall",
+                "img": "images/settings/starts/EggCarrier-PrisonHall.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Water Tank",
+                "codes": "SonicEggCarrier-WaterTank",
+                "img": "images/settings/starts/EggCarrier-WaterTank.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Warp Hall",
+                "codes": "SonicEggCarrier-WarpHall",
+                "img": "images/settings/starts/EggCarrier-WarpHall.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Sonic's Starting Location",
+        "type": "progressive",
+        "codes": "SonicStart"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Station Square - Station",
+                "codes": "TailsStationSquare-Station",
+                "img": "images/settings/starts/StationSquare-Station.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Casino",
+                "codes": "TailsStationSquare-Casino",
+                "img": "images/settings/starts/StationSquare-Casino.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Sewers",
+                "codes": "TailsStationSquare-Sewers",
+                "img": "images/settings/starts/StationSquare-Sewers.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Main",
+                "codes": "TailsStationSquare-Main",
+                "img": "images/settings/starts/StationSquare-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Tunnel",
+                "codes": "TailsStationSquare-TwinkleParkTunnel",
+                "img": "images/settings/starts/StationSquare-TwinkleParkTunnel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel",
+                "codes": "TailsStationSquare-Hotel",
+                "img": "images/settings/starts/StationSquare-Hotel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel Pool",
+                "codes": "TailsStationSquare-HotelPool",
+                "img": "images/settings/starts/StationSquare-HotelPool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Lobby",
+                "codes": "TailsStationSquare-TwinkleParkLobby",
+                "img": "images/settings/starts/StationSquare-TwinkleParkLobby.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Main",
+                "codes": "TailsMysticRuins-Main",
+                "img": "images/settings/starts/MysticRuins-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Angel Island",
+                "codes": "TailsMysticRuins-AngelIsland",
+                "img": "images/settings/starts/MysticRuins-AngelIsland.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Ice Cave",
+                "codes": "TailsMysticRuins-IceCave",
+                "img": "images/settings/starts/MysticRuins-IceCave.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Altar",
+                "codes": "TailsMysticRuins-PastAltar",
+                "img": "images/settings/starts/MysticRuins-PastAltar.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Main",
+                "codes": "TailsMysticRuins-PastMain",
+                "img": "images/settings/starts/MysticRuins-PastMain.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Jungle",
+                "codes": "TailsMysticRuins-Jungle",
+                "img": "images/settings/starts/MysticRuins-Jungle.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Final Egg Tower",
+                "codes": "TailsMysticRuins-FinalEggTower",
+                "img": "images/settings/starts/MysticRuins-FinalEggTower.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Outside",
+                "codes": "TailsEggCarrier-Outside",
+                "img": "images/settings/starts/EggCarrier-Outside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Bridge",
+                "codes": "TailsEggCarrier-Bridge",
+                "img": "images/settings/starts/EggCarrier-Bridge.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Deck",
+                "codes": "TailsEggCarrier-Deck",
+                "img": "images/settings/starts/EggCarrier-Deck.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Captain Room",
+                "codes": "TailsEggCarrier-CaptainRoom",
+                "img": "images/settings/starts/EggCarrier-CaptainRoom.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Pool",
+                "codes": "TailsEggCarrier-Pool",
+                "img": "images/settings/starts/EggCarrier-Pool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Arsenal",
+                "codes": "TailsEggCarrier-Arsenal",
+                "img": "images/settings/starts/EggCarrier-Arsenal.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Inside",
+                "codes": "TailsEggCarrier-Inside",
+                "img": "images/settings/starts/EggCarrier-Inside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Hedgehog Hammer",
+                "codes": "TailsEggCarrier-HedgehogHammer",
+                "img": "images/settings/starts/EggCarrier-HedgehogHammer.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Prison Hall",
+                "codes": "TailsEggCarrier-PrisonHall",
+                "img": "images/settings/starts/EggCarrier-PrisonHall.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Water Tank",
+                "codes": "TailsEggCarrier-WaterTank",
+                "img": "images/settings/starts/EggCarrier-WaterTank.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Warp Hall",
+                "codes": "TailsEggCarrier-WarpHall",
+                "img": "images/settings/starts/EggCarrier-WarpHall.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Tails' Starting Location",
+        "type": "progressive",
+        "codes": "TailsStart"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Station Square - Station",
+                "codes": "KnucklesStationSquare-Station",
+                "img": "images/settings/starts/StationSquare-Station.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Casino",
+                "codes": "KnucklesStationSquare-Casino",
+                "img": "images/settings/starts/StationSquare-Casino.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Sewers",
+                "codes": "KnucklesStationSquare-Sewers",
+                "img": "images/settings/starts/StationSquare-Sewers.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Main",
+                "codes": "KnucklesStationSquare-Main",
+                "img": "images/settings/starts/StationSquare-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Tunnel",
+                "codes": "KnucklesStationSquare-TwinkleParkTunnel",
+                "img": "images/settings/starts/StationSquare-TwinkleParkTunnel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel",
+                "codes": "KnucklesStationSquare-Hotel",
+                "img": "images/settings/starts/StationSquare-Hotel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel Pool",
+                "codes": "KnucklesStationSquare-HotelPool",
+                "img": "images/settings/starts/StationSquare-HotelPool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Lobby",
+                "codes": "KnucklesStationSquare-TwinkleParkLobby",
+                "img": "images/settings/starts/StationSquare-TwinkleParkLobby.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Main",
+                "codes": "KnucklesMysticRuins-Main",
+                "img": "images/settings/starts/MysticRuins-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Angel Island",
+                "codes": "KnucklesMysticRuins-AngelIsland",
+                "img": "images/settings/starts/MysticRuins-AngelIsland.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Ice Cave",
+                "codes": "KnucklesMysticRuins-IceCave",
+                "img": "images/settings/starts/MysticRuins-IceCave.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Altar",
+                "codes": "KnucklesMysticRuins-PastAltar",
+                "img": "images/settings/starts/MysticRuins-PastAltar.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Main",
+                "codes": "KnucklesMysticRuins-PastMain",
+                "img": "images/settings/starts/MysticRuins-PastMain.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Jungle",
+                "codes": "KnucklesMysticRuins-Jungle",
+                "img": "images/settings/starts/MysticRuins-Jungle.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Final Egg Tower",
+                "codes": "KnucklesMysticRuins-FinalEggTower",
+                "img": "images/settings/starts/MysticRuins-FinalEggTower.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Outside",
+                "codes": "KnucklesEggCarrier-Outside",
+                "img": "images/settings/starts/EggCarrier-Outside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Bridge",
+                "codes": "KnucklesEggCarrier-Bridge",
+                "img": "images/settings/starts/EggCarrier-Bridge.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Deck",
+                "codes": "KnucklesEggCarrier-Deck",
+                "img": "images/settings/starts/EggCarrier-Deck.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Captain Room",
+                "codes": "KnucklesEggCarrier-CaptainRoom",
+                "img": "images/settings/starts/EggCarrier-CaptainRoom.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Pool",
+                "codes": "KnucklesEggCarrier-Pool",
+                "img": "images/settings/starts/EggCarrier-Pool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Arsenal",
+                "codes": "KnucklesEggCarrier-Arsenal",
+                "img": "images/settings/starts/EggCarrier-Arsenal.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Inside",
+                "codes": "KnucklesEggCarrier-Inside",
+                "img": "images/settings/starts/EggCarrier-Inside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Hedgehog Hammer",
+                "codes": "KnucklesEggCarrier-HedgehogHammer",
+                "img": "images/settings/starts/EggCarrier-HedgehogHammer.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Prison Hall",
+                "codes": "KnucklesEggCarrier-PrisonHall",
+                "img": "images/settings/starts/EggCarrier-PrisonHall.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Water Tank",
+                "codes": "KnucklesEggCarrier-WaterTank",
+                "img": "images/settings/starts/EggCarrier-WaterTank.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Warp Hall",
+                "codes": "KnucklesEggCarrier-WarpHall",
+                "img": "images/settings/starts/EggCarrier-WarpHall.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Knuckles' Starting Location",
+        "type": "progressive",
+        "codes": "KnucklesStart"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Station Square - Station",
+                "codes": "AmyStationSquare-Station",
+                "img": "images/settings/starts/StationSquare-Station.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Casino",
+                "codes": "AmyStationSquare-Casino",
+                "img": "images/settings/starts/StationSquare-Casino.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Sewers",
+                "codes": "AmyStationSquare-Sewers",
+                "img": "images/settings/starts/StationSquare-Sewers.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Main",
+                "codes": "AmyStationSquare-Main",
+                "img": "images/settings/starts/StationSquare-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Tunnel",
+                "codes": "AmyStationSquare-TwinkleParkTunnel",
+                "img": "images/settings/starts/StationSquare-TwinkleParkTunnel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel",
+                "codes": "AmyStationSquare-Hotel",
+                "img": "images/settings/starts/StationSquare-Hotel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel Pool",
+                "codes": "AmyStationSquare-HotelPool",
+                "img": "images/settings/starts/StationSquare-HotelPool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Lobby",
+                "codes": "AmyStationSquare-TwinkleParkLobby",
+                "img": "images/settings/starts/StationSquare-TwinkleParkLobby.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Main",
+                "codes": "AmyMysticRuins-Main",
+                "img": "images/settings/starts/MysticRuins-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Angel Island",
+                "codes": "AmyMysticRuins-AngelIsland",
+                "img": "images/settings/starts/MysticRuins-AngelIsland.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Ice Cave",
+                "codes": "AmyMysticRuins-IceCave",
+                "img": "images/settings/starts/MysticRuins-IceCave.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Altar",
+                "codes": "AmyMysticRuins-PastAltar",
+                "img": "images/settings/starts/MysticRuins-PastAltar.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Main",
+                "codes": "AmyMysticRuins-PastMain",
+                "img": "images/settings/starts/MysticRuins-PastMain.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Jungle",
+                "codes": "AmyMysticRuins-Jungle",
+                "img": "images/settings/starts/MysticRuins-Jungle.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Final Egg Tower",
+                "codes": "AmyMysticRuins-FinalEggTower",
+                "img": "images/settings/starts/MysticRuins-FinalEggTower.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Outside",
+                "codes": "AmyEggCarrier-Outside",
+                "img": "images/settings/starts/EggCarrier-Outside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Bridge",
+                "codes": "AmyEggCarrier-Bridge",
+                "img": "images/settings/starts/EggCarrier-Bridge.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Deck",
+                "codes": "AmyEggCarrier-Deck",
+                "img": "images/settings/starts/EggCarrier-Deck.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Captain Room",
+                "codes": "AmyEggCarrier-CaptainRoom",
+                "img": "images/settings/starts/EggCarrier-CaptainRoom.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Pool",
+                "codes": "AmyEggCarrier-Pool",
+                "img": "images/settings/starts/EggCarrier-Pool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Arsenal",
+                "codes": "AmyEggCarrier-Arsenal",
+                "img": "images/settings/starts/EggCarrier-Arsenal.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Inside",
+                "codes": "AmyEggCarrier-Inside",
+                "img": "images/settings/starts/EggCarrier-Inside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Hedgehog Hammer",
+                "codes": "AmyEggCarrier-HedgehogHammer",
+                "img": "images/settings/starts/EggCarrier-HedgehogHammer.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Prison Hall",
+                "codes": "AmyEggCarrier-PrisonHall",
+                "img": "images/settings/starts/EggCarrier-PrisonHall.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Water Tank",
+                "codes": "AmyEggCarrier-WaterTank",
+                "img": "images/settings/starts/EggCarrier-WaterTank.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Warp Hall",
+                "codes": "AmyEggCarrier-WarpHall",
+                "img": "images/settings/starts/EggCarrier-WarpHall.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Amy's Starting Location",
+        "type": "progressive",
+        "codes": "AmyStart"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Station Square - Station",
+                "codes": "GammaStationSquare-Station",
+                "img": "images/settings/starts/StationSquare-Station.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Casino",
+                "codes": "GammaStationSquare-Casino",
+                "img": "images/settings/starts/StationSquare-Casino.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Sewers",
+                "codes": "GammaStationSquare-Sewers",
+                "img": "images/settings/starts/StationSquare-Sewers.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Main",
+                "codes": "GammaStationSquare-Main",
+                "img": "images/settings/starts/StationSquare-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Tunnel",
+                "codes": "GammaStationSquare-TwinkleParkTunnel",
+                "img": "images/settings/starts/StationSquare-TwinkleParkTunnel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel",
+                "codes": "GammaStationSquare-Hotel",
+                "img": "images/settings/starts/StationSquare-Hotel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel Pool",
+                "codes": "GammaStationSquare-HotelPool",
+                "img": "images/settings/starts/StationSquare-HotelPool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Lobby",
+                "codes": "GammaStationSquare-TwinkleParkLobby",
+                "img": "images/settings/starts/StationSquare-TwinkleParkLobby.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Main",
+                "codes": "GammaMysticRuins-Main",
+                "img": "images/settings/starts/MysticRuins-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Angel Island",
+                "codes": "GammaMysticRuins-AngelIsland",
+                "img": "images/settings/starts/MysticRuins-AngelIsland.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Ice Cave",
+                "codes": "GammaMysticRuins-IceCave",
+                "img": "images/settings/starts/MysticRuins-IceCave.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Altar",
+                "codes": "GammaMysticRuins-PastAltar",
+                "img": "images/settings/starts/MysticRuins-PastAltar.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Main",
+                "codes": "GammaMysticRuins-PastMain",
+                "img": "images/settings/starts/MysticRuins-PastMain.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Jungle",
+                "codes": "GammaMysticRuins-Jungle",
+                "img": "images/settings/starts/MysticRuins-Jungle.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Final Egg Tower",
+                "codes": "GammaMysticRuins-FinalEggTower",
+                "img": "images/settings/starts/MysticRuins-FinalEggTower.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Outside",
+                "codes": "GammaEggCarrier-Outside",
+                "img": "images/settings/starts/EggCarrier-Outside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Bridge",
+                "codes": "GammaEggCarrier-Bridge",
+                "img": "images/settings/starts/EggCarrier-Bridge.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Deck",
+                "codes": "GammaEggCarrier-Deck",
+                "img": "images/settings/starts/EggCarrier-Deck.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Captain Room",
+                "codes": "GammaEggCarrier-CaptainRoom",
+                "img": "images/settings/starts/EggCarrier-CaptainRoom.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Pool",
+                "codes": "GammaEggCarrier-Pool",
+                "img": "images/settings/starts/EggCarrier-Pool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Arsenal",
+                "codes": "GammaEggCarrier-Arsenal",
+                "img": "images/settings/starts/EggCarrier-Arsenal.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Inside",
+                "codes": "GammaEggCarrier-Inside",
+                "img": "images/settings/starts/EggCarrier-Inside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Hedgehog Hammer",
+                "codes": "GammaEggCarrier-HedgehogHammer",
+                "img": "images/settings/starts/EggCarrier-HedgehogHammer.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Prison Hall",
+                "codes": "GammaEggCarrier-PrisonHall",
+                "img": "images/settings/starts/EggCarrier-PrisonHall.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Water Tank",
+                "codes": "GammaEggCarrier-WaterTank",
+                "img": "images/settings/starts/EggCarrier-WaterTank.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Warp Hall",
+                "codes": "GammaEggCarrier-WarpHall",
+                "img": "images/settings/starts/EggCarrier-WarpHall.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Gamma's Starting Location",
+        "type": "progressive",
+        "codes": "GammaStart"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Station Square - Station",
+                "codes": "BigStationSquare-Station",
+                "img": "images/settings/starts/StationSquare-Station.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Casino",
+                "codes": "BigStationSquare-Casino",
+                "img": "images/settings/starts/StationSquare-Casino.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Sewers",
+                "codes": "BigStationSquare-Sewers",
+                "img": "images/settings/starts/StationSquare-Sewers.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Main",
+                "codes": "BigStationSquare-Main",
+                "img": "images/settings/starts/StationSquare-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Tunnel",
+                "codes": "BigStationSquare-TwinkleParkTunnel",
+                "img": "images/settings/starts/StationSquare-TwinkleParkTunnel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel",
+                "codes": "BigStationSquare-Hotel",
+                "img": "images/settings/starts/StationSquare-Hotel.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Hotel Pool",
+                "codes": "BigStationSquare-HotelPool",
+                "img": "images/settings/starts/StationSquare-HotelPool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Station Square - Twinkle Park Lobby",
+                "codes": "BigStationSquare-TwinkleParkLobby",
+                "img": "images/settings/starts/StationSquare-TwinkleParkLobby.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Main",
+                "codes": "BigMysticRuins-Main",
+                "img": "images/settings/starts/MysticRuins-Main.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Angel Island",
+                "codes": "BigMysticRuins-AngelIsland",
+                "img": "images/settings/starts/MysticRuins-AngelIsland.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Ice Cave",
+                "codes": "BigMysticRuins-IceCave",
+                "img": "images/settings/starts/MysticRuins-IceCave.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Altar",
+                "codes": "BigMysticRuins-PastAltar",
+                "img": "images/settings/starts/MysticRuins-PastAltar.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Past Main",
+                "codes": "BigMysticRuins-PastMain",
+                "img": "images/settings/starts/MysticRuins-PastMain.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Jungle",
+                "codes": "BigMysticRuins-Jungle",
+                "img": "images/settings/starts/MysticRuins-Jungle.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Mystic Ruins - Final Egg Tower",
+                "codes": "BigMysticRuins-FinalEggTower",
+                "img": "images/settings/starts/MysticRuins-FinalEggTower.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Outside",
+                "codes": "BigEggCarrier-Outside",
+                "img": "images/settings/starts/EggCarrier-Outside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Bridge",
+                "codes": "BigEggCarrier-Bridge",
+                "img": "images/settings/starts/EggCarrier-Bridge.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Deck",
+                "codes": "BigEggCarrier-Deck",
+                "img": "images/settings/starts/EggCarrier-Deck.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Captain Room",
+                "codes": "BigEggCarrier-CaptainRoom",
+                "img": "images/settings/starts/EggCarrier-CaptainRoom.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Pool",
+                "codes": "BigEggCarrier-Pool",
+                "img": "images/settings/starts/EggCarrier-Pool.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Arsenal",
+                "codes": "BigEggCarrier-Arsenal",
+                "img": "images/settings/starts/EggCarrier-Arsenal.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Inside",
+                "codes": "BigEggCarrier-Inside",
+                "img": "images/settings/starts/EggCarrier-Inside.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Hedgehog Hammer",
+                "codes": "BigEggCarrier-HedgehogHammer",
+                "img": "images/settings/starts/EggCarrier-HedgehogHammer.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Prison Hall",
+                "codes": "BigEggCarrier-PrisonHall",
+                "img": "images/settings/starts/EggCarrier-PrisonHall.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Water Tank",
+                "codes": "BigEggCarrier-WaterTank",
+                "img": "images/settings/starts/EggCarrier-WaterTank.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Egg Carrier - Warp Hall",
+                "codes": "BigEggCarrier-WarpHall",
+                "img": "images/settings/starts/EggCarrier-WarpHall.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Big's Starting Location",
+        "type": "progressive",
+        "codes": "BigStart"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sonic's C Missions",
+                "codes": "SonicMissionC",
+                "img": "images/settings/objectives/SonicMissionC.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sonic's B Missions",
+                "codes": "SonicMissionB",
+                "img": "images/settings/objectives/SonicMissionB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sonic's A Missions",
+                "codes": "SonicMissionA",
+                "img": "images/settings/objectives/SonicMissionA.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sonic's S Missions",
+                "codes": "SonicMissionS",
+                "img": "images/settings/objectives/SonicMissionS.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sonic Missions",
+        "type": "progressive",
+        "codes": "SonicMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Tails' C Missions",
+                "codes": "TailsMissionC",
+                "img": "images/settings/objectives/TailsMissionC.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Tails' B Missions",
+                "codes": "TailsMissionB",
+                "img": "images/settings/objectives/TailsMissionB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Tails' A Missions",
+                "codes": "TailsMissionA",
+                "img": "images/settings/objectives/TailsMissionA.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Tails' S Missions",
+                "codes": "TailsMissionS",
+                "img": "images/settings/objectives/TailsMissionS.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Tails Missions",
+        "type": "progressive",
+        "codes": "TailsMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Knuckles' C Missions",
+                "codes": "KnucklesMissionC",
+                "img": "images/settings/objectives/KnucklesMissionC.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Knuckles' B Missions",
+                "codes": "KnucklesMissionB",
+                "img": "images/settings/objectives/KnucklesMissionB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Knuckles' A Missions",
+                "codes": "KnucklesMissionA",
+                "img": "images/settings/objectives/KnucklesMissionA.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Knuckles' S Missions",
+                "codes": "KnucklesMissionS",
+                "img": "images/settings/objectives/KnucklesMissionS.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Knuckles Missions",
+        "type": "progressive",
+        "codes": "KnucklesMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Amy's C Missions",
+                "codes": "AmyMissionC",
+                "img": "images/settings/objectives/AmyMissionC.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Amy's B Missions",
+                "codes": "AmyMissionB",
+                "img": "images/settings/objectives/AmyMissionB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Amy's A Missions",
+                "codes": "AmyMissionA",
+                "img": "images/settings/objectives/AmyMissionA.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Amy's S Missions",
+                "codes": "AmyMissionS",
+                "img": "images/settings/objectives/AmyMissionS.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Amy Missions",
+        "type": "progressive",
+        "codes": "AmyMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Gamma's C Missions",
+                "codes": "GammaMissionC",
+                "img": "images/settings/objectives/GammaMissionC.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Gamma's B Missions",
+                "codes": "GammaMissionB",
+                "img": "images/settings/objectives/GammaMissionB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Gamma's A Missions",
+                "codes": "GammaMissionA",
+                "img": "images/settings/objectives/GammaMissionA.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Gamma's S Missions",
+                "codes": "GammaMissionS",
+                "img": "images/settings/objectives/GammaMissionS.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Gamma Missions",
+        "type": "progressive",
+        "codes": "GammaMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Big's C Missions",
+                "codes": "BigMissionC",
+                "img": "images/settings/objectives/BigMissionC.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Big's B Missions",
+                "codes": "BigMissionB",
+                "img": "images/settings/objectives/BigMissionB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Big's A Missions",
+                "codes": "BigMissionA",
+                "img": "images/settings/objectives/BigMissionA.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Big's S Missions",
+                "codes": "BigMissionS",
+                "img": "images/settings/objectives/BigMissionS.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Big Missions",
+        "type": "progressive",
+        "codes": "BigMissions"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sky Chase - Normal Mission Only",
+                "codes": "EnableSkyChase",
+                "img": "images/settings/objectives/SkyChaseB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sky Chase - Both Missions",
+                "codes": "EnableSkyChaseHard",
+                "img": "images/settings/objectives/SkyChaseA.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sky Chase Checks",
+        "type": "progressive",
+        "codes": "SkyChaseChecks"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Sand Hill - Normal Mission Only",
+                "codes": "EnableSandHill",
+                "img": "images/settings/objectives/SandHillB.png",
+                "inherit_codes": true
+            },
+            {
+                "name": "Sand Hill - Both Missions",
+                "codes": "EnableSandHillHard",
+                "img": "images/settings/objectives/SandHillA.png",
+                "inherit_codes": true
+            }
+        ],
+        "name": "Sand Hill Checks",
+        "type": "progressive",
+        "codes": "SandHillChecks"
+    },
+    {
+        "loop": true,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Twinkle Circuit - Single Check",
+                "codes": "EnableTwinkleCircuit",
+                "img": "images/settings/objectives/TwinkleCircuit.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Twinkle Circuit - Character Checks",
+                "codes": "EnableTwinkleCircuitMultiple",
+                "img": "images/settings/objectives/TwinkleCircuitMultiple.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Twinkle Circuit Checks",
+        "type": "progressive",
+        "codes": "TwinkleCircuitChecks"
+    },
+    {
+        "img": "images/settings/sanities/Enemysanity.png",
+        "name": "Enemysanity",
+        "type": "toggle",
+        "codes": "Enemysanity"
+    },
+    {
+        "img": "images/settings/sanities/SonicEnemysanity.png",
+        "name": "Sonic's Enemysanity",
+        "type": "toggle",
+        "codes": "SonicEnemysanity"
+    },
+    {
+        "img": "images/settings/sanities/TailsEnemysanity.png",
+        "name": "Tails' Enemysanity",
+        "type": "toggle",
+        "codes": "TailsEnemysanity"
+    },
+    {
+        "img": "images/settings/sanities/KnucklesEnemysanity.png",
+        "name": "Knuckles' Enemysanity",
+        "type": "toggle",
+        "codes": "KnucklesEnemysanity"
+    },
+    {
+        "img": "images/settings/sanities/AmyEnemysanity.png",
+        "name": "Amy's Enemysanity",
+        "type": "toggle",
+        "codes": "AmyEnemysanity"
+    },
+    {
+        "img": "images/settings/sanities/GammaEnemysanity.png",
+        "name": "Gamma's Enemysanity",
+        "type": "toggle",
+        "codes": "GammaEnemysanity"
+    },
+    {
+        "img": "images/settings/sanities/BigEnemysanity.png",
+        "name": "Big's Enemysanity",
+        "type": "toggle",
+        "codes": "BigEnemysanity"
+    },
+    {
+        "img": "images/settings/sanities/Capsulesanity.png",
+        "name": "Capsulesanity",
+        "type": "toggle",
+        "codes": "Capsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/SonicLifeCapsulesanity.png",
+        "name": "Sonic's Life Capsulesanity",
+        "type": "toggle",
+        "codes": "SonicLifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/SonicShieldCapsulesanity.png",
+        "name": "Sonic's Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "SonicShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/SonicPowerUpCapsulesanity.png",
+        "name": "Sonic's Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "SonicPowerUpCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/SonicRingCapsulesanity.png",
+        "name": "Sonic's Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "SonicRingCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/TailsLifeCapsulesanity.png",
+        "name": "Tails' Life Capsulesanity",
+        "type": "toggle",
+        "codes": "TailsLifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/TailsShieldCapsulesanity.png",
+        "name": "Tails' Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "TailsShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/TailsPowerUpCapsulesanity.png",
+        "name": "Tails' Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "TailsPowerUpCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/TailsRingCapsulesanity.png",
+        "name": "Tails' Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "TailsRingCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/KnucklesLifeCapsulesanity.png",
+        "name": "Knuckles' Life Capsulesanity",
+        "type": "toggle",
+        "codes": "KnucklesLifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/KnucklesShieldCapsulesanity.png",
+        "name": "Knuckles' Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "KnucklesShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/KnucklesPowerUpCapsulesanity.png",
+        "name": "Knuckles' Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "KnucklesPowerUpCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/KnucklesRingCapsulesanity.png",
+        "name": "Knuckles' Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "KnucklesRingCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/AmyLifeCapsulesanity.png",
+        "name": "Amy's Life Capsulesanity",
+        "type": "toggle",
+        "codes": "AmyLifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/AmyShieldCapsulesanity.png",
+        "name": "Amy's Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "AmyShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/AmyPowerUpCapsulesanity.png",
+        "name": "Amy's Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "AmyPowerUpCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/AmyRingCapsulesanity.png",
+        "name": "Amy's Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "AmyRingCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/GammaLifeCapsulesanity.png",
+        "name": "Gamma's Life Capsulesanity",
+        "type": "toggle",
+        "codes": "GammaLifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/GammaShieldCapsulesanity.png",
+        "name": "Gamma's Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "GammaShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/GammaPowerUpCapsulesanity.png",
+        "name": "Gamma's Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "GammaPowerUpCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/GammaRingCapsulesanity.png",
+        "name": "Gamma's Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "GammaRingCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/BigLifeCapsulesanity.png",
+        "name": "Big's Life Capsulesanity",
+        "type": "toggle",
+        "codes": "BigLifeCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/BigShieldCapsulesanity.png",
+        "name": "Big's Shield Capsulesanity",
+        "type": "toggle",
+        "codes": "BigShieldCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/BigPowerUpCapsulesanity.png",
+        "name": "Big's Power-up Capsulesanity",
+        "type": "toggle",
+        "codes": "BigPowerUpCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/BigRingCapsulesanity.png",
+        "name": "Big's Ring Capsulesanity",
+        "type": "toggle",
+        "codes": "BigRingCapsulesanity"
+    },
+    {
+        "img": "images/settings/sanities/MissableEnemies.png",
+        "name": "Missable Enemies",
+        "type": "toggle",
+        "codes": "MissableEnemies"
+    },
+    {
+        "img": "images/settings/sanities/MissableCapsules.png",
+        "name": "Missable Capsules",
+        "type": "toggle",
+        "codes": "MissableCapsules"
+    },
+    {
+        "img": "images/settings/sanities/PinballCapsules.png",
+        "name": "Pinball Capsules",
+        "type": "toggle",
+        "codes": "PinballCapsules"
+    },
+    {
+        "img": "images/settings/sanities/Fishsanity.png",
+        "name": "Fishsanity",
+        "type": "toggle",
+        "codes": "Fishsanity"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 1",
+        "type": "toggle",
+        "codes": "AllowMission1"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 2",
+        "type": "toggle",
+        "codes": "AllowMission2"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 3",
+        "type": "toggle",
+        "codes": "AllowMission3"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 4",
+        "type": "toggle",
+        "codes": "AllowMission4"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 5",
+        "type": "toggle",
+        "codes": "AllowMission5"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 6",
+        "type": "toggle",
+        "codes": "AllowMission6"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 7",
+        "type": "toggle",
+        "codes": "AllowMission7"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 8",
+        "type": "toggle",
+        "codes": "AllowMission8"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 9",
+        "type": "toggle",
+        "codes": "AllowMission9"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 10",
+        "type": "toggle",
+        "codes": "AllowMission10"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 11",
+        "type": "toggle",
+        "codes": "AllowMission11"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 12",
+        "type": "toggle",
+        "codes": "AllowMission12"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 13",
+        "type": "toggle",
+        "codes": "AllowMission13"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 14",
+        "type": "toggle",
+        "codes": "AllowMission14"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 15",
+        "type": "toggle",
+        "codes": "AllowMission15"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 16",
+        "type": "toggle",
+        "codes": "AllowMission16"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 17",
+        "type": "toggle",
+        "codes": "AllowMission17"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 18",
+        "type": "toggle",
+        "codes": "AllowMission18"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 19",
+        "type": "toggle",
+        "codes": "AllowMission19"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 20",
+        "type": "toggle",
+        "codes": "AllowMission20"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 21",
+        "type": "toggle",
+        "codes": "AllowMission21"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 22",
+        "type": "toggle",
+        "codes": "AllowMission22"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 23",
+        "type": "toggle",
+        "codes": "AllowMission23"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 24",
+        "type": "toggle",
+        "codes": "AllowMission24"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 25",
+        "type": "toggle",
+        "codes": "AllowMission25"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 26",
+        "type": "toggle",
+        "codes": "AllowMission26"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 27",
+        "type": "toggle",
+        "codes": "AllowMission27"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 28",
+        "type": "toggle",
+        "codes": "AllowMission28"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 29",
+        "type": "toggle",
+        "codes": "AllowMission29"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 30",
+        "type": "toggle",
+        "codes": "AllowMission30"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 31",
+        "type": "toggle",
+        "codes": "AllowMission31"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 32",
+        "type": "toggle",
+        "codes": "AllowMission32"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 33",
+        "type": "toggle",
+        "codes": "AllowMission33"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 34",
+        "type": "toggle",
+        "codes": "AllowMission34"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 35",
+        "type": "toggle",
+        "codes": "AllowMission35"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 36",
+        "type": "toggle",
+        "codes": "AllowMission36"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 37",
+        "type": "toggle",
+        "codes": "AllowMission37"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 38",
+        "type": "toggle",
+        "codes": "AllowMission38"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 39",
+        "type": "toggle",
+        "codes": "AllowMission39"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 40",
+        "type": "toggle",
+        "codes": "AllowMission40"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 41",
+        "type": "toggle",
+        "codes": "AllowMission41"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 42",
+        "type": "toggle",
+        "codes": "AllowMission42"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 43",
+        "type": "toggle",
+        "codes": "AllowMission43"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 44",
+        "type": "toggle",
+        "codes": "AllowMission44"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 45",
+        "type": "toggle",
+        "codes": "AllowMission45"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 46",
+        "type": "toggle",
+        "codes": "AllowMission46"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 47",
+        "type": "toggle",
+        "codes": "AllowMission47"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 48",
+        "type": "toggle",
+        "codes": "AllowMission48"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 49",
+        "type": "toggle",
+        "codes": "AllowMission49"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 50",
+        "type": "toggle",
+        "codes": "AllowMission50"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 51",
+        "type": "toggle",
+        "codes": "AllowMission51"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 52",
+        "type": "toggle",
+        "codes": "AllowMission52"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 53",
+        "type": "toggle",
+        "codes": "AllowMission53"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 54",
+        "type": "toggle",
+        "codes": "AllowMission54"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 55",
+        "type": "toggle",
+        "codes": "AllowMission55"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 56",
+        "type": "toggle",
+        "codes": "AllowMission56"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 57",
+        "type": "toggle",
+        "codes": "AllowMission57"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 58",
+        "type": "toggle",
+        "codes": "AllowMission58"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 59",
+        "type": "toggle",
+        "codes": "AllowMission59"
+    },
+    {
+        "img": "images/settings/goals/Missions.png",
+        "name": "Allow Mission 60",
+        "type": "toggle",
+        "codes": "AllowMission60"
+    }
+]

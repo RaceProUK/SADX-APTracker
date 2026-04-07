@@ -30,6 +30,7 @@ internal static partial class ItemGenerator
         await GenerateEmeraldsJson(idToName);
         await GenerateProgressionJson(idToName);
         await GenerateGoalsJson(idToName);
+        await GenerateSettingsJson();
     }
 
     private static string GetWord(string name, int index) => name.Split(' ')[index];
