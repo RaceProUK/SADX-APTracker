@@ -17,7 +17,24 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|StationSquareCityHall,$CanReach|Sonic|StationSquareChaoGarden,PolicePass,HotelKey,PlayableSonic",
+            "$CanReach|Tails|StationSquareCityHall,$CanReach|Tails|StationSquareChaoGarden,PolicePass,HotelKey,PlayableTails",
+            "$CanReach|Knuckles|StationSquareCityHall,$CanReach|Knuckles|StationSquareChaoGarden,PolicePass,HotelKey,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareCityHall,$CanReach|Amy|StationSquareChaoGarden,PolicePass,HotelKey,PlayableAmy",
+            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,HotelKey,PlayableGamma",
+            "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,HotelKey,PlayableBig",
+            "$CanReach|Sonic|StationSquareCityHall,$CanReach|Sonic|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableSonic",
+            "$CanReach|Tails|StationSquareCityHall,$CanReach|Tails|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableTails",
+            "$CanReach|Knuckles|StationSquareCityHall,$CanReach|Knuckles|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableKnuckles",
+            "$CanReach|Amy|StationSquareCityHall,$CanReach|Amy|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableAmy",
+            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableGamma",
+            "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableBig"
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs"
+        ]
     },
     {
         "name": "Mystic Ruins Chao Egg",
@@ -37,7 +54,21 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|MysticRuinsHub,$CanReach|Sonic|MysticRuinsChaoGarden,PlayableSonic",
+            "$CanReach|Tails|MysticRuinsHub,$CanReach|Tails|MysticRuinsChaoGarden,PlayableTails",
+            "$CanReach|Knuckles|MysticRuinsHub,$CanReach|Knuckles|MysticRuinsChaoGarden,PlayableKnuckles",
+            "$CanReach|Amy|MysticRuinsHub,$CanReach|Amy|MysticRuinsChaoGarden,PlayableAmy",
+            "$CanReach|Big|MysticRuinsHub,$CanReach|Big|MysticRuinsChaoGarden,PlayableBig"
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs,SonicPlayable",
+            "SecretChaoEggs,TailsPlayable",
+            "SecretChaoEggs,KnucklesPlayable",
+            "SecretChaoEggs,AmyPlayable",
+            "SecretChaoEggs,BigPlayable"
+        ]
     },
     {
         "name": "Egg Carrier Chao Egg",
@@ -57,6 +88,16 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Amy|EggCarrierPrisonHall,$CanReach|Amy|EggCarrierChaoGarden,PlayableAmy",
+            "$CanReach|Big|EggCarrierPrisonHall,$CanReach|Big|EggCarrierChaoGarden,PlayableBig",
+            "$CanReach|Gamma|EggCarrierPrisonHall,$CanReach|Gamma|EggCarrierChaoGarden,PlayableGamma"
+        ],
+        "visibility_rules": [
+            "SecretChaoEggs,AmyPlayable",
+            "SecretChaoEggs,BigPlayable",
+            "SecretChaoEggs,GammaPlayable"
+        ]
     }
 ]

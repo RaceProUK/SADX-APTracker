@@ -16,6 +16,12 @@ internal static partial class LocationGenerator
     private const int ChaoEggsX = 1864;
     private const int ChaoRacesX = 1912;
 
+    private static readonly IEnumerable<string> ShopCharacters = ["Sonic", "Tails", "Knuckles", "Amy", "Gamma", "Big"];
+
+    private static readonly IEnumerable<string> PondCharacters = ["Sonic", "Tails", "Knuckles", "Amy", "Big"];
+
+    private static readonly IEnumerable<string> BrigCharacters = ["Amy", "Big", "Gamma"];
+
     private static IEnumerable<LuaLocation> GenerateChaoEggsLua(FrozenDictionary<int, string> dict)
     {
         yield return new LuaLocation(GoldEgg, "Station Square Chao Egg", dict[GoldEgg]);
@@ -32,13 +38,23 @@ internal static partial class LocationGenerator
     {
         var stationSquare = new Location("Station Square Chao Egg",
                                          [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY, LevelsIconSize, BorderThickness)],
-                                         [(new Section(dict[GoldEgg]))]);
+                                         [(new Section(dict[GoldEgg]))],
+                                         AccessRules:
+                                         [
+                                             .. ShopCharacters.Select(_ => $"$CanReach|{_}|StationSquareCityHall,$CanReach|{_}|StationSquareChaoGarden,PolicePass,HotelKey,Playable{_}"),
+                                             .. ShopCharacters.Select(_ => $"$CanReach|{_}|StationSquareCityHall,$CanReach|{_}|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,Playable{_}")
+                                         ],
+                                         VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY + FieldSpacingY, LevelsIconSize, BorderThickness)],
-                                       [(new Section(dict[SilverEgg]))]);
+                                       [(new Section(dict[SilverEgg]))],
+                                       AccessRules: PondCharacters.Select(_ => $"$CanReach|{_}|MysticRuinsHub,$CanReach|{_}|MysticRuinsChaoGarden,Playable{_}"),
+                                       VisibilityRules: PondCharacters.Select(_ => $"SecretChaoEggs,{_}Playable"));
         var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY + 2 * FieldSpacingY, LevelsIconSize, BorderThickness)],
-                                      [(new Section(dict[BlackEgg]))]);
+                                      [(new Section(dict[BlackEgg]))],
+                                      AccessRules: BrigCharacters.Select(_ => $"$CanReach|{_}|EggCarrierPrisonHall,$CanReach|{_}|EggCarrierChaoGarden,Playable{_}"),
+                                      VisibilityRules: BrigCharacters.Select(_ => $"SecretChaoEggs,{_}Playable"));
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),
                                    "chaoEggs.json",
@@ -51,7 +67,9 @@ internal static partial class LocationGenerator
                                      [new MapLocation(LevelsMap, ChaoRacesX, FieldItemsY, LevelsIconSize, BorderThickness)],
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
-                                     select new Section(entry.Value));
+                                     select new Section(entry.Value),
+                                     AccessRules: ShopCharacters.Select(_ => $"$CanReach|{_}|StationSquareChaoGarden,Playable{_}"),
+                                     VisibilityRules: ["ChaoRacesChecks"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(new[] { chaoRaces }, Constants.JsonOptions),
                                    "chaoRaces.json",
                                    "locations");
