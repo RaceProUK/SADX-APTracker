@@ -20,6 +20,9 @@ internal static partial class LocationGenerator
     private const int BigCapsulesStart = 543860000;
     private const int BigCapsulesEnd = 543870000;
 
+    private const int PinballCapsulesStart = 543812548;
+    private const int PinballCapsulesEnd = 543812553;
+
     private const string CapsulesMap = "capsules";
 
     private static IEnumerable<LuaLocation> GenerateCapsulesLua(FrozenDictionary<int, string> dict)
@@ -32,6 +35,20 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateCapsules(FrozenDictionary<int, string> dict)
     {
+        static string? GetVisibility(string name, string character) => name switch
+        {
+            "Extra Life" => $"{character}LifeCapsulesanity",
+            "Shield" => $"{character}ShieldCapsulesanity",
+            "Magnetic Shield" => $"{character}ShieldCapsulesanity",
+            "Speed Up" => $"{character}PowerUpCapsulesanity",
+            "Invincibility" => $"{character}PowerUpCapsulesanity",
+            "Bomb" => $"{character}PowerupCapsulesanity",
+            "Five Rings" => $"{character}RingCapsulesanity",
+            "Ten Rings" => $"{character}RingCapsulesanity",
+            "Random Rings" => $"{character}RingCapsulesanity",
+            _ => default
+        };
+
         var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, SonicLevelsX, SonicLevelsY);
         var tailsCapsules = GetCapsules(dict, TailsCapsulesStart, TailsCapsulesEnd, TailsLevelsX, TailsLevelsY);
         var knucklesCapsules = GetCapsules(dict, KnucklesCapsulesStart, KnucklesCapsulesEnd, KnucklesLevelsX, KnucklesLevelsY);
@@ -64,10 +81,18 @@ internal static partial class LocationGenerator
             var capsules = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in capsules
                    let y = y0 + LevelsSpacingY * level.Multipler
+                   let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location($"Capsulesanity - {level.Location.Key}",
                                        [new MapLocation(CapsulesMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
-                                       select new Section(section.Name));
+                                       let item = CapsuleItemParser().Match(section.Name).Groups[1].Value
+                                       let visibility = GetVisibility(item, character)
+                                       let pinball = section.Key >= PinballCapsulesStart && section.Key < PinballCapsulesEnd
+                                       select new Section(section.Name,
+                                                          VisibilityRules: pinball
+                                                          ? [$"PinballCapsules,{visibility}"]
+                                                          : [visibility]),
+                                       VisibilityRules: [$"{character}Playable,Capsulesanity"]);
         }
     }
 }

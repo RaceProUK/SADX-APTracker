@@ -13,23 +13,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Windy Valley (Sonic)",
@@ -45,23 +60,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Casinopolis (Sonic)",
@@ -77,23 +107,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Ice Cap (Sonic)",
@@ -109,23 +154,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Twinkle Park (Sonic)",
@@ -141,23 +201,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Speed Highway (Sonic)",
@@ -173,23 +248,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Red Mountain (Sonic)",
@@ -205,23 +295,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Sky Deck (Sonic)",
@@ -237,23 +342,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Lost World (Sonic)",
@@ -269,23 +389,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Final Egg (Sonic)",
@@ -301,23 +436,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "SonicMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable"
+        ]
     },
     {
         "name": "Windy Valley (Tails)",
@@ -333,23 +483,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable"
+        ]
     },
     {
         "name": "Casinopolis (Tails)",
@@ -365,23 +530,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable"
+        ]
     },
     {
         "name": "Ice Cap (Tails)",
@@ -397,23 +577,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable"
+        ]
     },
     {
         "name": "Sky Deck (Tails)",
@@ -429,23 +624,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable"
+        ]
     },
     {
         "name": "Speed Highway (Tails)",
@@ -461,23 +671,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "TailsMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable"
+        ]
     },
     {
         "name": "Speed Highway (Knuckles)",
@@ -493,23 +718,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable"
+        ]
     },
     {
         "name": "Casinopolis (Knuckles)",
@@ -525,23 +765,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable"
+        ]
     },
     {
         "name": "Red Mountain (Knuckles)",
@@ -557,23 +812,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable"
+        ]
     },
     {
         "name": "Lost World (Knuckles)",
@@ -589,23 +859,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable"
+        ]
     },
     {
         "name": "Sky Deck (Knuckles)",
@@ -621,23 +906,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "KnucklesMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable"
+        ]
     },
     {
         "name": "Twinkle Park (Amy)",
@@ -653,23 +953,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "AmyPlayable"
+        ]
     },
     {
         "name": "Hot Shelter (Amy)",
@@ -685,23 +1000,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "AmyPlayable"
+        ]
     },
     {
         "name": "Final Egg (Amy)",
@@ -717,23 +1047,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "AmyMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "AmyPlayable"
+        ]
     },
     {
         "name": "Final Egg (Gamma)",
@@ -749,23 +1094,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable"
+        ]
     },
     {
         "name": "Emerald Coast (Gamma)",
@@ -781,23 +1141,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable"
+        ]
     },
     {
         "name": "Windy Valley (Gamma)",
@@ -813,23 +1188,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable"
+        ]
     },
     {
         "name": "Red Mountain (Gamma)",
@@ -845,23 +1235,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable"
+        ]
     },
     {
         "name": "Hot Shelter (Gamma)",
@@ -877,23 +1282,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "GammaMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable"
+        ]
     },
     {
         "name": "Twinkle Park (Big)",
@@ -909,23 +1329,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable"
+        ]
     },
     {
         "name": "Ice Cap (Big)",
@@ -941,23 +1376,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable"
+        ]
     },
     {
         "name": "Emerald Coast (Big)",
@@ -973,23 +1423,38 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable"
+        ]
     },
     {
         "name": "Hot Shelter (Big)",
@@ -1005,22 +1470,37 @@
         "sections": [
             {
                 "name": "Mission S",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionS"
+                ]
             },
             {
                 "name": "Mission A",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionA"
+                ]
             },
             {
                 "name": "Mission B",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionB"
+                ]
             },
             {
                 "name": "Mission C",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "BigMissionC"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable"
+        ]
     }
 ]

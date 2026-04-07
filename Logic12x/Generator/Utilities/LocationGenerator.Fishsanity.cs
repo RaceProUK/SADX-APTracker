@@ -43,7 +43,8 @@ internal static partial class LocationGenerator
                    select new Location($"Fishsanity - {level.Location.Key}",
                                        [new MapLocation(LevelsMap, BigLevelsX + FishOffsetX, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
-                                       select new Section(section));
+                                       select new Section(section),
+                                       VisibilityRules: [$"BigPlayable,Fishsanity"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(fish, Constants.JsonOptions),
                                    "fish.json",
                                    "locations");

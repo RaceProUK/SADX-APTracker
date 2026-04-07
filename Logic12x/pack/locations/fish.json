@@ -25,7 +25,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
     },
     {
         "name": "Fishsanity - Ice Cap (Big)",
@@ -65,7 +68,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
     },
     {
         "name": "Fishsanity - Emerald Coast (Big)",
@@ -113,7 +119,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
     },
     {
         "name": "Fishsanity - Hot Shelter (Big)",
@@ -153,6 +162,9 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Fishsanity"
+        ]
     }
 ]

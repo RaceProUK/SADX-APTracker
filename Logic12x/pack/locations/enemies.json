@@ -85,7 +85,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Windy Valley (Sonic)",
@@ -141,7 +144,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Casinopolis (Sonic)",
@@ -197,7 +203,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Ice Cap (Sonic)",
@@ -233,7 +242,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Twinkle Park (Sonic)",
@@ -385,7 +397,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Speed Highway (Sonic)",
@@ -593,7 +608,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Red Mountain (Sonic)",
@@ -853,7 +871,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Sky Deck (Sonic)",
@@ -1101,7 +1122,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Lost World (Sonic)",
@@ -1209,7 +1233,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Final Egg (Sonic)",
@@ -1385,7 +1412,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "SonicPlayable,Enemysanity,SonicEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Windy Valley (Tails)",
@@ -1413,7 +1443,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable,Enemysanity,TailsEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Casinopolis (Tails)",
@@ -1441,7 +1474,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable,Enemysanity,TailsEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Sky Deck (Tails)",
@@ -1493,7 +1529,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable,Enemysanity,TailsEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Speed Highway (Tails)",
@@ -1633,7 +1672,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "TailsPlayable,Enemysanity,TailsEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Speed Highway (Knuckles)",
@@ -1713,7 +1755,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Casinopolis (Knuckles)",
@@ -1793,7 +1838,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Red Mountain (Knuckles)",
@@ -1897,7 +1945,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Lost World (Knuckles)",
@@ -1953,7 +2004,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Sky Deck (Knuckles)",
@@ -2033,7 +2087,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "KnucklesPlayable,Enemysanity,KnucklesEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Twinkle Park (Amy)",
@@ -2113,7 +2170,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "AmyPlayable,Enemysanity,AmyEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Hot Shelter (Amy)",
@@ -2253,7 +2313,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "AmyPlayable,Enemysanity,AmyEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Final Egg (Amy)",
@@ -2297,7 +2360,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "AmyPlayable,Enemysanity,AmyEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Final Egg (Gamma)",
@@ -2321,7 +2387,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable,Enemysanity,GammaEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Emerald Coast (Gamma)",
@@ -2453,7 +2522,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable,Enemysanity,GammaEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Windy Valley (Gamma)",
@@ -2513,7 +2585,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable,Enemysanity,GammaEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Red Mountain (Gamma)",
@@ -2733,7 +2808,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable,Enemysanity,GammaEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Hot Shelter (Gamma)",
@@ -3217,7 +3295,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "GammaPlayable,Enemysanity,GammaEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Twinkle Park (Big)",
@@ -3249,7 +3330,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Enemysanity,BigEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Emerald Coast (Big)",
@@ -3277,7 +3361,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Enemysanity,BigEnemysanity"
+        ]
     },
     {
         "name": "Enemysanity - Hot Shelter (Big)",
@@ -3313,6 +3400,9 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "BigPlayable,Enemysanity,BigEnemysanity"
+        ]
     }
 ]

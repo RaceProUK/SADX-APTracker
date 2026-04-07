@@ -30,6 +30,8 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateLevels(FrozenDictionary<int, string> dict)
     {
+        static IEnumerable<string>? GetMissionVisibility(string character, string section) => [$"{character}Mission{section[^1]}"];
+
         var sonicLevels = GetLevels(dict, SonicLevels, SonicLevelsEnd, SonicLevelsX, SonicLevelsY);
         var tailsLevels = GetLevels(dict, TailsLevels, TailsLevelsEnd, TailsLevelsX, TailsLevelsY);
         var knucklesLevels = GetLevels(dict, KnucklesLevels, KnucklesLevelsEnd, KnucklesLevelsX, KnucklesLevelsY);
@@ -57,11 +59,14 @@ internal static partial class LocationGenerator
             var levels = locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m));
             return from level in levels
                    let y = y0 + LevelsSpacingY * level.Multipler
+                   let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
                    select new Location(level.Location.Key,
                                        [new MapLocation(LevelsMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        orderby section[^1] ^ 0b0001_0000
-                                       select new Section(section));
+                                       select new Section(section,
+                                                          VisibilityRules: GetMissionVisibility(character, section)),
+                                       VisibilityRules: [$"{character}Playable"]);
         }
     }
 }
