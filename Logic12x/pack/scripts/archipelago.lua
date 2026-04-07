@@ -3,15 +3,14 @@ ScriptHost:LoadScript("scripts/archipelago/locationMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/settings.lua")
 
 CurrentIndex = -1
-MinModVersion = 120
-MaxModVersion = 121
+ModVersion = 121
 
 function Reset(slotData)
     Tracker.BulkUpdate = true
 
     local modVersion = math.tointeger(slotData["ModVersion"])
     local versionMismatch = Tracker:FindObjectForCode("VersionMismatch")
-    if modVersion >= MinModVersion and modVersion <= MaxModVersion then
+    if modVersion ~= ModVersion then
         versionMismatch.Active = false
     else
         versionMismatch.Active = true

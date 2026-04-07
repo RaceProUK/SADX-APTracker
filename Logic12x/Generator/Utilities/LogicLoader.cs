@@ -18,7 +18,7 @@ internal static class LogicLoader
     }
 
     internal static IAsyncEnumerable<LevelMission> LoadForLevelMission()
-        => LoadFor<LevelMission>("B649:J777", _ =>
+        => LoadFor<LevelMission>("B577:J705", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Level))
              .MapColumn(_ => _.WithColumnIndex(1).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(2).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Mission))
@@ -33,7 +33,7 @@ internal static class LogicLoader
     {
         var adapter = new GoogleSheetAdapter();
         var sheet = await adapter.GetAsync("1XTdY4A6WUXBDqCwr2n7fuOTlDFJUs5o82pKRkiQ5vic",
-                                           $"Logic (1.2.0)!{range}",
+                                           $"Logic (1.2.1)!{range}",
                                            ApiKey);
         var mapper = new SheetMapper().AddConfigFor(mapping);
         var mapped = mapper.Map<T>(sheet);
