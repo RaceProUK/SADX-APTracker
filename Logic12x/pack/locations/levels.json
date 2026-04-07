@@ -390,6 +390,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionS"
                 ]
@@ -397,6 +404,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionA"
                 ]
@@ -404,6 +418,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionB"
                 ]
@@ -411,6 +432,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionC"
                 ]
@@ -437,6 +465,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionS"
                 ]
@@ -444,6 +479,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionA"
                 ]
@@ -451,6 +493,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionB"
                 ]
@@ -458,6 +507,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicMissionC"
                 ]
@@ -484,6 +540,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionS"
                 ]
@@ -491,6 +554,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionA"
                 ]
@@ -531,6 +601,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionS"
                 ]
@@ -538,6 +615,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionA"
                 ]
@@ -625,6 +709,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionS"
                 ]
@@ -632,6 +723,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionA"
                 ]
@@ -672,6 +770,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionS"
                 ]
@@ -679,6 +784,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetAnklet",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "TailsMissionA"
                 ]
@@ -813,6 +925,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionS"
                 ]
@@ -820,6 +939,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionA"
                 ]
@@ -827,6 +953,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionB"
                 ]
@@ -834,6 +967,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionC"
                 ]
@@ -860,6 +1000,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionS"
                 ]
@@ -867,6 +1014,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionA"
                 ]
@@ -874,6 +1028,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionB"
                 ]
@@ -881,6 +1042,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionC"
                 ]
@@ -907,6 +1075,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionS"
                 ]
@@ -914,6 +1089,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionA"
                 ]
@@ -921,6 +1103,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionB"
                 ]
@@ -928,6 +1117,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,ShovelClaw",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "KnucklesMissionC"
                 ]
@@ -1189,6 +1385,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionS"
                 ]
@@ -1196,6 +1399,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionA"
                 ]
@@ -1203,6 +1413,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionB"
                 ]
@@ -1210,6 +1427,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionC"
                 ]
@@ -1283,6 +1507,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionS"
                 ]
@@ -1290,6 +1521,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionA"
                 ]
@@ -1297,6 +1535,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionB"
                 ]
@@ -1304,6 +1549,13 @@
             {
                 "name": "Mission C",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaMissionC"
                 ]
@@ -1330,6 +1582,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ],
                 "visibility_rules": [
                     "BigMissionS"
                 ]
@@ -1337,6 +1596,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ],
                 "visibility_rules": [
                     "BigMissionA"
                 ]
@@ -1344,6 +1610,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic",
+                    "^$LazyFishingCheck|3,ExpertLogicDC",
+                    "^$LazyFishingCheck|3,ExpertLogicDX",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "BigMissionB"
                 ]
@@ -1377,6 +1650,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ],
                 "visibility_rules": [
                     "BigMissionS"
                 ]
@@ -1384,6 +1664,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ],
                 "visibility_rules": [
                     "BigMissionA"
                 ]
@@ -1391,6 +1678,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic",
+                    "^$LazyFishingCheck|3,ExpertLogicDC",
+                    "^$LazyFishingCheck|3,ExpertLogicDX",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "BigMissionB"
                 ]
@@ -1424,6 +1718,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ],
                 "visibility_rules": [
                     "BigMissionS"
                 ]
@@ -1431,6 +1732,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ],
                 "visibility_rules": [
                     "BigMissionA"
                 ]
@@ -1438,6 +1746,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic",
+                    "^$LazyFishingCheck|3,ExpertLogicDC",
+                    "^$LazyFishingCheck|3,ExpertLogicDX",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "BigMissionB"
                 ]
@@ -1471,6 +1786,13 @@
             {
                 "name": "Mission S",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC",
+                    "^$LazyFishingCheck|3,ExpertLogicDX",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "BigMissionS"
                 ]
@@ -1478,6 +1800,13 @@
             {
                 "name": "Mission A",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,ExpertLogicDC",
+                    "^$LazyFishingCheck|3,ExpertLogicDX",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "BigMissionA"
                 ]
@@ -1485,6 +1814,13 @@
             {
                 "name": "Mission B",
                 "item_count": 1,
+                "access_rules": [
+                    "^$LazyFishingCheck|3,NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "^$LazyFishingCheck|3,HardLogic",
+                    "^$LazyFishingCheck|3,ExpertLogicDC",
+                    "^$LazyFishingCheck|3,ExpertLogicDX",
+                    "^$LazyFishingCheck|3,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "BigMissionB"
                 ]

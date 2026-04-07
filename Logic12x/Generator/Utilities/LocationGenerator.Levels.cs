@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -32,6 +33,7 @@ internal static partial class LocationGenerator
     {
         static IEnumerable<string>? GetMissionVisibility(string character, string section) => [$"{character}Mission{section[^1]}"];
 
+        var missionLogic = await LogicLoader.LoadForLevelMission().ToListAsync();
         var sonicLevels = GetLevels(dict, SonicLevels, SonicLevelsEnd, SonicLevelsX, SonicLevelsY);
         var tailsLevels = GetLevels(dict, TailsLevels, TailsLevelsEnd, TailsLevelsX, TailsLevelsY);
         var knucklesLevels = GetLevels(dict, KnucklesLevels, KnucklesLevelsEnd, KnucklesLevelsX, KnucklesLevelsY);
@@ -65,8 +67,23 @@ internal static partial class LocationGenerator
                                        from section in level.Location
                                        orderby section[^1] ^ 0b0001_0000
                                        select new Section(section,
+                                                          AccessRules: GetMissionAccessRules(level.Location.Key, character, section),
                                                           VisibilityRules: GetMissionVisibility(character, section)),
                                        VisibilityRules: [$"{character}Playable"]);
+        }
+
+        IEnumerable<string>? GetMissionAccessRules(string location, string character, string mission)
+        {
+            var rules = missionLogic.First(entry =>
+            {
+                var level = entry.Level.Humanize(LetterCasing.Title);
+                return location.StartsWith(level) && character.Equals(entry.Character) && mission.EndsWith(entry.Mission);
+            }).BuildAccessRules();
+            if (rules is not null && "Big".Equals(character) && !"C".Equals(mission))
+            {
+                rules = rules.Select(_ => $"^$LazyFishingCheck|3,{_}");
+            }
+            return rules;
         }
     }
 }
