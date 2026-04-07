@@ -1,4 +1,5 @@
-﻿using Humanizer;
+﻿using System.Text.RegularExpressions;
+using Humanizer;
 using Microsoft.Extensions.Configuration;
 using RPS.SADX.PopTracker.Generator.Models.Logic;
 using SheetToObjects.Adapters.GoogleSheets;
@@ -7,7 +8,7 @@ using SheetToObjects.Lib.FluentConfiguration;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 
-internal static class LogicLoader
+internal static partial class LogicLoader
 {
     private static string ApiKey { get; }
 
@@ -17,26 +18,33 @@ internal static class LogicLoader
         ApiKey = config["GoogleApiKey"]!;
     }
 
+    internal static IAsyncEnumerable<FieldEmblem> LoadForFieldEmblem()
+        => LoadFor<FieldEmblem>("B728:J740", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().ParseValueUsing(ParseAreaName).MapTo(_ => _.Area))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Name))
+             .MapCommonColumns(ParseEmblemLogicRules));
+
     internal static IAsyncEnumerable<LevelMission> LoadForLevelMission()
         => LoadFor<LevelMission>("B577:J705", _ =>
-            _.MapColumn(_ => _.WithColumnIndex(0).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Level))
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().ParseValueUsing(ParseAreaName).MapTo(_ => _.Level))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
-             .MapCommonColumns());
+             .MapCommonColumns(ParseKeyItemLogicRules));
 
     internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()
          => LoadFor<UpgradeItem>("B708:J725", _ =>
-             _.MapColumn(_ => _.WithColumnIndex(0).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Area))
+             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().ParseValueUsing(ParseAreaName).MapTo(_ => _.Area))
               .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
               .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Upgrade))
-              .MapCommonColumns());
+              .MapCommonColumns(ParseKeyItemLogicRules));
 
-    private static MappingConfigBuilder<T> MapCommonColumns<T>(this MappingConfigBuilder<T> builder) where T : LogicSpecification
-        => builder.MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
-                  .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
-                  .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
-                  .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic))
-                  .MapColumn(_ => _.WithColumnIndex(8).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXPlusLogic));
+    private static MappingConfigBuilder<T> MapCommonColumns<T>(this MappingConfigBuilder<T> builder, Func<string, object> valueParser)
+        where T : LogicSpecification
+        => builder.MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(valueParser).MapTo(_ => _.NormalLogic))
+                  .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(valueParser).MapTo(_ => _.HardLogic))
+                  .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(valueParser).MapTo(_ => _.ExpertDCLogic))
+                  .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(valueParser).MapTo(_ => _.ExpertDXLogic))
+                  .MapColumn(_ => _.WithColumnIndex(8).ParseValueUsing(valueParser).MapTo(_ => _.ExpertDXPlusLogic));
 
     private static async IAsyncEnumerable<T> LoadFor<T>(string range,
                                                         Func<MappingConfigBuilder<T>, MappingConfigBuilder<T>> mapping) where T : new()
@@ -68,4 +76,34 @@ internal static class LogicLoader
         }
         return rules;
     }
+
+    private static LogicRules ParseEmblemLogicRules(string s)
+    {
+        s = Common.RemoveWhitespace(s);
+
+        var rules = new LogicRules();
+        var lines = s.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries);
+        foreach (var line in lines)
+        {
+            var parsedLogic = EmblemLogicParser().Match(line);
+            var character = parsedLogic.Groups["character"].Value.Transform(To.LowerCase, To.TitleCase);
+            var upgrade = parsedLogic.Groups["upgrade"].Value;
+            var parts = new List<string> { $"Playable{character}" };
+            if (!string.IsNullOrEmpty(upgrade))
+            {
+                parts.Add(upgrade switch
+                {
+                    "JB" => "JetBooster",
+                    "LS" => "LightShoes",
+                    "SC" => "ShovelClaw",
+                    _ => throw new InvalidCastException(nameof(upgrade))
+                });
+            }
+            rules.Add([.. parts]);
+        }
+        return rules;
+    }
+
+    [GeneratedRegex("P_(?<character>[A-Za-z]+)(_W_(?<upgrade>[A-Za-z]+))?")]
+    private static partial Regex EmblemLogicParser();
 }

@@ -32,15 +32,16 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateFieldEmblems(FrozenDictionary<int, string> dict)
     {
+        var logic = await LogicLoader.LoadForFieldEmblem().ToListAsync();
         var ssEmblems = from entry in dict
                         where entry.Key >= StationSquareEmblemsStart && entry.Key < StationSquareEmblemsEnd
-                        select new Section(entry.Value);
+                        select new Section(entry.Value, AccessRules: GetAccessRules(entry.Value));
         var mrEmblems = from entry in dict
                         where entry.Key >= MysticRuinsEmblemsStart && entry.Key < MysticRuinsEmblemsEnd
-                        select new Section(entry.Value);
+                        select new Section(entry.Value, AccessRules: GetAccessRules(entry.Value));
         var ecEmblems = from entry in dict
                         where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
-                        select new Section(entry.Value);
+                        select new Section(entry.Value, AccessRules: GetAccessRules(entry.Value));
         var stationSquare = new Location("Station Square Field Emblems",
                                          [new MapLocation(LevelsMap, EmblemsX, FieldItemsY, LevelsIconSize, BorderThickness)],
                                          ssEmblems,
@@ -57,5 +58,7 @@ internal static partial class LocationGenerator
         await FileWriter.WriteFile(JsonSerializer.Serialize(emblems, Constants.JsonOptions),
                                    "emblems.json",
                                    "locations");
+
+        IEnumerable<string>? GetAccessRules(string name) => logic.First(entry => entry.Name.Contains(name)).BuildAccessRules();
     }
 }
