@@ -225,6 +225,12 @@
         "initial_stage_idx": 0,
         "stages": [
             {
+                "name": "Station Square - City Hall",
+                "codes": "SonicStationSquareCityHall",
+                "img": "images/settings/starts/StationSquareCityHall.png",
+                "inherit_codes": false
+            },
+            {
                 "name": "Station Square - Station",
                 "codes": "SonicStationSquareStation",
                 "img": "images/settings/starts/StationSquareStation.png",
@@ -390,6 +396,12 @@
         "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
+            {
+                "name": "Station Square - City Hall",
+                "codes": "TailsStationSquareCityHall",
+                "img": "images/settings/starts/StationSquareCityHall.png",
+                "inherit_codes": false
+            },
             {
                 "name": "Station Square - Station",
                 "codes": "TailsStationSquareStation",
@@ -557,6 +569,12 @@
         "initial_stage_idx": 0,
         "stages": [
             {
+                "name": "Station Square - City Hall",
+                "codes": "KnucklesStationSquareCityHall",
+                "img": "images/settings/starts/StationSquareCityHall.png",
+                "inherit_codes": false
+            },
+            {
                 "name": "Station Square - Station",
                 "codes": "KnucklesStationSquareStation",
                 "img": "images/settings/starts/StationSquareStation.png",
@@ -722,6 +740,12 @@
         "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
+            {
+                "name": "Station Square - City Hall",
+                "codes": "AmyStationSquareCityHall",
+                "img": "images/settings/starts/StationSquareCityHall.png",
+                "inherit_codes": false
+            },
             {
                 "name": "Station Square - Station",
                 "codes": "AmyStationSquareStation",
@@ -889,6 +913,12 @@
         "initial_stage_idx": 0,
         "stages": [
             {
+                "name": "Station Square - City Hall",
+                "codes": "GammaStationSquareCityHall",
+                "img": "images/settings/starts/StationSquareCityHall.png",
+                "inherit_codes": false
+            },
+            {
                 "name": "Station Square - Station",
                 "codes": "GammaStationSquareStation",
                 "img": "images/settings/starts/StationSquareStation.png",
@@ -1054,6 +1084,12 @@
         "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
+            {
+                "name": "Station Square - City Hall",
+                "codes": "BigStationSquareCityHall",
+                "img": "images/settings/starts/StationSquareCityHall.png",
+                "inherit_codes": false
+            },
             {
                 "name": "Station Square - Station",
                 "codes": "BigStationSquareStation",

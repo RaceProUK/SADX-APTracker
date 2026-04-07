@@ -18,6 +18,7 @@ internal static partial class ItemGenerator
 
     private static readonly IEnumerable<string> Starts =
     [
+        "Station Square - City Hall",
         "Station Square - Station",
         "Station Square - Casino",
         "Station Square - Sewers",
