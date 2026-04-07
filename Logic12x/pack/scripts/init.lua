@@ -29,3 +29,17 @@ Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/layout.json")
 Tracker:AddLayouts("layouts/tracker.json")
+
+ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/watches.lua")
+ScriptHost:LoadScript("scripts/archipelago.lua")
+
+for i = 1,60,1 do
+    local code = "AllowMission" .. i
+    local setting = Tracker:FindObjectForCode(code)
+    if setting then
+        setting.BadgeText = tostring(i)
+    end
+end
+
+StartWatches()
