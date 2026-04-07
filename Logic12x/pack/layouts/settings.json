@@ -81,64 +81,64 @@
                             "TailsPlayable",
                             "KnucklesPlayable",
                             "AmyPlayable",
-                            "GammaPlayable",
-                            "BigPlayable"
+                            "BigPlayable",
+                            "GammaPlayable"
                         ],
                         [
                             "SonicStart",
                             "TailsStart",
                             "KnucklesStart",
                             "AmyStart",
-                            "GammaStart",
-                            "BigStart"
+                            "BigStart",
+                            "GammaStart"
                         ],
                         [
                             "SonicMissions",
                             "TailsMissions",
                             "KnucklesMissions",
                             "AmyMissions",
-                            "GammaMissions",
-                            "BigMissions"
+                            "BigMissions",
+                            "GammaMissions"
                         ],
                         [
                             "SonicEnemysanity",
                             "TailsEnemysanity",
                             "KnucklesEnemysanity",
                             "AmyEnemysanity",
-                            "GammaEnemysanity",
-                            "BigEnemysanity"
+                            "BigEnemysanity",
+                            "GammaEnemysanity"
                         ],
                         [
                             "SonicLifeCapsulesanity",
                             "TailsLifeCapsulesanity",
                             "KnucklesLifeCapsulesanity",
                             "AmyLifeCapsulesanity",
-                            "GammaLifeCapsulesanity",
-                            "BigLifeCapsulesanity"
+                            "BigLifeCapsulesanity",
+                            "GammaLifeCapsulesanity"
                         ],
                         [
                             "SonicShieldCapsulesanity",
                             "TailsShieldCapsulesanity",
                             "KnucklesShieldCapsulesanity",
                             "AmyShieldCapsulesanity",
-                            "GammaShieldCapsulesanity",
-                            "BigShieldCapsulesanity"
+                            "BigShieldCapsulesanity",
+                            "GammaShieldCapsulesanity"
                         ],
                         [
                             "SonicPowerUpCapsulesanity",
                             "TailsPowerUpCapsulesanity",
                             "KnucklesPowerUpCapsulesanity",
                             "AmyPowerUpCapsulesanity",
-                            "GammaPowerUpCapsulesanity",
-                            "BigPowerUpCapsulesanity"
+                            "BigPowerUpCapsulesanity",
+                            "GammaPowerUpCapsulesanity"
                         ],
                         [
                             "SonicRingCapsulesanity",
                             "TailsRingCapsulesanity",
                             "KnucklesRingCapsulesanity",
                             "AmyRingCapsulesanity",
-                            "GammaRingCapsulesanity",
-                            "BigRingCapsulesanity"
+                            "BigRingCapsulesanity",
+                            "GammaRingCapsulesanity"
                         ]
                     ]
                 }

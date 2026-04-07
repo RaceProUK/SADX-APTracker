@@ -21,7 +21,7 @@ function Reset(slotData)
 
     CurrentIndex = -1
 
-    --ResetSettings()
+    ResetSettings()
 
     --Accumulated Items
     Tracker:FindObjectForCode("Emblems").AcquiredCount = 0
@@ -57,7 +57,7 @@ function Reset(slotData)
     end
 
     if slotData ~= nil then
-        --ParseSettings(slotData)
+        ParseSettings(slotData)
     end
 
     Tracker.BulkUpdate = false
