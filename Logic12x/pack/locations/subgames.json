@@ -28,6 +28,10 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|MysticRuinsHub,PlayableSonic",
+            "$CanReach|Tails|MysticRuinsHub,PlayableTails"
+        ],
         "visibility_rules": [
             "SonicPlayable",
             "TailsPlayable"
@@ -62,6 +66,10 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Sonic|MysticRuinsHub,PlayableSonic",
+            "$CanReach|Tails|MysticRuinsHub,PlayableTails"
+        ],
         "visibility_rules": [
             "SonicPlayable",
             "TailsPlayable"
@@ -96,6 +104,11 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanReach|Tails|MysticRuinsJungle,PlayableTails",
+            "$CanReach|Sonic|MysticRuinsJungle,ExpertLogicDC,PlayableSonic",
+            "$CanReach|Sonic|MysticRuinsJungle,ExpertLogicDX,PlayableSonic"
+        ],
         "visibility_rules": [
             "TailsPlayable",
             "ExpertLogicDC,SonicPlayable",
@@ -117,6 +130,14 @@
             {
                 "name": "Set a Record",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Sonic|TwinkleParkLobby,PlayableSonic",
+                    "$CanReach|Tails|TwinkleParkLobby,PlayableTails",
+                    "$CanReach|Knuckles|TwinkleParkLobby,PlayableKnuckles",
+                    "$CanReach|Amy|TwinkleParkLobby,PlayableAmy",
+                    "$CanReach|Gamma|TwinkleParkLobby,PlayableGamma",
+                    "$CanReach|Big|TwinkleParkLobby,PlayableBig"
+                ],
                 "visibility_rules": [
                     "EnableTwinkleCircuit"
                 ]
