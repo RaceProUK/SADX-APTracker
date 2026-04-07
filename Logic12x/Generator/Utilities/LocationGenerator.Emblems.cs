@@ -43,13 +43,16 @@ internal static partial class LocationGenerator
                         select new Section(entry.Value);
         var stationSquare = new Location("Station Square Field Emblems",
                                          [new MapLocation(LevelsMap, EmblemsX, FieldItemsY, LevelsIconSize, BorderThickness)],
-                                         ssEmblems);
+                                         ssEmblems,
+                                         VisibilityRules: ["FieldEmblemChecks"]);
         var mysticRuins = new Location("Mystic Ruins Field Emblems",
                                        [new MapLocation(LevelsMap, EmblemsX, FieldItemsY + FieldSpacingY, LevelsIconSize, BorderThickness)],
-                                       mrEmblems);
+                                       mrEmblems,
+                                       VisibilityRules: ["FieldEmblemChecks"]);
         var eggCarrier = new Location("Egg Carrier Field Emblems",
                                       [new MapLocation(LevelsMap, EmblemsX, FieldItemsY + 2 * FieldSpacingY, LevelsIconSize, BorderThickness)],
-                                      ecEmblems);
+                                      ecEmblems,
+                                      VisibilityRules: ["FieldEmblemChecks"]);
         var emblems = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(emblems, Constants.JsonOptions),
                                    "emblems.json",

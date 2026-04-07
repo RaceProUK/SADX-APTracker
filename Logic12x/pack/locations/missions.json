@@ -17,7 +17,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission1"
+        ]
     },
     {
         "name": "Mission 2 (Sonic)",
@@ -37,7 +40,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission2"
+        ]
     },
     {
         "name": "Mission 3 (Sonic)",
@@ -57,7 +63,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission3"
+        ]
     },
     {
         "name": "Mission 4 (Tails)",
@@ -77,7 +86,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission4"
+        ]
     },
     {
         "name": "Mission 5 (Knuckles)",
@@ -97,7 +109,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission5"
+        ]
     },
     {
         "name": "Mission 6 (Amy)",
@@ -117,7 +132,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,AmyPlayable,AllowMission6"
+        ]
     },
     {
         "name": "Mission 7 (Gamma)",
@@ -137,7 +155,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,GammaPlayable,AllowMission7"
+        ]
     },
     {
         "name": "Mission 8 (Big)",
@@ -157,7 +178,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission8"
+        ]
     },
     {
         "name": "Mission 9 (Sonic)",
@@ -177,7 +201,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission9"
+        ]
     },
     {
         "name": "Mission 10 (Tails)",
@@ -197,7 +224,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission10"
+        ]
     },
     {
         "name": "Mission 11 (Sonic)",
@@ -217,7 +247,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission11"
+        ]
     },
     {
         "name": "Mission 12 (Knuckles)",
@@ -237,7 +270,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission12"
+        ]
     },
     {
         "name": "Mission 13 (Sonic)",
@@ -257,7 +293,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission13"
+        ]
     },
     {
         "name": "Mission 14 (Big)",
@@ -277,7 +316,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission14"
+        ]
     },
     {
         "name": "Mission 15 (Sonic)",
@@ -297,7 +339,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission15"
+        ]
     },
     {
         "name": "Mission 16 (Tails)",
@@ -317,7 +362,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission16"
+        ]
     },
     {
         "name": "Mission 17 (Sonic)",
@@ -337,7 +385,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission17"
+        ]
     },
     {
         "name": "Mission 18 (Amy)",
@@ -357,7 +408,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,AmyPlayable,AllowMission18"
+        ]
     },
     {
         "name": "Mission 19 (Amy)",
@@ -377,7 +431,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,AmyPlayable,AllowMission19"
+        ]
     },
     {
         "name": "Mission 20 (Sonic)",
@@ -397,7 +454,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission20"
+        ]
     },
     {
         "name": "Mission 21 (Gamma)",
@@ -417,7 +477,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,GammaPlayable,AllowMission21"
+        ]
     },
     {
         "name": "Mission 22 (Big)",
@@ -437,7 +500,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission22"
+        ]
     },
     {
         "name": "Mission 23 (Sonic)",
@@ -457,7 +523,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission23"
+        ]
     },
     {
         "name": "Mission 24 (Tails)",
@@ -477,7 +546,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission24"
+        ]
     },
     {
         "name": "Mission 25 (Knuckles)",
@@ -497,7 +569,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission25"
+        ]
     },
     {
         "name": "Mission 26 (Knuckles)",
@@ -517,7 +592,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission26"
+        ]
     },
     {
         "name": "Mission 27 (Sonic)",
@@ -537,7 +615,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission27"
+        ]
     },
     {
         "name": "Mission 28 (Sonic)",
@@ -557,7 +638,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission28"
+        ]
     },
     {
         "name": "Mission 29 (Big)",
@@ -577,7 +661,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission29"
+        ]
     },
     {
         "name": "Mission 30 (Sonic)",
@@ -597,7 +684,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission30"
+        ]
     },
     {
         "name": "Mission 31 (Tails)",
@@ -617,7 +707,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission31"
+        ]
     },
     {
         "name": "Mission 32 (Knuckles)",
@@ -637,7 +730,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission32"
+        ]
     },
     {
         "name": "Mission 33 (Sonic)",
@@ -657,7 +753,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission33"
+        ]
     },
     {
         "name": "Mission 34 (Sonic)",
@@ -677,7 +776,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission34"
+        ]
     },
     {
         "name": "Mission 35 (Big)",
@@ -697,7 +799,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission35"
+        ]
     },
     {
         "name": "Mission 36 (Sonic)",
@@ -717,7 +822,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission36"
+        ]
     },
     {
         "name": "Mission 37 (Tails)",
@@ -737,7 +845,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission37"
+        ]
     },
     {
         "name": "Mission 38 (Knuckles)",
@@ -757,7 +868,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission38"
+        ]
     },
     {
         "name": "Mission 39 (Gamma)",
@@ -777,7 +891,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,GammaPlayable,AllowMission39"
+        ]
     },
     {
         "name": "Mission 40 (Sonic)",
@@ -797,7 +914,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission40"
+        ]
     },
     {
         "name": "Mission 41 (Sonic)",
@@ -817,7 +937,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission41"
+        ]
     },
     {
         "name": "Mission 42 (Gamma)",
@@ -837,7 +960,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,GammaPlayable,AllowMission42"
+        ]
     },
     {
         "name": "Mission 43 (Amy)",
@@ -857,7 +983,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,AmyPlayable,AllowMission43"
+        ]
     },
     {
         "name": "Mission 44 (Big)",
@@ -877,7 +1006,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission44"
+        ]
     },
     {
         "name": "Mission 45 (Sonic)",
@@ -897,7 +1029,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission45"
+        ]
     },
     {
         "name": "Mission 46 (Sonic)",
@@ -917,7 +1052,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission46"
+        ]
     },
     {
         "name": "Mission 47 (Tails)",
@@ -937,7 +1075,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission47"
+        ]
     },
     {
         "name": "Mission 48 (Knuckles)",
@@ -957,7 +1098,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission48"
+        ]
     },
     {
         "name": "Mission 49 (Sonic)",
@@ -977,7 +1121,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission49"
+        ]
     },
     {
         "name": "Mission 50 (Amy)",
@@ -997,7 +1144,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,AmyPlayable,AllowMission50"
+        ]
     },
     {
         "name": "Mission 51 (Gamma)",
@@ -1017,7 +1167,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,GammaPlayable,AllowMission51"
+        ]
     },
     {
         "name": "Mission 52 (Big)",
@@ -1037,7 +1190,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission52"
+        ]
     },
     {
         "name": "Mission 53 (Sonic)",
@@ -1057,7 +1213,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission53"
+        ]
     },
     {
         "name": "Mission 54 (Tails)",
@@ -1077,7 +1236,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,TailsPlayable,AllowMission54"
+        ]
     },
     {
         "name": "Mission 55 (Sonic)",
@@ -1097,7 +1259,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission55"
+        ]
     },
     {
         "name": "Mission 56 (Knuckles)",
@@ -1117,7 +1282,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission56"
+        ]
     },
     {
         "name": "Mission 57 (Sonic)",
@@ -1137,7 +1305,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission57"
+        ]
     },
     {
         "name": "Mission 58 (Sonic)",
@@ -1157,7 +1328,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,SonicPlayable,AllowMission58"
+        ]
     },
     {
         "name": "Mission 59 (Knuckles)",
@@ -1177,7 +1351,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,KnucklesPlayable,AllowMission59"
+        ]
     },
     {
         "name": "Mission 60 (Big)",
@@ -1197,6 +1374,9 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "MissionModeChecks,BigPlayable,AllowMission60"
+        ]
     }
 ]

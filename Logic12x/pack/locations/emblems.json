@@ -29,7 +29,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "FieldEmblemChecks"
+        ]
     },
     {
         "name": "Mystic Ruins Field Emblems",
@@ -61,7 +64,10 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "FieldEmblemChecks"
+        ]
     },
     {
         "name": "Egg Carrier Field Emblems",
@@ -93,6 +99,9 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "visibility_rules": [
+            "FieldEmblemChecks"
+        ]
     }
 ]
