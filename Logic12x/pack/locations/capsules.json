@@ -312,329 +312,329 @@
                 "name": "Capsule 01 (Bomb)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicPowerupCapsulesanity"
+                    "MissableCapsules,SonicPowerupCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 02 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 03 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 04 (Invincibility)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicPowerUpCapsulesanity"
+                    "MissableCapsules,SonicPowerUpCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 05 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 06 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 07 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 08 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 09 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 10 (Invincibility)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicPowerUpCapsulesanity"
+                    "MissableCapsules,SonicPowerUpCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 11 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 12 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 13 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 14 (Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicShieldCapsulesanity"
+                    "MissableCapsules,SonicShieldCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 15 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 16 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 17 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 18 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 19 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 20 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 21 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 22 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 23 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 24 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 25 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 26 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 27 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 28 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 29 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 30 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 31 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 32 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 33 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 34 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 35 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 36 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 37 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 38 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 39 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 40 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 41 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 42 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 43 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 44 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 45 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 46 (Extra Life)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicLifeCapsulesanity"
+                    "MissableCapsules,SonicLifeCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 47 (Speed Up)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicPowerUpCapsulesanity"
+                    "MissableCapsules,SonicPowerUpCapsulesanity"
                 ]
             },
             {
@@ -777,133 +777,133 @@
                 "name": "Capsule 01 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 02 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 03 (Random Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 04 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 05 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 06 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 07 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 08 (Extra Life)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicLifeCapsulesanity"
+                    "MissableCapsules,SonicLifeCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 09 (Bomb)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicPowerupCapsulesanity"
+                    "MissableCapsules,SonicPowerupCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 10 (Extra Life)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicLifeCapsulesanity"
+                    "MissableCapsules,SonicLifeCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 11 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 12 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 13 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 14 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 15 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 16 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 17 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 18 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 19 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
@@ -1237,63 +1237,63 @@
                 "name": "Capsule 24 (Speed Up)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicPowerUpCapsulesanity"
+                    "MissableCapsules,SonicPowerUpCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 25 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 26 (Extra Life)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicLifeCapsulesanity"
+                    "MissableCapsules,SonicLifeCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 27 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 28 (Random Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 29 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 30 (Random Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 31 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 32 (Magnetic Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicShieldCapsulesanity"
+                    "MissableCapsules,SonicShieldCapsulesanity"
                 ]
             },
             {
@@ -2176,21 +2176,21 @@
                 "name": "Capsule 12 (Random Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 13 (Magnetic Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicShieldCapsulesanity"
+                    "MissableCapsules,SonicShieldCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 14 (Random Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "SonicRingCapsulesanity"
+                    "MissableCapsules,SonicRingCapsulesanity"
                 ]
             },
             {
@@ -2814,294 +2814,294 @@
                 "name": "Capsule 01 (Bomb)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsPowerupCapsulesanity"
+                    "MissableCapsules,TailsPowerupCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 02 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 03 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 04 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 05 (Five Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 06 (Extra Life)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsLifeCapsulesanity"
+                    "MissableCapsules,TailsLifeCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 07 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 08 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 09 (Magnetic Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsShieldCapsulesanity"
+                    "MissableCapsules,TailsShieldCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 10 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 11 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 12 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 13 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 14 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 15 (Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsShieldCapsulesanity"
+                    "MissableCapsules,TailsShieldCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 16 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 17 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 18 (Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsShieldCapsulesanity"
+                    "MissableCapsules,TailsShieldCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 19 (Shield)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsShieldCapsulesanity"
+                    "MissableCapsules,TailsShieldCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 20 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 21 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 22 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 23 (Extra Life)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsLifeCapsulesanity"
+                    "MissableCapsules,TailsLifeCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 24 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 25 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 26 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 27 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 28 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 29 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 30 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 31 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 32 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 33 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 34 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 35 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 36 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 37 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 38 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 39 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 40 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 41 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             },
             {
                 "name": "Capsule 42 (Ten Rings)",
                 "item_count": 1,
                 "visibility_rules": [
-                    "TailsRingCapsulesanity"
+                    "MissableCapsules,TailsRingCapsulesanity"
                 ]
             }
         ],

@@ -163,43 +163,73 @@
         "sections": [
             {
                 "name": "Enemy 01 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 02 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 03 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 04 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 05 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 06 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 07 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 08 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 09 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 10 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
@@ -261,35 +291,59 @@
         "sections": [
             {
                 "name": "Enemy 01 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 02 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 03 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 04 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 05 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 06 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 07 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 08 (Kiki)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 09 (Buyon)",
@@ -1462,15 +1516,24 @@
         "sections": [
             {
                 "name": "Enemy 01 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 02 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             },
             {
                 "name": "Enemy 03 (Spinner)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                    "MissableEnemies"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",

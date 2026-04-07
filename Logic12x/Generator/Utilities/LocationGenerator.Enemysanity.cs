@@ -22,6 +22,13 @@ internal static partial class LocationGenerator
 
     private const string EnemiesMap = "enemies";
 
+    private static int[] MissableEnemies =
+    [
+        .. Enumerable.Range(543812001, 10),
+        .. Enumerable.Range(543814001, 8),
+        .. Enumerable.Range(543821001, 3)
+    ];
+
     private static IEnumerable<LuaLocation> GenerateEnemiesLua(FrozenDictionary<int, string> dict)
         => from entry in dict
            where entry.Key >= SonicEnemiesStart && entry.Key < BigEnemiesEnd && entry.Key % SanitiesModulus < SanitiesMidpoint
@@ -55,7 +62,7 @@ internal static partial class LocationGenerator
                             let parts = entry.Value.Split('-', StringSplitOptions.TrimEntries)
                             let name = parts[0]
                             let section = parts[1]
-                            group section by name;
+                            group new { entry.Key, Name = section } by name;
             var multipliers = locations.First().Key switch
             {
                 string s when s.Contains("(T") => [0, 1, 3, 4],
@@ -69,7 +76,9 @@ internal static partial class LocationGenerator
                    select new Location($"Enemysanity - {level.Location.Key}",
                                        [new MapLocation(EnemiesMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
-                                       select new Section(section),
+                                       let missable = MissableEnemies.Contains(section.Key)
+                                       select new Section(section.Name,
+                                                          VisibilityRules: missable ? ["MissableEnemies"] : default),
                                        VisibilityRules: [$"{character}Playable,Enemysanity,{character}Enemysanity"]);
         }
     }

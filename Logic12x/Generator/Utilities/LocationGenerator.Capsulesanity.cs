@@ -25,6 +25,15 @@ internal static partial class LocationGenerator
 
     private const string CapsulesMap = "capsules";
 
+    private static int[] MissableCapsules =
+    [
+        .. Enumerable.Range(543812501, 47),
+        .. Enumerable.Range(543814501, 19),
+        .. Enumerable.Range(543815524, 9),
+        .. Enumerable.Range(543818512, 3),
+        .. Enumerable.Range(543821501, 42)
+    ];
+
     private static IEnumerable<LuaLocation> GenerateCapsulesLua(FrozenDictionary<int, string> dict)
         => from entry in dict
            where entry.Key >= SonicCapsulesStart && entry.Key < BigCapsulesEnd && entry.Key % SanitiesModulus >= SanitiesMidpoint
@@ -87,11 +96,15 @@ internal static partial class LocationGenerator
                                        from section in level.Location
                                        let item = CapsuleItemParser().Match(section.Name).Groups[1].Value
                                        let visibility = GetVisibility(item, character)
+                                       let missable = MissableCapsules.Contains(section.Key)
                                        let pinball = section.Key >= PinballCapsulesStart && section.Key < PinballCapsulesEnd
                                        select new Section(section.Name,
-                                                          VisibilityRules: pinball
-                                                          ? [$"PinballCapsules,{visibility}"]
-                                                          : [visibility]),
+                                                          VisibilityRules: (pinball, missable) switch
+                                                          {
+                                                              (true, _) => [$"PinballCapsules,{visibility}"],
+                                                              (false, true) => [$"MissableCapsules,{visibility}"],
+                                                              (false, false) => [$"{visibility}"],
+                                                          }),
                                        VisibilityRules: [$"{character}Playable,Capsulesanity"]);
         }
     }
