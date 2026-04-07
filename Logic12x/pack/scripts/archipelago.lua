@@ -3,8 +3,8 @@ ScriptHost:LoadScript("scripts/archipelago/locationMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/settings.lua")
 
 CurrentIndex = -1
-MinModVersion = 112
-MaxModVersion = 113
+MinModVersion = 120
+MaxModVersion = 121
 
 function Reset(slotData)
     Tracker.BulkUpdate = true
