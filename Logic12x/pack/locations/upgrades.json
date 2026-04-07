@@ -14,6 +14,9 @@
             {
                 "name": "Light Shoes Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Sonic|Sewers,PlayableSonic"
+                ],
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
@@ -21,6 +24,13 @@
             {
                 "name": "Crystal Ring Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Sonic|Hotel,PlayableSonic,NormalLogic,LightShoes",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,HardLogic",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDC",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDX",
+                    "$CanReach|Sonic|Hotel,PlayableSonic,ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
@@ -28,6 +38,9 @@
             {
                 "name": "Jet Anklet Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Tails|SSMain,PlayableTails"
+                ],
                 "visibility_rules": [
                     "TailsPlayable"
                 ]
@@ -35,6 +48,9 @@
             {
                 "name": "Lure 1 (Sewers) Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Big|SSMain,PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -58,6 +74,9 @@
             {
                 "name": "Ancient Light Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Sonic|AngelIsland,PlayableSonic"
+                ],
                 "visibility_rules": [
                     "SonicPlayable"
                 ]
@@ -65,6 +84,9 @@
             {
                 "name": "Rhythm Badge Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Tails|PastMain,PlayableTails"
+                ],
                 "visibility_rules": [
                     "TailsPlayable"
                 ]
@@ -72,6 +94,9 @@
             {
                 "name": "Shovel Claw Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Knuckles|MRMain,PlayableKnuckles"
+                ],
                 "visibility_rules": [
                     "KnucklesPlayable"
                 ]
@@ -79,6 +104,9 @@
             {
                 "name": "Fighting Gloves Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Knuckles|Jungle,PlayableKnuckles"
+                ],
                 "visibility_rules": [
                     "KnucklesPlayable"
                 ]
@@ -86,6 +114,9 @@
             {
                 "name": "Life Belt Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Big|IceCave,PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -93,6 +124,9 @@
             {
                 "name": "Power Rod Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Big|Jungle,PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -100,6 +134,9 @@
             {
                 "name": "Lure 2 (Jungle) Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Big|Jungle,PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -123,6 +160,9 @@
             {
                 "name": "Warrior Feather Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Amy|HedgehogHammer,PlayableAmy"
+                ],
                 "visibility_rules": [
                     "AmyPlayable"
                 ]
@@ -130,6 +170,9 @@
             {
                 "name": "Long Hammer Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Amy|HedgehogHammer,PlayableAmy"
+                ],
                 "visibility_rules": [
                     "AmyPlayable"
                 ]
@@ -137,6 +180,9 @@
             {
                 "name": "Jet Booster Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Gamma|Arsenal,PlayableGamma"
+                ],
                 "visibility_rules": [
                     "GammaPlayable"
                 ]
@@ -144,6 +190,9 @@
             {
                 "name": "Laser Blaster Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Gamma|WaterTank,PlayableGamma"
+                ],
                 "visibility_rules": [
                     "GammaPlayable"
                 ]
@@ -151,6 +200,9 @@
             {
                 "name": "Lure 4 (Jail) Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanReach|Big|PrisonHall,PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]
@@ -174,6 +226,9 @@
             {
                 "name": "Lure 3 (Ice Cap) Upgrade Point",
                 "item_count": 1,
+                "access_rules": [
+                    "$CanAccess|Big|IceCap,PlayableBig"
+                ],
                 "visibility_rules": [
                     "BigPlayable"
                 ]

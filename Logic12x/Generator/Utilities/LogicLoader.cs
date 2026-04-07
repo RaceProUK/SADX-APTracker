@@ -20,13 +20,23 @@ internal static class LogicLoader
     internal static IAsyncEnumerable<LevelMission> LoadForLevelMission()
         => LoadFor<LevelMission>("B577:J705", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Level))
-             .MapColumn(_ => _.WithColumnIndex(1).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Character))
-             .MapColumn(_ => _.WithColumnIndex(2).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Mission))
-             .MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
-             .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
-             .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
-             .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic))
-             .MapColumn(_ => _.WithColumnIndex(8).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXPlusLogic)));
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
+             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
+             .MapCommonColumns());
+
+    internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()
+         => LoadFor<UpgradeItem>("B708:J725", _ =>
+             _.MapColumn(_ => _.WithColumnIndex(0).ParseValueUsing(ParseAreaName).IsRequired().MapTo(_ => _.Area))
+              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
+              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Upgrade))
+              .MapCommonColumns());
+
+    private static MappingConfigBuilder<T> MapCommonColumns<T>(this MappingConfigBuilder<T> builder) where T : LogicSpecification
+        => builder.MapColumn(_ => _.WithColumnIndex(4).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.NormalLogic))
+                  .MapColumn(_ => _.WithColumnIndex(5).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.HardLogic))
+                  .MapColumn(_ => _.WithColumnIndex(6).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDCLogic))
+                  .MapColumn(_ => _.WithColumnIndex(7).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXLogic))
+                  .MapColumn(_ => _.WithColumnIndex(8).ParseValueUsing(ParseKeyItemLogicRules).MapTo(_ => _.ExpertDXPlusLogic));
 
     private static async IAsyncEnumerable<T> LoadFor<T>(string range,
                                                         Func<MappingConfigBuilder<T>, MappingConfigBuilder<T>> mapping) where T : new()
