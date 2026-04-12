@@ -154,6 +154,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|EmeraldCoast,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -194,6 +197,13 @@
             {
                 "name": "Capsule 04 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicLifeCapsulesanity"
                 ]
@@ -229,6 +239,13 @@
             {
                 "name": "Capsule 09 (Magnetic Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicShieldCapsulesanity"
                 ]
@@ -236,6 +253,13 @@
             {
                 "name": "Capsule 10 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicLifeCapsulesanity"
                 ]
@@ -292,6 +316,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|WindyValley,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -675,6 +702,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|Casinopolis,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -757,6 +787,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|IceCap,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -1056,6 +1089,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|TwinklePark,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -1376,6 +1412,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|SpeedHighway,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -1465,6 +1504,13 @@
             {
                 "name": "Capsule 11 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicLifeCapsulesanity"
                 ]
@@ -1472,6 +1518,13 @@
             {
                 "name": "Capsule 12 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicLifeCapsulesanity"
                 ]
@@ -1598,6 +1651,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|RedMountain,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -2079,6 +2135,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|SkyDeck,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -2168,6 +2227,13 @@
             {
                 "name": "Capsule 11 (Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicShieldCapsulesanity"
                 ]
@@ -2175,6 +2241,13 @@
             {
                 "name": "Capsule 12 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "MissableCapsules,SonicRingCapsulesanity"
                 ]
@@ -2182,6 +2255,13 @@
             {
                 "name": "Capsule 13 (Magnetic Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "MissableCapsules,SonicShieldCapsulesanity"
                 ]
@@ -2189,6 +2269,13 @@
             {
                 "name": "Capsule 14 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "MissableCapsules,SonicRingCapsulesanity"
                 ]
@@ -2196,6 +2283,13 @@
             {
                 "name": "Capsule 15 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2203,6 +2297,13 @@
             {
                 "name": "Capsule 16 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2210,6 +2311,13 @@
             {
                 "name": "Capsule 17 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2217,6 +2325,13 @@
             {
                 "name": "Capsule 18 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2224,6 +2339,13 @@
             {
                 "name": "Capsule 19 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2231,6 +2353,13 @@
             {
                 "name": "Capsule 20 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2238,6 +2367,13 @@
             {
                 "name": "Capsule 21 (Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicShieldCapsulesanity"
                 ]
@@ -2245,6 +2381,13 @@
             {
                 "name": "Capsule 22 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicLifeCapsulesanity"
                 ]
@@ -2252,6 +2395,13 @@
             {
                 "name": "Capsule 23 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LightShoes",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "SonicRingCapsulesanity"
                 ]
@@ -2259,6 +2409,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|LostWorld,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -2705,6 +2858,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Sonic|FinalEgg,PlayableSonic"
+        ],
         "visibility_rules": [
             "SonicPlayable,Capsulesanity"
         ]
@@ -2794,6 +2950,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Tails|WindyValley,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity"
         ]
@@ -3107,6 +3266,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Tails|Casinopolis,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity"
         ]
@@ -3378,6 +3540,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Tails|SkyDeck,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity"
         ]
@@ -3558,6 +3723,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Tails|SpeedHighway,PlayableTails"
+        ],
         "visibility_rules": [
             "TailsPlayable,Capsulesanity"
         ]
@@ -3633,6 +3801,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Knuckles|SpeedHighway,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity"
         ]
@@ -3764,6 +3935,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Knuckles|Casinopolis,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity"
         ]
@@ -3944,6 +4118,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Knuckles|RedMountain,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity"
         ]
@@ -4012,6 +4189,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Knuckles|LostWorld,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity"
         ]
@@ -4115,6 +4295,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Knuckles|SkyDeck,PlayableKnuckles"
+        ],
         "visibility_rules": [
             "KnucklesPlayable,Capsulesanity"
         ]
@@ -4197,6 +4380,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Amy|TwinklePark,PlayableAmy"
+        ],
         "visibility_rules": [
             "AmyPlayable,Capsulesanity"
         ]
@@ -4475,6 +4661,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Amy|HotShelter,PlayableAmy"
+        ],
         "visibility_rules": [
             "AmyPlayable,Capsulesanity"
         ]
@@ -4543,6 +4732,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Amy|FinalEgg,PlayableAmy"
+        ],
         "visibility_rules": [
             "AmyPlayable,Capsulesanity"
         ]
@@ -4632,6 +4824,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Gamma|FinalEgg,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity"
         ]
@@ -4742,6 +4937,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Gamma|EmeraldCoast,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity"
         ]
@@ -4761,6 +4959,13 @@
             {
                 "name": "Capsule 01 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaLifeCapsulesanity"
                 ]
@@ -4768,6 +4973,13 @@
             {
                 "name": "Capsule 02 (Speed Up)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaPowerUpCapsulesanity"
                 ]
@@ -4775,6 +4987,13 @@
             {
                 "name": "Capsule 03 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -4782,6 +5001,13 @@
             {
                 "name": "Capsule 04 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -4789,6 +5015,13 @@
             {
                 "name": "Capsule 05 (Invincibility)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaPowerUpCapsulesanity"
                 ]
@@ -4796,6 +5029,13 @@
             {
                 "name": "Capsule 06 (Magnetic Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -4803,6 +5043,13 @@
             {
                 "name": "Capsule 07 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -4810,6 +5057,13 @@
             {
                 "name": "Capsule 08 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaLifeCapsulesanity"
                 ]
@@ -4817,6 +5071,13 @@
             {
                 "name": "Capsule 09 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -4824,6 +5085,13 @@
             {
                 "name": "Capsule 10 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -4831,6 +5099,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Gamma|WindyValley,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity"
         ]
@@ -4920,6 +5191,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Gamma|RedMountain,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity"
         ]
@@ -5016,6 +5290,13 @@
             {
                 "name": "Capsule 12 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5023,6 +5304,13 @@
             {
                 "name": "Capsule 13 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5030,6 +5318,13 @@
             {
                 "name": "Capsule 14 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5037,6 +5332,13 @@
             {
                 "name": "Capsule 15 (Random Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5044,6 +5346,13 @@
             {
                 "name": "Capsule 16 (Magnetic Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -5051,6 +5360,13 @@
             {
                 "name": "Capsule 17 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaLifeCapsulesanity"
                 ]
@@ -5058,6 +5374,13 @@
             {
                 "name": "Capsule 18 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaLifeCapsulesanity"
                 ]
@@ -5065,6 +5388,13 @@
             {
                 "name": "Capsule 19 (Magnetic Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -5072,6 +5402,13 @@
             {
                 "name": "Capsule 20 (Invincibility)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaPowerUpCapsulesanity"
                 ]
@@ -5079,6 +5416,13 @@
             {
                 "name": "Capsule 21 (Extra Life)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaLifeCapsulesanity"
                 ]
@@ -5086,6 +5430,13 @@
             {
                 "name": "Capsule 22 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5093,6 +5444,13 @@
             {
                 "name": "Capsule 23 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5100,6 +5458,13 @@
             {
                 "name": "Capsule 24 (Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -5107,6 +5472,13 @@
             {
                 "name": "Capsule 25 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5114,6 +5486,13 @@
             {
                 "name": "Capsule 26 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5121,6 +5500,13 @@
             {
                 "name": "Capsule 27 (Five Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5128,6 +5514,13 @@
             {
                 "name": "Capsule 28 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5135,6 +5528,13 @@
             {
                 "name": "Capsule 29 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaRingCapsulesanity"
                 ]
@@ -5142,6 +5542,13 @@
             {
                 "name": "Capsule 30 (Magnetic Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -5149,6 +5556,13 @@
             {
                 "name": "Capsule 31 (Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -5156,6 +5570,13 @@
             {
                 "name": "Capsule 32 (Bomb)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaPowerupCapsulesanity"
                 ]
@@ -5163,6 +5584,13 @@
             {
                 "name": "Capsule 33 (Shield)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,JetBooster",
+                    "HardLogic,JetBooster",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ],
                 "visibility_rules": [
                     "GammaShieldCapsulesanity"
                 ]
@@ -5170,6 +5598,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Gamma|HotShelter,PlayableGamma"
+        ],
         "visibility_rules": [
             "GammaPlayable,Capsulesanity"
         ]
@@ -5203,6 +5634,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Big|TwinklePark,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity"
         ]
@@ -5306,6 +5740,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Big|IceCap,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity"
         ]
@@ -5339,6 +5776,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Big|EmeraldCoast,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity"
         ]
@@ -5407,6 +5847,13 @@
             {
                 "name": "Capsule 08 (Speed Up)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic,LifeBelt",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX,LifeBelt",
+                    "ExpertLogicDXPlus,LifeBelt"
+                ],
                 "visibility_rules": [
                     "BigPowerUpCapsulesanity"
                 ]
@@ -5414,6 +5861,13 @@
             {
                 "name": "Capsule 09 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic,LifeBelt",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX,LifeBelt",
+                    "ExpertLogicDXPlus,LifeBelt"
+                ],
                 "visibility_rules": [
                     "BigRingCapsulesanity"
                 ]
@@ -5421,6 +5875,13 @@
             {
                 "name": "Capsule 10 (Ten Rings)",
                 "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic,LifeBelt",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX,LifeBelt",
+                    "ExpertLogicDXPlus,LifeBelt"
+                ],
                 "visibility_rules": [
                     "BigRingCapsulesanity"
                 ]
@@ -5428,6 +5889,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$CanAccess|Big|HotShelter,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Capsulesanity"
         ]

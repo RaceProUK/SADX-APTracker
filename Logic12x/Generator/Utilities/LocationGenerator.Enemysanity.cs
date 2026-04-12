@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -39,6 +40,7 @@ internal static partial class LocationGenerator
 
     private static async Task GenerateEnemies(FrozenDictionary<int, string> dict)
     {
+        var logic = await LogicLoader.LoadForEnemy().ToListAsync();
         var sonicEnemies = GetEnemies(dict, SonicEnemiesStart, SonicEnemiesEnd, SonicLevelsX, SonicLevelsY);
         var tailsEnemies = GetEnemies(dict, TailsEnemiesStart, TailsEnemiesEnd, TailsLevelsX, TailsLevelsY);
         var knucklesEnemies = GetEnemies(dict, KnucklesEnemiesStart, KnucklesEnemiesEnd, KnucklesLevelsX, KnucklesLevelsY);
@@ -73,13 +75,31 @@ internal static partial class LocationGenerator
             return from level in enemies
                    let y = y0 + LevelsSpacingY * level.Multipler
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
+                   let index = level.Location.Key.IndexOf('(')
+                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Enemysanity - {level.Location.Key}",
                                        [new MapLocation(EnemiesMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        let missable = MissableEnemies.Contains(section.Key)
                                        select new Section(section.Name,
+                                                          AccessRules: GetAccessRules(level.Location.Key,
+                                                                                      character,
+                                                                                      section.Name),
                                                           VisibilityRules: missable ? ["MissableEnemies"] : default),
+                                       AccessRules: [$"$CanAccess|{character}|{access},Playable{character}"],
                                        VisibilityRules: [$"{character}Playable,Enemysanity,{character}Enemysanity"]);
         }
+
+        IEnumerable<string>? GetAccessRules(string location, string character, string section) => logic.First(entry =>
+        {
+            var level = entry.Level.Humanize(LetterCasing.Title);
+            var type = entry.Type.Humanize(LetterCasing.Title);
+            var enemy = SanityTypeParser().Match(section).Groups[1].Value;
+            var number = int.Parse(NumberParser().Match(section).Value);
+            return location.StartsWith(level)
+                   && character.Equals(entry.Character)
+                   && enemy.Equals(type)
+                   && number == entry.Number;
+        }).BuildAccessRules();
     }
 }

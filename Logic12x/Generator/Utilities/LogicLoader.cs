@@ -18,11 +18,33 @@ internal static partial class LogicLoader
         ApiKey = config["GoogleApiKey"]!;
     }
 
+    internal static IAsyncEnumerable<Capsule> LoadForCapsule()
+        => LoadFor<Capsule>("B1534:J2226", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
+             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Type))
+             .MapColumn(_ => _.WithColumnIndex(3).IsRequired().MapTo(_ => _.Number))
+             .MapCommonColumns(ParseKeyItemLogicRules));
+
+    internal static IAsyncEnumerable<Enemy> LoadForEnemy()
+        => LoadFor<Enemy>("B822:J1531", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
+             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Type))
+             .MapColumn(_ => _.WithColumnIndex(3).IsRequired().MapTo(_ => _.Number))
+             .MapCommonColumns(ParseKeyItemLogicRules));
+
     internal static IAsyncEnumerable<FieldEmblem> LoadForFieldEmblem()
         => LoadFor<FieldEmblem>("B728:J740", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().ParseValueUsing(ParseAreaName).MapTo(_ => _.Area))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Name))
              .MapCommonColumns(ParseEmblemLogicRules));
+
+    internal static IAsyncEnumerable<Fish> LoadForFish()
+        => LoadFor<Fish>("B2229:J2252", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Type))
+             .MapCommonColumns(ParseKeyItemLogicRules));
 
     internal static IAsyncEnumerable<LevelMission> LoadForLevelMission()
         => LoadFor<LevelMission>("B577:J705", _ =>

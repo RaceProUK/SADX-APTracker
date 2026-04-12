@@ -21,11 +21,21 @@
             },
             {
                 "name": "Mecha Fish",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|TwinklePark,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
         ]
@@ -69,6 +79,9 @@
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|IceCap,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
         ]
@@ -115,11 +128,21 @@
             },
             {
                 "name": "Blue Marlin",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|EmeraldCoast,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
         ]
@@ -138,7 +161,14 @@
         "sections": [
             {
                 "name": "Angler Fish",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ]
             },
             {
                 "name": "Hammerhead",
@@ -146,7 +176,14 @@
             },
             {
                 "name": "Oarfish",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ]
             },
             {
                 "name": "Shark",
@@ -154,15 +191,32 @@
             },
             {
                 "name": "Coelacanth",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,Lure1,Lure2,Lure3,Lure4",
+                    "HardLogic,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDC,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDX,Lure1,Lure2,Lure3,Lure4",
+                    "ExpertLogicDXPlus,Lure1,Lure2,Lure3,Lure4"
+                ]
             },
             {
                 "name": "Moray Eel",
-                "item_count": 1
+                "item_count": 1,
+                "access_rules": [
+                    "NormalLogic,LifeBelt",
+                    "HardLogic",
+                    "ExpertLogicDC",
+                    "ExpertLogicDX",
+                    "ExpertLogicDXPlus"
+                ]
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "^$LazyFishingCheck|2,$CanAccess|Big|HotShelter,PlayableBig"
+        ],
         "visibility_rules": [
             "BigPlayable,Fishsanity"
         ]

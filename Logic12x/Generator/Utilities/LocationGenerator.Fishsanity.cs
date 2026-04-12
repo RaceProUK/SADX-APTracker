@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -30,6 +31,7 @@ internal static partial class LocationGenerator
             _ => int.MaxValue
         };
 
+        var logic = await LogicLoader.LoadForFish().ToListAsync();
         var locations = from entry in dict
                         where entry.Key >= FishStart && entry.Key < FishEnd
                         orderby GetOrder(entry.Value), entry.Key
@@ -40,13 +42,24 @@ internal static partial class LocationGenerator
         var multipliers = Enumerable.Range(0, locations.Count());
         var fish = from level in locations.Zip(multipliers, (l, m) => (Location: l, Multipler: m))
                    let y = BigLevelsY + LevelsSpacingY * level.Multipler
+                   let index = level.Location.Key.IndexOf('(')
+                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Fishsanity - {level.Location.Key}",
                                        [new MapLocation(LevelsMap, BigLevelsX + FishOffsetX, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
-                                       select new Section(section),
+                                       select new Section(section,
+                                                          AccessRules: GetAccessRules(level.Location.Key, section)),
+                                       AccessRules: [$"^$LazyFishingCheck|2,$CanAccess|Big|{access},PlayableBig"],
                                        VisibilityRules: [$"BigPlayable,Fishsanity"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(fish, Constants.JsonOptions),
                                    "fish.json",
                                    "locations");
+
+        IEnumerable<string>? GetAccessRules(string location, string section) => logic.First(entry =>
+        {
+            var level = entry.Level.Humanize(LetterCasing.Title);
+            var fish = entry.Type.Humanize(LetterCasing.Title);
+            return location.StartsWith(level) && section.Equals(fish);
+        }).BuildAccessRules();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Frozen;
 using System.Text.Json;
+using Humanizer;
 using RPS.SADX.PopTracker.Generator.Models;
 using RPS.SADX.PopTracker.Generator.Models.PopTracker;
 
@@ -58,6 +59,7 @@ internal static partial class LocationGenerator
             _ => default
         };
 
+        var logic = await LogicLoader.LoadForCapsule().ToListAsync();
         var sonicCapsules = GetCapsules(dict, SonicCapsulesStart, SonicCapsulesEnd, SonicLevelsX, SonicLevelsY);
         var tailsCapsules = GetCapsules(dict, TailsCapsulesStart, TailsCapsulesEnd, TailsLevelsX, TailsLevelsY);
         var knucklesCapsules = GetCapsules(dict, KnucklesCapsulesStart, KnucklesCapsulesEnd, KnucklesLevelsX, KnucklesLevelsY);
@@ -91,6 +93,8 @@ internal static partial class LocationGenerator
             return from level in capsules
                    let y = y0 + LevelsSpacingY * level.Multipler
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
+                   let index = level.Location.Key.IndexOf('(')
+                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Capsulesanity - {level.Location.Key}",
                                        [new MapLocation(CapsulesMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
@@ -99,13 +103,29 @@ internal static partial class LocationGenerator
                                        let missable = MissableCapsules.Contains(section.Key)
                                        let pinball = section.Key >= PinballCapsulesStart && section.Key < PinballCapsulesEnd
                                        select new Section(section.Name,
+                                                          AccessRules: GetAccessRules(level.Location.Key,
+                                                                                      character,
+                                                                                      section.Name),
                                                           VisibilityRules: (pinball, missable) switch
                                                           {
                                                               (true, _) => [$"PinballCapsules,{visibility}"],
                                                               (false, true) => [$"MissableCapsules,{visibility}"],
                                                               (false, false) => [$"{visibility}"],
                                                           }),
+                                       AccessRules: [$"$CanAccess|{character}|{access},Playable{character}"],
                                        VisibilityRules: [$"{character}Playable,Capsulesanity"]);
         }
+
+        IEnumerable<string>? GetAccessRules(string location, string character, string section) => logic.First(entry =>
+        {
+            var level = entry.Level.Humanize(LetterCasing.Title);
+            var type = entry.Type.Humanize(LetterCasing.Title);
+            var capsule = SanityTypeParser().Match(section).Groups[1].Value;
+            var number = int.Parse(NumberParser().Match(section).Value);
+            return location.StartsWith(level)
+                   && character.Equals(entry.Character)
+                   && capsule.Equals(type, StringComparison.InvariantCultureIgnoreCase)
+                   && number == entry.Number;
+        }).BuildAccessRules();
     }
 }
