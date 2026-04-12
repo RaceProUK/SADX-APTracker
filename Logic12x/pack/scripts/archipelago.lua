@@ -10,7 +10,7 @@ function Reset(slotData)
 
     local modVersion = math.tointeger(slotData["ModVersion"])
     local versionMismatch = Tracker:FindObjectForCode("VersionMismatch")
-    if modVersion ~= ModVersion then
+    if modVersion == ModVersion then
         versionMismatch.Active = false
     else
         versionMismatch.Active = true
