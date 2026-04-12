@@ -45,5 +45,7 @@ function EntranceMapper:Fill(areaMap)
 end
 
 function EntranceMapper:Reset()
-    EntranceMapper = {}
+    for _, v in pairs(EntranceIDMap) do
+        EntranceMapper[v] = nil
+    end
 end
