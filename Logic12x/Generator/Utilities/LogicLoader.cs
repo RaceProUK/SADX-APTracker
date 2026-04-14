@@ -12,7 +12,7 @@ internal static partial class LogicLoader
 {
     private static string ApiKey { get; }
 
-    static LogicLoader()
+   static LogicLoader()
     {
         var config = new ConfigurationBuilder().AddUserSecrets("b142e81d-996d-4b19-a68a-38a41c45604e").Build();
         ApiKey = config["GoogleApiKey"]!;
@@ -20,100 +20,100 @@ internal static partial class LogicLoader
 
     internal static IAsyncEnumerable<Connection> LoadForConnections() => LoadFor<Connection>("B3:J573", row => new()
     {
-        Character = row.Values[0].EffectiveValue.StringValue,
-        AreaFrom = ParseAreaName(row.Values[1].EffectiveValue?.StringValue ?? string.Empty),
-        AreaTo = ParseAreaName(row.Values[2].EffectiveValue.StringValue),
-        Tag = row.Values[3].EffectiveValue?.StringValue,
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        Character = row.Values[0].FormattedValue,
+        AreaFrom = ParseAreaName(row.Values[1].FormattedValue ?? string.Empty),
+        AreaTo = ParseAreaName(row.Values[2].FormattedValue),
+        Tag = row.Values[3].FormattedValue,
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<Capsule> LoadForCapsule() => LoadFor<Capsule>("B1534:J2226", row => new()
     {
-        Level = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        Character = row.Values[1].EffectiveValue.StringValue,
-        Type = row.Values[2].EffectiveValue.StringValue,
+        Level = ParseAreaName(row.Values[0].FormattedValue),
+        Character = row.Values[1].FormattedValue,
+        Type = row.Values[2].FormattedValue,
         Number = Convert.ToInt32(row.Values[3].EffectiveValue.NumberValue),
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<Enemy> LoadForEnemy() => LoadFor<Enemy>("B822:J1531", row => new()
     {
-        Level = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        Character = row.Values[1].EffectiveValue.StringValue,
-        Type = row.Values[2].EffectiveValue.StringValue,
+        Level = ParseAreaName(row.Values[0].FormattedValue),
+        Character = row.Values[1].FormattedValue,
+        Type = row.Values[2].FormattedValue,
         Number = Convert.ToInt32(row.Values[3].EffectiveValue.NumberValue),
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<FieldEmblem> LoadForFieldEmblem() => LoadFor<FieldEmblem>("B728:J740", row => new()
     {
-        Area = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        Name = row.Values[1].EffectiveValue.StringValue,
-        NormalLogic = ParseEmblemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseEmblemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseEmblemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseEmblemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseEmblemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        Area = ParseAreaName(row.Values[0].FormattedValue),
+        Name = row.Values[1].FormattedValue,
+        NormalLogic = ParseEmblemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseEmblemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseEmblemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseEmblemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseEmblemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<Fish> LoadForFish() => LoadFor<Fish>("B2229:J2252", row => new()
     {
-        Level = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        Type = row.Values[1].EffectiveValue.StringValue,
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        Level = ParseAreaName(row.Values[0].FormattedValue),
+        Type = row.Values[1].FormattedValue,
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<LevelMission> LoadForLevelMission() => LoadFor<LevelMission>("B577:J705", row => new()
     {
-        Level = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        Character = row.Values[1].EffectiveValue.StringValue,
-        Mission = row.Values[2].EffectiveValue.StringValue,
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        Level = ParseAreaName(row.Values[0].FormattedValue),
+        Character = row.Values[1].FormattedValue,
+        Mission = row.Values[2].FormattedValue,
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<Mission> LoadForMission() => LoadFor<Mission>("B743:J803", row => new()
     {
-        CardArea = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        ObjectiveArea = ParseAreaName(row.Values[1].EffectiveValue.StringValue),
-        Character = row.Values[2].EffectiveValue.StringValue,
+        CardArea = ParseAreaName(row.Values[0].FormattedValue),
+        ObjectiveArea = ParseAreaName(row.Values[1].FormattedValue),
+        Character = row.Values[2].FormattedValue,
         Number = Convert.ToInt32(row.Values[3].EffectiveValue.NumberValue),
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem() => LoadFor<UpgradeItem>("B708:J725", row => new()
     {
-        Area = ParseAreaName(row.Values[0].EffectiveValue.StringValue),
-        Character = row.Values[1].EffectiveValue.StringValue,
-        Upgrade = row.Values[2].EffectiveValue.StringValue,
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].EffectiveValue?.StringValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].EffectiveValue?.StringValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].EffectiveValue?.StringValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].EffectiveValue?.StringValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].EffectiveValue?.StringValue),
+        Area = ParseAreaName(row.Values[0].FormattedValue),
+        Character = row.Values[1].FormattedValue,
+        Upgrade = row.Values[2].FormattedValue,
+        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
     });
 
     private static async IAsyncEnumerable<T> LoadFor<T>(string range, Func<RowData, T> mapper) where T : new()
