@@ -12,23 +12,37 @@ internal static partial class LogicLoader
 {
     private static string ApiKey { get; }
 
-   static LogicLoader()
+    private static string LastAreaFrom { get; set; } = string.Empty;
+
+    static LogicLoader()
     {
         var config = new ConfigurationBuilder().AddUserSecrets("b142e81d-996d-4b19-a68a-38a41c45604e").Build();
         ApiKey = config["GoogleApiKey"]!;
     }
 
-    internal static IAsyncEnumerable<Connection> LoadForConnections() => LoadFor<Connection>("B3:J573", row => new()
+    internal static IAsyncEnumerable<Connection> LoadForConnections() => LoadFor<Connection>("B3:J573", row =>
     {
-        Character = row.Values[0].FormattedValue,
-        AreaFrom = ParseAreaName(row.Values[1].FormattedValue ?? string.Empty),
-        AreaTo = ParseAreaName(row.Values[2].FormattedValue),
-        Tag = row.Values[3].FormattedValue,
-        NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
-        HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
-        ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
-        ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
-        ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
+        var areaFrom = ParseAreaName(row.Values[1].FormattedValue ?? string.Empty);
+        if (string.IsNullOrEmpty(areaFrom))
+        {
+            areaFrom = LastAreaFrom;
+        }
+        else
+        {
+            LastAreaFrom = areaFrom;
+        }
+        return new()
+        {
+            Character = row.Values[0].FormattedValue,
+            AreaFrom = areaFrom,
+            AreaTo = ParseAreaName(row.Values[2].FormattedValue),
+            Tag = row.Values[3].FormattedValue,
+            NormalLogic = ParseKeyItemLogicRules(row.Values[4].FormattedValue),
+            HardLogic = ParseKeyItemLogicRules(row.Values[5].FormattedValue),
+            ExpertDCLogic = ParseKeyItemLogicRules(row.Values[6].FormattedValue),
+            ExpertDXLogic = ParseKeyItemLogicRules(row.Values[7].FormattedValue),
+            ExpertDXPlusLogic = ParseKeyItemLogicRules(row.Values[8].FormattedValue),
+        };
     });
 
     internal static IAsyncEnumerable<Capsule> LoadForCapsule() => LoadFor<Capsule>("B1534:J2226", row => new()
