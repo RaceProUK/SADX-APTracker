@@ -135,8 +135,8 @@
                     "$CanReach|Tails|TwinkleParkLobby,PlayableTails",
                     "$CanReach|Knuckles|TwinkleParkLobby,PlayableKnuckles",
                     "$CanReach|Amy|TwinkleParkLobby,PlayableAmy",
-                    "$CanReach|Gamma|TwinkleParkLobby,PlayableGamma",
-                    "$CanReach|Big|TwinkleParkLobby,PlayableBig"
+                    "$CanReach|Big|TwinkleParkLobby,PlayableBig",
+                    "$CanReach|Gamma|TwinkleParkLobby,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuit"

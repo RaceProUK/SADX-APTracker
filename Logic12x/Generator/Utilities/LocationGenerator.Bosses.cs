@@ -136,7 +136,8 @@ internal static partial class LocationGenerator
                                       ecBosses);
         var perfectChaos = new Location("Perfect Chaos",
                                         [new MapLocation(LevelsMap, PerfectChaosX, PerfectChaosY, LevelsIconSize, BorderThickness)],
-                                        [new Section("Open Their Heart")]);
+                                        [new Section("Open Their Heart")],
+                                        AccessRules: ["$HasMetGoalCriteria"]);
         var bosses = new[] { stationSquare, mysticRuins, eggCarrier, perfectChaos };
         await FileWriter.WriteFile(JsonSerializer.Serialize(bosses, Constants.JsonOptions),
                                    "bosses.json",

@@ -20,8 +20,6 @@ internal static partial class LocationGenerator
 
     private static readonly IEnumerable<string> SkyChaseCharacters = ["Sonic", "Tails"];
 
-    private static readonly IEnumerable<string> TwinkleParkCharacters = ["Sonic", "Tails", "Knuckles", "Amy", "Gamma", "Big"];
-
     private static IEnumerable<LuaLocation> GenerateSubGamesLua(FrozenDictionary<int, string> dict)
     {
         var skyChase1 = from entry in dict
@@ -73,7 +71,7 @@ internal static partial class LocationGenerator
         var tcMissions1 = from entry in dict
                           where entry.Key >= TwinkleCircuitStart && entry.Key < TwinkleCircuitEnd
                           select new Section("Set a Record",
-                                             AccessRules: TwinkleParkCharacters.Select(_ => $"$CanReach|{_}|TwinkleParkLobby,Playable{_}"),
+                                             AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|TwinkleParkLobby,Playable{_}"),
                                              VisibilityRules: ["EnableTwinkleCircuit"]);
         var tcMissions2 = from entry in dict
                           where entry.Key >= TwinkleCircuitMultipleStart && entry.Key < TwinkleCircuitMultipleEnd

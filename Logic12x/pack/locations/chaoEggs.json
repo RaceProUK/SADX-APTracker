@@ -23,14 +23,14 @@
             "$CanReach|Tails|StationSquareCityHall,$CanReach|Tails|StationSquareChaoGarden,PolicePass,HotelKey,PlayableTails",
             "$CanReach|Knuckles|StationSquareCityHall,$CanReach|Knuckles|StationSquareChaoGarden,PolicePass,HotelKey,PlayableKnuckles",
             "$CanReach|Amy|StationSquareCityHall,$CanReach|Amy|StationSquareChaoGarden,PolicePass,HotelKey,PlayableAmy",
-            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,HotelKey,PlayableGamma",
             "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,HotelKey,PlayableBig",
+            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,HotelKey,PlayableGamma",
             "$CanReach|Sonic|StationSquareCityHall,$CanReach|Sonic|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableSonic",
             "$CanReach|Tails|StationSquareCityHall,$CanReach|Tails|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableTails",
             "$CanReach|Knuckles|StationSquareCityHall,$CanReach|Knuckles|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableKnuckles",
             "$CanReach|Amy|StationSquareCityHall,$CanReach|Amy|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableAmy",
-            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableGamma",
-            "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableBig"
+            "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableBig",
+            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableGamma"
         ],
         "visibility_rules": [
             "SecretChaoEggs"

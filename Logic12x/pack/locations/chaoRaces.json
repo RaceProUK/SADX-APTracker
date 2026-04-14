@@ -39,8 +39,8 @@
             "$CanReach|Tails|StationSquareChaoGarden,PlayableTails",
             "$CanReach|Knuckles|StationSquareChaoGarden,PlayableKnuckles",
             "$CanReach|Amy|StationSquareChaoGarden,PlayableAmy",
-            "$CanReach|Gamma|StationSquareChaoGarden,PlayableGamma",
-            "$CanReach|Big|StationSquareChaoGarden,PlayableBig"
+            "$CanReach|Big|StationSquareChaoGarden,PlayableBig",
+            "$CanReach|Gamma|StationSquareChaoGarden,PlayableGamma"
         ],
         "visibility_rules": [
             "ChaoRacesChecks"

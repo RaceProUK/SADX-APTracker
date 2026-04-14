@@ -255,6 +255,9 @@
             }
         ],
         "chest_unopened_img": "images/ItemBox.png",
-        "chest_opened_img": "images/ItemBoxBroken.png"
+        "chest_opened_img": "images/ItemBoxBroken.png",
+        "access_rules": [
+            "$HasMetGoalCriteria"
+        ]
     }
 ]

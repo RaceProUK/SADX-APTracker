@@ -18,6 +18,14 @@ internal static partial class LogicLoader
         ApiKey = config["GoogleApiKey"]!;
     }
 
+    internal static IAsyncEnumerable<Connection> LoadForConnections()
+        => LoadFor<Connection>("B3:J573", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Character))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.AreaFrom))
+             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.AreaTo))
+             .MapColumn(_ => _.WithColumnIndex(3).MapTo(_ => _.Tag))
+             .MapCommonColumns(ParseKeyItemLogicRules));
+
     internal static IAsyncEnumerable<Capsule> LoadForCapsule()
         => LoadFor<Capsule>("B1534:J2226", _ =>
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.Level))
@@ -51,6 +59,14 @@ internal static partial class LogicLoader
             _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().ParseValueUsing(ParseAreaName).MapTo(_ => _.Level))
              .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.Character))
              .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Mission))
+             .MapCommonColumns(ParseKeyItemLogicRules));
+
+    internal static IAsyncEnumerable<Mission> LoadForMission()
+        => LoadFor<Mission>("B743:J860", _ =>
+            _.MapColumn(_ => _.WithColumnIndex(0).IsRequired().MapTo(_ => _.CardArea))
+             .MapColumn(_ => _.WithColumnIndex(1).IsRequired().MapTo(_ => _.ObjectiveArea))
+             .MapColumn(_ => _.WithColumnIndex(2).IsRequired().MapTo(_ => _.Character))
+             .MapColumn(_ => _.WithColumnIndex(3).IsRequired().MapTo(_ => _.Number))
              .MapCommonColumns(ParseKeyItemLogicRules));
 
     internal static IAsyncEnumerable<UpgradeItem> LoadForUpgradeItem()

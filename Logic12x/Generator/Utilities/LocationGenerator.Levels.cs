@@ -62,6 +62,8 @@ internal static partial class LocationGenerator
             return from level in levels
                    let y = y0 + LevelsSpacingY * level.Multipler
                    let character = CharacterParser().Match(level.Location.Key).Groups[1].Value
+                   let index = level.Location.Key.IndexOf('(')
+                   let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location(level.Location.Key,
                                        [new MapLocation(LevelsMap, x, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
@@ -69,6 +71,7 @@ internal static partial class LocationGenerator
                                        select new Section(section,
                                                           AccessRules: GetMissionAccessRules(level.Location.Key, character, section),
                                                           VisibilityRules: GetMissionVisibility(character, section)),
+                                       AccessRules: [$"$CanAccess|{character}|{access},Playable{character}"],
                                        VisibilityRules: [$"{character}Playable"]);
         }
 

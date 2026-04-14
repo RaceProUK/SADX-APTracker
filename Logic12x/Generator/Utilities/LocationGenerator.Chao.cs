@@ -16,8 +16,6 @@ internal static partial class LocationGenerator
     private const int ChaoEggsX = 1864;
     private const int ChaoRacesX = 1912;
 
-    private static readonly IEnumerable<string> ShopCharacters = ["Sonic", "Tails", "Knuckles", "Amy", "Gamma", "Big"];
-
     private static readonly IEnumerable<string> PondCharacters = ["Sonic", "Tails", "Knuckles", "Amy", "Big"];
 
     private static readonly IEnumerable<string> BrigCharacters = ["Amy", "Big", "Gamma"];
@@ -41,8 +39,8 @@ internal static partial class LocationGenerator
                                          [(new Section(dict[GoldEgg]))],
                                          AccessRules:
                                          [
-                                             .. ShopCharacters.Select(_ => $"$CanReach|{_}|StationSquareCityHall,$CanReach|{_}|StationSquareChaoGarden,PolicePass,HotelKey,Playable{_}"),
-                                             .. ShopCharacters.Select(_ => $"$CanReach|{_}|StationSquareCityHall,$CanReach|{_}|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,Playable{_}")
+                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareCityHall,$CanReach|{_}|StationSquareChaoGarden,PolicePass,HotelKey,Playable{_}"),
+                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareCityHall,$CanReach|{_}|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,Playable{_}")
                                          ],
                                          VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
@@ -68,7 +66,7 @@ internal static partial class LocationGenerator
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
                                      select new Section(entry.Value),
-                                     AccessRules: ShopCharacters.Select(_ => $"$CanReach|{_}|StationSquareChaoGarden,Playable{_}"),
+                                     AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|StationSquareChaoGarden,Playable{_}"),
                                      VisibilityRules: ["ChaoRacesChecks"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(new[] { chaoRaces }, Constants.JsonOptions),
                                    "chaoRaces.json",

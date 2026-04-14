@@ -227,7 +227,7 @@
                 "name": "Lure 3 (Ice Cap) Upgrade Point",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Big|IceCap,PlayableBig"
+                    "$CanReach|Big|IceCap,PlayableBig"
                 ],
                 "visibility_rules": [
                     "BigPlayable"

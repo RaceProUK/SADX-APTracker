@@ -35,7 +35,13 @@ internal static partial class LocationGenerator
             8 or 14 or 22 or 29 or 35 or 44 or 52 or 60 => "Big",
             _ => "Sonic"
         };
+        static bool IsFishingMission(int number) => number switch
+        {
+            14 or 29 or 35 or 44 => true,
+            _ => false
+        };
 
+        var logic = await LogicLoader.LoadForMission().ToListAsync();
         var missions = from entry in dict
                        where entry.Key >= MissionsStart && entry.Key < MissionsEnd
                        let number = int.Parse(NumberParser().Match(entry.Value).Value)
@@ -45,9 +51,22 @@ internal static partial class LocationGenerator
                        select new Location(entry.Value,
                                            [new MapLocation("missions", x, y, MissionsIconSize, BorderThickness)],
                                            [new Section(Constants.MissionBriefs[number])],
+                                           AccessRules: GetAccessRules(number, character),
                                            VisibilityRules: [$"MissionModeChecks,{character}Playable,AllowMission{number}"]);
         await FileWriter.WriteFile(JsonSerializer.Serialize(missions, Constants.JsonOptions),
                                    "missions.json",
                                    "locations");
+
+        IEnumerable<string> GetAccessRules(int number, string character)
+        {
+            var spec = logic.First(entry => number == entry.Number);
+            var func = AccessRulesGenerator.Levels.Contains(spec.ObjectiveArea) ? "CanAccess" : "CanReach";
+            var access = spec.CardArea.Equals(spec.ObjectiveArea)
+                ? $"$CanReach|{character}|{spec.ObjectiveArea},Playable{character}"
+                : $"$CanReach|{character}|{spec.CardArea}|1,${func}|{character}|{spec.ObjectiveArea},Playable{character}";
+            if ("Big".Equals(character) && IsFishingMission(number))
+                access = $"^$LazyFishingCheck|3,{access}";
+            return spec.BuildAccessRules()?.Select(_ => $"{access},{_}") ?? [access];
+        }
     }
 }
