@@ -3,7 +3,7 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>net10.0</TargetFramework>
         <RootNamespace>RPS.SADX.PopTracker.Generator</RootNamespace>
-        <AssemblyName>SADX PopTracker Generator</AssemblyName>
+        <AssemblyName>SADX PopTracker Generator for Logic v1.1.x</AssemblyName>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -11,6 +11,8 @@
         <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
         <WarningsNotAsErrors>NU1903,NU1904</WarningsNotAsErrors>
         <UserSecretsId>b142e81d-996d-4b19-a68a-38a41c45604e</UserSecretsId>
+        <Authors>RaceProUK</Authors>
+        <Company>RP Software</Company>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Google.Apis.Sheets.v4" Version="1.73.0.4061" />
