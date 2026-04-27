@@ -10,7 +10,7 @@ internal static class Constants
 {
     internal const string PackRoot = "../../../../pack";
 
-    internal static readonly IReadOnlyDictionary<int, string> MissionBriefs = new Dictionary<int, string>
+    internal static IReadOnlyDictionary<int, string> MissionBriefs { get; } = new Dictionary<int, string>
     {
         { 1, "Bring the man who is standing in front of the burger shop!" },
         { 2, "Get the balloon in the skies of Mystic Ruins!" },
