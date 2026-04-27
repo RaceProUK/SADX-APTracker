@@ -78,7 +78,7 @@ internal static partial class LocationGenerator
                                              AccessRules: [$"$CanReach|{character}|TwinkleParkLobby,Playable{character}"],
                                              VisibilityRules: [$"EnableTwinkleCircuitMultiple,{character}Playable"]);
         var skyChase1 = new Location("Sky Chase Act 1",
-                                     [new MapLocation("levels", 1082, 1056, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation(LevelsMap, 1082, 1056, LevelsIconSize, BorderThickness)],
                                      sc1Missions,
                                      AccessRules:
                                      [
@@ -87,7 +87,7 @@ internal static partial class LocationGenerator
                                      ],
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var skyChase2 = new Location("Sky Chase Act 2",
-                                     [new MapLocation("levels", 1082, 1120, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation(LevelsMap, 1082, 1120, LevelsIconSize, BorderThickness)],
                                      sc2Missions,
                                      AccessRules:
                                      [
@@ -96,7 +96,7 @@ internal static partial class LocationGenerator
                                      ],
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var sandHill = new Location("Sand Hill",
-                                    [new MapLocation("levels", 1082, 1184, LevelsIconSize, BorderThickness)],
+                                    [new MapLocation(LevelsMap, 1082, 1184, LevelsIconSize, BorderThickness)],
                                     shMissions,
                                     AccessRules:
                                     [
@@ -111,7 +111,7 @@ internal static partial class LocationGenerator
                                         "ExpertLogicDX,SonicPlayable"
                                     ]);
         var twinkleCircuit = new Location("Twinkle Circuit",
-                                          [new MapLocation("levels", 1082, 1248, LevelsIconSize, BorderThickness)],
+                                          [new MapLocation(LevelsMap, 1082, 1248, LevelsIconSize, BorderThickness)],
                                           tcMissions1.Union(tcMissions2));
         var subGames = new[] { skyChase1, skyChase2, sandHill, twinkleCircuit };
         await FileWriter.WriteFile(JsonSerializer.Serialize(subGames, Constants.JsonOptions),

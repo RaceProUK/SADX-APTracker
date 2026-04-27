@@ -32,7 +32,7 @@ internal static partial class LocationGenerator
     private static async Task GenerateChaoEggs(FrozenDictionary<int, string> dict)
     {
         var stationSquare = new Location("Station Square Chao Egg",
-                                         [new MapLocation("levels", 1864, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, 1864, 640, LevelsIconSize, BorderThickness)],
                                          [(new Section(dict[GoldEgg]))],
                                          AccessRules:
                                          [
@@ -41,12 +41,12 @@ internal static partial class LocationGenerator
                                          ],
                                          VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
-                                       [new MapLocation("levels", 1864, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, 1864, 900, LevelsIconSize, BorderThickness)],
                                        [(new Section(dict[SilverEgg]))],
                                        AccessRules: PondCharacters.Select(_ => $"$CanReach|{_}|MysticRuinsMain,Playable{_}"),
                                        VisibilityRules: PondCharacters.Select(_ => $"SecretChaoEggs,{_}Playable"));
         var eggCarrier = new Location("Egg Carrier Chao Egg",
-                                      [new MapLocation("levels", 1864, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, 1864, 1160, LevelsIconSize, BorderThickness)],
                                       [(new Section(dict[BlackEgg]))],
                                       AccessRules: BrigCharacters.Select(_ => $"$CanReach|{_}|EggCarrierInside,Playable{_}"),
                                       VisibilityRules: BrigCharacters.Select(_ => $"SecretChaoEggs,{_}Playable"));
@@ -59,7 +59,7 @@ internal static partial class LocationGenerator
     private static async Task GenerateChaoRaces(FrozenDictionary<int, string> dict)
     {
         var chaoRaces = new Location("Chao Races",
-                                     [new MapLocation("levels", 1912, 640, LevelsIconSize, BorderThickness)],
+                                     [new MapLocation(LevelsMap, 1912, 640, LevelsIconSize, BorderThickness)],
                                      from entry in dict
                                      where entry.Key >= RacesStart && entry.Key < RacesEnd
                                      select new Section(entry.Value),

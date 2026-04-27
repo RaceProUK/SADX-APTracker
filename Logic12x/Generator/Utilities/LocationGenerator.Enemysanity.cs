@@ -23,7 +23,7 @@ internal static partial class LocationGenerator
 
     private const string EnemiesMap = "enemies";
 
-    private static int[] MissableEnemies =
+    private static int[] MissableEnemies { get; } =
     [
         .. Enumerable.Range(543812001, 10),
         .. Enumerable.Range(543814001, 8),

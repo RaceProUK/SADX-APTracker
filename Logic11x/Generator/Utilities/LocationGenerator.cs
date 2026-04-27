@@ -5,6 +5,8 @@ namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static partial class LocationGenerator
 {
+    private const string LevelsMap = "levels";
+
     private const int LevelsIconSize = 32;
     private const int MissionsIconSize = 16;
     private const int BorderThickness = 1;

@@ -120,16 +120,16 @@ internal static partial class LocationGenerator
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
         var stationSquare = new Location("Station Square Bosses",
-                                         [new MapLocation("levels", 1768, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, 1768, 640, LevelsIconSize, BorderThickness)],
                                          ssBosses);
         var mysticRuins = new Location("Mystic Ruins Bosses",
-                                       [new MapLocation("levels", 1768, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, 1768, 900, LevelsIconSize, BorderThickness)],
                                        mrBosses);
         var eggCarrier = new Location("Egg Carrier Bosses",
-                                      [new MapLocation("levels", 1768, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, 1768, 1160, LevelsIconSize, BorderThickness)],
                                       ecBosses);
         var perfectChaos = new Location("Perfect Chaos",
-                                        [new MapLocation("levels", 1792, 598, LevelsIconSize, BorderThickness)],
+                                        [new MapLocation(LevelsMap, 1792, 598, LevelsIconSize, BorderThickness)],
                                         [new Section("Open Their Heart")],
                                         AccessRules: ["$HasMetGoalCriteria"]);
         var bosses = new[] { stationSquare, mysticRuins, eggCarrier, perfectChaos };

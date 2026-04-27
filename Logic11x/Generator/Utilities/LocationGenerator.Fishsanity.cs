@@ -44,7 +44,7 @@ internal static partial class LocationGenerator
                    let index = level.Location.Key.IndexOf('(')
                    let access = Common.RemoveWhitespace(level.Location.Key[0..(index - 1)])
                    select new Location($"Fishsanity - {level.Location.Key}",
-                                       [new MapLocation("levels", 1594 + 48, y, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, 1594 + 48, y, LevelsIconSize, BorderThickness)],
                                        from section in level.Location
                                        select new Section(section,
                                                           AccessRules: GetAccessRules(level.Location.Key, section)),

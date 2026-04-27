@@ -82,16 +82,16 @@ internal static partial class LocationGenerator
                                             AccessRules: GetAccessRules(entry.Value),
                                             VisibilityRules: [$"{GetUpgradeCharacter(entry.Key)}Playable"]);
         var stationSquare = new Location("Station Square Upgrades",
-                                         [new MapLocation("levels", 1722, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, 1722, 640, LevelsIconSize, BorderThickness)],
                                          ssUpgrades);
         var mysticRuins = new Location("Mystic Ruins Upgrades",
-                                       [new MapLocation("levels", 1722, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, 1722, 900, LevelsIconSize, BorderThickness)],
                                        mrUpgrades);
         var eggCarrier = new Location("Egg Carrier Upgrades",
-                                      [new MapLocation("levels", 1722, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, 1722, 1160, LevelsIconSize, BorderThickness)],
                                       ecUpgrades);
         var iceCap = new Location("Ice Cap Upgrade",
-                                  [new MapLocation("levels", 1936, 192, LevelsIconSize, BorderThickness)],
+                                  [new MapLocation(LevelsMap, 1936, 192, LevelsIconSize, BorderThickness)],
                                   icUpgrades);
         var upgrades = new[] { stationSquare, mysticRuins, eggCarrier, iceCap };
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),

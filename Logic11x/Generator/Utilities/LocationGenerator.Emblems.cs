@@ -41,15 +41,15 @@ internal static partial class LocationGenerator
                         where entry.Key >= EggCarrierEmblemsStart && entry.Key < EggCarrierEmblemsEnd
                         select new Section(entry.Value, AccessRules: GetAccessRules(entry.Value));
         var stationSquare = new Location("Station Square Field Emblems",
-                                         [new MapLocation("levels", 1816, 640, LevelsIconSize, BorderThickness)],
+                                         [new MapLocation(LevelsMap, 1816, 640, LevelsIconSize, BorderThickness)],
                                          ssEmblems,
                                          VisibilityRules: ["FieldEmblemChecks"]);
         var mysticRuins = new Location("Mystic Ruins Field Emblems",
-                                       [new MapLocation("levels", 1816, 900, LevelsIconSize, BorderThickness)],
+                                       [new MapLocation(LevelsMap, 1816, 900, LevelsIconSize, BorderThickness)],
                                        mrEmblems,
                                        VisibilityRules: ["FieldEmblemChecks"]);
         var eggCarrier = new Location("Egg Carrier Field Emblems",
-                                      [new MapLocation("levels", 1816, 1160, LevelsIconSize, BorderThickness)],
+                                      [new MapLocation(LevelsMap, 1816, 1160, LevelsIconSize, BorderThickness)],
                                       ecEmblems,
                                       VisibilityRules: ["FieldEmblemChecks"]);
         var emblems = new[] { stationSquare, mysticRuins, eggCarrier };

@@ -18,6 +18,8 @@ internal static partial class ItemGenerator
     private const int Keys2Start = 543800120;
     private const int Keys2End = 543800125;
 
+    private const string ItemsPathSegment = "items";
+
     internal static async Task Generate(IDictionary<string, int> dict)
     {
         var idToName = dict.ToFrozenDictionary(_ => _.Value, _ => _.Key);
@@ -57,7 +59,7 @@ internal static partial class ItemGenerator
                          select new ToggleItem(entry.Value, code, $"images/characters/{img}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(characters, Constants.JsonOptions),
                                    "characters.json",
-                                   "items");
+                                   ItemsPathSegment);
     }
 
     private static async Task GenerateUpgradesJson(FrozenDictionary<int, string> dict)
@@ -69,7 +71,7 @@ internal static partial class ItemGenerator
                        select new ToggleItem(entry.Value, code, $"images/upgrades/{code}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(upgrades, Constants.JsonOptions),
                                    "upgrades.json",
-                                   "items");
+                                   ItemsPathSegment);
     }
 
     private static async Task GenerateKeysJson(FrozenDictionary<int, string> dict)
@@ -87,7 +89,7 @@ internal static partial class ItemGenerator
         var keys = keys1.Union(keys2);
         await FileWriter.WriteFile(JsonSerializer.Serialize(keys, Constants.JsonOptions),
                                    "keys.json",
-                                   "items");
+                                   ItemsPathSegment);
     }
 
     private static async Task GenerateEmeraldsJson(FrozenDictionary<int, string> dict)
@@ -100,7 +102,7 @@ internal static partial class ItemGenerator
                        select new ToggleItem(entry.Value, code, $"images/emeralds/{img}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(emeralds, Constants.JsonOptions),
                                    "emeralds.json",
-                                   "items");
+                                   ItemsPathSegment);
     }
 
     private static async Task GenerateProgressionJson(FrozenDictionary<int, string> dict)
@@ -131,7 +133,7 @@ internal static partial class ItemGenerator
         progressionItems = [.. progressionItems, levelsBeaten, bossesBeaten, missionsBeaten, chaoRacesWon];
         await FileWriter.WriteFile(JsonSerializer.Serialize(progressionItems, Constants.JsonOptions),
                                    "progression.json",
-                                   "items");
+                                   ItemsPathSegment);
     }
 
     private static async Task GenerateGoalsJson(FrozenDictionary<int, string> dict)
@@ -142,6 +144,6 @@ internal static partial class ItemGenerator
                     select new ToggleItem(entry.Value, code, $"images/goals/{code}.png");
         await FileWriter.WriteFile(JsonSerializer.Serialize(goals, Constants.JsonOptions),
                                    "goals.json",
-                                   "items");
+                                   ItemsPathSegment);
     }
 }
