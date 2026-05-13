@@ -15,7 +15,7 @@
         <Company>RP Software</Company>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Google.Apis.Sheets.v4" Version="1.73.0.4061" />
+        <PackageReference Include="Google.Apis.Sheets.v4" Version="1.74.0.4061" />
         <PackageReference Include="Humanizer.Core" Version="3.0.10" />
         <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.8" />
         <PackageReference Include="QuikGraph" Version="2.5.0" />
