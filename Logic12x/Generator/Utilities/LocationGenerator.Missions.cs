@@ -60,10 +60,9 @@ internal static partial class LocationGenerator
         IEnumerable<string> GetAccessRules(int number, string character)
         {
             var spec = logic.First(entry => number == entry.Number);
-            var func = AccessRulesGenerator.Levels.Contains(spec.ObjectiveArea) ? "CanAccess" : "CanReach";
             var access = spec.CardArea.Equals(spec.ObjectiveArea)
-                ? $"$CanReach|{character}|{spec.ObjectiveArea},Playable{character}"
-                : $"$CanReach|{character}|{spec.CardArea}|1,${func}|{character}|{spec.ObjectiveArea},Playable{character}";
+                ? $"CanAccess|{character}|{spec.ObjectiveArea},Playable{character}"
+                : $"CanAccess|{character}|{spec.CardArea}|1,$CanAccess|{character}|{spec.ObjectiveArea},Playable{character}";
             if ("Big".Equals(character) && IsFishingMission(number))
                 access = $"^$LazyFishingCheck|3,{access}";
             return spec.BuildAccessRules()?.Select(_ => $"{access},{_}") ?? [access];

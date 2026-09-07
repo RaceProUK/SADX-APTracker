@@ -158,7 +158,11 @@ internal static partial class LogicLoader
 
         var rules = new LogicRules();
         var lines = s.Split("],[", StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)
-                     .Select(_ => _.Replace("[", string.Empty).Replace("]", string.Empty));
+                     .Select(_ => _.Replace("[", string.Empty)
+                                   .Replace("]", string.Empty)
+                                   .Replace("🟢", string.Empty)
+                                   .Replace("🔴", string.Empty))
+                     .Where(_ => !string.IsNullOrWhiteSpace(_));
         foreach (var line in lines)
         {
             rules.Add([.. line.Split(',', StringSplitOptions.TrimEntries | StringSplitOptions.RemoveEmptyEntries)]);

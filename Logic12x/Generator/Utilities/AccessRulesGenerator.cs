@@ -1,51 +1,44 @@
-﻿namespace RPS.SADX.PopTracker.Generator.Utilities;
+﻿using RPS.SADX.PopTracker.Generator.Models.Logic;
+
+namespace RPS.SADX.PopTracker.Generator.Utilities;
 
 internal static class AccessRulesGenerator
 {
-#pragma warning disable S1192
-    internal static IEnumerable<(string, string)> Entrances { get; } =
-    [
-        ("CityHall", "SpeedHighway"),
-        ("CityHall", "Chaos0"),
-        ("Casino", "Casinopolis"),
-        ("Casino", "EggWalker"),
-        ("SSMain", "SpeedHighway"),
-        ("Hotel", "SSChaoGarden"),
-        ("Hotel", "Chaos2"),
-        ("HotelPool", "EmeraldCoast"),
-        ("TPLobby", "TwinklePark"),
-        ("TPLobby", "TwinkleCircuit"),
-        ("MRMain", "WindyValley"),
-        ("MRMain", "Chaos4"),
-        ("MRMain", "EggHornet"),
-        ("MRMain", "MRChaoGarden"),
-        ("MRMain", "SkyChase1"),
-        ("AngelIsland", "RedMountain"),
-        ("IceCave", "IceCap"),
-        ("Jungle", "LostWorld"),
-        ("Jungle", "LostWorldAlt"),
-        ("Jungle", "SandHill"),
-        ("FinalEggTower", "FinalEgg"),
-        ("FinalEggTower", "FinalEggAlt"),
-        ("FinalEggTower", "BetaEggViper"),
-        ("ECOutside", "SkyChase2"),
-        ("ECOutside", "Chaos6ZeroBeta"),
-        ("ECBridge", "SkyDeck"),
-        ("ECBridge", "SkyChase2"),
-        ("ECBridge", "Chaos6ZeroBeta"),
-        ("ECPool", "SkyDeck"),
-        ("ECInside", "HotShelter"),
-        ("WarpHall", "ECChaoGarden"),
-    ];
-#pragma warning restore S1192
-
     internal static IEnumerable<string> Characters { get; private set; } = [];
-
-    internal static IEnumerable<string> Levels { get => Entrances.Select(_ => _.Item2).Distinct(); }
 
     internal static async Task Generate()
     {
         var logic = await LogicLoader.LoadForConnections().ToListAsync();
         Characters = [.. logic.Select(_ => _.Character).Distinct()];
+        await GenerateAccessRules(logic);
+    }
+
+    private static async Task GenerateAccessRules(List<Connection> logic)
+    {
+        var entries = from ruleSet in logic
+                      from logicLevel in Enumerable.Range(0, 5)
+                      let rule = MakeLogicRule(ruleSet.Character, ruleSet.AreaFrom, ruleSet.AreaTo, logicLevel)
+                      where !string.IsNullOrWhiteSpace(rule)
+                      select $"    [\"{ruleSet.Character} - {ruleSet.AreaFrom} - {ruleSet.AreaTo} - {logicLevel}\"] = function() return {rule} end,";
+        await FileWriter.WriteFile(string.Join(Environment.NewLine, ["AccessRules = {", .. entries, "}"]),
+                                               "accessRules.lua",
+                                               "scripts",
+                                               "logic");
+
+        string MakeLogicRule(string character, string areaFrom, string areaTo, int logicLevel)
+        {
+            var spec = logic.First(_ => character.Equals(_.Character) && areaFrom.Equals(_.AreaFrom) && areaTo.Equals(_.AreaTo));
+            var set = logicLevel switch
+            {
+                0 => spec.NormalLogic,
+                1 => spec.HardLogic,
+                2 => spec.ExpertDCLogic,
+                3 => spec.ExpertDXLogic,
+                4 => spec.ExpertDXPlusLogic,
+                _ => []
+            };
+            var rules = set.Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));
+            return string.Join(" or ", rules);
+        }
     }
 }

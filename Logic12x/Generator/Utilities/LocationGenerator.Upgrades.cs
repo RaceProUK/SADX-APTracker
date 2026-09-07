@@ -108,8 +108,7 @@ internal static partial class LocationGenerator
                 var upgrade = entry.Upgrade.Split('.', StringSplitOptions.TrimEntries)[^1].Humanize(LetterCasing.Title);
                 return section.StartsWith(upgrade);
             });
-            var func = AccessRulesGenerator.Levels.Contains(spec.Area) ? "CanAccess" : "CanReach";
-            var access = $"${func}|{spec.Character}|{spec.Area},Playable{spec.Character}";
+            var access = $"$CanAccess|{spec.Character}|{spec.Area},Playable{spec.Character}";
             var rules = spec.BuildAccessRules()?.Select(_ => $"{access},{_}");
             return rules ?? [access];
         }
