@@ -1,4 +1,8 @@
-﻿using RPS.SADX.PopTracker.Generator.Models.Logic;
+﻿using System.Data;
+using Humanizer;
+using QuikGraph;
+using QuikGraph.Algorithms;
+using RPS.SADX.PopTracker.Generator.Models.Logic;
 
 namespace RPS.SADX.PopTracker.Generator.Utilities;
 
@@ -11,6 +15,7 @@ internal static class AccessRulesGenerator
         var logic = await LogicLoader.LoadForConnections().ToListAsync();
         Characters = [.. logic.Select(_ => _.Character).Distinct()];
         await GenerateAccessRules(logic);
+        await GenerateRoutes(logic);
     }
 
     private static async Task GenerateAccessRules(List<Connection> logic)
@@ -39,6 +44,31 @@ internal static class AccessRulesGenerator
             };
             var rules = set.Select(_ => string.Join(" and ", _.Select(_ => $"HasItem(\"{_}\")")));
             return string.Join(" or ", rules);
+        }
+    }
+
+    private static async Task GenerateRoutes(List<Connection> logic)
+    {
+        var graph = logic.GroupBy(_ => _.Character)
+                         .ToDictionary(_ => _.Key,
+                                       _ => _.ToBidirectionalGraph<string, Connection>())
+                         .First().Value; //All graphs will be identical so only use one
+        var entries = from areaFrom in logic.Select(_ => _.AreaFrom).Distinct()
+                      from areaTo in logic.Select(_ => _.AreaTo).Distinct()
+                      where !string.Equals(areaFrom, areaTo, StringComparison.OrdinalIgnoreCase)
+                      let routes = MakeRoutes(areaFrom, areaTo)
+                      select $"    [\"{areaFrom} - {areaTo}\"] = [[{string.Join("], [", routes)}]],";
+        await FileWriter.WriteFile(string.Join(Environment.NewLine, ["Routes = {", .. entries, "}"]),
+                                               "routes.lua",
+                                               "scripts",
+                                               "logic");
+        
+        IEnumerable<string> MakeRoutes(string areaFrom, string areaTo)
+        {
+            foreach (var path in graph.RankedShortestPathHoffmanPavley(_ => 1, areaFrom, areaTo, 2).OrderBy(_ => _.Count()))
+            {
+                yield return string.Join(", ", path.Select(_ => $"\"{_.AreaFrom} - {_.AreaTo}\""));
+            }
         }
     }
 }
