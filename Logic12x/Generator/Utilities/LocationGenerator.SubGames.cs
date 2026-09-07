@@ -71,32 +71,32 @@ internal static partial class LocationGenerator
         var tcMissions1 = from entry in dict
                           where entry.Key >= TwinkleCircuitStart && entry.Key < TwinkleCircuitEnd
                           select new Section("Set a Record",
-                                             AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanReach|{_}|TwinkleParkLobby,Playable{_}"),
+                                             AccessRules: AccessRulesGenerator.Characters.Select(_ => $"$CanAccess|{_}|TwinkleParkLobby,Playable{_}"),
                                              VisibilityRules: ["EnableTwinkleCircuit"]);
         var tcMissions2 = from entry in dict
                           where entry.Key >= TwinkleCircuitMultipleStart && entry.Key < TwinkleCircuitMultipleEnd
                           let character = SublevelParser().Match(entry.Value).Groups[1].Value
                           select new Section($"Set a Record as {character}",
-                                             AccessRules: [$"$CanReach|{character}|TwinkleParkLobby,Playable{character}"],
+                                             AccessRules: [$"$CanAccess|{character}|TwinkleParkLobby,Playable{character}"],
                                              VisibilityRules: [$"EnableTwinkleCircuitMultiple,{character}Playable"]);
         var skyChase1 = new Location("Sky Chase Act 1",
                                      [new MapLocation(LevelsMap, SubGamesLevelsX, SubGamesLevelsY, LevelsIconSize, BorderThickness)],
                                      sc1Missions,
-                                     AccessRules: SkyChaseCharacters.Select(_ => $"$CanReach|{_}|MysticRuinsHub,Playable{_}"),
+                                     AccessRules: SkyChaseCharacters.Select(_ => $"$CanAccess|{_}|MysticRuinsHub,Playable{_}"),
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var skyChase2 = new Location("Sky Chase Act 2",
                                      [new MapLocation(LevelsMap, SubGamesLevelsX, SubGamesLevelsY + SubGamesSpacingY, LevelsIconSize, BorderThickness)],
                                      sc2Missions,
-                                     AccessRules: SkyChaseCharacters.Select(_ => $"$CanReach|{_}|MysticRuinsHub,Playable{_}"),
+                                     AccessRules: SkyChaseCharacters.Select(_ => $"$CanAccess|{_}|MysticRuinsHub,Playable{_}"),
                                      VisibilityRules: ["SonicPlayable", "TailsPlayable"]);
         var sandHill = new Location("Sand Hill",
                                     [new MapLocation(LevelsMap, SubGamesLevelsX, SubGamesLevelsY + 2 * SubGamesSpacingY, LevelsIconSize, BorderThickness)],
                                     shMissions,
                                     AccessRules:
                                     [
-                                        "$CanReach|Tails|MysticRuinsJungle,PlayableTails",
-                                        "$CanReach|Sonic|MysticRuinsJungle,ExpertLogicDC,PlayableSonic",
-                                        "$CanReach|Sonic|MysticRuinsJungle,ExpertLogicDX,PlayableSonic"
+                                        "$CanAccess|Tails|MysticRuinsJungle,PlayableTails",
+                                        "$CanAccess|Sonic|MysticRuinsJungle,ExpertLogicDC,PlayableSonic",
+                                        "$CanAccess|Sonic|MysticRuinsJungle,ExpertLogicDX,PlayableSonic"
                                     ],
                                     VisibilityRules:
                                     [

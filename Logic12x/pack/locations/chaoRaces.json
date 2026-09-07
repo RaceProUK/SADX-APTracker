@@ -35,12 +35,12 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareChaoGarden,PlayableSonic",
-            "$CanReach|Tails|StationSquareChaoGarden,PlayableTails",
-            "$CanReach|Knuckles|StationSquareChaoGarden,PlayableKnuckles",
-            "$CanReach|Amy|StationSquareChaoGarden,PlayableAmy",
-            "$CanReach|Big|StationSquareChaoGarden,PlayableBig",
-            "$CanReach|Gamma|StationSquareChaoGarden,PlayableGamma"
+            "$CanAccess|Sonic|StationSquareChaoGarden,PlayableSonic",
+            "$CanAccess|Tails|StationSquareChaoGarden,PlayableTails",
+            "$CanAccess|Knuckles|StationSquareChaoGarden,PlayableKnuckles",
+            "$CanAccess|Amy|StationSquareChaoGarden,PlayableAmy",
+            "$CanAccess|Big|StationSquareChaoGarden,PlayableBig",
+            "$CanAccess|Gamma|StationSquareChaoGarden,PlayableGamma"
         ],
         "visibility_rules": [
             "ChaoRacesChecks"

@@ -14,5 +14,5 @@ internal partial class FieldEmblem : LogicSpecification
     public string Name { get; set; } = string.Empty;
 
     internal override IEnumerable<string>? BuildAccessRules()
-        => base.BuildAccessRules()?.Select(_ => Reachability().Replace(_, $"$CanReach|$1|{Area},Playable$1"));
+        => base.BuildAccessRules()?.Select(_ => Reachability().Replace(_, $"$CanAccess|$1|{Area},Playable$1"));
 }

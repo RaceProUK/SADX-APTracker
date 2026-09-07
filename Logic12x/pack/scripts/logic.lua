@@ -28,11 +28,7 @@ function LazyFishingCheck(level)
     end
 end
 
-function CanReach(character, target, isMissionCardCheck)
-    return true
-end
-
-function CanAccess(character, target)
+function CanAccess(character, target, isMissionCardCheck)
     return true
 end
 

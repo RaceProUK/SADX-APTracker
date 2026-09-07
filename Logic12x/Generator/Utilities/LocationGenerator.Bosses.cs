@@ -59,20 +59,20 @@ internal static partial class LocationGenerator
         {
             "Egg Hornet" =>
             [
-                "$CanReach|Sonic|MysticRuinsHub,PlayableSonic",
-                "$CanReach|Tails|MysticRuinsHub,PlayableTails"
+                "$CanAccess|Sonic|MysticRuinsHub,PlayableSonic",
+                "$CanAccess|Tails|MysticRuinsHub,PlayableTails"
             ],
             "Chaos 4" =>
             [
-                "$CanReach|Sonic|MysticRuinsHub,PlayableSonic",
-                "$CanReach|Tails|MysticRuinsHub,PlayableTails",
-                "$CanReach|Knuckles|MysticRuinsHub,PlayableKnuckles"
+                "$CanAccess|Sonic|MysticRuinsHub,PlayableSonic",
+                "$CanAccess|Tails|MysticRuinsHub,PlayableTails",
+                "$CanAccess|Knuckles|MysticRuinsHub,PlayableKnuckles"
             ],
             "Chaos 6" =>
             [
-                "$CanReach|Sonic|EggCarrierOutside,PlayableSonic",
-                "$CanReach|Knuckles|EggCarrierOutside,PlayableKnuckles",
-                "$CanReach|Big|EggCarrierOutside,PlayableBig"
+                "$CanAccess|Sonic|EggCarrierOutside,PlayableSonic",
+                "$CanAccess|Knuckles|EggCarrierOutside,PlayableKnuckles",
+                "$CanAccess|Big|EggCarrierOutside,PlayableBig"
             ],
             _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
@@ -98,7 +98,7 @@ internal static partial class LocationGenerator
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"$CanReach|{character}|{area},Playable{character}"],
+                                          : [$"$CanAccess|{character}|{area},Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
@@ -110,7 +110,7 @@ internal static partial class LocationGenerator
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"$CanReach|{character}|{area},Playable{character}"],
+                                          : [$"$CanAccess|{character}|{area},Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
@@ -121,7 +121,7 @@ internal static partial class LocationGenerator
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"$CanReach|{character}|EggCarrierOutside,Playable{character}"],
+                                          : [$"$CanAccess|{character}|EggCarrierOutside,Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));

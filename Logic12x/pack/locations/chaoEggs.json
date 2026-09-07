@@ -19,18 +19,18 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|StationSquareCityHall,$CanReach|Sonic|StationSquareChaoGarden,PolicePass,HotelKey,PlayableSonic",
-            "$CanReach|Tails|StationSquareCityHall,$CanReach|Tails|StationSquareChaoGarden,PolicePass,HotelKey,PlayableTails",
-            "$CanReach|Knuckles|StationSquareCityHall,$CanReach|Knuckles|StationSquareChaoGarden,PolicePass,HotelKey,PlayableKnuckles",
-            "$CanReach|Amy|StationSquareCityHall,$CanReach|Amy|StationSquareChaoGarden,PolicePass,HotelKey,PlayableAmy",
-            "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,HotelKey,PlayableBig",
-            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,HotelKey,PlayableGamma",
-            "$CanReach|Sonic|StationSquareCityHall,$CanReach|Sonic|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableSonic",
-            "$CanReach|Tails|StationSquareCityHall,$CanReach|Tails|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableTails",
-            "$CanReach|Knuckles|StationSquareCityHall,$CanReach|Knuckles|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableKnuckles",
-            "$CanReach|Amy|StationSquareCityHall,$CanReach|Amy|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableAmy",
-            "$CanReach|Big|StationSquareCityHall,$CanReach|Big|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableBig",
-            "$CanReach|Gamma|StationSquareCityHall,$CanReach|Gamma|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableGamma"
+            "$CanAccess|Sonic|StationSquareCityHall,$CanAccess|Sonic|StationSquareChaoGarden,PolicePass,HotelKey,PlayableSonic",
+            "$CanAccess|Tails|StationSquareCityHall,$CanAccess|Tails|StationSquareChaoGarden,PolicePass,HotelKey,PlayableTails",
+            "$CanAccess|Knuckles|StationSquareCityHall,$CanAccess|Knuckles|StationSquareChaoGarden,PolicePass,HotelKey,PlayableKnuckles",
+            "$CanAccess|Amy|StationSquareCityHall,$CanAccess|Amy|StationSquareChaoGarden,PolicePass,HotelKey,PlayableAmy",
+            "$CanAccess|Big|StationSquareCityHall,$CanAccess|Big|StationSquareChaoGarden,PolicePass,HotelKey,PlayableBig",
+            "$CanAccess|Gamma|StationSquareCityHall,$CanAccess|Gamma|StationSquareChaoGarden,PolicePass,HotelKey,PlayableGamma",
+            "$CanAccess|Sonic|StationSquareCityHall,$CanAccess|Sonic|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableSonic",
+            "$CanAccess|Tails|StationSquareCityHall,$CanAccess|Tails|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableTails",
+            "$CanAccess|Knuckles|StationSquareCityHall,$CanAccess|Knuckles|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableKnuckles",
+            "$CanAccess|Amy|StationSquareCityHall,$CanAccess|Amy|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableAmy",
+            "$CanAccess|Big|StationSquareCityHall,$CanAccess|Big|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableBig",
+            "$CanAccess|Gamma|StationSquareCityHall,$CanAccess|Gamma|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,PlayableGamma"
         ],
         "visibility_rules": [
             "SecretChaoEggs"
@@ -56,11 +56,11 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Sonic|MysticRuinsHub,$CanReach|Sonic|MysticRuinsChaoGarden,PlayableSonic",
-            "$CanReach|Tails|MysticRuinsHub,$CanReach|Tails|MysticRuinsChaoGarden,PlayableTails",
-            "$CanReach|Knuckles|MysticRuinsHub,$CanReach|Knuckles|MysticRuinsChaoGarden,PlayableKnuckles",
-            "$CanReach|Amy|MysticRuinsHub,$CanReach|Amy|MysticRuinsChaoGarden,PlayableAmy",
-            "$CanReach|Big|MysticRuinsHub,$CanReach|Big|MysticRuinsChaoGarden,PlayableBig"
+            "$CanAccess|Sonic|MysticRuinsHub,$CanAccess|Sonic|MysticRuinsChaoGarden,PlayableSonic",
+            "$CanAccess|Tails|MysticRuinsHub,$CanAccess|Tails|MysticRuinsChaoGarden,PlayableTails",
+            "$CanAccess|Knuckles|MysticRuinsHub,$CanAccess|Knuckles|MysticRuinsChaoGarden,PlayableKnuckles",
+            "$CanAccess|Amy|MysticRuinsHub,$CanAccess|Amy|MysticRuinsChaoGarden,PlayableAmy",
+            "$CanAccess|Big|MysticRuinsHub,$CanAccess|Big|MysticRuinsChaoGarden,PlayableBig"
         ],
         "visibility_rules": [
             "SecretChaoEggs,SonicPlayable",
@@ -90,9 +90,9 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanReach|Amy|EggCarrierPrisonHall,$CanReach|Amy|EggCarrierChaoGarden,PlayableAmy",
-            "$CanReach|Big|EggCarrierPrisonHall,$CanReach|Big|EggCarrierChaoGarden,PlayableBig",
-            "$CanReach|Gamma|EggCarrierPrisonHall,$CanReach|Gamma|EggCarrierChaoGarden,PlayableGamma"
+            "$CanAccess|Amy|EggCarrierPrisonHall,$CanAccess|Amy|EggCarrierChaoGarden,PlayableAmy",
+            "$CanAccess|Big|EggCarrierPrisonHall,$CanAccess|Big|EggCarrierChaoGarden,PlayableBig",
+            "$CanAccess|Gamma|EggCarrierPrisonHall,$CanAccess|Gamma|EggCarrierChaoGarden,PlayableGamma"
         ],
         "visibility_rules": [
             "SecretChaoEggs,AmyPlayable",
