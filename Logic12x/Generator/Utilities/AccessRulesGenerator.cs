@@ -65,7 +65,7 @@ internal static class AccessRulesGenerator
         
         IEnumerable<string> MakeRoutes(string areaFrom, string areaTo)
         {
-            foreach (var path in graph.RankedShortestPathHoffmanPavley(_ => 1, areaFrom, areaTo, 2).OrderBy(_ => _.Count()))
+            foreach (var path in graph.RankedShortestPathHoffmanPavley(_ => 1, areaFrom, areaTo, 81).OrderBy(_ => _.Count()))
             {
                 yield return string.Join(", ", path.Select(_ => $"\"{_.AreaFrom} - {_.AreaTo}\""));
             }
