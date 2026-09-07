@@ -57,7 +57,7 @@ internal static class AccessRulesGenerator
                       from areaTo in logic.Select(_ => _.AreaTo).Distinct()
                       where !string.Equals(areaFrom, areaTo, StringComparison.OrdinalIgnoreCase)
                       let routes = MakeRoutes(areaFrom, areaTo)
-                      select $"    [\"{areaFrom} - {areaTo}\"] = [[{string.Join("], [", routes)}]],";
+                      select $"    [\"{areaFrom} - {areaTo}\"] = {{ {{ {string.Join("}, {", routes)} }} }},";
         await FileWriter.WriteFile(string.Join(Environment.NewLine, ["Routes = {", .. entries, "}"]),
                                                "routes.lua",
                                                "scripts",

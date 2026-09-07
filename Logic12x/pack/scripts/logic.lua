@@ -3,33 +3,33 @@ ScriptHost:LoadScript("scripts/logic/accessRules.lua")
 ScriptHost:LoadScript("scripts/logic/entranceMapper.lua")
 
 OriginMap = {
-    0 = "CityHall",
-    1 = "Station",
-    2 = "Casino",
-    3 = "Sewers",
-    4 = "SSMain",
-    5 = "TPTunnel",
-    6 = "Hotel",
-    7 = "HotelPool",
-    8 = "TPLobby",
-    9 = "MRMain",
-    10 = "AngelIsland",
-    11 = "IceCave",
-    12 = "PastAltar",
-    13 = "PastMain",
-    14 = "Jungle",
-    15 = "FinalEggTower",
-    16 = "Outside",
-    17 = "ECBridge",
-    18 = "ECDeck",
-    19 = "CaptainRoom",
-    20 = "ECPool",
-    21 = "Arsenal",
-    22 = "ECInside",
-    23 = "HedgehogHammer",
-    24 = "PrisonHall",
-    25 = "WaterTank",
-    26 = "WarpHall",
+    [0] = "CityHall",
+    [1] = "Station",
+    [2] = "Casino",
+    [3] = "Sewers",
+    [4] = "SSMain",
+    [5] = "TPTunnel",
+    [6] = "Hotel",
+    [7] = "HotelPool",
+    [8] = "TPLobby",
+    [9] = "MRMain",
+    [10] = "AngelIsland",
+    [11] = "IceCave",
+    [12] = "PastAltar",
+    [13] = "PastMain",
+    [14] = "Jungle",
+    [15] = "FinalEggTower",
+    [16] = "Outside",
+    [17] = "ECBridge",
+    [18] = "ECDeck",
+    [19] = "CaptainRoom",
+    [20] = "ECPool",
+    [21] = "Arsenal",
+    [22] = "ECInside",
+    [23] = "HedgehogHammer",
+    [24] = "PrisonHall",
+    [25] = "WaterTank",
+    [26] = "WarpHall",
 }
 
 function HasItem(itemName)
@@ -58,6 +58,8 @@ function LazyFishingCheck(level)
 end
 
 function CanAccess(character, target, isMissionCardCheck)
+    print(character .. " - " .. target)
+
     local setting = Tracker:FindObjectForCode("AutoStartMissions")
     if setting and setting.Active and isMissionCardCheck then
         return true
@@ -85,7 +87,7 @@ function CanAccess(character, target, isMissionCardCheck)
         for _, connection in pairs(connections) do
             local rule = AccessRules[character .. " - " .. connection .. " - " .. logicLevel]
             if rule ~= null then
-                passable = passable && rule()
+                passable = passable and rule()
             end
         end
         if passable then

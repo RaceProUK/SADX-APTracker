@@ -39,19 +39,19 @@ internal static partial class LocationGenerator
                                          [(new Section(dict[GoldEgg]))],
                                          AccessRules:
                                          [
-                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanAccess|{_}|StationSquareCityHall,$CanAccess|{_}|StationSquareChaoGarden,PolicePass,HotelKey,Playable{_}"),
-                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanAccess|{_}|StationSquareCityHall,$CanAccess|{_}|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,Playable{_}")
+                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanAccess|{_}|CityHall,$CanAccess|{_}|StationSquareChaoGarden,PolicePass,HotelKey,Playable{_}"),
+                                             .. AccessRulesGenerator.Characters.Select(_ => $"$CanAccess|{_}|CityHall,$CanAccess|{_}|StationSquareChaoGarden,PolicePass,StationKey,ShutterKey,CasinoKey,Playable{_}")
                                          ],
                                          VisibilityRules: ["SecretChaoEggs"]);
         var mysticRuins = new Location("Mystic Ruins Chao Egg",
                                        [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY + FieldSpacingY, LevelsIconSize, BorderThickness)],
                                        [(new Section(dict[SilverEgg]))],
-                                       AccessRules: PondCharacters.Select(_ => $"$CanAccess|{_}|MysticRuinsHub,$CanAccess|{_}|MysticRuinsChaoGarden,Playable{_}"),
+                                       AccessRules: PondCharacters.Select(_ => $"$CanAccess|{_}|MRMain,$CanAccess|{_}|MysticRuinsChaoGarden,Playable{_}"),
                                        VisibilityRules: PondCharacters.Select(_ => $"SecretChaoEggs,{_}Playable"));
         var eggCarrier = new Location("Egg Carrier Chao Egg",
                                       [new MapLocation(LevelsMap, ChaoEggsX, FieldItemsY + 2 * FieldSpacingY, LevelsIconSize, BorderThickness)],
                                       [(new Section(dict[BlackEgg]))],
-                                      AccessRules: BrigCharacters.Select(_ => $"$CanAccess|{_}|EggCarrierPrisonHall,$CanAccess|{_}|EggCarrierChaoGarden,Playable{_}"),
+                                      AccessRules: BrigCharacters.Select(_ => $"$CanAccess|{_}|PrisonHall,$CanAccess|{_}|EggCarrierChaoGarden,Playable{_}"),
                                       VisibilityRules: BrigCharacters.Select(_ => $"SecretChaoEggs,{_}Playable"));
         var chaoEggs = new[] { stationSquare, mysticRuins, eggCarrier };
         await FileWriter.WriteFile(JsonSerializer.Serialize(chaoEggs, Constants.JsonOptions),

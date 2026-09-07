@@ -29,8 +29,8 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Sonic|MysticRuinsHub,PlayableSonic",
-            "$CanAccess|Tails|MysticRuinsHub,PlayableTails"
+            "$CanAccess|Sonic|MRMain,PlayableSonic",
+            "$CanAccess|Tails|MRMain,PlayableTails"
         ],
         "visibility_rules": [
             "SonicPlayable",
@@ -67,8 +67,8 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Sonic|MysticRuinsHub,PlayableSonic",
-            "$CanAccess|Tails|MysticRuinsHub,PlayableTails"
+            "$CanAccess|Sonic|MRMain,PlayableSonic",
+            "$CanAccess|Tails|MRMain,PlayableTails"
         ],
         "visibility_rules": [
             "SonicPlayable",
@@ -105,9 +105,9 @@
         "chest_unopened_img": "images/ItemBox.png",
         "chest_opened_img": "images/ItemBoxBroken.png",
         "access_rules": [
-            "$CanAccess|Tails|MysticRuinsJungle,PlayableTails",
-            "$CanAccess|Sonic|MysticRuinsJungle,ExpertLogicDC,PlayableSonic",
-            "$CanAccess|Sonic|MysticRuinsJungle,ExpertLogicDX,PlayableSonic"
+            "$CanAccess|Tails|Jungle,PlayableTails",
+            "$CanAccess|Sonic|Jungle,ExpertLogicDC,PlayableSonic",
+            "$CanAccess|Sonic|Jungle,ExpertLogicDX,PlayableSonic"
         ],
         "visibility_rules": [
             "TailsPlayable",
@@ -131,12 +131,12 @@
                 "name": "Set a Record",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Sonic|TwinkleParkLobby,PlayableSonic",
-                    "$CanAccess|Tails|TwinkleParkLobby,PlayableTails",
-                    "$CanAccess|Knuckles|TwinkleParkLobby,PlayableKnuckles",
-                    "$CanAccess|Amy|TwinkleParkLobby,PlayableAmy",
-                    "$CanAccess|Big|TwinkleParkLobby,PlayableBig",
-                    "$CanAccess|Gamma|TwinkleParkLobby,PlayableGamma"
+                    "$CanAccess|Sonic|TPLobby,PlayableSonic",
+                    "$CanAccess|Tails|TPLobby,PlayableTails",
+                    "$CanAccess|Knuckles|TPLobby,PlayableKnuckles",
+                    "$CanAccess|Amy|TPLobby,PlayableAmy",
+                    "$CanAccess|Big|TPLobby,PlayableBig",
+                    "$CanAccess|Gamma|TPLobby,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuit"
@@ -146,7 +146,7 @@
                 "name": "Set a Record as Sonic",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Sonic|TwinkleParkLobby,PlayableSonic"
+                    "$CanAccess|Sonic|TPLobby,PlayableSonic"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,SonicPlayable"
@@ -156,7 +156,7 @@
                 "name": "Set a Record as Tails",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Tails|TwinkleParkLobby,PlayableTails"
+                    "$CanAccess|Tails|TPLobby,PlayableTails"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,TailsPlayable"
@@ -166,7 +166,7 @@
                 "name": "Set a Record as Knuckles",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Knuckles|TwinkleParkLobby,PlayableKnuckles"
+                    "$CanAccess|Knuckles|TPLobby,PlayableKnuckles"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,KnucklesPlayable"
@@ -176,7 +176,7 @@
                 "name": "Set a Record as Amy",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Amy|TwinkleParkLobby,PlayableAmy"
+                    "$CanAccess|Amy|TPLobby,PlayableAmy"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,AmyPlayable"
@@ -186,7 +186,7 @@
                 "name": "Set a Record as Big",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Big|TwinkleParkLobby,PlayableBig"
+                    "$CanAccess|Big|TPLobby,PlayableBig"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,BigPlayable"
@@ -196,7 +196,7 @@
                 "name": "Set a Record as Gamma",
                 "item_count": 1,
                 "access_rules": [
-                    "$CanAccess|Gamma|TwinkleParkLobby,PlayableGamma"
+                    "$CanAccess|Gamma|TPLobby,PlayableGamma"
                 ],
                 "visibility_rules": [
                     "EnableTwinkleCircuitMultiple,GammaPlayable"

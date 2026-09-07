@@ -59,34 +59,34 @@ internal static partial class LocationGenerator
         {
             "Egg Hornet" =>
             [
-                "$CanAccess|Sonic|MysticRuinsHub,PlayableSonic",
-                "$CanAccess|Tails|MysticRuinsHub,PlayableTails"
+                "$CanAccess|Sonic|MRMain,PlayableSonic",
+                "$CanAccess|Tails|MRMain,PlayableTails"
             ],
             "Chaos 4" =>
             [
-                "$CanAccess|Sonic|MysticRuinsHub,PlayableSonic",
-                "$CanAccess|Tails|MysticRuinsHub,PlayableTails",
-                "$CanAccess|Knuckles|MysticRuinsHub,PlayableKnuckles"
+                "$CanAccess|Sonic|MRMain,PlayableSonic",
+                "$CanAccess|Tails|MRMain,PlayableTails",
+                "$CanAccess|Knuckles|MRMain,PlayableKnuckles"
             ],
             "Chaos 6" =>
             [
-                "$CanAccess|Sonic|EggCarrierOutside,PlayableSonic",
-                "$CanAccess|Knuckles|EggCarrierOutside,PlayableKnuckles",
-                "$CanAccess|Big|EggCarrierOutside,PlayableBig"
+                "$CanAccess|Sonic|ECOutside,PlayableSonic",
+                "$CanAccess|Knuckles|ECOutside,PlayableKnuckles",
+                "$CanAccess|Big|ECOutside,PlayableBig"
             ],
             _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
         static string GetStationSquareBossArea(string name) => name switch
         {
-            string s when s.StartsWith("Chaos 0") => "StationSquareCityHall",
-            string s when s.StartsWith("Chaos 2") => "StationSquareHotel",
-            string s when s.StartsWith("Egg Walker") => "StationSquareCasino",
+            string s when s.StartsWith("Chaos 0") => "CityHall",
+            string s when s.StartsWith("Chaos 2") => "Hotel",
+            string s when s.StartsWith("Egg Walker") => "Casino",
             _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
         static string GetMysticRuinsBossArea(string name) => name switch
         {
-            string s when s.StartsWith("Egg Hornet") || s.StartsWith("Chaos 4") => "MysticRuinsHub",
-            string s when s.StartsWith("Egg Viper") || s.StartsWith("E-101 Beta") => "MysticRuinsFinalEggTower",
+            string s when s.StartsWith("Egg Hornet") || s.StartsWith("Chaos 4") => "MRMain",
+            string s when s.StartsWith("Egg Viper") || s.StartsWith("E-101 Beta") => "FinalEggTower",
             _ => throw new ArgumentOutOfRangeException(nameof(name))
         };
 
@@ -121,7 +121,7 @@ internal static partial class LocationGenerator
                        select new Section(boss,
                                           AccessRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossAccess(boss)
-                                          : [$"$CanAccess|{character}|EggCarrierOutside,Playable{character}"],
+                                          : [$"$CanAccess|{character}|ECOutside,Playable{character}"],
                                           VisibilityRules: string.IsNullOrEmpty(character)
                                           ? GetSharedBossVisibility(boss)
                                           : GetBossVisibility(boss, $"{character}Playable"));
