@@ -139,7 +139,7 @@ internal static partial class LogicLoader
         });
         var request = service.Spreadsheets.Get("1XTdY4A6WUXBDqCwr2n7fuOTlDFJUs5o82pKRkiQ5vic");
         request.IncludeGridData = true;
-        request.Ranges = $"Logic (1.2.1)!{range}";
+        request.Ranges = $"Logic (1.2.2)!{range}";
 
         var response = await request.ExecuteAsync();
         foreach (var row in response.Sheets[0].Data[0].RowData.Skip(1))

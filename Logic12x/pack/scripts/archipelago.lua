@@ -3,7 +3,7 @@ ScriptHost:LoadScript("scripts/archipelago/locationMap.lua")
 ScriptHost:LoadScript("scripts/archipelago/settings.lua")
 
 CurrentIndex = -1
-ModVersion = 121
+ModVersion = 122
 
 function Reset(slotData)
     Tracker.BulkUpdate = true
