@@ -1,7 +1,36 @@
+ScriptHost:LoadScript("scripts/logic/routes.lua")
 ScriptHost:LoadScript("scripts/logic/accessRules.lua")
-ScriptHost:LoadScript("scripts/logic/reachRules.lua")
-ScriptHost:LoadScript("scripts/logic/entranceAreas.lua")
 ScriptHost:LoadScript("scripts/logic/entranceMapper.lua")
+
+OriginMap = {
+    0 = "CityHall",
+    1 = "Station",
+    2 = "Casino",
+    3 = "Sewers",
+    4 = "SSMain",
+    5 = "TPTunnel",
+    6 = "Hotel",
+    7 = "HotelPool",
+    8 = "TPLobby",
+    9 = "MRMain",
+    10 = "AngelIsland",
+    11 = "IceCave",
+    12 = "PastAltar",
+    13 = "PastMain",
+    14 = "Jungle",
+    15 = "FinalEggTower",
+    16 = "Outside",
+    17 = "ECBridge",
+    18 = "ECDeck",
+    19 = "CaptainRoom",
+    20 = "ECPool",
+    21 = "Arsenal",
+    22 = "ECInside",
+    23 = "HedgehogHammer",
+    24 = "PrisonHall",
+    25 = "WaterTank",
+    26 = "WarpHall",
+}
 
 function HasItem(itemName)
     local item = Tracker:FindObjectForCode(itemName)
@@ -29,7 +58,42 @@ function LazyFishingCheck(level)
 end
 
 function CanAccess(character, target, isMissionCardCheck)
-    return true
+    local setting = Tracker:FindObjectForCode("AutoStartMissions")
+    if setting and setting.Active and isMissionCardCheck then
+        return true
+    end
+
+    local logicSetting = Tracker:FindObjectForCode("LogicLevel")
+    local startSetting = Tracker:FindObjectForCode(character .. "Start")
+    if logicSetting == nil or startSetting == nil then
+        return true
+    end
+
+    local logicLevel = logicSetting.CurrentStage
+    local origin = OriginMap[startSetting.CurrentStage]
+    if origin == target then
+        return true
+    end
+
+    local route = Routes[origin .. " - " .. target]
+    if route == nil then
+        return true
+    end
+
+    for _, connections in pairs(route) do
+        local passable = true
+        for _, connection in pairs(connections) do
+            local rule = AccessRules[character .. " - " .. connection .. " - " .. logicLevel]
+            if rule ~= null then
+                passable = passable && rule()
+            end
+        end
+        if passable then
+            return true
+        end
+    end
+
+    return false
 end
 
 function HasMetGoalCriteria()
