@@ -33,7 +33,7 @@
         "img": "images/keys/TwinkleParkTicket.png",
         "name": "Twinkle Park Ticket",
         "type": "toggle",
-        "codes": "TPTicket"
+        "codes": "TwinkleParkTicket"
     },
     {
         "img": "images/keys/EmployeeCard.png",

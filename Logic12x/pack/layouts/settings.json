@@ -10,7 +10,7 @@
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
-                    "h_alignment": "center",
+                    "h_alignment": "left",
                     "item_margin": "4,4",
                     "item_size": 32,
                     "rows": [
@@ -32,12 +32,15 @@
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
-                    "h_alignment": "center",
+                    "h_alignment": "left",
                     "item_margin": "4,4",
                     "item_size": 32,
                     "rows": [
                         [
                             "LogicLevel",
+                            "GatingMode"
+                        ],
+                        [
                             "LazyFishing",
                             "FieldEmblemChecks",
                             "MissionModeChecks",
@@ -49,7 +52,6 @@
                             "UnifyEggHornet",
                             "UnifyChaos4",
                             "UnifyChaos6",
-                            "",
                             "SkyChaseChecks",
                             "SandHillChecks",
                             "TwinkleCircuitChecks"
@@ -58,7 +60,6 @@
                             "Enemysanity",
                             "Capsulesanity",
                             "Fishsanity",
-                            "",
                             "MissableEnemies",
                             "MissableCapsules",
                             "PinballCapsules"
@@ -72,7 +73,7 @@
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
-                    "h_alignment": "center",
+                    "h_alignment": "left",
                     "item_margin": "4,4",
                     "item_size": 32,
                     "rows": [
@@ -149,7 +150,7 @@
                 "dock": "top",
                 "content": {
                     "type": "itemgrid",
-                    "h_alignment": "center",
+                    "h_alignment": "left",
                     "item_margin": "4,4",
                     "item_size": 32,
                     "rows": [

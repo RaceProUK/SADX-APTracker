@@ -95,6 +95,12 @@ internal static partial class ItemGenerator
             new ProgressiveItemStage("Expert DX+ Logic", "ExpertLogicDXPlus", MakeImgPath(LogicFolder, "ExpertLogicDXPlus"), false)
         ]);
 
+        yield return new ProgressiveItem("Gating Mode", "GatingMode", true, false, 0,
+        [
+            new ProgressiveItemStage("Key Item Gating", "KeyItemGating", MakeImgPath(LogicFolder, "KeyItemGating"), false),
+            new ProgressiveItemStage("Emblem Gating", "EmblemGating", MakeImgPath(LogicFolder, "EmblemGating"), false)
+        ]);
+
         yield return new ProgressiveItem("Lazy Fishing", "LazyFishing", true, false, 0,
         [
             new ProgressiveItemStage("Lazy Fishing - Off", "LazyFishingOff", MakeImgPath(LogicFolder, "LazyFishingOff"), false),

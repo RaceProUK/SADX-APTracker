@@ -107,6 +107,28 @@
         "initial_stage_idx": 0,
         "stages": [
             {
+                "name": "Key Item Gating",
+                "codes": "KeyItemGating",
+                "img": "images/settings/logic/KeyItemGating.png",
+                "inherit_codes": false
+            },
+            {
+                "name": "Emblem Gating",
+                "codes": "EmblemGating",
+                "img": "images/settings/logic/EmblemGating.png",
+                "inherit_codes": false
+            }
+        ],
+        "name": "Gating Mode",
+        "type": "progressive",
+        "codes": "GatingMode"
+    },
+    {
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
                 "name": "Lazy Fishing - Off",
                 "codes": "LazyFishingOff",
                 "img": "images/settings/logic/LazyFishingOff.png",
